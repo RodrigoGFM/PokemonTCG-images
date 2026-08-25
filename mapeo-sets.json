@@ -1,16 +1,716 @@
 {
-  "manual": {
-    "sv01": 22873,
-    "sv03.5": 23237,
-    "svp": 22872,
-    "swshp": 2545,
-    "sm1": 1863,
-    "xy1": 1387,
-    "bwp": 1407,
-    "dpp": 1421,
-    "exu": 1398,
-    "2021swsh": 2782,
-    "mep": 24451
+  "automatico": {
+    "2011bw": {
+      "groupId": 1401,
+      "puntaje": 0.75
+    },
+    "2012bw": {
+      "groupId": 1427,
+      "puntaje": 0.75
+    },
+    "2014xy": {
+      "groupId": 1692,
+      "puntaje": 0.75
+    },
+    "2015xy": {
+      "groupId": 1694,
+      "puntaje": 0.75
+    },
+    "2016xy": {
+      "groupId": 3087,
+      "puntaje": 0.75
+    },
+    "2017sm": {
+      "groupId": 2148,
+      "puntaje": 0.75
+    },
+    "2018sm": {
+      "groupId": 2364,
+      "puntaje": 0.75
+    },
+    "2019sm": {
+      "groupId": 2555,
+      "puntaje": 0.75
+    },
+    "2022swsh": {
+      "groupId": 3150,
+      "puntaje": 0.75
+    },
+    "2023sv": {
+      "groupId": 23306,
+      "puntaje": 0.75
+    },
+    "2024sv": {
+      "groupId": 24163,
+      "puntaje": 0.75
+    },
+    "P-A": {
+      "groupId": 1861,
+      "puntaje": 0.706
+    },
+    "base1": {
+      "groupId": 604,
+      "puntaje": 1.0
+    },
+    "base2": {
+      "groupId": 635,
+      "puntaje": 1.0
+    },
+    "base3": {
+      "groupId": 630,
+      "puntaje": 1.0
+    },
+    "base4": {
+      "groupId": 605,
+      "puntaje": 1.0
+    },
+    "base5": {
+      "groupId": 1373,
+      "puntaje": 1.0
+    },
+    "bog": {
+      "groupId": 1455,
+      "puntaje": 0.692
+    },
+    "bw1": {
+      "groupId": 1400,
+      "puntaje": 0.846
+    },
+    "bw10": {
+      "groupId": 1370,
+      "puntaje": 1.0
+    },
+    "bw11": {
+      "groupId": 1409,
+      "puntaje": 1.0
+    },
+    "bw2": {
+      "groupId": 1424,
+      "puntaje": 1.0
+    },
+    "bw3": {
+      "groupId": 1385,
+      "puntaje": 1.0
+    },
+    "bw4": {
+      "groupId": 1412,
+      "puntaje": 1.0
+    },
+    "bw5": {
+      "groupId": 1386,
+      "puntaje": 1.0
+    },
+    "bw6": {
+      "groupId": 1394,
+      "puntaje": 1.0
+    },
+    "bw7": {
+      "groupId": 1408,
+      "puntaje": 1.0
+    },
+    "bw8": {
+      "groupId": 1413,
+      "puntaje": 1.0
+    },
+    "bw9": {
+      "groupId": 1382,
+      "puntaje": 1.0
+    },
+    "cel25": {
+      "groupId": 2867,
+      "puntaje": 1.0
+    },
+    "cel25cc": {
+      "groupId": 2931,
+      "puntaje": 1.0
+    },
+    "col1": {
+      "groupId": 1415,
+      "puntaje": 1.0
+    },
+    "dc1": {
+      "groupId": 1525,
+      "puntaje": 1.0
+    },
+    "det1": {
+      "groupId": 2409,
+      "puntaje": 1.0
+    },
+    "dp1": {
+      "groupId": 1430,
+      "puntaje": 0.867
+    },
+    "dp2": {
+      "groupId": 1368,
+      "puntaje": 1.0
+    },
+    "dp3": {
+      "groupId": 1380,
+      "puntaje": 1.0
+    },
+    "dp4": {
+      "groupId": 1405,
+      "puntaje": 1.0
+    },
+    "dp5": {
+      "groupId": 1390,
+      "puntaje": 1.0
+    },
+    "dp6": {
+      "groupId": 1417,
+      "puntaje": 1.0
+    },
+    "dp7": {
+      "groupId": 1369,
+      "puntaje": 1.0
+    },
+    "dv1": {
+      "groupId": 1426,
+      "puntaje": 1.0
+    },
+    "ecard1": {
+      "groupId": 1375,
+      "puntaje": 0.69
+    },
+    "ecard2": {
+      "groupId": 1397,
+      "puntaje": 1.0
+    },
+    "ecard3": {
+      "groupId": 1372,
+      "puntaje": 1.0
+    },
+    "ex1": {
+      "groupId": 1393,
+      "puntaje": 0.788
+    },
+    "ex10": {
+      "groupId": 1398,
+      "puntaje": 0.897
+    },
+    "ex11": {
+      "groupId": 1429,
+      "puntaje": 0.897
+    },
+    "ex12": {
+      "groupId": 1378,
+      "puntaje": 0.889
+    },
+    "ex13": {
+      "groupId": 1379,
+      "puntaje": 0.903
+    },
+    "ex14": {
+      "groupId": 1395,
+      "puntaje": 0.919
+    },
+    "ex15": {
+      "groupId": 1411,
+      "puntaje": 0.914
+    },
+    "ex16": {
+      "groupId": 1383,
+      "puntaje": 0.897
+    },
+    "ex2": {
+      "groupId": 1392,
+      "puntaje": 0.857
+    },
+    "ex3": {
+      "groupId": 1376,
+      "puntaje": 0.8
+    },
+    "ex4": {
+      "groupId": 1377,
+      "puntaje": 0.939
+    },
+    "ex5": {
+      "groupId": 1416,
+      "puntaje": 0.903
+    },
+    "ex6": {
+      "groupId": 1419,
+      "puntaje": 0.919
+    },
+    "ex7": {
+      "groupId": 1428,
+      "puntaje": 0.927
+    },
+    "ex8": {
+      "groupId": 1404,
+      "puntaje": 0.8
+    },
+    "ex9": {
+      "groupId": 1410,
+      "puntaje": 0.824
+    },
+    "g1": {
+      "groupId": 1728,
+      "puntaje": 1.0
+    },
+    "gym1": {
+      "groupId": 1441,
+      "puntaje": 1.0
+    },
+    "gym2": {
+      "groupId": 1440,
+      "puntaje": 1.0
+    },
+    "hgss1": {
+      "groupId": 1402,
+      "puntaje": 1.0
+    },
+    "hgss2": {
+      "groupId": 1399,
+      "puntaje": 1.0
+    },
+    "hgss3": {
+      "groupId": 1403,
+      "puntaje": 1.0
+    },
+    "hgss4": {
+      "groupId": 1381,
+      "puntaje": 1.0
+    },
+    "hgssp": {
+      "groupId": 1453,
+      "puntaje": 0.667
+    },
+    "jumbo": {
+      "groupId": 1528,
+      "puntaje": 1.0
+    },
+    "lc": {
+      "groupId": 1374,
+      "puntaje": 1.0
+    },
+    "me01": {
+      "groupId": 24380,
+      "puntaje": 1.0
+    },
+    "me02": {
+      "groupId": 24448,
+      "puntaje": 1.0
+    },
+    "me02.5": {
+      "groupId": 24541,
+      "puntaje": 1.0
+    },
+    "me03": {
+      "groupId": 24587,
+      "puntaje": 1.0
+    },
+    "me04": {
+      "groupId": 24655,
+      "puntaje": 1.0
+    },
+    "me05": {
+      "groupId": 24688,
+      "puntaje": 1.0
+    },
+    "mee": {
+      "groupId": 24461,
+      "puntaje": 0.909
+    },
+    "mfb": {
+      "groupId": 23330,
+      "puntaje": 1.0
+    },
+    "miscp": {
+      "groupId": 2374,
+      "puntaje": 0.75
+    },
+    "neo1": {
+      "groupId": 1396,
+      "puntaje": 1.0
+    },
+    "neo2": {
+      "groupId": 1434,
+      "puntaje": 1.0
+    },
+    "neo3": {
+      "groupId": 1389,
+      "puntaje": 1.0
+    },
+    "neo4": {
+      "groupId": 1444,
+      "puntaje": 1.0
+    },
+    "np": {
+      "groupId": 1423,
+      "puntaje": 0.732
+    },
+    "pl1": {
+      "groupId": 1406,
+      "puntaje": 1.0
+    },
+    "pl2": {
+      "groupId": 1367,
+      "puntaje": 1.0
+    },
+    "pl3": {
+      "groupId": 1384,
+      "puntaje": 1.0
+    },
+    "pl4": {
+      "groupId": 1391,
+      "puntaje": 1.0
+    },
+    "pop1": {
+      "groupId": 1422,
+      "puntaje": 1.0
+    },
+    "pop2": {
+      "groupId": 1447,
+      "puntaje": 1.0
+    },
+    "pop3": {
+      "groupId": 1442,
+      "puntaje": 1.0
+    },
+    "pop4": {
+      "groupId": 1452,
+      "puntaje": 1.0
+    },
+    "pop5": {
+      "groupId": 1439,
+      "puntaje": 1.0
+    },
+    "pop6": {
+      "groupId": 1432,
+      "puntaje": 1.0
+    },
+    "pop7": {
+      "groupId": 1414,
+      "puntaje": 1.0
+    },
+    "pop8": {
+      "groupId": 1450,
+      "puntaje": 1.0
+    },
+    "pop9": {
+      "groupId": 1446,
+      "puntaje": 1.0
+    },
+    "rc": {
+      "groupId": 1729,
+      "puntaje": 0.75
+    },
+    "ru1": {
+      "groupId": 1433,
+      "puntaje": 0.6
+    },
+    "si1": {
+      "groupId": 648,
+      "puntaje": 1.0
+    },
+    "sm10": {
+      "groupId": 2420,
+      "puntaje": 0.903
+    },
+    "sm11": {
+      "groupId": 2464,
+      "puntaje": 0.897
+    },
+    "sm115": {
+      "groupId": 2480,
+      "puntaje": 1.0
+    },
+    "sm12": {
+      "groupId": 2534,
+      "puntaje": 0.903
+    },
+    "sm2": {
+      "groupId": 1919,
+      "puntaje": 0.914
+    },
+    "sm3": {
+      "groupId": 1957,
+      "puntaje": 0.909
+    },
+    "sm3.5": {
+      "groupId": 2054,
+      "puntaje": 1.0
+    },
+    "sm4": {
+      "groupId": 2071,
+      "puntaje": 0.914
+    },
+    "sm5": {
+      "groupId": 2178,
+      "puntaje": 0.88
+    },
+    "sm6": {
+      "groupId": 2209,
+      "puntaje": 0.909
+    },
+    "sm7": {
+      "groupId": 2278,
+      "puntaje": 0.909
+    },
+    "sm7.5": {
+      "groupId": 2295,
+      "puntaje": 1.0
+    },
+    "sm8": {
+      "groupId": 2328,
+      "puntaje": 0.889
+    },
+    "sm9": {
+      "groupId": 2377,
+      "puntaje": 0.824
+    },
+    "sma": {
+      "groupId": 2594,
+      "puntaje": 1.0
+    },
+    "sv02": {
+      "groupId": 23120,
+      "puntaje": 1.0
+    },
+    "sv03": {
+      "groupId": 23228,
+      "puntaje": 1.0
+    },
+    "sv04": {
+      "groupId": 23286,
+      "puntaje": 1.0
+    },
+    "sv04.5": {
+      "groupId": 23353,
+      "puntaje": 1.0
+    },
+    "sv05": {
+      "groupId": 23381,
+      "puntaje": 1.0
+    },
+    "sv06": {
+      "groupId": 23473,
+      "puntaje": 1.0
+    },
+    "sv06.5": {
+      "groupId": 23529,
+      "puntaje": 1.0
+    },
+    "sv07": {
+      "groupId": 23537,
+      "puntaje": 1.0
+    },
+    "sv08": {
+      "groupId": 23651,
+      "puntaje": 1.0
+    },
+    "sv08.5": {
+      "groupId": 23821,
+      "puntaje": 1.0
+    },
+    "sv09": {
+      "groupId": 24073,
+      "puntaje": 1.0
+    },
+    "sv10": {
+      "groupId": 24269,
+      "puntaje": 1.0
+    },
+    "sv10.5b": {
+      "groupId": 24325,
+      "puntaje": 1.0
+    },
+    "sv10.5w": {
+      "groupId": 24326,
+      "puntaje": 1.0
+    },
+    "sve": {
+      "groupId": 24382,
+      "puntaje": 0.909
+    },
+    "swsh1": {
+      "groupId": 2585,
+      "puntaje": 1.0
+    },
+    "swsh10": {
+      "groupId": 3040,
+      "puntaje": 1.0
+    },
+    "swsh10.5": {
+      "groupId": 3064,
+      "puntaje": 1.0
+    },
+    "swsh10tg": {
+      "groupId": 3068,
+      "puntaje": 1.0
+    },
+    "swsh11": {
+      "groupId": 3118,
+      "puntaje": 1.0
+    },
+    "swsh11tg": {
+      "groupId": 3172,
+      "puntaje": 1.0
+    },
+    "swsh12": {
+      "groupId": 3170,
+      "puntaje": 1.0
+    },
+    "swsh12.5": {
+      "groupId": 17688,
+      "puntaje": 1.0
+    },
+    "swsh12.5gg": {
+      "groupId": 17689,
+      "puntaje": 1.0
+    },
+    "swsh12tg": {
+      "groupId": 17674,
+      "puntaje": 1.0
+    },
+    "swsh2": {
+      "groupId": 2626,
+      "puntaje": 1.0
+    },
+    "swsh3": {
+      "groupId": 2675,
+      "puntaje": 1.0
+    },
+    "swsh3.5": {
+      "groupId": 2685,
+      "puntaje": 1.0
+    },
+    "swsh4": {
+      "groupId": 2701,
+      "puntaje": 1.0
+    },
+    "swsh4.5": {
+      "groupId": 2754,
+      "puntaje": 1.0
+    },
+    "swsh4.5sv": {
+      "groupId": 2781,
+      "puntaje": 1.0
+    },
+    "swsh5": {
+      "groupId": 2765,
+      "puntaje": 1.0
+    },
+    "swsh6": {
+      "groupId": 2807,
+      "puntaje": 1.0
+    },
+    "swsh7": {
+      "groupId": 2848,
+      "puntaje": 1.0
+    },
+    "swsh8": {
+      "groupId": 2906,
+      "puntaje": 1.0
+    },
+    "swsh9": {
+      "groupId": 2948,
+      "puntaje": 1.0
+    },
+    "swsh9tg": {
+      "groupId": 3020,
+      "puntaje": 1.0
+    },
+    "tk-bw-e": {
+      "groupId": 1538,
+      "puntaje": 0.857
+    },
+    "tk-dp-l": {
+      "groupId": 1541,
+      "puntaje": 0.846
+    },
+    "tk-ex-latia": {
+      "groupId": 1543,
+      "puntaje": 0.824
+    },
+    "tk-ex-p": {
+      "groupId": 1542,
+      "puntaje": 0.885
+    },
+    "tk-hs-g": {
+      "groupId": 1540,
+      "puntaje": 0.836
+    },
+    "tk-sm-r": {
+      "groupId": 2069,
+      "puntaje": 0.862
+    },
+    "tk-xy-latia": {
+      "groupId": 1536,
+      "puntaje": 0.857
+    },
+    "tk-xy-p": {
+      "groupId": 1796,
+      "puntaje": 0.875
+    },
+    "tk-xy-sy": {
+      "groupId": 1532,
+      "puntaje": 0.846
+    },
+    "tk-xy-w": {
+      "groupId": 1533,
+      "puntaje": 0.862
+    },
+    "wp": {
+      "groupId": 1418,
+      "puntaje": 0.609
+    },
+    "xy0": {
+      "groupId": 1522,
+      "puntaje": 1.0
+    },
+    "xy10": {
+      "groupId": 1780,
+      "puntaje": 0.897
+    },
+    "xy11": {
+      "groupId": 1815,
+      "puntaje": 0.88
+    },
+    "xy12": {
+      "groupId": 1842,
+      "puntaje": 0.87
+    },
+    "xy2": {
+      "groupId": 1464,
+      "puntaje": 0.857
+    },
+    "xy3": {
+      "groupId": 1481,
+      "puntaje": 0.897
+    },
+    "xy4": {
+      "groupId": 1494,
+      "puntaje": 0.903
+    },
+    "xy5": {
+      "groupId": 1509,
+      "puntaje": 0.889
+    },
+    "xy6": {
+      "groupId": 1534,
+      "puntaje": 0.897
+    },
+    "xy7": {
+      "groupId": 1576,
+      "puntaje": 0.909
+    },
+    "xy8": {
+      "groupId": 1661,
+      "puntaje": 0.889
+    },
+    "xy9": {
+      "groupId": 1701,
+      "puntaje": 0.87
+    },
+    "xyp": {
+      "groupId": 1451,
+      "puntaje": 0.621
+    }
+  },
+  "catalogo_tcgcsv": {
+    "pwc": 2205
   },
   "ignorar_group_ids": [
     24584,
@@ -34,11 +734,20 @@
     1853,
     23520
   ],
-  "automatico": {},
-  "catalogo_tcgcsv": {
-    "pwc": 2205
-  },
   "ignorar_tcgdex_ids": [
     "sp"
-  ]
+  ],
+  "manual": {
+    "2021swsh": 2782,
+    "bwp": 1407,
+    "dpp": 1421,
+    "exu": 1398,
+    "mep": 24451,
+    "sm1": 1863,
+    "sv01": 22873,
+    "sv03.5": 23237,
+    "svp": 22872,
+    "swshp": 2545,
+    "xy1": 1387
+  }
 }
