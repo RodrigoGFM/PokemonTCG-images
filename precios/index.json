@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-25T02:33:14Z",
+  "actualizado": "2026-08-25T03:10:09Z",
   "setsCubiertos": 187,
-  "cartasConPrecio": 21663,
+  "cartasConPrecio": 23032,
   "sets": [
     {
       "tcgdexSetId": "2011bw",
@@ -68,14 +68,6 @@
       "puntajeEmparejamiento": 0.75
     },
     {
-      "tcgdexSetId": "2021swsh",
-      "tcgdexNombre": "McDonald's Collection 2021",
-      "tcgplayerGroupId": 24584,
-      "tcgplayerNombre": "First Partner Collection 2026",
-      "cartas": 0,
-      "puntajeEmparejamiento": 0.582
-    },
-    {
       "tcgdexSetId": "2022swsh",
       "tcgdexNombre": "McDonald's Collection 2022",
       "tcgplayerGroupId": 3150,
@@ -98,14 +90,6 @@
       "tcgplayerNombre": "McDonald's Promos 2024",
       "cartas": 15,
       "puntajeEmparejamiento": 0.75
-    },
-    {
-      "tcgdexSetId": "B2",
-      "tcgdexNombre": "Fantastical Parade",
-      "tcgplayerGroupId": 2686,
-      "tcgplayerNombre": "Battle Academy",
-      "cartas": 101,
-      "puntajeEmparejamiento": 0.562
     },
     {
       "tcgdexSetId": "P-A",
@@ -154,14 +138,6 @@
       "tcgplayerNombre": "Team Rocket",
       "cartas": 83,
       "puntajeEmparejamiento": 1.0
-    },
-    {
-      "tcgdexSetId": "basep",
-      "tcgdexNombre": "Wizards Black Star Promos",
-      "tcgplayerGroupId": 2214,
-      "tcgplayerNombre": "Kids WB Promos",
-      "cartas": 1,
-      "puntajeEmparejamiento": 0.615
     },
     {
       "tcgdexSetId": "bog",
@@ -262,10 +238,10 @@
     {
       "tcgdexSetId": "bwp",
       "tcgdexNombre": "BW Black Star Promos",
-      "tcgplayerGroupId": 1938,
-      "tcgplayerNombre": "Alternate Art Promos",
-      "cartas": 56,
-      "puntajeEmparejamiento": 0.55
+      "tcgplayerGroupId": 1407,
+      "tcgplayerNombre": "Black and White Promos",
+      "cartas": 125,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "cel25",
@@ -366,10 +342,10 @@
     {
       "tcgdexSetId": "dpp",
       "tcgdexNombre": "DP Black Star Promos",
-      "tcgplayerGroupId": 1407,
-      "tcgplayerNombre": "Black and White Promos",
-      "cartas": 125,
-      "puntajeEmparejamiento": 0.667
+      "tcgplayerGroupId": 1421,
+      "tcgplayerNombre": "Diamond and Pearl Promos",
+      "cartas": 60,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "dv1",
@@ -534,10 +510,10 @@
     {
       "tcgdexSetId": "exu",
       "tcgdexNombre": "Unseen Forces Unown Collection",
-      "tcgplayerGroupId": 1465,
-      "tcgplayerNombre": "Legendary Treasures: Radiant Collection",
-      "cartas": 25,
-      "puntajeEmparejamiento": 0.559
+      "tcgplayerGroupId": 1398,
+      "tcgplayerNombre": "EX Unseen Forces",
+      "cartas": 145,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "g1",
@@ -860,6 +836,14 @@
       "puntajeEmparejamiento": 1.0
     },
     {
+      "tcgdexSetId": "sm1",
+      "tcgdexNombre": "Sun & Moon",
+      "tcgplayerGroupId": 1863,
+      "tcgplayerNombre": "SM Base Set",
+      "cartas": 163,
+      "puntajeEmparejamiento": null
+    },
+    {
       "tcgdexSetId": "sm10",
       "tcgdexNombre": "Unbroken Bonds",
       "tcgplayerGroupId": 2420,
@@ -980,12 +964,20 @@
       "puntajeEmparejamiento": 1.0
     },
     {
+      "tcgdexSetId": "sp",
+      "tcgdexNombre": "Sample",
+      "tcgplayerGroupId": 1863,
+      "tcgplayerNombre": "SM Base Set",
+      "cartas": 163,
+      "puntajeEmparejamiento": 0.55
+    },
+    {
       "tcgdexSetId": "sv01",
       "tcgdexNombre": "Scarlet & Violet",
-      "tcgplayerGroupId": 23237,
-      "tcgplayerNombre": "SV: Scarlet & Violet 151",
-      "cartas": 208,
-      "puntajeEmparejamiento": 0.875
+      "tcgplayerGroupId": 22873,
+      "tcgplayerNombre": "SV01: Scarlet & Violet Base Set",
+      "cartas": 258,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "sv02",
@@ -1002,6 +994,14 @@
       "tcgplayerNombre": "SV03: Obsidian Flames",
       "cartas": 230,
       "puntajeEmparejamiento": 1.0
+    },
+    {
+      "tcgdexSetId": "sv03.5",
+      "tcgdexNombre": "151",
+      "tcgplayerGroupId": 23237,
+      "tcgplayerNombre": "SV: Scarlet & Violet 151",
+      "cartas": 208,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "sv04",
@@ -1110,10 +1110,10 @@
     {
       "tcgdexSetId": "svp",
       "tcgdexNombre": "SVP Black Star Promos",
-      "tcgplayerGroupId": 24529,
-      "tcgplayerNombre": "Player Placement Trainer Promos",
-      "cartas": 0,
-      "puntajeEmparejamiento": 0.577
+      "tcgplayerGroupId": 22872,
+      "tcgplayerNombre": "SV: Scarlet & Violet Promo Cards",
+      "cartas": 279,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "swsh1",
@@ -1121,7 +1121,7 @@
       "tcgplayerGroupId": 2585,
       "tcgplayerNombre": "SWSH01: Sword & Shield Base Set",
       "cartas": 216,
-      "puntajeEmparejamiento": 0.727
+      "puntajeEmparejamiento": 1.05
     },
     {
       "tcgdexSetId": "swsh10",
@@ -1292,6 +1292,14 @@
       "puntajeEmparejamiento": 1.0
     },
     {
+      "tcgdexSetId": "swshp",
+      "tcgdexNombre": "SWSH Black Star Promos",
+      "tcgplayerGroupId": 2545,
+      "tcgplayerNombre": "SWSH: Sword & Shield Promo Cards",
+      "cartas": 337,
+      "puntajeEmparejamiento": null
+    },
+    {
       "tcgdexSetId": "tk-bw-e",
       "tcgdexNombre": "BW trainer Kit (Excadrill)",
       "tcgplayerGroupId": 1538,
@@ -1308,28 +1316,12 @@
       "puntajeEmparejamiento": 0.846
     },
     {
-      "tcgdexSetId": "tk-dp-m",
-      "tcgdexNombre": "DP trainer Kit (Manaphy)",
-      "tcgplayerGroupId": 610,
-      "tcgplayerNombre": "DP Training Kit 1 Gold",
-      "cartas": 0,
-      "puntajeEmparejamiento": 0.591
-    },
-    {
       "tcgdexSetId": "tk-ex-latia",
       "tcgdexNombre": "EX trainer Kit (Latias)",
       "tcgplayerGroupId": 1543,
       "tcgplayerNombre": "EX Trainer Kit 1: Latias & Latios",
       "cartas": 20,
       "puntajeEmparejamiento": 0.824
-    },
-    {
-      "tcgdexSetId": "tk-ex-m",
-      "tcgdexNombre": "EX trainer Kit 2 (Minun)",
-      "tcgplayerGroupId": 609,
-      "tcgplayerNombre": "DP Training Kit 1 Blue",
-      "cartas": 0,
-      "puntajeEmparejamiento": 0.591
     },
     {
       "tcgdexSetId": "tk-ex-p",
@@ -1402,6 +1394,14 @@
       "tcgplayerNombre": "Kalos Starter Set",
       "cartas": 39,
       "puntajeEmparejamiento": 1.0
+    },
+    {
+      "tcgdexSetId": "xy1",
+      "tcgdexNombre": "XY",
+      "tcgplayerGroupId": 1387,
+      "tcgplayerNombre": "XY Base Set",
+      "cartas": 147,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "xy10",
@@ -1500,7 +1500,93 @@
       "puntajeEmparejamiento": 0.621
     }
   ],
+  "bajaConfianza": [
+    {
+      "tcgdexSetId": "P-A",
+      "tcgdexNombre": "Promos-A",
+      "tcgplayerGroupId": 1861,
+      "tcgplayerNombre": "SM Promos",
+      "cartas": 307,
+      "puntajeEmparejamiento": 0.706
+    },
+    {
+      "tcgdexSetId": "bog",
+      "tcgdexNombre": "Best of game",
+      "tcgplayerGroupId": 1455,
+      "tcgplayerNombre": "Best of Promos",
+      "cartas": 15,
+      "puntajeEmparejamiento": 0.692
+    },
+    {
+      "tcgdexSetId": "ecard1",
+      "tcgdexNombre": "Expedition Base Set",
+      "tcgplayerGroupId": 1375,
+      "tcgplayerNombre": "Expedition",
+      "cartas": 165,
+      "puntajeEmparejamiento": 0.69
+    },
+    {
+      "tcgdexSetId": "hgssp",
+      "tcgdexNombre": "HGSS Black Star Promos",
+      "tcgplayerGroupId": 1453,
+      "tcgplayerNombre": "HGSS Promos",
+      "cartas": 32,
+      "puntajeEmparejamiento": 0.667
+    },
+    {
+      "tcgdexSetId": "mfb",
+      "tcgdexNombre": "My First Battle",
+      "tcgplayerGroupId": 23330,
+      "tcgplayerNombre": "My First Battle",
+      "cartas": 0,
+      "puntajeEmparejamiento": 1.0
+    },
+    {
+      "tcgdexSetId": "np",
+      "tcgdexNombre": "Nintendo Black Star Promos",
+      "tcgplayerGroupId": 1423,
+      "tcgplayerNombre": "Nintendo Promos",
+      "cartas": 71,
+      "puntajeEmparejamiento": 0.732
+    },
+    {
+      "tcgdexSetId": "ru1",
+      "tcgdexNombre": "Pokémon Rumble",
+      "tcgplayerGroupId": 1433,
+      "tcgplayerNombre": "Rumble",
+      "cartas": 16,
+      "puntajeEmparejamiento": 0.6
+    },
+    {
+      "tcgdexSetId": "sp",
+      "tcgdexNombre": "Sample",
+      "tcgplayerGroupId": 1863,
+      "tcgplayerNombre": "SM Base Set",
+      "cartas": 163,
+      "puntajeEmparejamiento": 0.55
+    },
+    {
+      "tcgdexSetId": "wp",
+      "tcgdexNombre": "W Promotional",
+      "tcgplayerGroupId": 1418,
+      "tcgplayerNombre": "WoTC Promo",
+      "cartas": 66,
+      "puntajeEmparejamiento": 0.609
+    },
+    {
+      "tcgdexSetId": "xyp",
+      "tcgdexNombre": "XY Black Star Promos",
+      "tcgplayerGroupId": 1451,
+      "tcgplayerNombre": "XY Promos",
+      "cartas": 237,
+      "puntajeEmparejamiento": 0.621
+    }
+  ],
   "tcgdexSinEmparejar": [
+    {
+      "id": "2021swsh",
+      "nombre": "McDonald's Collection 2021"
+    },
     {
       "id": "A1",
       "nombre": "Genetic Apex"
@@ -1550,8 +1636,16 @@
       "nombre": "Crimson Blaze"
     },
     {
+      "id": "B2",
+      "nombre": "Fantastical Parade"
+    },
+    {
       "id": "B2a",
       "nombre": "Paldean Wonders"
+    },
+    {
+      "id": "basep",
+      "nombre": "Wizards Black Star Promos"
     },
     {
       "id": "ex5.5",
@@ -1566,32 +1660,24 @@
       "nombre": "MEP Black Star Promos"
     },
     {
-      "id": "sm1",
-      "nombre": "Sun & Moon"
-    },
-    {
       "id": "smp",
       "nombre": "SM Black Star Promos"
-    },
-    {
-      "id": "sp",
-      "nombre": "Sample"
-    },
-    {
-      "id": "sv03.5",
-      "nombre": "151"
-    },
-    {
-      "id": "swshp",
-      "nombre": "SWSH Black Star Promos"
     },
     {
       "id": "tk-bw-z",
       "nombre": "BW trainer Kit (Zoroark)"
     },
     {
+      "id": "tk-dp-m",
+      "nombre": "DP trainer Kit (Manaphy)"
+    },
+    {
       "id": "tk-ex-latio",
       "nombre": "EX trainer Kit (Latios)"
+    },
+    {
+      "id": "tk-ex-m",
+      "nombre": "EX trainer Kit 2 (Minun)"
     },
     {
       "id": "tk-hs-r",
@@ -1618,23 +1704,11 @@
       "nombre": "XY trainer Kit (Suicune)"
     },
     {
-      "id": "xy1",
-      "nombre": "XY"
-    },
-    {
       "id": "xya",
       "nombre": "Yellow A Alternate"
     }
   ],
   "tcgcsvSinEmparejar": [
-    {
-      "groupId": 1387,
-      "nombre": "XY Base Set"
-    },
-    {
-      "groupId": 1421,
-      "nombre": "Diamond and Pearl Promos"
-    },
     {
       "groupId": 1539,
       "nombre": "League & Championship Cards"
@@ -1652,8 +1726,8 @@
       "nombre": "EX Battle Stadium"
     },
     {
-      "groupId": 1863,
-      "nombre": "SM Base Set"
+      "groupId": 1938,
+      "nombre": "Alternate Art Promos"
     },
     {
       "groupId": 2155,
@@ -1684,10 +1758,6 @@
       "nombre": "Professor Program Promos"
     },
     {
-      "groupId": 2545,
-      "nombre": "SWSH: Sword & Shield Promo Cards"
-    },
-    {
       "groupId": 2776,
       "nombre": "First Partner Pack"
     },
@@ -1702,14 +1772,6 @@
     {
       "groupId": 3179,
       "nombre": "Trick or Trade BOOster Bundle"
-    },
-    {
-      "groupId": 22872,
-      "nombre": "SV: Scarlet & Violet Promo Cards"
-    },
-    {
-      "groupId": 22873,
-      "nombre": "SV01: Scarlet & Violet Base Set"
     },
     {
       "groupId": 22880,
