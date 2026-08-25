@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-25T22:02:59Z",
-  "setsCubiertos": 188,
-  "cartasConPrecio": 23029,
+  "actualizado": "2026-08-25T22:52:33Z",
+  "setsCubiertos": 189,
+  "cartasConPrecio": 23253,
   "sets": [
     {
       "tcgdexSetId": "2011bw",
@@ -146,6 +146,14 @@
       "tcgplayerNombre": "Team Rocket",
       "cartas": 83,
       "puntajeEmparejamiento": 1.0
+    },
+    {
+      "tcgdexSetId": "basep",
+      "tcgdexNombre": "Wizards Black Star Promos",
+      "tcgplayerGroupId": 1418,
+      "tcgplayerNombre": "WoTC Promo",
+      "cartas": 66,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "bog",
@@ -1640,10 +1648,6 @@
       "nombre": "Paldean Wonders"
     },
     {
-      "id": "basep",
-      "nombre": "Wizards Black Star Promos"
-    },
-    {
       "id": "ex5.5",
       "nombre": "Poké Card Creator Pack"
     },
@@ -1702,10 +1706,6 @@
   ],
   "tcgcsvSinEmparejar": [
     {
-      "groupId": 1938,
-      "nombre": "Alternate Art Promos"
-    },
-    {
       "groupId": 2208,
       "nombre": "SM Trainer Kit: Alolan Sandslash & Alolan Ninetales"
     },
@@ -1726,10 +1726,6 @@
       "nombre": "Ash vs Team Rocket Deck Kit (JP Exclusive)"
     },
     {
-      "groupId": 23323,
-      "nombre": "Trading Card Game Classic"
-    },
-    {
       "groupId": 24493,
       "nombre": "e-Reader Sample Cards"
     },
@@ -1744,10 +1740,22 @@
   ],
   "catalogosCompletosTcgcsv": [
     {
+      "tcgdexSetId": "aap",
+      "nombre": "Alternate Art Promos",
+      "tcgplayerGroupId": 1938,
+      "cartas": 56
+    },
+    {
       "tcgdexSetId": "pwc",
       "nombre": "Pikachu World Collection Promos",
       "tcgplayerGroupId": 2205,
       "cartas": 19
+    },
+    {
+      "tcgdexSetId": "tcgc",
+      "nombre": "Trading Card Game Classic",
+      "tcgplayerGroupId": 23323,
+      "cartas": 102
     }
   ]
 }

@@ -1,0 +1,2485 @@
+{
+  "tcgdexSetId": "tcgc",
+  "esCatalogoCompleto": true,
+  "nombre": "Trading Card Game Classic",
+  "tcgplayerGroupId": 23323,
+  "actualizado": "2026-08-25T22:52:33Z",
+  "cartas": [
+    {
+      "productId": 527883,
+      "nombre": "Bulbasaur",
+      "numero": "001/034",
+      "numeroNormalizado": "1",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527883_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Grass",
+      "atributos": {
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[GG] Leech Seed (20)\r\n<br>Heal 10 damage from this Pokémon.",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 15.0,
+          "mid": 18.23,
+          "high": 9999.0,
+          "market": 17.37,
+          "directLow": 17.47
+        }
+      }
+    },
+    {
+      "productId": 527936,
+      "nombre": "Charmander",
+      "numero": "001/034",
+      "numeroNormalizado": "1",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527936_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fire",
+      "atributos": {
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Scratch (10)",
+        "Attack 2": "[1R] Ember (30)\r\n<br>Discard 1 Fire Energy card attached to Charmander in order to use this attack.",
+        "Weakness": "Wx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 13.0,
+          "mid": 18.38,
+          "high": 9999.0,
+          "market": 17.67,
+          "directLow": 19.97
+        }
+      }
+    },
+    {
+      "productId": 527985,
+      "nombre": "Squirtle",
+      "numero": "001/034",
+      "numeroNormalizado": "1",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527985_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[W] Bubble (10)\r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Attack 2": "[1W] Withdraw\r\n<br>Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+        "Weakness": "Lx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 14.5,
+          "mid": 17.37,
+          "high": 9999.0,
+          "market": 15.76,
+          "directLow": 16.96
+        }
+      }
+    },
+    {
+      "productId": 527895,
+      "nombre": "Onix",
+      "numero": "010/034",
+      "numeroNormalizado": "10",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527895_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fighting",
+      "atributos": {
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[4] Land Crush (120)",
+        "Weakness": "Gx2",
+        "Resistance": "None",
+        "RetreatCost": "4"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 8.0,
+          "mid": 10.66,
+          "high": 9999.0,
+          "market": 10.28,
+          "directLow": 14.99
+        }
+      }
+    },
+    {
+      "productId": 527945,
+      "nombre": "Voltorb",
+      "numero": "010/034",
+      "numeroNormalizado": "10",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527945_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Lightning",
+      "atributos": {
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Tackle (10)",
+        "Weakness": "F",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.62,
+          "mid": 1.37,
+          "high": 4.68,
+          "market": 1.14,
+          "directLow": 1.77
+        }
+      }
+    },
+    {
+      "productId": 527998,
+      "nombre": "Suicune ex",
+      "numero": "010/034",
+      "numeroNormalizado": "10",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527998_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "220",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Ability — Aqua Lift</strong>\r\n<br>If this Pokemon has any W Energy attached, it has no Retreat Cost.",
+        "Attack 1": "[3] Crystal Blast (60+)\r\n<br>This attack does 30 more damage for each W Energy attached to this Pokemon.",
+        "Weakness": "Lx2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.4,
+          "mid": 1.01,
+          "high": 60.0,
+          "market": 0.99,
+          "directLow": 1.04
+        }
+      }
+    },
+    {
+      "productId": 527898,
+      "nombre": "Hitmonlee",
+      "numero": "011/034",
+      "numeroNormalizado": "11",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527898_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fighting",
+      "atributos": {
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Low Sweep (40)",
+        "Attack 2": "[1FF] Link Attack (80+)\r\n<br>If Hitmonchan is on your Bench, this attack does 80 more damage.",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 8.0,
+          "mid": 10.76,
+          "high": 9999.0,
+          "market": 10.08,
+          "directLow": 10.76
+        }
+      }
+    },
+    {
+      "productId": 527946,
+      "nombre": "Electrode",
+      "numero": "011/034",
+      "numeroNormalizado": "11",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527946_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Lightning",
+      "atributos": {
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Pokémon Power: Buzzap</strong> Once during your turn, you may Knock Out this Pokémon and attach it to 1 of your other Pokémon as a Special Energy card. While this card is attached to a Pokémon, it provides every type of Energy but provides only 2 Energy at a time. This Pokémon Power can't be used if this Pokémon is Asleep, Confused or Paralyzed.",
+        "Attack 1": "[LLL] Electric Shock (50)\r\n<br>Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+        "Weakness": "F",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 2.5,
+          "mid": 3.97,
+          "high": 9999.0,
+          "market": 3.28,
+          "directLow": 3.97
+        }
+      }
+    },
+    {
+      "productId": 527999,
+      "nombre": "Drowzee",
+      "numero": "011/034",
+      "numeroNormalizado": "11",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527999_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Psychic",
+      "atributos": {
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[P] Psychic Boom (10x)\r\n<br>This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokemon.",
+        "Attack 2": "[2] Headbutt (20)",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.0,
+          "mid": 1.29,
+          "high": 19.98,
+          "market": 1.11,
+          "directLow": 1.47
+        }
+      }
+    },
+    {
+      "productId": 527899,
+      "nombre": "Hitmonchan",
+      "numero": "012/034",
+      "numeroNormalizado": "12",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527899_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fighting",
+      "atributos": {
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[F] Coordinated Beatdown (20+)\r\n<br>If Hitmonlee is on your Bench, this attack does 20 more damage.",
+        "Attack 2": "[FF] Mach Cross (60)",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 6.29,
+          "mid": 7.72,
+          "high": 9999.0,
+          "market": 7.63,
+          "directLow": 6.93
+        }
+      }
+    },
+    {
+      "productId": 527947,
+      "nombre": "Zapdos",
+      "numero": "012/034",
+      "numeroNormalizado": "12",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527947_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Lightning",
+      "atributos": {
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[L] Thunder Shock (20)\r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Attack 2": "[4] Drill Peck (120)",
+        "Weakness": "Lx2",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 9.36,
+          "mid": 12.47,
+          "high": 96.95,
+          "market": 11.69,
+          "directLow": 12.96
+        }
+      }
+    },
+    {
+      "productId": 528000,
+      "nombre": "Hypno",
+      "numero": "012/034",
+      "numeroNormalizado": "12",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528000_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Psychic",
+      "atributos": {
+        "HP": "110",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Meditate (20+)\r\n<br>This attack does 10 more damage for each damage counter on your opponent's Active Pokemon.",
+        "Attack 2": "[2P] Hypnoblast (70)\r\n<br>Your opponent's Active Pokemon is now Asleep.",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.89,
+          "mid": 1.67,
+          "high": 19.98,
+          "market": 1.66,
+          "directLow": 1.96
+        }
+      }
+    },
+    {
+      "productId": 527900,
+      "nombre": "Doduo",
+      "numero": "013/034",
+      "numeroNormalizado": "13",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527900_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Double Stab (10x)\r\n<br>Flip 2 coins. This attack does 10 damage times the number of heads.",
+        "Attack 2": "[2] Doduo Delivery\r\n<br>Draw 2 cards.",
+        "Weakness": "Lx2",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.53,
+          "mid": 1.07,
+          "high": 19.98,
+          "market": 1.06,
+          "directLow": 1.47
+        }
+      }
+    },
+    {
+      "productId": 527948,
+      "nombre": "Clefairy",
+      "numero": "013/034",
+      "numeroNormalizado": "13",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527948_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Sing\r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Asleep.",
+        "Attack 2": "[3] Metronome\r\n<br>Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+        "Weakness": "F",
+        "Resistance": "P-30",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 7.04,
+          "mid": 8.99,
+          "high": 9999.0,
+          "market": 8.29,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528184,
+      "nombre": "Mr. Mime",
+      "numero": "013/034",
+      "numeroNormalizado": "13",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528184_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Psychic",
+      "atributos": {
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Pokémon Power: Dampening Shield</strong> As long as this Pokémon is on your Bench, Pokémon in play <em>(both yours and your opponent's)</em> have no Weakness or Resistance.",
+        "Attack 1": "[1P] Juggling (10x)\r\n<br>Flip 4 coins. This attack does 10 damage for each heads.",
+        "Weakness": "Px2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.97,
+          "mid": 2.1,
+          "high": 15.66,
+          "market": 2.1,
+          "directLow": 1.91
+        }
+      }
+    },
+    {
+      "productId": 527901,
+      "nombre": "Dodrio",
+      "numero": "014/034",
+      "numeroNormalizado": "14",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527901_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>[Poké-BODY] Retreat Aid</strong>\r\n<br>As long as This Pokémon is on your Bench, your Active Pokémon's Retreat Cost is [2] less.",
+        "Attack 1": "[2] Incessant Peck (20+) \r\n<br>Flip a coin until you get tails. This attack does 20 damage plus 20 more damage for each heads.",
+        "Weakness": "Lx2",
+        "Resistance": "F-20",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.97,
+          "mid": 2.01,
+          "high": 96.95,
+          "market": 2.05,
+          "directLow": 2.93
+        }
+      }
+    },
+    {
+      "productId": 527949,
+      "nombre": "Clefable",
+      "numero": "014/034",
+      "numeroNormalizado": "14",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527949_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "70",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Metronome\r\n<br>Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack.",
+        "Attack 2": "[2] Minimize\r\n<br>During your opponent's next turn, this Pokémon takes 20 less damage from attacks <em>(after applying Weakness and Resistance).</em>",
+        "Weakness": "F",
+        "Resistance": "P-30",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 6.57,
+          "mid": 8.0,
+          "high": 9999.0,
+          "market": 6.73,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528002,
+      "nombre": "Mewtwo",
+      "numero": "014/034",
+      "numeroNormalizado": "14",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528002_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Psychic",
+      "atributos": {
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1P] Psychic (20+)\r\n<br>Does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+        "Attack 2": "[PP] Barrier\r\n<br>During your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon. If 1 of your Pokémon used Barrier during your last turn, this attack can't be used.",
+        "Weakness": "P",
+        "Resistance": "None",
+        "RetreatCost": "3"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 22.0,
+          "mid": 28.03,
+          "high": 246.8,
+          "market": 26.07,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527902,
+      "nombre": "Chansey",
+      "numero": "015/034",
+      "numeroNormalizado": "15",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527902_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "120",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Scrunch\r\n<br>Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+        "Attack 2": "[4] Double-edge (80)\r\n<br>This Pokémon also does 80 damage to itself.",
+        "Weakness": "Fx2",
+        "Resistance": "P-30",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 7.11,
+          "mid": 9.53,
+          "high": 9999.0,
+          "market": 8.57,
+          "directLow": 9.24
+        }
+      }
+    },
+    {
+      "productId": 527952,
+      "nombre": "Dunsparce",
+      "numero": "015/034",
+      "numeroNormalizado": "15",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527952_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Strike and Run \r\n<br>Search your deck for up to 3 Basic Pokemon and put them onto your Bench.  Then, shuffle your deck. If you put any Pokémon onto your Bench in this way, you may switch this Pokémon with 1 of your Benched Pokémon.",
+        "Attack 2": "[1] Sudden Flash (10) \r\n<br>Flip a coin.  If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Weakness": "F",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.5,
+          "mid": 0.89,
+          "high": 19.98,
+          "market": 0.84,
+          "directLow": 1.77
+        }
+      }
+    },
+    {
+      "productId": 528003,
+      "nombre": "Lt. Surge's Rattata",
+      "numero": "015/034",
+      "numeroNormalizado": "15",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528003_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Focus Energy\r\n<br>During your next turn, this Pokémon's Gnaw attack does 20 more damage <em>(before applying Weakness and Resistance)</em>.",
+        "Attack 2": "[2] Gnaw (20)",
+        "Weakness": "F",
+        "Resistance": "P-30",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.45,
+          "mid": 2.23,
+          "high": 35.5,
+          "market": 2.23,
+          "directLow": 2.97
+        }
+      }
+    },
+    {
+      "productId": 527903,
+      "nombre": "Snorlax",
+      "numero": "016/034",
+      "numeroNormalizado": "16",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527903_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "150",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Collect\r\n<br>Draw 2 cards.",
+        "Attack 2": "[3] Collapse (120)\r\n<br>This Pokemon is now Asleep.",
+        "Weakness": "Fx2",
+        "Resistance": "None",
+        "RetreatCost": "4"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 15.14,
+          "mid": 18.98,
+          "high": 9999.0,
+          "market": 17.9,
+          "directLow": 16.38
+        }
+      }
+    },
+    {
+      "productId": 527950,
+      "nombre": "Stantler",
+      "numero": "016/034",
+      "numeroNormalizado": "16",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527950_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[0] Lead\r\n<br>\r\nSearch your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+        "Attack 2": "[2] Frighten Horn (20)\r\n<br>\r\nIf your opponent's Active Pokémon is a Basic Pokémon, it is now Confused.",
+        "Weakness": "F+20",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 0.97,
+          "high": 52.4,
+          "market": 0.86,
+          "directLow": 0.97
+        }
+      }
+    },
+    {
+      "productId": 528004,
+      "nombre": "Lt. Surge's Raticate",
+      "numero": "016/034",
+      "numeroNormalizado": "16",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528004_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "70",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Super Fang\r\n<br>Put damage counters on your opponent's Active Pokémon until its remaining HP is halved, rounded down. <em>(If your opponent's Active Pokémon has 30 HP remaining, put 2 damage counters on it.)</em>",
+        "Weakness": "F",
+        "Resistance": "P-30",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.8,
+          "mid": 1.66,
+          "high": 19.98,
+          "market": 1.48,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527905,
+      "nombre": "Lugia ex",
+      "numero": "017/034",
+      "numeroNormalizado": "17",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527905_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "230",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Rising Wind (30)\r\n<br>Search your deck for a Basic Energy card and attach it to this Pokemon. Then, shuffle your deck.",
+        "Attack 2": "[4] Aero Break (200)\r\n<br>This Pokemon also does 30 damage to itself.",
+        "Weakness": "Lx2",
+        "Resistance": "F-30",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.0,
+          "mid": 2.02,
+          "high": 19.98,
+          "market": 1.99,
+          "directLow": 3.98
+        }
+      }
+    },
+    {
+      "productId": 527951,
+      "nombre": "Miltank",
+      "numero": "017/034",
+      "numeroNormalizado": "17",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527951_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "90",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[0] Healing Milk\r\n<br>\r\nChoose 1 of your Pokémon, and then flip 2 coins. For each heads, heal 30 damage from that Pokémon.",
+        "Attack 2": "[2] Continuous Tumble (20x)\r\n<br>\r\nFlip a coin until you get tails. This attack does 20 damage for each heads.",
+        "Weakness": "F+20",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.61,
+          "mid": 3.33,
+          "high": 31.0,
+          "market": 3.16,
+          "directLow": 3.97
+        }
+      }
+    },
+    {
+      "productId": 528005,
+      "nombre": "Kangaskhan",
+      "numero": "017/034",
+      "numeroNormalizado": "17",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528005_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Colorless",
+      "atributos": {
+        "HP": "100",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Call for Family - Search your deck for 2 Basic Pokemon and put them onto your Bench.  Shuffle your deck afterward.",
+        "Attack 2": "[2] Comet Punch (20x) Flip 4 coins.  This attack does 20 damage times the number of heads.",
+        "Weakness": "Fx2",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.79,
+          "mid": 2.73,
+          "high": 19.98,
+          "market": 1.99,
+          "directLow": 3.96
+        }
+      }
+    },
+    {
+      "productId": 527907,
+      "nombre": "Bill (CLV)",
+      "numero": "018/034",
+      "numeroNormalizado": "18",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527907_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "HP": "0",
+        "Stage": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDraw 2 cards.\r\n<br>You may only play 1 Supporter card during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.08,
+          "mid": 0.3,
+          "high": 19.98,
+          "market": 0.29,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527954,
+      "nombre": "Bill (CLC)",
+      "numero": "018/034",
+      "numeroNormalizado": "18",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527954_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "HP": "0",
+        "Stage": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDraw 2 cards.\r\n<br>You may only play 1 Supporter card during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.03,
+          "mid": 0.28,
+          "high": 19.98,
+          "market": 0.26,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528014,
+      "nombre": "Bill (CLB)",
+      "numero": "018/034",
+      "numeroNormalizado": "18",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528014_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "HP": "0",
+        "Stage": "Supporter",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDraw 2 cards.\r\n<br>You may only play 1 Supporter card during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.07,
+          "mid": 0.3,
+          "high": 19.98,
+          "market": 0.27,
+          "directLow": 0.2
+        }
+      }
+    },
+    {
+      "productId": 527908,
+      "nombre": "Boss's Orders (CLV)",
+      "numero": "019/034",
+      "numeroNormalizado": "19",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527908_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch in 1 of your opponent's Benched Pokémon to the Active Spot.\r\n<br>\r\nYou may play only 1 Supporter card during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.89,
+          "mid": 1.45,
+          "high": 19.98,
+          "market": 1.43,
+          "directLow": 6.08
+        }
+      }
+    },
+    {
+      "productId": 527955,
+      "nombre": "Boss's Orders (CLC)",
+      "numero": "019/034",
+      "numeroNormalizado": "19",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527955_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch in 1 of your opponent's Benched Pokémon to the Active Spot.\r\n<br>\r\nYou may play only 1 Supporter card during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.3,
+          "mid": 0.67,
+          "high": 19.98,
+          "market": 0.7,
+          "directLow": 1.4
+        }
+      }
+    },
+    {
+      "productId": 528015,
+      "nombre": "Boss's Orders (CLB)",
+      "numero": "019/034",
+      "numeroNormalizado": "19",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528015_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch in 1 of your opponent's Benched Pokémon to the Active Spot.\r\n<br>\r\nYou may play only 1 Supporter card during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.5,
+          "mid": 0.73,
+          "high": 19.98,
+          "market": 0.73,
+          "directLow": 0.77
+        }
+      }
+    },
+    {
+      "productId": 527884,
+      "nombre": "Ivysaur",
+      "numero": "002/034",
+      "numeroNormalizado": "2",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527884_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Grass",
+      "atributos": {
+        "HP": "60",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2G] Vine Whip (30)",
+        "Attack 2": "[GGG] Poisonpowder (20)\r\n<br>Your opponent's Active Pokémon is now Poisoned.",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 4.26,
+          "mid": 7.69,
+          "high": 9999.0,
+          "market": 7.44,
+          "directLow": 8.96
+        }
+      }
+    },
+    {
+      "productId": 527937,
+      "nombre": "Charmeleon",
+      "numero": "002/034",
+      "numeroNormalizado": "2",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527937_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fire",
+      "atributos": {
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[3] Slash (30)",
+        "Attack 2": "[1RR] Flamethrower (50)\r\n<br>Discard 1 Fire Energy card attached to Charmeleon in order to use this attack.",
+        "Weakness": "W",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 5.05,
+          "mid": 7.25,
+          "high": 9999.0,
+          "market": 6.64,
+          "directLow": 6.97
+        }
+      }
+    },
+    {
+      "productId": 527987,
+      "nombre": "Wartortle",
+      "numero": "002/034",
+      "numeroNormalizado": "2",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527987_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "70",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1W] WIthdraw\r\n<br>Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+        "Attack 2": "[2W] Bite (40)",
+        "Weakness": "L",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 5.01,
+          "mid": 8.61,
+          "high": 9999.0,
+          "market": 7.39,
+          "directLow": 8.94
+        }
+      }
+    },
+    {
+      "productId": 527909,
+      "nombre": "Computer Search (CLV)",
+      "numero": "020/034",
+      "numeroNormalizado": "20",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527909_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Trainer",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a card and put it into your hand. Then, shuffle your deck.\r\n<br><br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.17,
+          "mid": 0.39,
+          "high": 19.98,
+          "market": 0.35,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527957,
+      "nombre": "Computer Search (CLC)",
+      "numero": "020/034",
+      "numeroNormalizado": "20",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527957_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Trainer",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a card and put it into your hand. Then, shuffle your deck.\r\n<br><br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.18,
+          "mid": 0.39,
+          "high": 19.98,
+          "market": 0.33,
+          "directLow": 0.33
+        }
+      }
+    },
+    {
+      "productId": 528016,
+      "nombre": "Computer Search (CLB)",
+      "numero": "020/034",
+      "numeroNormalizado": "20",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528016_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Trainer",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a card and put it into your hand. Then, shuffle your deck.\r\n<br><br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.24,
+          "mid": 0.39,
+          "high": 19.98,
+          "market": 0.38,
+          "directLow": 0.33
+        }
+      }
+    },
+    {
+      "productId": 527910,
+      "nombre": "Poke Ball (CLV)",
+      "numero": "021/034",
+      "numeroNormalizado": "21",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527910_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nFlip a coin. If heads, search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.08,
+          "mid": 0.3,
+          "high": 19.98,
+          "market": 0.28,
+          "directLow": 0.2
+        }
+      }
+    },
+    {
+      "productId": 527958,
+      "nombre": "Poke Ball (CLC)",
+      "numero": "021/034",
+      "numeroNormalizado": "21",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527958_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nFlip a coin. If heads, search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.09,
+          "mid": 0.29,
+          "high": 19.98,
+          "market": 0.27,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528026,
+      "nombre": "Drops in the Ocean",
+      "numero": "021/034",
+      "numeroNormalizado": "21",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528026_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Tool",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nThe attacks used by the Blastoise this card is attached to do 100 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.01,
+          "mid": 0.28,
+          "high": 9999.0,
+          "market": 0.3,
+          "directLow": 0.17
+        }
+      }
+    },
+    {
+      "productId": 527911,
+      "nombre": "Pokemon Fan Club (CLV)",
+      "numero": "022/034",
+      "numeroNormalizado": "22",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527911_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSearch your deck for up to 2 Basic Pokemon, reveal them, and put them into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn (before your attack)"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.2,
+          "mid": 0.4,
+          "high": 19.98,
+          "market": 0.39,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527959,
+      "nombre": "Pokemon Fan Club (CLC)",
+      "numero": "022/034",
+      "numeroNormalizado": "22",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527959_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSearch your deck for up to 2 Basic Pokemon, reveal them, and put them into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn (before your attack)"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.15,
+          "mid": 0.33,
+          "high": 19.98,
+          "market": 0.33,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528027,
+      "nombre": "Fisherman",
+      "numero": "022/034",
+      "numeroNormalizado": "22",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528027_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nPut 4 Basic Energy cards from your discard pile into your hand.\r\n<br>\r\n<br><em>You may play only 1 Supporter card during your turn (before your attack)</em>"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 0.4,
+          "high": 19.98,
+          "market": 0.38,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527912,
+      "nombre": "Pokemon Nurse",
+      "numero": "023/034",
+      "numeroNormalizado": "23",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527912_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can play only one Supporter card each turn.\r\n<br>\r\n<br>Heal all damage from 1 of your Pokémon. If you healed any damage in this way, discard all Energy from that Pokémon."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 3.25,
+          "mid": 5.1,
+          "high": 49.0,
+          "market": 4.96,
+          "directLow": 6.64
+        }
+      }
+    },
+    {
+      "productId": 527960,
+      "nombre": "Professor Oak (CLC)",
+      "numero": "023/034",
+      "numeroNormalizado": "23",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527960_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Trainer",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDiscard your hand, then draw 7 cards.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.1,
+          "mid": 0.31,
+          "high": 19.98,
+          "market": 0.29,
+          "directLow": 0.25
+        }
+      }
+    },
+    {
+      "productId": 528018,
+      "nombre": "Poke Ball (CLB)",
+      "numero": "023/034",
+      "numeroNormalizado": "23",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528018_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nFlip a coin. If heads, search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.09,
+          "mid": 0.33,
+          "high": 2.89,
+          "market": 0.31,
+          "directLow": 0.25
+        }
+      }
+    },
+    {
+      "productId": 527913,
+      "nombre": "Professor Oak (CLV)",
+      "numero": "024/034",
+      "numeroNormalizado": "24",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527913_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Trainer",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDiscard your hand, then draw 7 cards.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.1,
+          "mid": 0.4,
+          "high": 19.98,
+          "market": 0.35,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527961,
+      "nombre": "Rare Candy (CLC)",
+      "numero": "024/034",
+      "numeroNormalizado": "24",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527961_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nChoose 1 of your Basic Pokemon in play. If you have a Stage 2 card in your hand that evolves from that Pokemon, put that card on the Basic Pokemon to evolve it, skipping the stage 1. You can't use this card during your first turn or on a Basic Pokemon that was put into play this turn.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.24,
+          "mid": 0.45,
+          "high": 19.98,
+          "market": 0.43,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528019,
+      "nombre": "Pokemon Fan Club (CLB)",
+      "numero": "024/034",
+      "numeroNormalizado": "24",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528019_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSearch your deck for up to 2 Basic Pokemon, reveal them, and put them into your hand. Then, shuffle your deck.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn (before your attack)"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.17,
+          "mid": 0.33,
+          "high": 19.98,
+          "market": 0.34,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527916,
+      "nombre": "Rare Candy (CLV)",
+      "numero": "025/034",
+      "numeroNormalizado": "25",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527916_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nChoose 1 of your Basic Pokemon in play. If you have a Stage 2 card in your hand that evolves from that Pokemon, put that card on the Basic Pokemon to evolve it, skipping the stage 1. You can't use this card during your first turn or on a Basic Pokemon that was put into play this turn.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 0.4,
+          "high": 19.98,
+          "market": 0.37,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527962,
+      "nombre": "Rocket's Admin. (CLC)",
+      "numero": "025/034",
+      "numeroNormalizado": "25",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527962_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou may play only one Supporter card each turn.\r\n<br>\r\n<br>Each player shuffles his or her hand into their deck.  Then, each player draws a card for each of their remaining Prize cards."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.12,
+          "mid": 0.38,
+          "high": 19.98,
+          "market": 0.36,
+          "directLow": 0.25
+        }
+      }
+    },
+    {
+      "productId": 528020,
+      "nombre": "Professor Oak (CLB)",
+      "numero": "025/034",
+      "numeroNormalizado": "25",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528020_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nDiscard your hand, then draw 7 cards.\r\n<br>\r\n<br>You may play only 1 Supporter card during your turn"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.1,
+          "mid": 0.39,
+          "high": 19.98,
+          "market": 0.36,
+          "directLow": 0.24
+        }
+      }
+    },
+    {
+      "productId": 527917,
+      "nombre": "Rocket's Admin. (CLV)",
+      "numero": "026/034",
+      "numeroNormalizado": "26",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527917_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou may play only one Supporter card each turn.\r\n<br>\r\n<br>Each player shuffles his or her hand into their deck.  Then, each player draws a card for each of their remaining Prize cards."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.13,
+          "mid": 0.38,
+          "high": 19.98,
+          "market": 0.36,
+          "directLow": 0.33
+        }
+      }
+    },
+    {
+      "productId": 527972,
+      "nombre": "Scorching Charcoal",
+      "numero": "026/034",
+      "numeroNormalizado": "26",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527972_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Tool",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nThe attacks used by the Charizard this card is attached to do 100 more damage to your opponent's Active Pokemon <em>(before applying Weakness and Resistance)</em>."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.01,
+          "mid": 0.25,
+          "high": 9999.0,
+          "market": 0.19,
+          "directLow": 0.07
+        }
+      }
+    },
+    {
+      "productId": 528021,
+      "nombre": "Rare Candy (CLB)",
+      "numero": "026/034",
+      "numeroNormalizado": "26",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528021_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nChoose 1 of your Basic Pokemon in play. If you have a Stage 2 card in your hand that evolves from that Pokemon, put that card on the Basic Pokemon to evolve it, skipping the stage 1. You can't use this card during your first turn or on a Basic Pokemon that was put into play this turn.\r\n<br>\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 0.4,
+          "high": 19.98,
+          "market": 0.38,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527918,
+      "nombre": "Sun Seed",
+      "numero": "027/034",
+      "numeroNormalizado": "27",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527918_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Tool",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nThe attacks by the Venusaur this card is attached to do 100 more damage to your opponent’s Active Pokémon <em>(before applying Weakness and Resistance).</em>"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.03,
+          "mid": 0.25,
+          "high": 9999.0,
+          "market": 0.26,
+          "directLow": 0.15
+        }
+      }
+    },
+    {
+      "productId": 527967,
+      "nombre": "Super Rod (CLC)",
+      "numero": "027/034",
+      "numeroNormalizado": "27",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527967_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nShuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.21,
+          "mid": 0.46,
+          "high": 19.98,
+          "market": 0.38,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528022,
+      "nombre": "Rocket's Admin. (CLB)",
+      "numero": "027/034",
+      "numeroNormalizado": "27",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528022_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Supporter",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou may play only one Supporter card each turn.\r\n<br>\r\n<br>Each player shuffles his or her hand into their deck.  Then, each player draws a card for each of their remaining Prize cards."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.12,
+          "mid": 0.37,
+          "high": 19.98,
+          "market": 0.36,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527919,
+      "nombre": "Super Rod (CLV)",
+      "numero": "028/034",
+      "numeroNormalizado": "28",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527919_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nShuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 0.48,
+          "high": 19.98,
+          "market": 0.44,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528023,
+      "nombre": "Super Rod (CLB)",
+      "numero": "028/034",
+      "numeroNormalizado": "28",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528023_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nShuffle up to 3 in any combination of Pokémon and Basic Energy cards from your discard pile into your deck.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.33,
+          "mid": 0.5,
+          "high": 19.98,
+          "market": 0.48,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528028,
+      "nombre": "Super Scoop Up",
+      "numero": "028/034",
+      "numeroNormalizado": "28",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528028_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nFlip a coin. If heads, put 1 of your Pokemon and all cards attached to it into your hand.\r\n<br> You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.2,
+          "mid": 0.31,
+          "high": 19.98,
+          "market": 0.29,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527920,
+      "nombre": "Switch (CLV)",
+      "numero": "029/034",
+      "numeroNormalizado": "29",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527920_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch your Active Pokémon with 1 of your Benched Pokémon.\r\n<br>\r\nYou may play as many Item cards as you like during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.1,
+          "mid": 0.27,
+          "high": 19.98,
+          "market": 0.26,
+          "directLow": 0.25
+        }
+      }
+    },
+    {
+      "productId": 527968,
+      "nombre": "Switch (CLC)",
+      "numero": "029/034",
+      "numeroNormalizado": "29",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527968_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch your Active Pokémon with 1 of your Benched Pokémon.\r\n<br>\r\nYou may play as many Item cards as you like during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.1,
+          "mid": 0.27,
+          "high": 19.98,
+          "market": 0.24,
+          "directLow": 0.24
+        }
+      }
+    },
+    {
+      "productId": 528024,
+      "nombre": "Switch (CLB)",
+      "numero": "029/034",
+      "numeroNormalizado": "29",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528024_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nSwitch your Active Pokémon with 1 of your Benched Pokémon.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.09,
+          "mid": 0.3,
+          "high": 19.98,
+          "market": 0.3,
+          "directLow": 0.25
+        }
+      }
+    },
+    {
+      "productId": 527885,
+      "nombre": "Venusaur",
+      "numero": "003/034",
+      "numeroNormalizado": "3",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527885_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Grass",
+      "atributos": {
+        "HP": "100",
+        "Stage": "Stage 2",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Pokémon Power: Energy Trans</strong> As often as you like during your turn, you may move 1 Grass Energy card from 1 of your Pokémon to another of your Pokémon. This Pokémon Power can't be used if this Pokémon is Asleep, Confused or Paralyzed.",
+        "Attack 1": "[GGGG] Solar Beam (60)",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 34.36,
+          "mid": 43.61,
+          "high": 150.0,
+          "market": 37.59,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527938,
+      "nombre": "Charizard",
+      "numero": "003/034",
+      "numeroNormalizado": "3",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527938_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fire",
+      "atributos": {
+        "HP": "120",
+        "Stage": "Stage 2",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\n<strong>Pokémon Power: Energy Burn</strong> All Energy attached to this Pokémon are Fire Energy instead of their usual type. This Pokémon Power stops working if this Pokémon is Asleep, Confused, or Paralyzed.",
+        "Attack 1": "[RRRR] Fire Spin (100)\r\n<br>Discard 2 Energy from this Pokémon.",
+        "Weakness": "W",
+        "Resistance": "F-30",
+        "RetreatCost": "3"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 181.0,
+          "mid": 208.31,
+          "high": 1000.0,
+          "market": 200.53,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527988,
+      "nombre": "Blastoise",
+      "numero": "003/034",
+      "numeroNormalizado": "3",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527988_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "100",
+        "Stage": "Stage 2",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br> \r\n<strong>Pokémon Power: Rain Dance</strong> As often as you like during your turn, you may attach a Basic Water Energy card from your hand to 1 of your Water Pokémon. This Pokémon Power can't be used if this Pokémon is Asleep, Confused or Paralyzed.",
+        "Attack 1": "[WWW] Hydro Pump (40+)\r\n<br>This attack does 10 more damage for each extra Water Energy attached to this Pokémon <em>(in addition this attack's cost)</em>. You can't add more than 20 damage in this way.",
+        "Weakness": "L",
+        "Resistance": "None",
+        "RetreatCost": "3"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 44.92,
+          "mid": 52.0,
+          "high": 475.68,
+          "market": 46.24,
+          "directLow": 53.96
+        }
+      }
+    },
+    {
+      "productId": 527921,
+      "nombre": "Ultra Ball (CLV)",
+      "numero": "030/034",
+      "numeroNormalizado": "30",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527921_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Trainer — Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.2,
+          "mid": 0.4,
+          "high": 19.98,
+          "market": 0.35,
+          "directLow": 0.33
+        }
+      }
+    },
+    {
+      "productId": 527970,
+      "nombre": "Ultra Ball (CLC)",
+      "numero": "030/034",
+      "numeroNormalizado": "30",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527970_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Trainer — Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 0.38,
+          "high": 19.98,
+          "market": 0.31,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528025,
+      "nombre": "Ultra Ball (CLB)",
+      "numero": "030/034",
+      "numeroNormalizado": "30",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528025_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Trainer — Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nYou can use this card only if you discard 2 other cards from your hand.\r\n<br>Search your deck for a Pokemon, reveal it, and put it into your hand. Then, shuffle your deck.\r\n<br>\r\nYou may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.1,
+          "mid": 0.4,
+          "high": 19.98,
+          "market": 0.38,
+          "directLow": 0.33
+        }
+      }
+    },
+    {
+      "productId": 528200,
+      "nombre": "VS Seeker (CLB)",
+      "numero": "031/034",
+      "numeroNormalizado": "31",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528200_200w.jpg",
+      "rareza": "Holo Rare",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nPut a supporter card from your discard pile into your hand.\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.0,
+          "mid": 2.05,
+          "high": 26.6,
+          "market": 2.29,
+          "directLow": 2.97
+        }
+      }
+    },
+    {
+      "productId": 528207,
+      "nombre": "VS Seeker (CLC)",
+      "numero": "031/034",
+      "numeroNormalizado": "31",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528207_200w.jpg",
+      "rareza": "Holo Rare",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nPut a supporter card from your discard pile into your hand.\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Normal": {
+          "low": 0.97,
+          "mid": 2.01,
+          "high": 27.7,
+          "market": 2.11,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 528225,
+      "nombre": "VS Seeker (CLV)",
+      "numero": "031/034",
+      "numeroNormalizado": "31",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528225_200w.jpg",
+      "rareza": "Holo Rare",
+      "tipo": "Item",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nPut a supporter card from your discard pile into your hand.\r\n<br>You may play any number of Item cards during your turn."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.0,
+          "mid": 2.21,
+          "high": 9999.0,
+          "market": 2.24,
+          "directLow": 2.97
+        }
+      }
+    },
+    {
+      "productId": 527926,
+      "nombre": "Double Colorless Energy (CLV)",
+      "numero": "032/034",
+      "numeroNormalizado": "32",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527926_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Special Energy",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nAs long as this card is attached to a Pokémon, it provides [2] Energy"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.41,
+          "mid": 0.75,
+          "high": 19.98,
+          "market": 0.7,
+          "directLow": 0.72
+        }
+      }
+    },
+    {
+      "productId": 527974,
+      "nombre": "Double Colorless Energy (CLC)",
+      "numero": "032/034",
+      "numeroNormalizado": "32",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527974_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Special Colorless Energy",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nAs long as this card is attached to a Pokémon, it provides [2] Energy."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.4,
+          "mid": 0.69,
+          "high": 19.98,
+          "market": 0.65,
+          "directLow": 0.71
+        }
+      }
+    },
+    {
+      "productId": 528017,
+      "nombre": "Double Colorless Energy (CLB)",
+      "numero": "032/034",
+      "numeroNormalizado": "32",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528017_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Special Colorless Energy",
+      "atributos": {
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span><br>\r\nAs long as this card is attached to a Pokémon, it provides [2] Energy."
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.35,
+          "mid": 0.6,
+          "high": 19.98,
+          "market": 0.57,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527924,
+      "nombre": "Basic Grass Energy",
+      "numero": "033/034",
+      "numeroNormalizado": "33",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527924_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Basic Energy",
+      "atributos": {},
+      "variantes": {
+        "Holofoil": {
+          "low": 0.4,
+          "mid": 0.77,
+          "high": 19.98,
+          "market": 0.73,
+          "directLow": 0.77
+        }
+      }
+    },
+    {
+      "productId": 527983,
+      "nombre": "Basic Fire Energy",
+      "numero": "033/034",
+      "numeroNormalizado": "33",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527983_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Basic Energy",
+      "atributos": {},
+      "variantes": {
+        "Holofoil": {
+          "low": 0.67,
+          "mid": 1.04,
+          "high": 19.98,
+          "market": 1.06,
+          "directLow": 1.08
+        }
+      }
+    },
+    {
+      "productId": 528201,
+      "nombre": "Basic Water Energy",
+      "numero": "033/034",
+      "numeroNormalizado": "33",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528201_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Basic Energy",
+      "atributos": {},
+      "variantes": {
+        "Holofoil": {
+          "low": 0.4,
+          "mid": 0.75,
+          "high": 17.6,
+          "market": 0.72,
+          "directLow": 0.73
+        }
+      }
+    },
+    {
+      "productId": 527925,
+      "nombre": "Basic Fighting Energy",
+      "numero": "034/034",
+      "numeroNormalizado": "34",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527925_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Basic Energy",
+      "atributos": {},
+      "variantes": {
+        "Holofoil": {
+          "low": 0.48,
+          "mid": 0.71,
+          "high": 19.98,
+          "market": 0.66,
+          "directLow": 0.67
+        }
+      }
+    },
+    {
+      "productId": 527984,
+      "nombre": "Basic Lightning Energy",
+      "numero": "034/034",
+      "numeroNormalizado": "34",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527984_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Basic Energy",
+      "atributos": {},
+      "variantes": {
+        "Holofoil": {
+          "low": 0.67,
+          "mid": 0.89,
+          "high": 19.98,
+          "market": 0.84,
+          "directLow": 0.89
+        }
+      }
+    },
+    {
+      "productId": 528203,
+      "nombre": "Basic Psychic Energy",
+      "numero": "034/034",
+      "numeroNormalizado": "34",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/528203_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Basic Energy",
+      "atributos": {},
+      "variantes": {
+        "Normal": {
+          "low": 0.65,
+          "mid": 0.89,
+          "high": 19.98,
+          "market": 0.89,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527886,
+      "nombre": "Paras",
+      "numero": "004/034",
+      "numeroNormalizado": "4",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527886_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Grass",
+      "atributos": {
+        "HP": "50",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Call for Family \r\n<br>Search your deck for up to 2 Basic Pokemon and put them onto your Bench.  Then, shuffle your deck.",
+        "Attack 2": "[G] Toxic Sport (10) \r\n<br>Flip a coin.  If heads, the Defending Pokemon is now Poisoned.",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.7,
+          "mid": 3.61,
+          "high": 31.0,
+          "market": 3.61,
+          "directLow": 5.65
+        }
+      }
+    },
+    {
+      "productId": 527939,
+      "nombre": "Ponyta",
+      "numero": "004/034",
+      "numeroNormalizado": "4",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527939_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fire",
+      "atributos": {
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[R] Flame Tail (20)",
+        "Weakness": "Wx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 3.69,
+          "mid": 4.9,
+          "high": 96.95,
+          "market": 4.78,
+          "directLow": 4.98
+        }
+      }
+    },
+    {
+      "productId": 527989,
+      "nombre": "Staryu",
+      "numero": "004/034",
+      "numeroNormalizado": "4",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527989_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "60",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Recover\r\n<br> Discard an Energy from this Pokémon and heal all damage from it.",
+        "Attack 2": "[W] Water Gun (10)",
+        "Weakness": "Lx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.79,
+          "mid": 1.69,
+          "high": 19.98,
+          "market": 1.65,
+          "directLow": 2.99
+        }
+      }
+    },
+    {
+      "productId": 527887,
+      "nombre": "Parasect",
+      "numero": "005/034",
+      "numeroNormalizado": "5",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527887_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Grass",
+      "atributos": {
+        "HP": "80",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Nutritional Support \r\n<br>Search your deck for up to 2 G Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+        "Attack 2": "[1GG] Hibernation Spore (40) \r\n<br>Your opponent's Active Pokémon is now Asleep. During Pokémon Checkup, your opponent flips 2 coins instead of 1. If either of them is tails, that Pokémon is still Asleep.",
+        "Weakness": "R+20",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.5,
+          "mid": 0.99,
+          "high": 19.98,
+          "market": 0.85,
+          "directLow": 1.15
+        }
+      }
+    },
+    {
+      "productId": 527940,
+      "nombre": "Rapidash",
+      "numero": "005/034",
+      "numeroNormalizado": "5",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527940_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fire",
+      "atributos": {
+        "HP": "100",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[R] Combustion (30)",
+        "Attack 2": "[1R] Ring of Fire (50)\r\n<br>Your opponent's Active Pokémon is now Burned. It can't retreat during your opponent's next turn.",
+        "Weakness": "Wx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 2.89,
+          "mid": 3.41,
+          "high": 96.95,
+          "market": 3.4,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527990,
+      "nombre": "Starmie",
+      "numero": "005/034",
+      "numeroNormalizado": "5",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527990_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "90",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Confuse Ray \r\n<br>Your opponent's Active Pokémon is now Confused.",
+        "Attack 2": "[W] Swift (50) \r\n<br>This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pokémon.",
+        "Weakness": "Lx2",
+        "Resistance": "None",
+        "RetreatCost": "0"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.98,
+          "mid": 3.07,
+          "high": 19.98,
+          "market": 3.06,
+          "directLow": 3.47
+        }
+      }
+    },
+    {
+      "productId": 527888,
+      "nombre": "Scyther",
+      "numero": "006/034",
+      "numeroNormalizado": "6",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527888_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Grass",
+      "atributos": {
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[G] Swords Dance\r\n<br>During your next turn, this Pokémon's Slash attack does 30 more damage <em>(before applying Weakness and Resistance)</em>.",
+        "Attack 2": "[3] Slash (30)",
+        "Weakness": "Rx2",
+        "Resistance": "F-30",
+        "RetreatCost": "0"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 10.83,
+          "mid": 13.74,
+          "high": 9999.0,
+          "market": 13.59,
+          "directLow": 14.9
+        }
+      }
+    },
+    {
+      "productId": 527941,
+      "nombre": "Magmar",
+      "numero": "006/034",
+      "numeroNormalizado": "6",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527941_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fire",
+      "atributos": {
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[R] Smokescreen (10)\r\n<br>If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+        "Attack 2": "[RR] Smog (20)\r\n<br>Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+        "Weakness": "W",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.75,
+          "mid": 3.0,
+          "high": 9999.0,
+          "market": 2.96,
+          "directLow": 3.96
+        }
+      }
+    },
+    {
+      "productId": 527991,
+      "nombre": "Magikarp",
+      "numero": "006/034",
+      "numeroNormalizado": "6",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527991_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "30",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Splash (10)",
+        "Weakness": "Lx2",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 8.92,
+          "mid": 11.71,
+          "high": 9999.0,
+          "market": 10.8,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 527891,
+      "nombre": "Pinsir",
+      "numero": "007/034",
+      "numeroNormalizado": "7",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527891_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Grass",
+      "atributos": {
+        "HP": "110",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Roof Fling\r\n<br>Flip a coin. If heads, return your opponent's Active Pokemon and attached all cards into your opponent's hand.",
+        "Attack 2": "[GG] Guillotine (50)",
+        "Weakness": "Rx2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.44,
+          "mid": 1.0,
+          "high": 96.95,
+          "market": 0.91,
+          "directLow": 0.96
+        }
+      }
+    },
+    {
+      "productId": 527942,
+      "nombre": "Ho-oh ex",
+      "numero": "007/034",
+      "numeroNormalizado": "7",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527942_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fire",
+      "atributos": {
+        "HP": "220",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[R] Phoenix Breath\r\n<br>Attach up to 2 Basic Energy cards from your discard pile to your Pokemon in any way you like.",
+        "Attack 2": "[2RR] Eternal Blaze (180)\r\n<br>During your next turn, this Pokemon can't attack.",
+        "Weakness": "Wx2",
+        "Resistance": "None",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 0.89,
+          "high": 40.0,
+          "market": 0.81,
+          "directLow": 0.89
+        }
+      }
+    },
+    {
+      "productId": 527992,
+      "nombre": "Gyarados",
+      "numero": "007/034",
+      "numeroNormalizado": "7",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527992_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "130",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2W] Hydro Splash (50)",
+        "Attack 2": "[2WW] Hyper Beam (80) \r\n<br>Discard an Energy card from your opponent's Active Pokémon.",
+        "Weakness": "Lx2",
+        "Resistance": "F-20",
+        "RetreatCost": "3"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 14.49,
+          "mid": 17.97,
+          "high": 9999.0,
+          "market": 16.84,
+          "directLow": 17.97
+        }
+      }
+    },
+    {
+      "productId": 527893,
+      "nombre": "Sandshrew",
+      "numero": "008/034",
+      "numeroNormalizado": "8",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527893_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fighting",
+      "atributos": {
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Collect\r\n<br>Draw a card.",
+        "Attack 2": "[2F] Rolling Tackle (30)",
+        "Weakness": "Gx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 1.5,
+          "mid": 2.78,
+          "high": 31.0,
+          "market": 2.83,
+          "directLow": 4.1
+        }
+      }
+    },
+    {
+      "productId": 527943,
+      "nombre": "Pikachu",
+      "numero": "008/034",
+      "numeroNormalizado": "8",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527943_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Lightning",
+      "atributos": {
+        "HP": "40",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Gnaw (10)",
+        "Attack 2": "[1L] Thunder Jolt (30)\r\n<br>Flip a coin. If tails, this Pokémon does 10 damage to itself.",
+        "Weakness": "F",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 40.01,
+          "mid": 56.99,
+          "high": 400.0,
+          "market": 51.64,
+          "directLow": 57.94
+        }
+      }
+    },
+    {
+      "productId": 527994,
+      "nombre": "Lapras",
+      "numero": "008/034",
+      "numeroNormalizado": "8",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527994_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "90",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[2] Ice Beam (20) \r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Attack 2": "[WW] Ice Blade \r\n<br>This attack does 30 damage to 1 of your opponent's Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Weakness": "Mx2",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 6.52,
+          "mid": 8.31,
+          "high": 9999.0,
+          "market": 7.61,
+          "directLow": 10.15
+        }
+      }
+    },
+    {
+      "productId": 527894,
+      "nombre": "Sandslash",
+      "numero": "009/034",
+      "numeroNormalizado": "9",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527894_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Fighting",
+      "atributos": {
+        "HP": "110",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Continuous Scratch (30x)\r\n<br>Flip 4 coins. This attack does 30 damage for each heads.",
+        "Attack 2": "[2F] Sand Tomb (90)\r\n<br>During your opponent's next turn, the Defending Pokémon can't retreat.",
+        "Weakness": "Gx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 0.97,
+          "mid": 1.71,
+          "high": 19.98,
+          "market": 1.54,
+          "directLow": 2.44
+        }
+      }
+    },
+    {
+      "productId": 527944,
+      "nombre": "Raichu",
+      "numero": "009/034",
+      "numeroNormalizado": "9",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527944_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Lightning",
+      "atributos": {
+        "HP": "130",
+        "Stage": "Stage 1",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[1] Pain-full Punch (40)",
+        "Attack 2": "[1LL] Mach Bolt (120)",
+        "Weakness": "Fx2",
+        "Resistance": "None",
+        "RetreatCost": "1"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 4.51,
+          "mid": 5.99,
+          "high": 9999.0,
+          "market": 6.03,
+          "directLow": 8.29
+        }
+      }
+    },
+    {
+      "productId": 527996,
+      "nombre": "Articuno",
+      "numero": "009/034",
+      "numeroNormalizado": "9",
+      "imagen": "https://tcgplayer-cdn.tcgplayer.com/product/527996_200w.jpg",
+      "rareza": "Classic Collection",
+      "tipo": "Water",
+      "atributos": {
+        "HP": "70",
+        "Stage": "Basic",
+        "CardText": "<span style=\"color:red\">Note: This card is <strong>NOT</strong> tournament legal.</span>",
+        "Attack 1": "[WWW] Freeze Dry (30)\r\n<br>Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "Attack 2": "[WWWW] Blizzard (50)\r\n<br>Flip a coin. If heads, this attack also does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack also does 10 damage to each of your own Benched Pokémon. <em>(Don't apply Weakness and Resistance for Benched Pokémon.)</em>",
+        "Weakness": "None",
+        "Resistance": "F-30",
+        "RetreatCost": "2"
+      },
+      "variantes": {
+        "Holofoil": {
+          "low": 11.97,
+          "mid": 15.0,
+          "high": 224.9,
+          "market": 12.22,
+          "directLow": 13.92
+        }
+      }
+    }
+  ]
+}
