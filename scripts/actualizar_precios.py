@@ -122,7 +122,6 @@ def calcular_candidatos(grupos_tcgcsv, sets_tcgdex):
     Devuelve una lista de (puntaje, groupId, tcgdexId) ordenada de mayor a menor puntaje, para
     poder armar un emparejamiento 1 a 1 de forma golosa (greedy) más abajo."""
     nombres_tcgdex = {s["id"]: normalizar_nombre(s.get("name", "")) for s in sets_tcgdex}
-    conteo_tcgdex = {s["id"]: (s.get("cardCount") or {}).get("total") for s in sets_tcgdex}
 
     candidatos = []
     for grupo in grupos_tcgcsv:
@@ -133,14 +132,18 @@ def calcular_candidatos(grupos_tcgcsv, sets_tcgdex):
             if not nombre_tcgdex:
                 continue
             puntaje = similitud(nombre_grupo, nombre_tcgdex)
-            # Empujón si además coincide (aprox.) la cantidad de cartas — ayuda a desempatar
-            # nombres parecidos entre expansiones (ej. varias "Celebrations").
-            total_tcgdex = conteo_tcgdex.get(tcgdex_id)
-            if total_tcgdex:
-                # (no tenemos el conteo de tcgcsv acá todavía sin pedir products; el desempate por
-                # cantidad de cartas se resuelve más adelante, a mano, vía mapeo-sets.json si hace
-                # falta — este puntaje solo usa nombre para no multiplicar pedidos a la API)
-                pass
+            # Corrección importante (encontrada revisando la primera corrida real): cuando el
+            # nombre de TCGdex es corto y "genérico" (ej. "Scarlet & Violet", "XY", "Sun & Moon" —
+            # el set BASE de una generación) y el de tcgcsv es "<nombre> Base Set", el ratio de
+            # SequenceMatcher penaliza más ese sufijo largo que un sufijo corto tipo "151" o
+            # "Promos" — así que, por pura aritmética de longitud, terminaba prefiriendo el set
+            # EQUIVOCADO (ej. "SV: Scarlet & Violet 151" en vez de "SV01: ... Base Set"). Como
+            # "Base Set" es exactamente la forma en que TCGplayer nombra al set base de cada
+            # generación, si el nombre de tcgcsv termina en "base set" y el de TCGdex no contiene
+            # ya las palabras "base"/"set" (para no afectar sets que sí se llaman así en TCGdex),
+            # empujamos el puntaje hacia arriba en vez de dejar que la longitud del sufijo decida.
+            if nombre_grupo.endswith("base set") and "base" not in nombre_tcgdex and "set" not in nombre_tcgdex:
+                puntaje = max(puntaje, similitud(nombre_grupo.removesuffix(" base set"), nombre_tcgdex) + 0.05)
             if puntaje >= UMBRAL_SIMILITUD:
                 candidatos.append((puntaje, grupo["groupId"], tcgdex_id))
 
@@ -305,11 +308,26 @@ def main():
         if i % 20 == 0:
             print(f"  [{i}/{len(mapeo)}] procesados...")
 
+    # Lista corta de sets emparejados con poca confianza (puntaje bajo, o 0 cartas encontradas a
+    # pesar de estar "emparejado") — para no tener que releer los ~200 sets enteros en cada
+    # revisión. Los emparejamientos manuales (mapeo-sets.json -> "manual") no entran acá: ya
+    # fueron confirmados a mano, así que no hace falta volver a dudar de ellos cada corrida.
+    UMBRAL_CONFIANZA = 0.75
+    baja_confianza = [
+        s for s in resumen_sets
+        if not (mapeo.get(s["tcgdexSetId"]) or {}).get("manual")
+        and (
+            (s["puntajeEmparejamiento"] is not None and s["puntajeEmparejamiento"] < UMBRAL_CONFIANZA)
+            or s["cartas"] == 0
+        )
+    ]
+
     indice = {
         "actualizado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "setsCubiertos": len(resumen_sets),
         "cartasConPrecio": total_cartas_con_precio,
         "sets": resumen_sets,
+        "bajaConfianza": baja_confianza,
         "tcgdexSinEmparejar": [
             {"id": tid, "nombre": nombres_tcgdex_por_id.get(tid)} for tid in tcgdex_sin_emparejar
         ],
@@ -322,6 +340,7 @@ def main():
         f.write("\n")
 
     print(f"Listo. {len(resumen_sets)} sets con precios, {total_cartas_con_precio} cartas en total.")
+    print(f"  {len(baja_confianza)} emparejamientos de baja confianza (ver precios/index.json -> bajaConfianza).")
     print(f"Revisar precios/index.json -> tcgdexSinEmparejar / tcgcsvSinEmparejar para casos a mano.")
 
 
