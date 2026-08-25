@@ -1,0 +1,45 @@
+name: Actualizar precios de TCGPlayer
+
+on:
+  schedule:
+    # 21:30 UTC, media hora después de que tcgcsv.com termina de actualizar (~20:00 UTC según su FAQ).
+    - cron: "30 21 * * *"
+  # Permite disparar la corrida a mano desde la pestaña "Actions" del repo (útil para probar sin
+  # esperar al horario programado).
+  workflow_dispatch: {}
+
+# El job necesita permiso de escritura para poder commitear precios/ y mapeo-sets.json de vuelta
+# a este mismo repo, usando el token automático que GitHub genera para cada corrida (no hace
+# falta crear ningún secreto/token propio).
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Descargar y procesar precios
+        run: python scripts/actualizar_precios.py
+
+      - name: Commitear cambios (si hay)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add precios/ mapeo-sets.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios, no se commitea nada."
+          else
+            git commit -m "Actualizar precios de TCGPlayer $(date -u +%Y-%m-%d)"
+            git push
+          fi
