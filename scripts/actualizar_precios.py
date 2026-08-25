@@ -170,8 +170,10 @@ def emparejar_greedy(candidatos):
 def cargar_mapeo_existente():
     if os.path.exists(ARCHIVO_MAPEO):
         with open(ARCHIVO_MAPEO, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {"manual": {}, "ignorar_group_ids": [], "automatico": {}}
+            datos = json.load(f)
+            datos.setdefault("catalogo_tcgcsv", {})
+            return datos
+    return {"manual": {}, "ignorar_group_ids": [], "automatico": {}, "catalogo_tcgcsv": {}}
 
 
 def construir_mapeo(grupos_tcgcsv, sets_tcgdex):
@@ -187,6 +189,11 @@ def construir_mapeo(grupos_tcgcsv, sets_tcgdex):
     # & Moon) — "sp" terminó con los precios de Sun & Moon duplicados, en vez de quedar sin
     # emparejar (que es lo correcto para un set que no es un producto real).
     ignorar = ignorar | set(manual.values())
+    # Los grupos que se cubren como "catálogo completo" (ver catalogo_tcgcsv más abajo, y
+    # procesar_set_catalogo_completo) tampoco son candidatos para el emparejamiento normal —
+    # ya tienen su propio archivo de salida armado directamente desde tcgcsv.
+    catalogo_tcgcsv = mapeo_guardado.get("catalogo_tcgcsv", {})  # setIdSintetico -> groupId
+    ignorar = ignorar | set(catalogo_tcgcsv.values())
 
     grupos_validos = [g for g in grupos_tcgcsv if g["groupId"] not in ignorar]
     candidatos = calcular_candidatos(grupos_validos, sets_tcgdex)
@@ -211,7 +218,7 @@ def construir_mapeo(grupos_tcgcsv, sets_tcgdex):
     mapeo_guardado["automatico"] = {k: v for k, v in automatico.items() if k not in manual}
     guardar_mapeo(mapeo_guardado)
 
-    return mapeo_final, tcgdex_sin_emparejar, grupos_sin_emparejar
+    return mapeo_final, tcgdex_sin_emparejar, grupos_sin_emparejar, catalogo_tcgcsv
 
 
 def guardar_mapeo(mapeo_guardado):
@@ -270,6 +277,73 @@ def procesar_set(tcgdex_id, group_id):
     }
 
 
+def procesar_set_catalogo_completo(set_id, group_id, nombre_set):
+    """Para sets que NO existen en TCGdex (ej. Pikachu World Collection Promos): a diferencia de
+    procesar_set, que solo agrega precios sobre cartas que la app ya conoce por TCGdex, acá no hay
+    ningún catálogo previo — armamos la carta completa (nombre, número, imagen, rareza, tipo, y
+    cualquier otro atributo que traiga tcgcsv) directamente desde tcgcsv, además del precio. La
+    app necesita tratar estos archivos distinto de los demás (ver "esCatalogoCompleto" en el
+    JSON): no hay que cruzarlos con TCGdex, hay que mostrarlos como su propio set independiente.
+    """
+    productos = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{group_id}/products").get("results", [])
+    precios = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{group_id}/prices").get("results", [])
+
+    precios_por_producto = {}
+    for p in precios:
+        precios_por_producto.setdefault(p["productId"], []).append(p)
+
+    entradas = []
+    for prod in productos:
+        atributos = {}
+        numero = None
+        for campo in prod.get("extendedData", []) or []:
+            nombre_campo = campo.get("name")
+            valor_campo = campo.get("value")
+            if nombre_campo == "Number":
+                numero = valor_campo
+            elif valor_campo:
+                atributos[nombre_campo] = valor_campo
+        if not numero:
+            continue  # No es una carta individual (ej. una caja, un bundle) — no aplica
+
+        variantes = {}
+        for fila in precios_por_producto.get(prod["productId"], []):
+            variante = fila.get("subTypeName") or "Normal"
+            variantes[variante] = {
+                "low": fila.get("lowPrice"),
+                "mid": fila.get("midPrice"),
+                "high": fila.get("highPrice"),
+                "market": fila.get("marketPrice"),
+                "directLow": fila.get("directLowPrice"),
+            }
+
+        entradas.append({
+            "productId": prod["productId"],
+            "nombre": prod.get("name"),
+            "numero": numero,
+            "numeroNormalizado": normalizar_numero(numero),
+            # tcgcsv solo da esta miniatura (200px de ancho) — si hace falta una imagen más
+            # grande para el detalle de la carta, queda pendiente investigar si TCGplayer expone
+            # otro tamaño en una URL parecida.
+            "imagen": prod.get("imageUrl"),
+            "rareza": atributos.pop("Rarity", None),
+            "tipo": atributos.pop("Card Type", None),
+            "atributos": atributos,  # el resto (HP, ataques, debilidad, etc.), tal cual lo da tcgcsv
+            "variantes": variantes,
+        })
+
+    entradas.sort(key=lambda c: c["numeroNormalizado"])
+
+    return {
+        "tcgdexSetId": set_id,
+        "esCatalogoCompleto": True,
+        "nombre": nombre_set,
+        "tcgplayerGroupId": group_id,
+        "actualizado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "cartas": entradas,
+    }
+
+
 def main():
     os.makedirs(DIR_PRECIOS, exist_ok=True)
 
@@ -285,7 +359,9 @@ def main():
     print(f"  {len(sets_tcgdex)} sets encontrados.")
 
     print("Emparejando sets...")
-    mapeo, tcgdex_sin_emparejar, grupos_sin_emparejar = construir_mapeo(grupos, sets_tcgdex)
+    mapeo, tcgdex_sin_emparejar, grupos_sin_emparejar, catalogo_tcgcsv = construir_mapeo(
+        grupos, sets_tcgdex
+    )
     print(f"  {len(mapeo)} sets emparejados, {len(tcgdex_sin_emparejar)} sets de TCGdex sin "
           f"emparejar, {len(grupos_sin_emparejar)} grupos de tcgcsv sin emparejar.")
 
@@ -331,6 +407,29 @@ def main():
         )
     ]
 
+    # Sets que no existen en TCGdex y se arman enteros (catálogo + precio) directamente desde
+    # tcgcsv — ver procesar_set_catalogo_completo y mapeo-sets.json -> "catalogo_tcgcsv".
+    catalogos_completos = []
+    if catalogo_tcgcsv:
+        print(f"Armando {len(catalogo_tcgcsv)} set(s) sin TCGdex desde tcgcsv...")
+    for set_id, group_id in sorted(catalogo_tcgcsv.items()):
+        nombre_set = nombres_grupo_por_id.get(group_id, set_id)
+        try:
+            salida = procesar_set_catalogo_completo(set_id, group_id, nombre_set)
+        except Exception as e:  # noqa: BLE001
+            print(f"  ERROR en {set_id} (group {group_id}): {e}")
+            continue
+        with open(os.path.join(DIR_PRECIOS, f"{set_id}.json"), "w", encoding="utf-8") as f:
+            json.dump(salida, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        total_cartas_con_precio += len(salida["cartas"])
+        catalogos_completos.append({
+            "tcgdexSetId": set_id,
+            "nombre": nombre_set,
+            "tcgplayerGroupId": group_id,
+            "cartas": len(salida["cartas"]),
+        })
+
     indice = {
         "actualizado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "setsCubiertos": len(resumen_sets),
@@ -343,6 +442,10 @@ def main():
         "tcgcsvSinEmparejar": [
             {"groupId": gid, "nombre": nombres_grupo_por_id.get(gid)} for gid in grupos_sin_emparejar
         ],
+        # Sets sin TCGdex, armados enteros desde tcgcsv (ver "esCatalogoCompleto" en su propio
+        # precios/<id>.json) — la app los tiene que tratar distinto: no hay set de TCGdex al que
+        # pegarles precios, HAY que mostrar la carta entera (nombre, imagen, etc.) desde ese JSON.
+        "catalogosCompletosTcgcsv": catalogos_completos,
     }
     with open(os.path.join(DIR_PRECIOS, "index.json"), "w", encoding="utf-8") as f:
         json.dump(indice, f, ensure_ascii=False, indent=2)
