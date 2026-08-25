@@ -144,6 +144,7 @@ def calcular_candidatos(grupos_tcgcsv, sets_tcgdex):
             # empujamos el puntaje hacia arriba en vez de dejar que la longitud del sufijo decida.
             if nombre_grupo.endswith("base set") and "base" not in nombre_tcgdex and "set" not in nombre_tcgdex:
                 puntaje = max(puntaje, similitud(nombre_grupo.removesuffix(" base set"), nombre_tcgdex) + 0.05)
+            puntaje = min(puntaje, 1.0)  # el bonus de arriba puede pasarse de 1.0, es solo un desempate
             if puntaje >= UMBRAL_SIMILITUD:
                 candidatos.append((puntaje, grupo["groupId"], tcgdex_id))
 
@@ -178,6 +179,14 @@ def construir_mapeo(grupos_tcgcsv, sets_tcgdex):
     manual = mapeo_guardado.get("manual", {})  # tcgdexId -> groupId, a mano, tiene prioridad
     ignorar = set(mapeo_guardado.get("ignorar_group_ids", []))  # groupIds que NO son sets reales
     # (ej. cajas selladas, bundles) — se agregan a mano después de revisar "sin_emparejar"
+    # Los grupos ya asignados a mano tampoco deben quedar disponibles para el emparejamiento
+    # AUTOMÁTICO de algún OTRO set de TCGdex — si no, un grupo ya "tomado" por un override manual
+    # puede terminar reasignado por el algoritmo a un set distinto con nombre parecido. Pasó
+    # exactamente esto en la corrida real: "sp" (set de prueba "Sample" de TCGdex) se emparejó
+    # automáticamente con el groupId 1863 aunque ese grupo ya estaba asignado a mano a "sm1" (Sun
+    # & Moon) — "sp" terminó con los precios de Sun & Moon duplicados, en vez de quedar sin
+    # emparejar (que es lo correcto para un set que no es un producto real).
+    ignorar = ignorar | set(manual.values())
 
     grupos_validos = [g for g in grupos_tcgcsv if g["groupId"] not in ignorar]
     candidatos = calcular_candidatos(grupos_validos, sets_tcgdex)
