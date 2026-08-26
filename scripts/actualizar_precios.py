@@ -95,6 +95,61 @@ def similitud(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
 
+def normalizar_nombre_producto(texto):
+    """Minúsculas, sin acentos, sin puntuación — para el nombre de un producto INDIVIDUAL de
+    tcgcsv (ej. 'Bulbasaur', 'Pikachu (Blue Border)'), no de un set entero. Se usa solo en
+    cruzar_por_nombre; a diferencia de normalizar_nombre (para nombres de SET) no hace falta
+    quitar ningún prefijo tipo 'SV01: '."""
+    if not texto:
+        return ""
+    sin_acentos = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
+    solo_alfanumerico = re.sub(r"[^a-z0-9]+", " ", sin_acentos.lower())
+    return re.sub(r"\s+", " ", solo_alfanumerico).strip()
+
+
+def cruzar_por_nombre(productos, tcgdex_id):
+    """Respaldo para sets de tcgcsv cuyos productos NO traen 'Number' en extendedData — ej. "My
+    First Battle" (mfb): confirmado consultando tcgcsv.com en vivo que sus 50 productos (thematic
+    starter sin numeración propia, a diferencia de una expansión normal) no traen ese campo, así
+    que el camino normal de procesar_set los descartaba a TODOS y el set quedaba con "cartas": []
+    — la app entonces caía al precio que trae TCGdex por defecto (CardMarket, en euros) para esas
+    cartas en vez del de TCGPlayer, que es justo lo que este script existe para arreglar.
+
+    En vez de número, cruzamos cada producto con su carta de TCGdex por NOMBRE (cada producto de
+    tcgcsv en este tipo de set tiene un nombre único, ej. distingue "Bulbasaur" de "Bulbasaur (Blue
+    Border)"). Devuelve productId -> localId de TCGdex (para que el resto de procesar_set siga
+    exactamente el mismo camino que ya usa para el cruce por número — mismo campo "numero" de
+    salida, misma normalización). Los productos sin un match único (0 o más de 1 candidato) se
+    descartan en silencio, igual que un producto sin match por número en el camino normal.
+    """
+    cartas = obtener_cartas_tcgdex_de_set(tcgdex_id)
+    if not cartas:
+        return {}
+
+    nombre_a_local_ids = {}
+    for carta in cartas:
+        clave = normalizar_nombre_producto(carta.get("name", ""))
+        if clave:
+            nombre_a_local_ids.setdefault(clave, []).append(carta.get("localId"))
+
+    resultado = {}
+    sin_match = []
+    for prod in productos:
+        clave = normalizar_nombre_producto(prod.get("name", ""))
+        candidatos = nombre_a_local_ids.get(clave)
+        if candidatos and len(candidatos) == 1:
+            resultado[prod["productId"]] = candidatos[0]
+        else:
+            sin_match.append(prod.get("name"))
+
+    if sin_match:
+        print(f"  {tcgdex_id}: cruce por nombre sin match para {len(sin_match)} producto(s): "
+              f"{', '.join(str(n) for n in sin_match[:10])}"
+              f"{' ...' if len(sin_match) > 10 else ''}")
+
+    return resultado
+
+
 # --- Paso 1: traer categorías, grupos (tcgcsv) y sets (TCGdex) ---
 
 def obtener_categoria_pokemon():
@@ -113,6 +168,18 @@ def obtener_grupos_tcgcsv(category_id):
 def obtener_sets_tcgdex():
     # Set "brief": id, name, releaseDate, symbol, logo, cardCount — ver TcgSetInfo en TcgModels.kt
     return pedir_json(f"{TCGDEX_BASE}/sets")
+
+
+def obtener_cartas_tcgdex_de_set(tcgdex_id):
+    """Detalle completo de UN set de TCGdex (incluye su arreglo de cartas 'brief': id/localId/
+    name/image). Solo se pide para sets que lo necesitan (ver cruzar_por_nombre) — no para los
+    ~200 sets normales, que ya se cruzan por número sin tener que bajar sus cartas."""
+    try:
+        detalle = pedir_json(f"{TCGDEX_BASE}/sets/{tcgdex_id}")
+    except Exception as e:  # noqa: BLE001
+        print(f"  ERROR al pedir el detalle de {tcgdex_id} para cruzar por nombre: {e}")
+        return []
+    return detalle.get("cards", []) or []
 
 
 # --- Paso 2: emparejar sets de tcgcsv con sets de TCGdex ---
@@ -254,6 +321,15 @@ def procesar_set(tcgdex_id, group_id):
                 break
         if numero:
             numero_por_producto[prod["productId"]] = numero
+
+    # Respaldo: si NINGÚN producto de este set trae número de carta (ej. "My First Battle" — ver
+    # cruzar_por_nombre), tcgcsv simplemente no numera esta colección. En vez de descartar el set
+    # entero, cruzamos por nombre contra TCGdex. Se activa solo cuando el camino normal no
+    # encontró NINGÚN número en absoluto — nunca para un set que numera bien pero le falta en 1 o
+    # 2 productos sueltos (esos siguen descartándose como "no es una carta individual", como
+    # siempre) — para no arriesgar falsos positivos en los ~200 sets que ya funcionan bien.
+    if productos and not numero_por_producto:
+        numero_por_producto = cruzar_por_nombre(productos, tcgdex_id)
 
     entradas = []
     for product_id, filas_precio in precios_por_producto.items():
