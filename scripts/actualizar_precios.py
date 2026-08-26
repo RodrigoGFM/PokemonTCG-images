@@ -172,8 +172,12 @@ def cargar_mapeo_existente():
         with open(ARCHIVO_MAPEO, "r", encoding="utf-8") as f:
             datos = json.load(f)
             datos.setdefault("catalogo_tcgcsv", {})
+            datos.setdefault("ignorar_tcgdex_ids", [])
             return datos
-    return {"manual": {}, "ignorar_group_ids": [], "automatico": {}, "catalogo_tcgcsv": {}}
+    return {
+        "manual": {}, "ignorar_group_ids": [], "automatico": {}, "catalogo_tcgcsv": {},
+        "ignorar_tcgdex_ids": [],
+    }
 
 
 def construir_mapeo(grupos_tcgcsv, sets_tcgdex):
@@ -181,17 +185,21 @@ def construir_mapeo(grupos_tcgcsv, sets_tcgdex):
     manual = mapeo_guardado.get("manual", {})  # tcgdexId -> groupId, a mano, tiene prioridad
     ignorar = set(mapeo_guardado.get("ignorar_group_ids", []))  # groupIds que NO son sets reales
     # (ej. cajas selladas, bundles) — se agregan a mano después de revisar "sin_emparejar"
-    # Los grupos ya asignados a mano tampoco deben quedar disponibles para el emparejamiento
-    # AUTOMÁTICO de algún OTRO set de TCGdex — si no, un grupo ya "tomado" por un override manual
-    # puede terminar reasignado por el algoritmo a un set distinto con nombre parecido. Pasó
-    # exactamente esto en la corrida real: "sp" (set de prueba "Sample" de TCGdex) se emparejó
-    # automáticamente con el groupId 1863 aunque ese grupo ya estaba asignado a mano a "sm1" (Sun
-    # & Moon) — "sp" terminó con los precios de Sun & Moon duplicados, en vez de quedar sin
-    # emparejar (que es lo correcto para un set que no es un producto real).
-    ignorar = ignorar | set(manual.values())
+    # OJO: los grupos ya asignados a mano NO se excluyen acá del pool automático — un mismo
+    # groupId de tcgcsv puede ser, legítimamente, el precio correcto para MÁS DE UN set de
+    # TCGdex a la vez (ej. "exu" está mapeado a mano al mismo grupo que "ex10", porque de verdad
+    # comparten el mismo producto físico en TCGplayer — "ex10" todavía necesita emparejarse
+    # automáticamente con ESE grupo). Se probó excluir estos grupos y rompió justo ese caso. El
+    # problema real que motivó esa idea (un set de PRUEBA de TCGdex, "sp"/"Sample", que no es una
+    # expansión real, se emparejaba por casualidad de nombre con un grupo ya usado por "sm1") se
+    # resuelve mejor excluyendo ESE set puntual de TCGdex (ver "ignorar_tcgdex_ids" abajo) en vez
+    # de bloquear el grupo para todo el mundo.
+    ids_tcgdex_ignorados = set(mapeo_guardado.get("ignorar_tcgdex_ids", []))
+    sets_tcgdex = [s for s in sets_tcgdex if s["id"] not in ids_tcgdex_ignorados]
     # Los grupos que se cubren como "catálogo completo" (ver catalogo_tcgcsv más abajo, y
     # procesar_set_catalogo_completo) tampoco son candidatos para el emparejamiento normal —
-    # ya tienen su propio archivo de salida armado directamente desde tcgcsv.
+    # ya tienen su propio archivo de salida armado directamente desde tcgcsv, y no representan
+    # ningún set real de TCGdex con el que puedan compartirse legítimamente.
     catalogo_tcgcsv = mapeo_guardado.get("catalogo_tcgcsv", {})  # setIdSintetico -> groupId
     ignorar = ignorar | set(catalogo_tcgcsv.values())
 
