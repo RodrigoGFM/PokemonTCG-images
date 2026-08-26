@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-08-25T03:10:09Z",
+  "actualizado": "2026-08-25T21:56:16Z",
   "setsCubiertos": 187,
-  "cartasConPrecio": 23032,
+  "cartasConPrecio": 22884,
   "sets": [
     {
       "tcgdexSetId": "2011bw",
@@ -66,6 +66,14 @@
       "tcgplayerNombre": "McDonald's Promos 2019",
       "cartas": 12,
       "puntajeEmparejamiento": 0.75
+    },
+    {
+      "tcgdexSetId": "2021swsh",
+      "tcgdexNombre": "McDonald's Collection 2021",
+      "tcgplayerGroupId": 2782,
+      "tcgplayerNombre": "McDonald's 25th Anniversary Promos",
+      "cartas": 25,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "2022swsh",
@@ -388,14 +396,6 @@
       "puntajeEmparejamiento": 0.788
     },
     {
-      "tcgdexSetId": "ex10",
-      "tcgdexNombre": "Unseen Forces",
-      "tcgplayerGroupId": 1398,
-      "tcgplayerNombre": "EX Unseen Forces",
-      "cartas": 145,
-      "puntajeEmparejamiento": 0.897
-    },
-    {
       "tcgdexSetId": "ex11",
       "tcgdexNombre": "Delta Species",
       "tcgplayerGroupId": 1429,
@@ -408,7 +408,7 @@
       "tcgdexNombre": "Legend Maker",
       "tcgplayerGroupId": 1378,
       "tcgplayerNombre": "EX Legend Maker",
-      "cartas": 91,
+      "cartas": 90,
       "puntajeEmparejamiento": 0.889
     },
     {
@@ -568,7 +568,7 @@
       "tcgdexNombre": "Triumphant",
       "tcgplayerGroupId": 1381,
       "tcgplayerNombre": "Triumphant",
-      "cartas": 104,
+      "cartas": 103,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -652,6 +652,14 @@
       "puntajeEmparejamiento": 0.909
     },
     {
+      "tcgdexSetId": "mep",
+      "tcgdexNombre": "MEP Black Star Promos",
+      "tcgplayerGroupId": 24451,
+      "tcgplayerNombre": "ME: Mega Evolution Promo",
+      "cartas": 116,
+      "puntajeEmparejamiento": null
+    },
+    {
       "tcgdexSetId": "mfb",
       "tcgdexNombre": "My First Battle",
       "tcgplayerGroupId": 23330,
@@ -664,7 +672,7 @@
       "tcgdexNombre": "Miscellaneous Promos",
       "tcgplayerGroupId": 2374,
       "tcgplayerNombre": "Miscellaneous Cards & Products",
-      "cartas": 586,
+      "cartas": 587,
       "puntajeEmparejamiento": 0.75
     },
     {
@@ -704,7 +712,7 @@
       "tcgdexNombre": "Nintendo Black Star Promos",
       "tcgplayerGroupId": 1423,
       "tcgplayerNombre": "Nintendo Promos",
-      "cartas": 71,
+      "cartas": 72,
       "puntajeEmparejamiento": 0.732
     },
     {
@@ -964,14 +972,6 @@
       "puntajeEmparejamiento": 1.0
     },
     {
-      "tcgdexSetId": "sp",
-      "tcgdexNombre": "Sample",
-      "tcgplayerGroupId": 1863,
-      "tcgplayerNombre": "SM Base Set",
-      "cartas": 163,
-      "puntajeEmparejamiento": 0.55
-    },
-    {
       "tcgdexSetId": "sv01",
       "tcgdexNombre": "Scarlet & Violet",
       "tcgplayerGroupId": 22873,
@@ -1112,7 +1112,7 @@
       "tcgdexNombre": "SVP Black Star Promos",
       "tcgplayerGroupId": 22872,
       "tcgplayerNombre": "SV: Scarlet & Violet Promo Cards",
-      "cartas": 279,
+      "cartas": 278,
       "puntajeEmparejamiento": null
     },
     {
@@ -1121,7 +1121,7 @@
       "tcgplayerGroupId": 2585,
       "tcgplayerNombre": "SWSH01: Sword & Shield Base Set",
       "cartas": 216,
-      "puntajeEmparejamiento": 1.05
+      "puntajeEmparejamiento": 1.0
     },
     {
       "tcgdexSetId": "swsh10",
@@ -1296,7 +1296,7 @@
       "tcgdexNombre": "SWSH Black Star Promos",
       "tcgplayerGroupId": 2545,
       "tcgplayerNombre": "SWSH: Sword & Shield Promo Cards",
-      "cartas": 337,
+      "cartas": 338,
       "puntajeEmparejamiento": null
     },
     {
@@ -1546,7 +1546,7 @@
       "tcgdexNombre": "Nintendo Black Star Promos",
       "tcgplayerGroupId": 1423,
       "tcgplayerNombre": "Nintendo Promos",
-      "cartas": 71,
+      "cartas": 72,
       "puntajeEmparejamiento": 0.732
     },
     {
@@ -1556,14 +1556,6 @@
       "tcgplayerNombre": "Rumble",
       "cartas": 16,
       "puntajeEmparejamiento": 0.6
-    },
-    {
-      "tcgdexSetId": "sp",
-      "tcgdexNombre": "Sample",
-      "tcgplayerGroupId": 1863,
-      "tcgplayerNombre": "SM Base Set",
-      "cartas": 163,
-      "puntajeEmparejamiento": 0.55
     },
     {
       "tcgdexSetId": "wp",
@@ -1583,10 +1575,6 @@
     }
   ],
   "tcgdexSinEmparejar": [
-    {
-      "id": "2021swsh",
-      "nombre": "McDonald's Collection 2021"
-    },
     {
       "id": "A1",
       "nombre": "Genetic Apex"
@@ -1648,6 +1636,10 @@
       "nombre": "Wizards Black Star Promos"
     },
     {
+      "id": "ex10",
+      "nombre": "Unseen Forces"
+    },
+    {
       "id": "ex5.5",
       "nombre": "Poké Card Creator Pack"
     },
@@ -1656,12 +1648,12 @@
       "nombre": "Pokémon Futsal 2020"
     },
     {
-      "id": "mep",
-      "nombre": "MEP Black Star Promos"
-    },
-    {
       "id": "smp",
       "nombre": "SM Black Star Promos"
+    },
+    {
+      "id": "sp",
+      "nombre": "Sample"
     },
     {
       "id": "tk-bw-z",
@@ -1710,36 +1702,8 @@
   ],
   "tcgcsvSinEmparejar": [
     {
-      "groupId": 1539,
-      "nombre": "League & Championship Cards"
-    },
-    {
-      "groupId": 1663,
-      "nombre": "Base Set (Shadowless)"
-    },
-    {
-      "groupId": 1840,
-      "nombre": "Deck Exclusives"
-    },
-    {
-      "groupId": 1853,
-      "nombre": "EX Battle Stadium"
-    },
-    {
       "groupId": 1938,
       "nombre": "Alternate Art Promos"
-    },
-    {
-      "groupId": 2155,
-      "nombre": "Countdown Calendar Promos"
-    },
-    {
-      "groupId": 2175,
-      "nombre": "Burger King Promos"
-    },
-    {
-      "groupId": 2205,
-      "nombre": "Pikachu World Collection Promos"
     },
     {
       "groupId": 2208,
@@ -1750,28 +1714,8 @@
       "nombre": "World Championship Decks"
     },
     {
-      "groupId": 2289,
-      "nombre": "Blister Exclusives"
-    },
-    {
-      "groupId": 2332,
-      "nombre": "Professor Program Promos"
-    },
-    {
       "groupId": 2776,
       "nombre": "First Partner Pack"
-    },
-    {
-      "groupId": 2782,
-      "nombre": "McDonald's 25th Anniversary Promos"
-    },
-    {
-      "groupId": 3051,
-      "nombre": "Battle Academy 2022"
-    },
-    {
-      "groupId": 3179,
-      "nombre": "Trick or Trade BOOster Bundle"
     },
     {
       "groupId": 22880,
@@ -1782,24 +1726,8 @@
       "nombre": "Ash vs Team Rocket Deck Kit (JP Exclusive)"
     },
     {
-      "groupId": 23266,
-      "nombre": "Trick or Trade BOOster Bundle 2023"
-    },
-    {
       "groupId": 23323,
       "nombre": "Trading Card Game Classic"
-    },
-    {
-      "groupId": 23520,
-      "nombre": "Battle Academy 2024"
-    },
-    {
-      "groupId": 23561,
-      "nombre": "Trick or Trade BOOster Bundle 2024"
-    },
-    {
-      "groupId": 24451,
-      "nombre": "ME: Mega Evolution Promo"
     },
     {
       "groupId": 24493,
@@ -1812,6 +1740,14 @@
     {
       "groupId": 24831,
       "nombre": "ME06: Delta Reign"
+    }
+  ],
+  "catalogosCompletosTcgcsv": [
+    {
+      "tcgdexSetId": "pwc",
+      "nombre": "Pikachu World Collection Promos",
+      "tcgplayerGroupId": 2205,
+      "cartas": 19
     }
   ]
 }

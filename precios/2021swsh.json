@@ -1,6 +1,532 @@
 {
   "tcgdexSetId": "2021swsh",
-  "tcgplayerGroupId": 24584,
-  "actualizado": "2026-08-25T02:30:28Z",
-  "cartas": []
+  "tcgplayerGroupId": 2782,
+  "actualizado": "2026-08-25T21:54:01Z",
+  "cartas": [
+    {
+      "productId": 232316,
+      "numero": "001/025",
+      "numeroNormalizado": "1",
+      "variantes": {
+        "Normal": {
+          "low": 0.8,
+          "mid": 1.29,
+          "high": 19.8,
+          "market": 1.29,
+          "directLow": null
+        },
+        "Holofoil": {
+          "low": 3.75,
+          "mid": 5.75,
+          "high": 89.94,
+          "market": 6.44,
+          "directLow": 6.99
+        }
+      }
+    },
+    {
+      "productId": 232317,
+      "numero": "002/025",
+      "numeroNormalizado": "2",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.79,
+          "mid": 1.99,
+          "high": 25.6,
+          "market": 1.63,
+          "directLow": null
+        },
+        "Normal": {
+          "low": 0.24,
+          "mid": 0.55,
+          "high": 19.98,
+          "market": 0.49,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232318,
+      "numero": "003/025",
+      "numeroNormalizado": "3",
+      "variantes": {
+        "Normal": {
+          "low": 0.15,
+          "mid": 0.47,
+          "high": 19.98,
+          "market": 0.42,
+          "directLow": null
+        },
+        "Holofoil": {
+          "low": 2.0,
+          "mid": 3.12,
+          "high": 36.5,
+          "market": 2.9,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232319,
+      "numero": "004/025",
+      "numeroNormalizado": "4",
+      "variantes": {
+        "Normal": {
+          "low": 0.25,
+          "mid": 0.5,
+          "high": 19.98,
+          "market": 0.43,
+          "directLow": null
+        },
+        "Holofoil": {
+          "low": 0.99,
+          "mid": 1.75,
+          "high": 19.98,
+          "market": 1.65,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232320,
+      "numero": "005/025",
+      "numeroNormalizado": "5",
+      "variantes": {
+        "Normal": {
+          "low": 0.15,
+          "mid": 0.42,
+          "high": 19.98,
+          "market": 0.38,
+          "directLow": null
+        },
+        "Holofoil": {
+          "low": 0.75,
+          "mid": 1.5,
+          "high": 19.98,
+          "market": 1.48,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232321,
+      "numero": "006/025",
+      "numeroNormalizado": "6",
+      "variantes": {
+        "Normal": {
+          "low": 0.2,
+          "mid": 0.43,
+          "high": 19.98,
+          "market": 0.34,
+          "directLow": null
+        },
+        "Holofoil": {
+          "low": 0.38,
+          "mid": 1.15,
+          "high": 19.98,
+          "market": 0.95,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232322,
+      "numero": "007/025",
+      "numeroNormalizado": "7",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.79,
+          "mid": 1.5,
+          "high": 19.98,
+          "market": 1.19,
+          "directLow": null
+        },
+        "Normal": {
+          "low": 0.27,
+          "mid": 0.47,
+          "high": 19.98,
+          "market": 0.41,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232323,
+      "numero": "008/025",
+      "numeroNormalizado": "8",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.45,
+          "mid": 1.17,
+          "high": 19.22,
+          "market": 1.23,
+          "directLow": 0.86
+        },
+        "Normal": {
+          "low": 0.15,
+          "mid": 0.38,
+          "high": 18.26,
+          "market": 0.3,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232324,
+      "numero": "009/025",
+      "numeroNormalizado": "9",
+      "variantes": {
+        "Holofoil": {
+          "low": 2.0,
+          "mid": 4.9,
+          "high": 88.88,
+          "market": 4.28,
+          "directLow": null
+        },
+        "Normal": {
+          "low": 0.1,
+          "mid": 0.9,
+          "high": 24.99,
+          "market": 0.78,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232325,
+      "numero": "010/025",
+      "numeroNormalizado": "10",
+      "variantes": {
+        "Holofoil": {
+          "low": 1.0,
+          "mid": 2.02,
+          "high": 31.0,
+          "market": 1.91,
+          "directLow": null
+        },
+        "Normal": {
+          "low": 0.18,
+          "mid": 0.57,
+          "high": 20.0,
+          "market": 0.54,
+          "directLow": 0.35
+        }
+      }
+    },
+    {
+      "productId": 232326,
+      "numero": "011/025",
+      "numeroNormalizado": "11",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.95,
+          "mid": 1.75,
+          "high": 19.98,
+          "market": 1.51,
+          "directLow": 1.66
+        },
+        "Normal": {
+          "low": 0.3,
+          "mid": 0.58,
+          "high": 18.06,
+          "market": 0.56,
+          "directLow": 1.0
+        }
+      }
+    },
+    {
+      "productId": 232327,
+      "numero": "012/025",
+      "numeroNormalizado": "12",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.52,
+          "mid": 1.42,
+          "high": 19.98,
+          "market": 1.24,
+          "directLow": null
+        },
+        "Normal": {
+          "low": 0.21,
+          "mid": 0.46,
+          "high": 19.98,
+          "market": 0.4,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232328,
+      "numero": "013/025",
+      "numeroNormalizado": "13",
+      "variantes": {
+        "Normal": {
+          "low": 0.2,
+          "mid": 0.41,
+          "high": 16.72,
+          "market": 0.4,
+          "directLow": 0.25
+        },
+        "Holofoil": {
+          "low": 0.8,
+          "mid": 1.34,
+          "high": 19.98,
+          "market": 1.05,
+          "directLow": 1.21
+        }
+      }
+    },
+    {
+      "productId": 232329,
+      "numero": "014/025",
+      "numeroNormalizado": "14",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.47,
+          "mid": 1.34,
+          "high": 19.98,
+          "market": 1.2,
+          "directLow": null
+        },
+        "Normal": {
+          "low": 0.2,
+          "mid": 0.41,
+          "high": 19.98,
+          "market": 0.36,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232330,
+      "numero": "016/025",
+      "numeroNormalizado": "16",
+      "variantes": {
+        "Normal": {
+          "low": 0.21,
+          "mid": 0.48,
+          "high": 19.98,
+          "market": 0.47,
+          "directLow": null
+        },
+        "Holofoil": {
+          "low": 0.49,
+          "mid": 1.4,
+          "high": 9.99,
+          "market": 1.34,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232331,
+      "numero": "017/025",
+      "numeroNormalizado": "17",
+      "variantes": {
+        "Holofoil": {
+          "low": 5.97,
+          "mid": 11.75,
+          "high": 79.99,
+          "market": 9.62,
+          "directLow": 12.16
+        },
+        "Normal": {
+          "low": 0.74,
+          "mid": 1.65,
+          "high": 96.94,
+          "market": 1.49,
+          "directLow": 1.48
+        }
+      }
+    },
+    {
+      "productId": 232332,
+      "numero": "018/025",
+      "numeroNormalizado": "18",
+      "variantes": {
+        "Normal": {
+          "low": 0.37,
+          "mid": 0.75,
+          "high": 19.98,
+          "market": 0.67,
+          "directLow": null
+        },
+        "Holofoil": {
+          "low": 2.0,
+          "mid": 3.99,
+          "high": 96.95,
+          "market": 3.78,
+          "directLow": 4.67
+        }
+      }
+    },
+    {
+      "productId": 232333,
+      "numero": "019/025",
+      "numeroNormalizado": "19",
+      "variantes": {
+        "Holofoil": {
+          "low": 3.98,
+          "mid": 6.68,
+          "high": 96.95,
+          "market": 6.54,
+          "directLow": 8.13
+        },
+        "Normal": {
+          "low": 0.23,
+          "mid": 0.91,
+          "high": 30.0,
+          "market": 0.91,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232334,
+      "numero": "020/025",
+      "numeroNormalizado": "20",
+      "variantes": {
+        "Normal": {
+          "low": 0.63,
+          "mid": 1.06,
+          "high": 19.98,
+          "market": 1.06,
+          "directLow": null
+        },
+        "Holofoil": {
+          "low": 3.49,
+          "mid": 6.85,
+          "high": 96.95,
+          "market": 6.76,
+          "directLow": 96.94
+        }
+      }
+    },
+    {
+      "productId": 232335,
+      "numero": "021/025",
+      "numeroNormalizado": "21",
+      "variantes": {
+        "Normal": {
+          "low": 0.3,
+          "mid": 0.59,
+          "high": 17.9,
+          "market": 0.57,
+          "directLow": 0.56
+        },
+        "Holofoil": {
+          "low": 0.99,
+          "mid": 2.26,
+          "high": 19.98,
+          "market": 2.26,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232336,
+      "numero": "022/025",
+      "numeroNormalizado": "22",
+      "variantes": {
+        "Normal": {
+          "low": 0.15,
+          "mid": 0.44,
+          "high": 15.0,
+          "market": 0.39,
+          "directLow": null
+        },
+        "Holofoil": {
+          "low": 0.62,
+          "mid": 1.63,
+          "high": 19.98,
+          "market": 1.64,
+          "directLow": 2.97
+        }
+      }
+    },
+    {
+      "productId": 232337,
+      "numero": "023/025",
+      "numeroNormalizado": "23",
+      "variantes": {
+        "Normal": {
+          "low": 0.1,
+          "mid": 0.5,
+          "high": 19.42,
+          "market": 0.41,
+          "directLow": 0.39
+        },
+        "Holofoil": {
+          "low": 1.5,
+          "mid": 2.78,
+          "high": 96.95,
+          "market": 2.69,
+          "directLow": 1.75
+        }
+      }
+    },
+    {
+      "productId": 232338,
+      "numero": "024/025",
+      "numeroNormalizado": "24",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.9,
+          "mid": 3.67,
+          "high": 96.95,
+          "market": 3.28,
+          "directLow": null
+        },
+        "Normal": {
+          "low": 0.15,
+          "mid": 0.58,
+          "high": 19.98,
+          "market": 0.62,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 232339,
+      "numero": "025/025",
+      "numeroNormalizado": "25",
+      "variantes": {
+        "Normal": {
+          "low": 2.5,
+          "mid": 4.48,
+          "high": 96.95,
+          "market": 4.16,
+          "directLow": 3.22
+        },
+        "Holofoil": {
+          "low": 13.64,
+          "mid": 27.05,
+          "high": 146.8,
+          "market": 24.23,
+          "directLow": 13.64
+        }
+      }
+    },
+    {
+      "productId": 232341,
+      "numero": "015/025",
+      "numeroNormalizado": "15",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.34,
+          "mid": 1.21,
+          "high": 9.99,
+          "market": 0.91,
+          "directLow": null
+        },
+        "Normal": {
+          "low": 0.19,
+          "mid": 0.44,
+          "high": 19.98,
+          "market": 0.42,
+          "directLow": null
+        }
+      }
+    }
+  ]
 }
