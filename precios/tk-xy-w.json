@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-08-26T06:38:34Z",
+  "actualizado": "2026-08-26T21:38:49Z",
   "cartas": [
     {
       "productId": 98147,
@@ -66,8 +66,8 @@
       "variantes": {
         "Normal": {
           "low": 1.0,
-          "mid": 1.08,
-          "high": 1.16,
+          "mid": 1.0,
+          "high": 1.0,
           "market": 1.0,
           "directLow": null
         }
@@ -192,7 +192,7 @@
       "variantes": {
         "Normal": {
           "low": 1.0,
-          "mid": 2.25,
+          "mid": 2.5,
           "high": 37.9,
           "market": 1.0,
           "directLow": null
@@ -340,42 +340,14 @@
       }
     },
     {
-      "productId": 98182,
-      "numero": "7/30",
-      "numeroNormalizado": "7",
-      "variantes": {
-        "Normal": {
-          "low": 2.5,
-          "mid": 2.5,
-          "high": 2.5,
-          "market": null,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98183,
-      "numero": "8/30",
-      "numeroNormalizado": "8",
-      "variantes": {
-        "Normal": {
-          "low": 3.53,
-          "mid": 3.53,
-          "high": 3.53,
-          "market": 2.0,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 98184,
       "numero": "9/30",
       "numeroNormalizado": "9",
       "variantes": {
         "Normal": {
-          "low": 2.81,
-          "mid": 2.81,
-          "high": 2.81,
+          "low": 2.73,
+          "mid": 2.73,
+          "high": 2.73,
           "market": 1.35,
           "directLow": null
         }
@@ -401,9 +373,9 @@
       "numeroNormalizado": "22",
       "variantes": {
         "Normal": {
-          "low": 2.81,
-          "mid": 2.81,
-          "high": 2.81,
+          "low": 2.73,
+          "mid": 2.73,
+          "high": 2.73,
           "market": 1.35,
           "directLow": null
         }
@@ -555,8 +527,8 @@
       "numeroNormalizado": "23",
       "variantes": {
         "Normal": {
-          "low": 1.99,
-          "mid": 15.56,
+          "low": 5.95,
+          "mid": 25.0,
           "high": 61.1,
           "market": 6.26,
           "directLow": null
@@ -570,7 +542,7 @@
       "variantes": {
         "Normal": {
           "low": 0.2,
-          "mid": 1.11,
+          "mid": 1.03,
           "high": 43.3,
           "market": 1.03,
           "directLow": null
