@@ -1,2 +1,0 @@
-/*! For license information please see vendor.escape-html.56803ebe.js.LICENSE.txt */
-"use strict";(globalThis.webpackChunktcgcollector=globalThis.webpackChunktcgcollector||[]).push([[358],{580(e){var a=/["'&<>]/;e.exports=function(e){var r,t=""+e,c=a.exec(t);if(!c)return t;var s="",n=0,o=0;for(n=c.index;n<t.length;n++){switch(t.charCodeAt(n)){case 34:r="&quot;";break;case 38:r="&amp;";break;case 39:r="&#39;";break;case 60:r="&lt;";break;case 62:r="&gt;";break;default:continue}o!==n&&(s+=t.substring(o,n)),o=n+1,s+=r}return o!==n?s+t.substring(o,n):s}}}]);
