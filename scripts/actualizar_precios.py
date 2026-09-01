@@ -53,7 +53,19 @@ _urllib3_conexion.allowed_gai_family = _forzar_ipv4
 # --- Configuración ---
 
 TCGCSV_BASE = "https://tcgcsv.com"
-TCGDEX_BASE = "https://api.tcgdex.net/v2/en"
+# api.tcgdex.net tiene espejos regionales (na2/eu1/eu2) que resuelven a IPs DISTINTAS entre sí
+# (confirmado por DNS: na2 apunta a la misma IP que el dominio genérico, eu1 y eu2 son servidores
+# realmente distintos). Como la corrida real en GitHub Actions falló dos veces seguidas contra el
+# dominio genérico con "Network is unreachable" (ver commit sobre IPv4 forzado, más arriba), se
+# prueba una lista de hosts en orden y se seguir con el próximo si uno falla — así, si el problema
+# es específico de la ruta de red hacia esa IP en particular (y no algo que el forzado de IPv4 ya
+# resuelva del todo), un espejo en otra región puede seguir funcionando igual.
+TCGDEX_BASES = [
+    "https://api.eu1.tcgdex.net/v2/en",
+    "https://api.eu2.tcgdex.net/v2/en",
+    "https://api.na2.tcgdex.net/v2/en",
+    "https://api.tcgdex.net/v2/en",
+]
 CATEGORIA_POKEMON_NOMBRE = "pokemon"  # se busca por nombre, no se asume el ID fijo
 PAUSA_ENTRE_PEDIDOS = 0.3  # segundos, más conservador que el mínimo sugerido por tcgcsv.com
 
@@ -81,6 +93,20 @@ def pedir_json(url, params=None, headers=None):
             ultimo_error = e
             time.sleep(1.5 * (intento + 1))
     raise RuntimeError(f"No se pudo obtener {url}: {ultimo_error}")
+
+
+def pedir_json_tcgdex(ruta):
+    """Como pedir_json, pero probando cada host de TCGDEX_BASES en orden — si uno falla (ej. un
+    espejo regional con problemas de red puntuales), sigue con el próximo en vez de rendirse.
+    `ruta` es la parte después de la base, ej. "/sets" o "/sets/base1"."""
+    ultimo_error = None
+    for base in TCGDEX_BASES:
+        try:
+            return pedir_json(f"{base}{ruta}")
+        except Exception as e:  # noqa: BLE001
+            print(f"  Aviso: {base}{ruta} falló ({e}), probando el próximo host de TCGdex...")
+            ultimo_error = e
+    raise RuntimeError(f"Ningún host de TCGdex respondió para {ruta}: {ultimo_error}")
 
 
 def normalizar_nombre(texto):
@@ -181,7 +207,7 @@ def obtener_grupos_tcgcsv(category_id):
 
 def obtener_sets_tcgdex():
     # Set "brief": id, name, releaseDate, symbol, logo, cardCount — ver TcgSetInfo en TcgModels.kt
-    return pedir_json(f"{TCGDEX_BASE}/sets")
+    return pedir_json_tcgdex("/sets")
 
 
 def obtener_cartas_tcgdex_de_set(tcgdex_id):
@@ -189,7 +215,7 @@ def obtener_cartas_tcgdex_de_set(tcgdex_id):
     name/image). Solo se pide para sets que lo necesitan (ver cruzar_por_nombre) — no para los
     ~200 sets normales, que ya se cruzan por número sin tener que bajar sus cartas."""
     try:
-        detalle = pedir_json(f"{TCGDEX_BASE}/sets/{tcgdex_id}")
+        detalle = pedir_json_tcgdex(f"/sets/{tcgdex_id}")
     except Exception as e:  # noqa: BLE001
         print(f"  ERROR al pedir el detalle de {tcgdex_id} para cruzar por nombre: {e}")
         return []
