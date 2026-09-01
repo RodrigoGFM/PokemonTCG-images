@@ -36,6 +36,20 @@ from difflib import SequenceMatcher
 
 import requests
 
+# GitHub Actions (runners "ubuntu-latest") no tiene salida IPv6 confiable — api.tcgdex.net
+# publica un registro AAAA además del A, y en algunas corridas el runner intenta conectarse por
+# IPv6 primero y falla con "Network is unreachable" (errno 101) antes de probar IPv4 (mismo
+# problema documentado en https://github.com/actions/runner-images/issues/668). tcgcsv.com no
+# mostró el mismo síntoma en las corridas reales, pero como también publica AAAA, se fuerza IPv4
+# para las dos por las dudas — ninguna de las dos necesita IPv6 para funcionar.
+import socket
+import urllib3.util.connection as _urllib3_conexion
+
+def _forzar_ipv4():
+    return socket.AF_INET
+
+_urllib3_conexion.allowed_gai_family = _forzar_ipv4
+
 # --- Configuración ---
 
 TCGCSV_BASE = "https://tcgcsv.com"
