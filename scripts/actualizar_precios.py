@@ -313,6 +313,7 @@ def procesar_set(tcgdex_id, group_id):
         precios_por_producto.setdefault(p["productId"], []).append(p)
 
     numero_por_producto = {}
+    nombre_por_producto = {prod["productId"]: prod.get("name") for prod in productos}
     for prod in productos:
         numero = None
         for campo in prod.get("extendedData", []) or []:
@@ -331,6 +332,16 @@ def procesar_set(tcgdex_id, group_id):
     if productos and not numero_por_producto:
         numero_por_producto = cruzar_por_nombre(productos, tcgdex_id)
 
+    # Cuántos productos comparten el mismo número normalizado dentro de este set — en sets viejos
+    # (Base Set, Jungle, Fossil, etc.) una misma carta puede tener varios PRODUCTOS separados en
+    # TCGplayer (ej. Unlimited / Shadowless / 1st Edition de un mismo Charizard), cada uno con su
+    # propio productId, en vez de ser sub-precios de un solo producto. Ver "precios-tcgplayer.md"
+    # -> sección de variantes viejas para el detalle completo de por qué hace falta esto.
+    conteo_por_numero = {}
+    for product_id, numero in numero_por_producto.items():
+        clave = normalizar_numero(numero)
+        conteo_por_numero[clave] = conteo_por_numero.get(clave, 0) + 1
+
     entradas = []
     for product_id, filas_precio in precios_por_producto.items():
         numero = numero_por_producto.get(product_id)
@@ -346,12 +357,18 @@ def procesar_set(tcgdex_id, group_id):
                 "market": fila.get("marketPrice"),
                 "directLow": fila.get("directLowPrice"),
             }
-        entradas.append({
+        entrada = {
             "productId": product_id,
             "numero": numero,
             "numeroNormalizado": normalizar_numero(numero),
             "variantes": variantes,
-        })
+        }
+        # Solo se manda el nombre real del producto de tcgcsv cuando hace falta para desambiguar
+        # (más de un producto comparte este número) — para los ~200 sets normales sin este
+        # problema, no se repite ningún dato que la app ya tenga por TCGdex.
+        if conteo_por_numero.get(normalizar_numero(numero), 0) > 1:
+            entrada["nombreProducto"] = nombre_por_producto.get(product_id)
+        entradas.append(entrada)
 
     return {
         "tcgdexSetId": tcgdex_id,
