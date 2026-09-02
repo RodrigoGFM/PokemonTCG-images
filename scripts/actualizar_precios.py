@@ -280,10 +280,11 @@ def cargar_mapeo_existente():
             datos = json.load(f)
             datos.setdefault("catalogo_tcgcsv", {})
             datos.setdefault("ignorar_tcgdex_ids", [])
+            datos.setdefault("gruposAdicionales", {})
             return datos
     return {
         "manual": {}, "ignorar_group_ids": [], "automatico": {}, "catalogo_tcgcsv": {},
-        "ignorar_tcgdex_ids": [],
+        "ignorar_tcgdex_ids": [], "gruposAdicionales": {},
     }
 
 
@@ -333,7 +334,8 @@ def construir_mapeo(grupos_tcgcsv, sets_tcgdex):
     mapeo_guardado["automatico"] = {k: v for k, v in automatico.items() if k not in manual}
     guardar_mapeo(mapeo_guardado)
 
-    return mapeo_final, tcgdex_sin_emparejar, grupos_sin_emparejar, catalogo_tcgcsv
+    grupos_adicionales = mapeo_guardado.get("gruposAdicionales", {})
+    return mapeo_final, tcgdex_sin_emparejar, grupos_sin_emparejar, catalogo_tcgcsv, grupos_adicionales
 
 
 def guardar_mapeo(mapeo_guardado):
@@ -344,9 +346,18 @@ def guardar_mapeo(mapeo_guardado):
 
 # --- Paso 3: por cada set emparejado, traer productos + precios y armar el JSON de salida ---
 
-def procesar_set(tcgdex_id, group_id):
-    productos = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{group_id}/products").get("results", [])
-    precios = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{group_id}/prices").get("results", [])
+def procesar_set(tcgdex_id, group_id, grupos_adicionales=None):
+    """`grupos_adicionales`: IDs de grupo de tcgcsv EXTRA para fusionar en el mismo archivo de
+    salida, ademas de `group_id` -- caso real: TCGplayer separa "Generations" (g1, groupId 1728)
+    de su subset "Generations: Radiant Collection" (groupId 1729) en dos grupos DISTINTOS, pero
+    TCGdex trata todo como un solo set g1 (localIds "RC1".."RC32" para el subset) -- sin esto,
+    esas 32 cartas nunca tienen precio porque su groupId real jamas se consulta."""
+    grupos = [group_id] + list(grupos_adicionales or [])
+    productos = []
+    precios = []
+    for gid in grupos:
+        productos.extend(pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/products").get("results", []))
+        precios.extend(pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/prices").get("results", []))
 
     precios_por_producto = {}
     for p in precios:
@@ -410,12 +421,15 @@ def procesar_set(tcgdex_id, group_id):
             entrada["nombreProducto"] = nombre_por_producto.get(product_id)
         entradas.append(entrada)
 
-    return {
+    salida = {
         "tcgdexSetId": tcgdex_id,
         "tcgplayerGroupId": group_id,
         "actualizado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "cartas": entradas,
     }
+    if grupos_adicionales:
+        salida["tcgplayerGruposAdicionales"] = list(grupos_adicionales)
+    return salida
 
 
 def procesar_set_catalogo_completo(set_id, group_id, nombre_set):
@@ -500,7 +514,7 @@ def main():
     print(f"  {len(sets_tcgdex)} sets encontrados.")
 
     print("Emparejando sets...")
-    mapeo, tcgdex_sin_emparejar, grupos_sin_emparejar, catalogo_tcgcsv = construir_mapeo(
+    mapeo, tcgdex_sin_emparejar, grupos_sin_emparejar, catalogo_tcgcsv, grupos_adicionales = construir_mapeo(
         grupos, sets_tcgdex
     )
     print(f"  {len(mapeo)} sets emparejados, {len(tcgdex_sin_emparejar)} sets de TCGdex sin "
@@ -514,8 +528,9 @@ def main():
     print(f"Descargando precios de {len(mapeo)} sets emparejados...")
     for i, (tcgdex_id, info) in enumerate(sorted(mapeo.items()), start=1):
         group_id = info["groupId"]
+        extra = grupos_adicionales.get(tcgdex_id, [])
         try:
-            salida = procesar_set(tcgdex_id, group_id)
+            salida = procesar_set(tcgdex_id, group_id, extra)
         except Exception as e:  # noqa: BLE001
             print(f"  [{i}/{len(mapeo)}] ERROR en {tcgdex_id} (group {group_id}): {e}")
             continue
