@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-02T23:32:29Z",
+  "actualizado": "2026-09-03T23:29:05Z",
   "setsCubiertos": 188,
-  "cartasConPrecio": 23269,
+  "cartasConPrecio": 23278,
   "sets": [
     {
       "tcgdexSetId": "2011bw",
@@ -104,7 +104,7 @@
       "tcgdexNombre": "Promos-A",
       "tcgplayerGroupId": 1861,
       "tcgplayerNombre": "SM Promos",
-      "cartas": 307,
+      "cartas": 308,
       "puntajeEmparejamiento": 0.706
     },
     {
@@ -152,7 +152,7 @@
       "tcgdexNombre": "Wizards Black Star Promos",
       "tcgplayerGroupId": 1418,
       "tcgplayerNombre": "WoTC Promo",
-      "cartas": 64,
+      "cartas": 66,
       "puntajeEmparejamiento": null
     },
     {
@@ -600,7 +600,7 @@
       "tcgdexNombre": "Jumbo cards",
       "tcgplayerGroupId": 1528,
       "tcgplayerNombre": "Jumbo Cards",
-      "cartas": 275,
+      "cartas": 278,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -672,7 +672,7 @@
       "tcgdexNombre": "MEP Black Star Promos",
       "tcgplayerGroupId": 24451,
       "tcgplayerNombre": "ME: Mega Evolution Promo",
-      "cartas": 117,
+      "cartas": 118,
       "puntajeEmparejamiento": null
     },
     {
@@ -744,7 +744,7 @@
       "tcgdexNombre": "Rising Rivals",
       "tcgplayerGroupId": 1367,
       "tcgplayerNombre": "Rising Rivals",
-      "cartas": 120,
+      "cartas": 119,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -1364,12 +1364,20 @@
       "puntajeEmparejamiento": 0.862
     },
     {
-      "tcgdexSetId": "tk-xy-latia",
-      "tcgdexNombre": "XY trainer Kit (Latias)",
+      "tcgdexSetId": "tk-xy-latio",
+      "tcgdexNombre": "XY trainer Kit (Latios)",
       "tcgplayerGroupId": 1536,
       "tcgplayerNombre": "XY Trainer Kit: Latias & Latios",
       "cartas": 60,
       "puntajeEmparejamiento": 0.857
+    },
+    {
+      "tcgdexSetId": "tk-xy-n",
+      "tcgdexNombre": "XY trainer Kit (Noivern)",
+      "tcgplayerGroupId": 1532,
+      "tcgplayerNombre": "XY Trainer Kit: Sylveon & Noivern",
+      "cartas": 60,
+      "puntajeEmparejamiento": 0.846
     },
     {
       "tcgdexSetId": "tk-xy-p",
@@ -1380,19 +1388,11 @@
       "puntajeEmparejamiento": 0.875
     },
     {
-      "tcgdexSetId": "tk-xy-sy",
-      "tcgdexNombre": "XY trainer Kit (Sylveon)",
-      "tcgplayerGroupId": 1532,
-      "tcgplayerNombre": "XY Trainer Kit: Sylveon & Noivern",
-      "cartas": 60,
-      "puntajeEmparejamiento": 0.846
-    },
-    {
       "tcgdexSetId": "tk-xy-w",
       "tcgdexNombre": "XY trainer Kit (Wigglytuff)",
       "tcgplayerGroupId": 1533,
       "tcgplayerNombre": "XY Trainer Kit: Bisharp & Wigglytuff",
-      "cartas": 44,
+      "cartas": 47,
       "puntajeEmparejamiento": 0.862
     },
     {
@@ -1514,7 +1514,7 @@
       "tcgdexNombre": "Promos-A",
       "tcgplayerGroupId": 1861,
       "tcgplayerNombre": "SM Promos",
-      "cartas": 307,
+      "cartas": 308,
       "puntajeEmparejamiento": 0.706
     },
     {
@@ -1664,16 +1664,16 @@
       "nombre": "XY trainer Kit (Bisharp)"
     },
     {
-      "id": "tk-xy-latio",
-      "nombre": "XY trainer Kit (Latios)"
-    },
-    {
-      "id": "tk-xy-n",
-      "nombre": "XY trainer Kit (Noivern)"
+      "id": "tk-xy-latia",
+      "nombre": "XY trainer Kit (Latias)"
     },
     {
       "id": "tk-xy-su",
       "nombre": "XY trainer Kit (Suicune)"
+    },
+    {
+      "id": "tk-xy-sy",
+      "nombre": "XY trainer Kit (Sylveon)"
     },
     {
       "id": "xya",
