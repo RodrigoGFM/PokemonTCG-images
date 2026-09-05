@@ -88,6 +88,35 @@ Para corregir un emparejamiento a mano (o agregar uno que el algoritmo no encont
 - `numeroNormalizado` quita ceros a la izquierda y el "/total" (ej. "094/195" → "94"), para poder
   compararlo con el `localId` de TCGdex sin preocuparse por el formato exacto.
 
+## Formato de `precios_historial/<setId>.json`
+
+Historial diario de precio por carta, para graficar el precio en el tiempo en el detalle de cada
+carta de la app -- se genera y actualiza en la MISMA corrida que arma `precios/<setId>.json`, un
+punto por carta por día (nunca más de uno por día, sin importar cuántas veces se dispare el
+workflow ese día). Indexado por `numeroNormalizado` (igual que la app ya cruza `precios/<setId>.json`
+contra el `localId` de TCGdex), no por `productId`, para que un mismo número de carta acumule un
+solo historial aunque tcgcsv le cambie el productId de un año a otro:
+
+```json
+{
+  "94": [
+    { "fecha": "2026-08-25", "precio": 2.1 },
+    { "fecha": "2026-08-26", "precio": 2.35 }
+  ]
+}
+```
+
+`precio` es el mismo criterio "representativo" que ya usa la app para ordenar el catálogo por
+precio (de cada variante: market, si no mid, si no low, si no high, si no directLow -- y el mayor
+entre todas las variantes de la carta), no el precio exacto de una variante puntual. Se recorta a
+los últimos 1000 días (`MAX_PUNTOS_HISTORIAL` en el script) para no dejar crecer el archivo para
+siempre.
+
+Se guarda SEPARADO de `precios/<setId>.json` a propósito: la app solo necesita bajar este archivo
+cuando el usuario realmente abre el gráfico de precio de una carta de ese set (mismo patrón de
+descarga perezosa y cache de 24hs que ya usa para el precio del día), no cada vez que pide el
+precio actual de una carta.
+
 ## Próximo paso
 
 Una vez que corra bien y el `index.json` se vea razonable (la mayoría de los sets emparejados,

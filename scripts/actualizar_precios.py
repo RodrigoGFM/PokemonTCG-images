@@ -75,6 +75,20 @@ HEADERS = {"User-Agent": "PokedexApp-PriceSync/1.0 (contacto: rgformenti@gmail.c
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIR_PRECIOS = os.path.join(RAIZ, "precios")
 ARCHIVO_MAPEO = os.path.join(RAIZ, "mapeo-sets.json")
+# Historial diario de precio por carta -- a pedido del usuario ("guardar el precio de cartas
+# diariamente para poder generar gráficos de coste con el tiempo"), pensado para graficarse en el
+# detalle de cada carta de la app. Se guarda ACÁ (server-side, en este mismo repo, un archivo por
+# set) en vez de que cada instalación de la app arme su propio historial local: así todos los
+# usuarios ven la MISMA historia completa (incluso la de antes de instalar la app o de abrirla un
+# día puntual), se calcula UNA sola vez para todo el mundo en vez de una vez por dispositivo, y la
+# app solo tiene que bajar el archivo de ESTE set cuando el usuario realmente abre el gráfico de
+# precio de una carta de ese set (mismo patrón de descarga perezosa y cacheada 24hs que ya usa
+# para precios/<setId>.json), no escanear el catálogo entero todos los días.
+DIR_PRECIOS_HISTORIAL = os.path.join(RAIZ, "precios_historial")
+
+# ~2.7 años de puntos diarios antes de empezar a descartar los más viejos -- mismo límite que se
+# había usado en el primer intento (fallido, ver commit) de este feature del lado de la app.
+MAX_PUNTOS_HISTORIAL = 1000
 
 # Umbral mínimo de similitud de nombre para considerar dos sets como "el mismo" (0 a 1).
 UMBRAL_SIMILITUD = 0.55
@@ -346,6 +360,82 @@ def guardar_mapeo(mapeo_guardado):
 
 # --- Paso 3: por cada set emparejado, traer productos + precios y armar el JSON de salida ---
 
+def precio_representativo(variantes):
+    """Precio "representativo" de UNA carta a partir de sus variantes de precio -- mismo criterio
+    que ya usa la app para ordenar el catálogo completo por precio (ver
+    TcgManager.obtenerPreciosParaCatalogo en el proyecto de la app): de cada variante se toma
+    market, o si no hay mid, o si no hay low, o si no hay high, o si no hay directLow -- y entre
+    todas las variantes de la carta, el MAYOR de esos valores. No pretende ser el precio "correcto"
+    de una variante puntual, solo un único número por carta por día que alcance para un gráfico de
+    tendencia."""
+    valores = []
+    for variante in variantes.values():
+        valor = variante.get("market")
+        for campo in ("mid", "low", "high", "directLow"):
+            if valor is not None:
+                break
+            valor = variante.get(campo)
+        if valor is not None:
+            valores.append(valor)
+    return max(valores) if valores else None
+
+
+def cargar_historial_existente(set_id):
+    ruta = os.path.join(DIR_PRECIOS_HISTORIAL, f"{set_id}.json")
+    if not os.path.exists(ruta):
+        return {}
+    try:
+        with open(ruta, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:  # noqa: BLE001 - archivo corrupto o de un formato viejo, se reconstruye
+        return {}
+
+
+def actualizar_historial_de_set(set_id, entradas, hoy):
+    """Agrega, en precios_historial/<set_id>.json, un punto de precio de HOY por cada número de
+    carta distinto de este set -- separado de precios/<set_id>.json a propósito (ver el comentario
+    de DIR_PRECIOS_HISTORIAL más arriba). Si ya hay un punto de hoy (ej. el workflow se disparó más
+    de una vez el mismo día) no se duplica: el historial guarda un punto por DÍA, no por corrida.
+    Indexado por `numeroNormalizado`, igual que ya usa la app para cruzar precios/<set_id>.json
+    contra el `localId` de TCGdex -- así el lado de la app no necesita ningún cruce nuevo.
+
+    Cuando más de un producto de tcgcsv comparte el mismo numeroNormalizado dentro de este set
+    (sets viejos con Unlimited/Shadowless/1ra Edición como productos separados, ver
+    "nombreProducto" en procesar_set) se guarda el MAYOR precio representativo entre ellos -- el
+    historial es para graficar una tendencia, no para distinguir esas variantes puntuales."""
+    historial = cargar_historial_existente(set_id)
+
+    precio_por_numero = {}
+    for entrada in entradas:
+        precio = precio_representativo(entrada.get("variantes", {}))
+        if precio is None:
+            continue
+        numero = entrada["numeroNormalizado"]
+        if precio_por_numero.get(numero) is None or precio > precio_por_numero[numero]:
+            precio_por_numero[numero] = precio
+
+    if not precio_por_numero:
+        return  # ninguna carta de este set tiene precio hoy -- no tocamos su historial
+
+    cambio = False
+    for numero, precio in precio_por_numero.items():
+        puntos = historial.setdefault(numero, [])
+        if puntos and puntos[-1]["fecha"] == hoy:
+            continue
+        puntos.append({"fecha": hoy, "precio": precio})
+        if len(puntos) > MAX_PUNTOS_HISTORIAL:
+            del puntos[: len(puntos) - MAX_PUNTOS_HISTORIAL]
+        cambio = True
+
+    if not cambio:
+        return
+
+    os.makedirs(DIR_PRECIOS_HISTORIAL, exist_ok=True)
+    with open(os.path.join(DIR_PRECIOS_HISTORIAL, f"{set_id}.json"), "w", encoding="utf-8") as f:
+        json.dump(historial, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write("\n")
+
+
 def procesar_set(tcgdex_id, group_id, grupos_adicionales=None):
     """`grupos_adicionales`: IDs de grupo de tcgcsv EXTRA para fusionar en el mismo archivo de
     salida, ademas de `group_id` -- caso real: TCGplayer separa "Generations" (g1, groupId 1728)
@@ -501,6 +591,7 @@ def procesar_set_catalogo_completo(set_id, group_id, nombre_set):
 
 def main():
     os.makedirs(DIR_PRECIOS, exist_ok=True)
+    hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     print("Buscando categoría Pokémon en tcgcsv.com...")
     category_id = obtener_categoria_pokemon()
@@ -537,6 +628,7 @@ def main():
         with open(os.path.join(DIR_PRECIOS, f"{tcgdex_id}.json"), "w", encoding="utf-8") as f:
             json.dump(salida, f, ensure_ascii=False, indent=2)
             f.write("\n")
+        actualizar_historial_de_set(tcgdex_id, salida["cartas"], hoy)
         total_cartas_con_precio += len(salida["cartas"])
         resumen_sets.append({
             "tcgdexSetId": tcgdex_id,
@@ -578,6 +670,7 @@ def main():
         with open(os.path.join(DIR_PRECIOS, f"{set_id}.json"), "w", encoding="utf-8") as f:
             json.dump(salida, f, ensure_ascii=False, indent=2)
             f.write("\n")
+        actualizar_historial_de_set(set_id, salida["cartas"], hoy)
         total_cartas_con_precio += len(salida["cartas"])
         catalogos_completos.append({
             "tcgdexSetId": set_id,
