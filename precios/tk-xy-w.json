@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-09-05T23:10:09Z",
+  "actualizado": "2026-09-06T23:00:41Z",
   "cartas": [
     {
       "productId": 98147,
@@ -32,36 +32,6 @@
         }
       },
       "nombreProducto": "Metal Energy (#5)"
-    },
-    {
-      "productId": 98152,
-      "numero": "7/30",
-      "numeroNormalizado": "7",
-      "variantes": {
-        "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
-          "high": 1.0,
-          "market": 1.0,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Metal Energy (#7)"
-    },
-    {
-      "productId": 98153,
-      "numero": "8/30",
-      "numeroNormalizado": "8",
-      "variantes": {
-        "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
-          "high": 1.0,
-          "market": null,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Metal Energy (#8)"
     },
     {
       "productId": 98154,
@@ -144,7 +114,7 @@
       "numeroNormalizado": "15",
       "variantes": {
         "Normal": {
-          "low": 0.85,
+          "low": 1.0,
           "mid": 19.98,
           "high": 20.97,
           "market": 1.0,
@@ -159,8 +129,8 @@
       "numeroNormalizado": "16",
       "variantes": {
         "Normal": {
-          "low": 0.48,
-          "mid": 0.97,
+          "low": 0.49,
+          "mid": 0.99,
           "high": 19.98,
           "market": 0.86,
           "directLow": null
@@ -190,7 +160,7 @@
       "variantes": {
         "Normal": {
           "low": 0.25,
-          "mid": 0.39,
+          "mid": 0.4,
           "high": 19.98,
           "market": 0.4,
           "directLow": null
@@ -369,29 +339,14 @@
       "numeroNormalizado": "9",
       "variantes": {
         "Normal": {
-          "low": 2.46,
-          "mid": 2.46,
-          "high": 2.46,
+          "low": 2.44,
+          "mid": 2.44,
+          "high": 2.44,
           "market": 1.35,
           "directLow": null
         }
       },
       "nombreProducto": "Fairy Energy (#9)"
-    },
-    {
-      "productId": 98185,
-      "numero": "10/30",
-      "numeroNormalizado": "10",
-      "variantes": {
-        "Normal": {
-          "low": 0.5,
-          "mid": 0.5,
-          "high": 0.5,
-          "market": 0.81,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#10)"
     },
     {
       "productId": 98186,
@@ -414,9 +369,9 @@
       "numeroNormalizado": "22",
       "variantes": {
         "Normal": {
-          "low": 2.46,
-          "mid": 2.46,
-          "high": 2.46,
+          "low": 2.44,
+          "mid": 2.44,
+          "high": 2.44,
           "market": 1.35,
           "directLow": null
         }
@@ -444,8 +399,8 @@
       "numeroNormalizado": "11",
       "variantes": {
         "Normal": {
-          "low": 20.0,
-          "mid": 49.84,
+          "low": 10.0,
+          "mid": 49.68,
           "high": 136.0,
           "market": 10.34,
           "directLow": null
@@ -459,7 +414,7 @@
       "numeroNormalizado": "12",
       "variantes": {
         "Normal": {
-          "low": 44.0,
+          "low": 5.32,
           "mid": 44.0,
           "high": 44.0,
           "market": 5.32,
@@ -482,6 +437,21 @@
         }
       },
       "nombreProducto": "Clefairy (#13)"
+    },
+    {
+      "productId": 98194,
+      "numero": "14/30",
+      "numeroNormalizado": "14",
+      "variantes": {
+        "Normal": {
+          "low": 6.1,
+          "mid": 6.1,
+          "high": 6.1,
+          "market": 6.71,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Wigglytuff (#14 Non-Holo)"
     },
     {
       "productId": 98195,
@@ -550,8 +520,8 @@
       "variantes": {
         "Normal": {
           "low": 5.74,
-          "mid": 5.74,
-          "high": 5.74,
+          "mid": 7.87,
+          "high": 9.99,
           "market": 9.74,
           "directLow": null
         }
@@ -564,8 +534,8 @@
       "numeroNormalizado": "23",
       "variantes": {
         "Normal": {
-          "low": 4.5,
-          "mid": 27.0,
+          "low": 1.99,
+          "mid": 15.56,
           "high": 61.1,
           "market": 6.03,
           "directLow": null
