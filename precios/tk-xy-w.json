@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-09-14T23:58:57Z",
+  "actualizado": "2026-09-15T23:37:57Z",
   "cartas": [
     {
       "productId": 98147,
@@ -34,13 +34,43 @@
       "nombreProducto": "Metal Energy (#2)"
     },
     {
+      "productId": 98152,
+      "numero": "7/30",
+      "numeroNormalizado": "7",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": 1.0,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#7)"
+    },
+    {
+      "productId": 98153,
+      "numero": "8/30",
+      "numeroNormalizado": "8",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#8)"
+    },
+    {
       "productId": 98154,
       "numero": "9/30",
       "numeroNormalizado": "9",
       "variantes": {
         "Normal": {
-          "low": 1.0,
-          "mid": 1.08,
+          "low": 1.16,
+          "mid": 1.16,
           "high": 1.16,
           "market": 1.0,
           "directLow": null
@@ -189,8 +219,8 @@
       "numeroNormalizado": "21",
       "variantes": {
         "Normal": {
-          "low": 2.25,
-          "mid": 2.84,
+          "low": 2.24,
+          "mid": 2.78,
           "high": 19.98,
           "market": 0.62,
           "directLow": null
@@ -220,7 +250,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 2.86,
+          "mid": 2.03,
           "high": 33.0,
           "market": 1.99,
           "directLow": null
@@ -325,7 +355,7 @@
       "variantes": {
         "Normal": {
           "low": 1.9,
-          "mid": 4.0,
+          "mid": 4.13,
           "high": 38.0,
           "market": 3.8,
           "directLow": null
@@ -339,9 +369,9 @@
       "numeroNormalizado": "9",
       "variantes": {
         "Normal": {
-          "low": 2.27,
-          "mid": 2.27,
-          "high": 2.27,
+          "low": 2.25,
+          "mid": 2.25,
+          "high": 2.25,
           "market": 0.1,
           "directLow": null
         }
@@ -369,9 +399,9 @@
       "numeroNormalizado": "22",
       "variantes": {
         "Normal": {
-          "low": 2.27,
-          "mid": 2.27,
-          "high": 2.27,
+          "low": 2.25,
+          "mid": 2.25,
+          "high": 2.25,
           "market": 1.35,
           "directLow": null
         }
@@ -414,7 +444,7 @@
       "numeroNormalizado": "12",
       "variantes": {
         "Normal": {
-          "low": 44.0,
+          "low": 7.1,
           "mid": 44.0,
           "high": 44.0,
           "market": 5.32,
@@ -429,8 +459,8 @@
       "numeroNormalizado": "13",
       "variantes": {
         "Normal": {
-          "low": 8.87,
-          "mid": 33.72,
+          "low": 6.18,
+          "mid": 21.3,
           "high": 68.8,
           "market": 9.75,
           "directLow": null
@@ -439,13 +469,28 @@
       "nombreProducto": "Clefairy (#13)"
     },
     {
+      "productId": 98194,
+      "numero": "14/30",
+      "numeroNormalizado": "14",
+      "variantes": {
+        "Normal": {
+          "low": 6.1,
+          "mid": 6.1,
+          "high": 6.1,
+          "market": 6.71,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Wigglytuff (#14 Non-Holo)"
+    },
+    {
       "productId": 98195,
       "numero": "16/30",
       "numeroNormalizado": "16",
       "variantes": {
         "Normal": {
           "low": 3.25,
-          "mid": 5.13,
+          "mid": 3.26,
           "high": 7.0,
           "market": 4.66,
           "directLow": null
@@ -549,8 +594,8 @@
       "numeroNormalizado": "25",
       "variantes": {
         "Normal": {
-          "low": 29.49,
-          "mid": 47.04,
+          "low": 27.23,
+          "mid": 38.52,
           "high": 50.0,
           "market": 18.5,
           "directLow": null
