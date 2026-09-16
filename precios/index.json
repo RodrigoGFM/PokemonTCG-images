@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-15T23:38:09Z",
-  "setsCubiertos": 188,
-  "cartasConPrecio": 23301,
+  "actualizado": "2026-09-16T23:46:31Z",
+  "setsCubiertos": 190,
+  "cartasConPrecio": 23492,
   "sets": [
     {
       "tcgdexSetId": "2011bw",
@@ -100,11 +100,27 @@
       "puntajeEmparejamiento": 0.75
     },
     {
+      "tcgdexSetId": "30th",
+      "tcgdexNombre": "30th Celebration",
+      "tcgplayerGroupId": 24722,
+      "tcgplayerNombre": "ME: 30th Celebration",
+      "cartas": 158,
+      "puntajeEmparejamiento": 1.0
+    },
+    {
+      "tcgdexSetId": "30th-c",
+      "tcgdexNombre": "30th Classic Collection",
+      "tcgplayerGroupId": 24837,
+      "tcgplayerNombre": "ME: 30th Celebration Classic Collection",
+      "cartas": 30,
+      "puntajeEmparejamiento": 0.793
+    },
+    {
       "tcgdexSetId": "P-A",
       "tcgdexNombre": "Promos-A",
       "tcgplayerGroupId": 1861,
       "tcgplayerNombre": "SM Promos",
-      "cartas": 308,
+      "cartas": 309,
       "puntajeEmparejamiento": 0.706
     },
     {
@@ -256,7 +272,7 @@
       "tcgdexNombre": "BW Black Star Promos",
       "tcgplayerGroupId": 1407,
       "tcgplayerNombre": "Black and White Promos",
-      "cartas": 124,
+      "cartas": 126,
       "puntajeEmparejamiento": null
     },
     {
@@ -280,7 +296,7 @@
       "tcgdexNombre": "Call of Legends",
       "tcgplayerGroupId": 1415,
       "tcgplayerNombre": "Call of Legends",
-      "cartas": 105,
+      "cartas": 106,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -384,7 +400,7 @@
       "tcgdexNombre": "Aquapolis",
       "tcgplayerGroupId": 1397,
       "tcgplayerNombre": "Aquapolis",
-      "cartas": 186,
+      "cartas": 185,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -432,7 +448,7 @@
       "tcgdexNombre": "Holon Phantoms",
       "tcgplayerGroupId": 1379,
       "tcgplayerNombre": "EX Holon Phantoms",
-      "cartas": 110,
+      "cartas": 111,
       "puntajeEmparejamiento": 0.903
     },
     {
@@ -600,7 +616,7 @@
       "tcgdexNombre": "Jumbo cards",
       "tcgplayerGroupId": 1528,
       "tcgplayerNombre": "Jumbo Cards",
-      "cartas": 278,
+      "cartas": 280,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -672,7 +688,7 @@
       "tcgdexNombre": "MEP Black Star Promos",
       "tcgplayerGroupId": 24451,
       "tcgplayerNombre": "ME: Mega Evolution Promo",
-      "cartas": 137,
+      "cartas": 136,
       "puntajeEmparejamiento": null
     },
     {
@@ -728,7 +744,7 @@
       "tcgdexNombre": "Nintendo Black Star Promos",
       "tcgplayerGroupId": 1423,
       "tcgplayerNombre": "Nintendo Promos",
-      "cartas": 69,
+      "cartas": 70,
       "puntajeEmparejamiento": 0.732
     },
     {
@@ -832,7 +848,7 @@
       "tcgdexNombre": "POP Series 9",
       "tcgplayerGroupId": 1446,
       "tcgplayerNombre": "POP Series 9",
-      "cartas": 18,
+      "cartas": 17,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -1392,7 +1408,7 @@
       "tcgdexNombre": "XY trainer Kit (Wigglytuff)",
       "tcgplayerGroupId": 1533,
       "tcgplayerNombre": "XY Trainer Kit: Bisharp & Wigglytuff",
-      "cartas": 44,
+      "cartas": 42,
       "puntajeEmparejamiento": 0.862
     },
     {
@@ -1514,7 +1530,7 @@
       "tcgdexNombre": "Promos-A",
       "tcgplayerGroupId": 1861,
       "tcgplayerNombre": "SM Promos",
-      "cartas": 308,
+      "cartas": 309,
       "puntajeEmparejamiento": 0.706
     },
     {
@@ -1546,7 +1562,7 @@
       "tcgdexNombre": "Nintendo Black Star Promos",
       "tcgplayerGroupId": 1423,
       "tcgplayerNombre": "Nintendo Promos",
-      "cartas": 69,
+      "cartas": 70,
       "puntajeEmparejamiento": 0.732
     },
     {
@@ -1706,16 +1722,8 @@
       "nombre": "e-Reader Sample Cards"
     },
     {
-      "groupId": 24722,
-      "nombre": "ME: 30th Celebration"
-    },
-    {
       "groupId": 24831,
       "nombre": "ME06: Delta Reign"
-    },
-    {
-      "groupId": 24837,
-      "nombre": "ME: 30th Celebration Classic Collection"
     },
     {
       "groupId": 24864,
