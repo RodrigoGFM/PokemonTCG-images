@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "sv08",
   "tcgplayerGroupId": 23651,
-  "actualizado": "2026-09-26T00:02:39Z",
+  "actualizado": "2026-09-26T23:47:25Z",
   "cartas": [
     {
       "productId": 589855,
@@ -12,14 +12,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 10.0,
-          "market": 0.13,
+          "market": 0.14,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.02,
-          "mid": 0.23,
-          "high": 3.6,
-          "market": 0.21,
+          "mid": 0.22,
+          "high": 100.2,
+          "market": 0.2,
           "directLow": 0.14
         }
       }
@@ -39,7 +39,7 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.26,
-          "high": 19.88,
+          "high": 100.26,
           "market": 0.26,
           "directLow": 0.25
         }
@@ -51,11 +51,11 @@
       "numeroNormalizado": "208",
       "variantes": {
         "Holofoil": {
-          "low": 7.0,
-          "mid": 9.6,
+          "low": 6.43,
+          "mid": 9.5,
           "high": 176.8,
-          "market": 8.48,
-          "directLow": 10.6
+          "market": 8.35,
+          "directLow": 7.69
         }
       }
     },
@@ -66,10 +66,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.3,
-          "mid": 0.84,
+          "mid": 0.85,
           "high": 35.0,
-          "market": 0.68,
-          "directLow": 0.98
+          "market": 0.8,
+          "directLow": 1.24
         }
       }
     },
@@ -79,11 +79,11 @@
       "numeroNormalizado": "225",
       "variantes": {
         "Holofoil": {
-          "low": 1.5,
+          "low": 1.46,
           "mid": 2.5,
           "high": 42.4,
-          "market": 2.23,
-          "directLow": 2.54
+          "market": 2.32,
+          "directLow": 2.94
         }
       }
     },
@@ -93,11 +93,11 @@
       "numeroNormalizado": "242",
       "variantes": {
         "Holofoil": {
-          "low": 23.88,
-          "mid": 31.57,
+          "low": 23.78,
+          "mid": 31.12,
           "high": 283.88,
-          "market": 27.59,
-          "directLow": 28.99
+          "market": 27.06,
+          "directLow": 28.98
         }
       }
     },
@@ -117,7 +117,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.04,
+          "market": 0.06,
           "directLow": 0.04
         }
       }
@@ -129,10 +129,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.1,
-          "mid": 0.54,
+          "mid": 0.52,
           "high": 40.0,
-          "market": 0.5,
-          "directLow": 0.6
+          "market": 0.51,
+          "directLow": 0.57
         }
       }
     },
@@ -146,13 +146,13 @@
           "mid": 0.19,
           "high": 20.0,
           "market": 0.16,
-          "directLow": 0.08
+          "directLow": 0.1
         },
         "Reverse Holofoil": {
           "low": 0.05,
           "mid": 0.3,
           "high": 6.8,
-          "market": 0.31,
+          "market": 0.27,
           "directLow": 0.27
         }
       }
@@ -164,9 +164,9 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.03,
-          "mid": 0.29,
+          "mid": 0.28,
           "high": 10.0,
-          "market": 0.27,
+          "market": 0.26,
           "directLow": 0.1
         },
         "Normal": {
@@ -185,10 +185,10 @@
       "variantes": {
         "Holofoil": {
           "low": 5.76,
-          "mid": 9.0,
+          "mid": 9.12,
           "high": 175.0,
-          "market": 8.76,
-          "directLow": 12.69
+          "market": 9.4,
+          "directLow": null
         }
       }
     },
@@ -201,14 +201,14 @@
           "low": 0.01,
           "mid": 0.21,
           "high": 5.25,
-          "market": 0.19,
-          "directLow": 0.08
+          "market": 0.2,
+          "directLow": 0.1
         },
         "Reverse Holofoil": {
           "low": 0.03,
-          "mid": 0.29,
+          "mid": 0.27,
           "high": 19.88,
-          "market": 0.28,
+          "market": 0.27,
           "directLow": 0.1
         }
       }
@@ -222,8 +222,8 @@
           "low": 0.18,
           "mid": 0.79,
           "high": 15.24,
-          "market": 0.55,
-          "directLow": 1.01
+          "market": 0.61,
+          "directLow": 1.16
         }
       }
     },
@@ -236,8 +236,8 @@
           "low": 0.6,
           "mid": 1.2,
           "high": 50.0,
-          "market": 0.98,
-          "directLow": null
+          "market": 0.94,
+          "directLow": 1.1
         }
       }
     },
@@ -250,8 +250,8 @@
           "low": 10.0,
           "mid": 13.78,
           "high": 256.2,
-          "market": 12.53,
-          "directLow": null
+          "market": 12.45,
+          "directLow": 14.99
         }
       }
     },
@@ -270,8 +270,8 @@
         "Normal": {
           "low": 0.01,
           "mid": 0.18,
-          "high": 19.88,
-          "market": 0.15,
+          "high": 100.15,
+          "market": 0.16,
           "directLow": 0.01
         }
       }
@@ -285,15 +285,15 @@
           "low": 0.01,
           "mid": 0.18,
           "high": 20.0,
-          "market": 0.14,
+          "market": 0.15,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.06,
           "mid": 0.3,
           "high": 5.8,
-          "market": 0.28,
-          "directLow": 0.24
+          "market": 0.27,
+          "directLow": 0.25
         }
       }
     },
@@ -311,9 +311,9 @@
         },
         "Reverse Holofoil": {
           "low": 0.02,
-          "mid": 0.32,
+          "mid": 0.31,
           "high": 5.4,
-          "market": 0.34,
+          "market": 0.31,
           "directLow": 0.25
         }
       }
@@ -334,7 +334,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 10.05,
-          "market": 0.06,
+          "market": 0.07,
           "directLow": 0.02
         }
       }
@@ -346,9 +346,9 @@
       "variantes": {
         "Holofoil": {
           "low": 0.4,
-          "mid": 0.85,
+          "mid": 0.86,
           "high": 50.0,
-          "market": 0.73,
+          "market": 0.78,
           "directLow": 0.72
         }
       }
@@ -359,10 +359,10 @@
       "numeroNormalizado": "218",
       "variantes": {
         "Holofoil": {
-          "low": 1.0,
-          "mid": 2.58,
+          "low": 1.49,
+          "mid": 2.56,
           "high": 26.0,
-          "market": 2.21,
+          "market": 2.11,
           "directLow": null
         }
       }
@@ -374,7 +374,7 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.21,
+          "mid": 0.2,
           "high": 40.0,
           "market": 0.2,
           "directLow": 0.11
@@ -416,8 +416,8 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.03,
-          "mid": 0.27,
-          "high": 19.88,
+          "mid": 0.28,
+          "high": 100.29,
           "market": 0.29,
           "directLow": 0.1
         },
@@ -425,7 +425,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.03,
+          "market": 0.04,
           "directLow": 0.01
         }
       }
@@ -436,11 +436,11 @@
       "numeroNormalizado": "214",
       "variantes": {
         "Holofoil": {
-          "low": 3.75,
+          "low": 3.53,
           "mid": 6.0,
           "high": 10000.0,
-          "market": 5.01,
-          "directLow": 5.0
+          "market": 5.13,
+          "directLow": 5.98
         }
       }
     },
@@ -450,11 +450,11 @@
       "numeroNormalizado": "164",
       "variantes": {
         "Holofoil": {
-          "low": 0.29,
+          "low": 0.25,
           "mid": 0.9,
           "high": 20.0,
-          "market": 0.81,
-          "directLow": 1.2
+          "market": 0.83,
+          "directLow": 1.19
         }
       }
     },
@@ -467,14 +467,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.06,
+          "market": 0.05,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
-          "market": 0.07,
+          "high": 100.07,
+          "market": 0.08,
           "directLow": 0.06
         }
       }
@@ -516,7 +516,7 @@
           "low": 0.05,
           "mid": 0.25,
           "high": 5.8,
-          "market": 0.24,
+          "market": 0.25,
           "directLow": 0.19
         }
       }
@@ -530,8 +530,8 @@
           "low": 1.71,
           "mid": 2.99,
           "high": 54.8,
-          "market": 2.86,
-          "directLow": 4.6
+          "market": 2.74,
+          "directLow": null
         }
       }
     },
@@ -544,14 +544,14 @@
           "low": 0.02,
           "mid": 0.3,
           "high": 19.88,
-          "market": 0.33,
+          "market": 0.35,
           "directLow": 0.27
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.17,
           "high": 19.88,
-          "market": 0.15,
+          "market": 0.13,
           "directLow": 0.07
         }
       }
@@ -586,14 +586,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.04,
+          "market": 0.05,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.02,
           "mid": 0.21,
           "high": 40.0,
-          "market": 0.18,
+          "market": 0.19,
           "directLow": 0.11
         }
       }
@@ -605,10 +605,10 @@
       "variantes": {
         "Holofoil": {
           "low": 7.0,
-          "mid": 9.38,
+          "mid": 9.37,
           "high": 174.2,
-          "market": 8.19,
-          "directLow": 8.99
+          "market": 8.32,
+          "directLow": 8.29
         }
       }
     },
@@ -620,15 +620,15 @@
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
-          "high": 19.88,
+          "high": 100.06,
           "market": 0.06,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.02,
-          "mid": 0.22,
+          "mid": 0.23,
           "high": 19.88,
-          "market": 0.22,
+          "market": 0.23,
           "directLow": 0.12
         }
       }
@@ -642,14 +642,14 @@
           "low": 0.05,
           "mid": 0.27,
           "high": 19.88,
-          "market": 0.26,
+          "market": 0.27,
           "directLow": 0.25
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.2,
           "high": 20.0,
-          "market": 0.22,
+          "market": 0.23,
           "directLow": 0.05
         }
       }
@@ -660,11 +660,11 @@
       "numeroNormalizado": "197",
       "variantes": {
         "Holofoil": {
-          "low": 21.1,
-          "mid": 25.97,
+          "low": 20.25,
+          "mid": 25.59,
           "high": 251.0,
-          "market": 24.08,
-          "directLow": 26.62
+          "market": 24.02,
+          "directLow": 26.34
         }
       }
     },
@@ -675,10 +675,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.5,
-          "mid": 1.35,
+          "mid": 1.39,
           "high": 24.2,
-          "market": 1.29,
-          "directLow": 1.84
+          "market": 1.31,
+          "directLow": 1.95
         }
       }
     },
@@ -697,7 +697,7 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.36,
+          "high": 100.18,
           "market": 0.18,
           "directLow": 0.1
         }
@@ -710,10 +710,10 @@
       "variantes": {
         "Holofoil": {
           "low": 2.0,
-          "mid": 3.13,
+          "mid": 3.15,
           "high": 58.2,
-          "market": 2.75,
-          "directLow": 4.27
+          "market": 2.89,
+          "directLow": 4.41
         }
       }
     },
@@ -726,14 +726,14 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 19.88,
-          "market": 0.2,
+          "market": 0.22,
           "directLow": 0.13
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.03,
+          "market": 0.05,
           "directLow": 0.01
         }
       }
@@ -746,7 +746,7 @@
         "Reverse Holofoil": {
           "low": 0.03,
           "mid": 0.26,
-          "high": 16.02,
+          "high": 100.29,
           "market": 0.29,
           "directLow": 0.15
         },
@@ -767,7 +767,7 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.25,
-          "high": 50.0,
+          "high": 100.28,
           "market": 0.28,
           "directLow": 0.13
         },
@@ -788,15 +788,15 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.25,
-          "high": 19.88,
-          "market": 0.25,
-          "directLow": 0.24
+          "high": 100.26,
+          "market": 0.24,
+          "directLow": 0.25
         },
         "Reverse Holofoil": {
           "low": 0.1,
           "mid": 0.31,
           "high": 19.84,
-          "market": 0.28,
+          "market": 0.3,
           "directLow": 0.3
         }
       }
@@ -810,7 +810,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.06,
+          "market": 0.05,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
@@ -831,14 +831,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.04,
-          "directLow": 0.02
+          "market": 0.07,
+          "directLow": 0.04
         },
         "Reverse Holofoil": {
           "low": 0.05,
           "mid": 0.25,
           "high": 19.88,
-          "market": 0.23,
+          "market": 0.24,
           "directLow": 0.1
         }
       }
@@ -850,10 +850,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.5,
-          "mid": 1.34,
+          "mid": 1.35,
           "high": 19.88,
-          "market": 1.24,
-          "directLow": 1.82
+          "market": 1.25,
+          "directLow": 1.91
         }
       }
     },
@@ -866,8 +866,8 @@
           "low": 6.0,
           "mid": 9.19,
           "high": 92.0,
-          "market": 8.16,
-          "directLow": null
+          "market": 8.19,
+          "directLow": 10.08
         }
       }
     },
@@ -901,7 +901,7 @@
           "low": 4.49,
           "mid": 7.0,
           "high": 999.0,
-          "market": 5.58,
+          "market": 5.56,
           "directLow": 8.4
         }
       }
@@ -920,9 +920,9 @@
         },
         "Reverse Holofoil": {
           "low": 0.08,
-          "mid": 0.29,
-          "high": 5.8,
-          "market": 0.29,
+          "mid": 0.28,
+          "high": 100.29,
+          "market": 0.28,
           "directLow": 0.1
         }
       }
@@ -943,7 +943,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.04,
+          "market": 0.05,
           "directLow": 0.01
         }
       }
@@ -956,7 +956,7 @@
         "Normal": {
           "low": 0.01,
           "mid": 0.17,
-          "high": 19.88,
+          "high": 100.12,
           "market": 0.12,
           "directLow": 0.01
         },
@@ -964,7 +964,7 @@
           "low": 0.05,
           "mid": 0.28,
           "high": 19.6,
-          "market": 0.29,
+          "market": 0.26,
           "directLow": 0.25
         }
       }
@@ -976,9 +976,9 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.23,
-          "high": 19.88,
-          "market": 0.23,
+          "mid": 0.24,
+          "high": 100.23,
+          "market": 0.24,
           "directLow": 0.14
         },
         "Normal": {
@@ -998,15 +998,15 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
-          "market": 0.16,
+          "high": 100.16,
+          "market": 0.17,
           "directLow": 0.03
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.05,
+          "market": 0.06,
           "directLow": 0.01
         }
       }
@@ -1018,10 +1018,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.39,
-          "mid": 0.81,
+          "mid": 0.84,
           "high": 50.0,
-          "market": 0.67,
-          "directLow": 0.92
+          "market": 0.71,
+          "directLow": 0.99
         }
       }
     },
@@ -1031,11 +1031,11 @@
       "numeroNormalizado": "228",
       "variantes": {
         "Holofoil": {
-          "low": 1.0,
-          "mid": 1.78,
+          "low": 0.75,
+          "mid": 1.79,
           "high": 31.4,
-          "market": 1.44,
-          "directLow": 1.57
+          "market": 1.45,
+          "directLow": null
         }
       }
     },
@@ -1048,15 +1048,15 @@
           "low": 0.1,
           "mid": 0.5,
           "high": 49.0,
-          "market": 0.42,
-          "directLow": 0.5
+          "market": 0.44,
+          "directLow": 0.48
         },
         "Normal": {
           "low": 0.07,
           "mid": 0.25,
           "high": 19.88,
-          "market": 0.23,
-          "directLow": null
+          "market": 0.25,
+          "directLow": 0.23
         }
       }
     },
@@ -1067,10 +1067,10 @@
       "variantes": {
         "Holofoil": {
           "low": 1.5,
-          "mid": 3.25,
-          "high": 66.18,
-          "market": 2.94,
-          "directLow": null
+          "mid": 3.22,
+          "high": 66.12,
+          "market": 2.85,
+          "directLow": 3.34
         }
       }
     },
@@ -1083,15 +1083,15 @@
           "low": 0.06,
           "mid": 0.3,
           "high": 5.2,
-          "market": 0.33,
+          "market": 0.31,
           "directLow": 0.26
         },
         "Normal": {
           "low": 0.02,
           "mid": 0.24,
           "high": 19.88,
-          "market": 0.25,
-          "directLow": 0.08
+          "market": 0.24,
+          "directLow": 0.23
         }
       }
     },
@@ -1104,14 +1104,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.03,
+          "market": 0.06,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.26,
+          "mid": 0.25,
           "high": 19.88,
-          "market": 0.27,
+          "market": 0.24,
           "directLow": 0.19
         }
       }
@@ -1123,16 +1123,16 @@
       "variantes": {
         "Normal": {
           "low": 0.01,
-          "mid": 0.18,
-          "high": 20.0,
-          "market": 0.18,
+          "mid": 0.17,
+          "high": 100.17,
+          "market": 0.17,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.02,
           "mid": 0.23,
           "high": 4.2,
-          "market": 0.21,
+          "market": 0.22,
           "directLow": 0.1
         }
       }
@@ -1151,9 +1151,9 @@
         },
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.2,
+          "mid": 0.21,
           "high": 19.88,
-          "market": 0.19,
+          "market": 0.21,
           "directLow": 0.1
         }
       }
@@ -1166,15 +1166,15 @@
         "Reverse Holofoil": {
           "low": 0.05,
           "mid": 0.29,
-          "high": 19.88,
+          "high": 100.29,
           "market": 0.29,
           "directLow": 0.25
         },
         "Holofoil": {
           "low": 0.01,
           "mid": 0.19,
-          "high": 19.88,
-          "market": 0.15,
+          "high": 100.15,
+          "market": 0.16,
           "directLow": 0.01
         }
       }
@@ -1209,14 +1209,14 @@
           "low": 0.04,
           "mid": 0.28,
           "high": 5.8,
-          "market": 0.28,
+          "market": 0.26,
           "directLow": 0.22
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 17.96,
-          "market": 0.11,
+          "market": 0.12,
           "directLow": 0.03
         }
       }
@@ -1229,15 +1229,15 @@
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
-          "high": 19.88,
-          "market": 0.09,
+          "high": 100.09,
+          "market": 0.1,
           "directLow": 0.05
         },
         "Reverse Holofoil": {
           "low": 0.02,
-          "mid": 0.28,
+          "mid": 0.27,
           "high": 19.88,
-          "market": 0.29,
+          "market": 0.27,
           "directLow": 0.23
         }
       }
@@ -1251,8 +1251,8 @@
           "low": 0.44,
           "mid": 1.1,
           "high": 40.0,
-          "market": 0.91,
-          "directLow": 1.5
+          "market": 0.92,
+          "directLow": 1.49
         }
       }
     },
@@ -1265,7 +1265,7 @@
           "low": 0.04,
           "mid": 0.27,
           "high": 7.2,
-          "market": 0.24,
+          "market": 0.23,
           "directLow": 0.23
         },
         "Normal": {
@@ -1286,8 +1286,8 @@
           "low": 0.5,
           "mid": 1.14,
           "high": 19.88,
-          "market": 0.99,
-          "directLow": 1.08
+          "market": 0.94,
+          "directLow": 1.23
         }
       }
     },
@@ -1298,10 +1298,10 @@
       "variantes": {
         "Holofoil": {
           "low": 6.34,
-          "mid": 8.5,
+          "mid": 8.55,
           "high": 172.8,
-          "market": 8.3,
-          "directLow": 12.38
+          "market": 8.21,
+          "directLow": 12.37
         }
       }
     },
@@ -1314,13 +1314,13 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.04,
+          "market": 0.03,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.02,
           "mid": 0.2,
-          "high": 3.2,
+          "high": 100.15,
           "market": 0.15,
           "directLow": 0.09
         }
@@ -1335,14 +1335,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 20.0,
-          "market": 0.03,
+          "market": 0.05,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
-          "market": 0.18,
+          "high": 100.18,
+          "market": 0.19,
           "directLow": 0.1
         }
       }
@@ -1356,8 +1356,8 @@
           "low": 0.3,
           "mid": 0.8,
           "high": 40.0,
-          "market": 0.55,
-          "directLow": 0.74
+          "market": 0.51,
+          "directLow": 0.71
         }
       }
     },
@@ -1368,10 +1368,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.23,
-          "mid": 1.13,
+          "mid": 1.14,
           "high": 19.88,
-          "market": 0.98,
-          "directLow": 1.31
+          "market": 1.0,
+          "directLow": 1.5
         }
       }
     },
@@ -1384,8 +1384,8 @@
           "low": 33.0,
           "mid": 40.2,
           "high": 269.8,
-          "market": 40.19,
-          "directLow": 40.51
+          "market": 40.2,
+          "directLow": 47.99
         }
       }
     },
@@ -1399,13 +1399,13 @@
           "mid": 0.2,
           "high": 19.88,
           "market": 0.2,
-          "directLow": 0.08
+          "directLow": 0.18
         },
         "Reverse Holofoil": {
           "low": 0.05,
-          "mid": 0.32,
+          "mid": 0.31,
           "high": 19.88,
-          "market": 0.32,
+          "market": 0.29,
           "directLow": 0.3
         }
       }
@@ -1417,16 +1417,16 @@
       "variantes": {
         "Normal": {
           "low": 0.01,
-          "mid": 0.24,
+          "mid": 0.23,
           "high": 19.88,
-          "market": 0.22,
-          "directLow": 0.08
+          "market": 0.21,
+          "directLow": 0.17
         },
         "Reverse Holofoil": {
           "low": 0.14,
-          "mid": 0.41,
+          "mid": 0.4,
           "high": 20.0,
-          "market": 0.42,
+          "market": 0.39,
           "directLow": 0.34
         }
       }
@@ -1438,10 +1438,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.15,
-          "mid": 0.7,
+          "mid": 0.69,
           "high": 19.3,
-          "market": 0.56,
-          "directLow": 0.5
+          "market": 0.55,
+          "directLow": 0.69
         }
       }
     },
@@ -1452,10 +1452,10 @@
       "variantes": {
         "Holofoil": {
           "low": 2.65,
-          "mid": 4.99,
-          "high": 4320.69,
-          "market": 5.5,
-          "directLow": 39.24
+          "mid": 4.49,
+          "high": 4320.61,
+          "market": 3.7,
+          "directLow": 39.2
         }
       }
     },
@@ -1475,7 +1475,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.05,
+          "market": 0.04,
           "directLow": 0.01
         }
       }
@@ -1489,12 +1489,12 @@
           "low": 0.03,
           "mid": 0.25,
           "high": 19.88,
-          "market": 0.24,
+          "market": 0.25,
           "directLow": 0.18
         },
         "Normal": {
           "low": 0.01,
-          "mid": 0.2,
+          "mid": 0.19,
           "high": 19.88,
           "market": 0.18,
           "directLow": 0.01
@@ -1509,9 +1509,9 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 15.19,
-          "market": 0.12,
-          "directLow": 0.08
+          "high": 100.15,
+          "market": 0.15,
+          "directLow": 0.09
         },
         "Reverse Holofoil": {
           "low": 0.05,
@@ -1531,14 +1531,14 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 19.88,
-          "market": 0.11,
+          "market": 0.1,
           "directLow": 0.07
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.07,
+          "market": 0.05,
           "directLow": 0.01
         }
       }
@@ -1552,14 +1552,14 @@
           "low": 0.01,
           "mid": 0.17,
           "high": 19.88,
-          "market": 0.13,
+          "market": 0.12,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.04,
-          "mid": 0.3,
+          "mid": 0.29,
           "high": 5.8,
-          "market": 0.31,
+          "market": 0.29,
           "directLow": 0.2
         }
       }
@@ -1594,8 +1594,8 @@
           "low": 5.59,
           "mid": 8.5,
           "high": 182.6,
-          "market": 7.5,
-          "directLow": 8.86
+          "market": 7.46,
+          "directLow": 9.45
         }
       }
     },
@@ -1615,7 +1615,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 20.0,
-          "market": 0.08,
+          "market": 0.06,
           "directLow": 0.01
         }
       }
@@ -1627,15 +1627,15 @@
       "variantes": {
         "Normal": {
           "low": 0.01,
-          "mid": 0.16,
+          "mid": 0.18,
           "high": 19.88,
-          "market": 0.16,
+          "market": 0.18,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.24,
-          "high": 4.6,
+          "high": 100.23,
           "market": 0.23,
           "directLow": 0.14
         }
@@ -1648,10 +1648,10 @@
       "variantes": {
         "Holofoil": {
           "low": 6.99,
-          "mid": 9.8,
+          "mid": 9.76,
           "high": 194.0,
-          "market": 8.69,
-          "directLow": 9.8
+          "market": 8.91,
+          "directLow": 8.97
         }
       }
     },
@@ -1663,9 +1663,9 @@
         "Holofoil": {
           "low": 0.25,
           "mid": 0.8,
-          "high": 16.98,
-          "market": 0.52,
-          "directLow": 0.73
+          "high": 16.9,
+          "market": 0.56,
+          "directLow": 0.75
         }
       }
     },
@@ -1676,16 +1676,16 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.04,
-          "mid": 0.28,
-          "high": 35.0,
-          "market": 0.3,
+          "mid": 0.27,
+          "high": 100.3,
+          "market": 0.27,
           "directLow": 0.24
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.08,
+          "market": 0.09,
           "directLow": 0.01
         }
       }
@@ -1699,8 +1699,8 @@
           "low": 3.0,
           "mid": 4.99,
           "high": 40.04,
-          "market": 4.68,
-          "directLow": 6.0
+          "market": 4.65,
+          "directLow": 5.99
         }
       }
     },
@@ -1720,7 +1720,7 @@
           "low": 0.04,
           "mid": 0.2,
           "high": 19.88,
-          "market": 0.16,
+          "market": 0.17,
           "directLow": 0.1
         }
       }
@@ -1734,14 +1734,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 2.2,
-          "market": 0.05,
+          "market": 0.06,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.06,
           "mid": 0.31,
-          "high": 6.6,
-          "market": 0.34,
+          "high": 100.34,
+          "market": 0.3,
           "directLow": 0.25
         }
       }
@@ -1753,10 +1753,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.23,
-          "mid": 0.84,
+          "mid": 0.83,
           "high": 25.0,
-          "market": 0.67,
-          "directLow": 0.72
+          "market": 0.64,
+          "directLow": 1.19
         }
       }
     },
@@ -1769,7 +1769,7 @@
           "low": 1.25,
           "mid": 2.99,
           "high": 36.0,
-          "market": 2.37,
+          "market": 2.49,
           "directLow": 2.78
         }
       }
@@ -1781,16 +1781,16 @@
       "variantes": {
         "Normal": {
           "low": 0.01,
-          "mid": 0.16,
+          "mid": 0.15,
           "high": 19.88,
-          "market": 0.16,
+          "market": 0.15,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.03,
           "mid": 0.25,
           "high": 19.88,
-          "market": 0.26,
+          "market": 0.23,
           "directLow": 0.14
         }
       }
@@ -1803,8 +1803,8 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 20.0,
-          "market": 0.19,
+          "high": 100.19,
+          "market": 0.2,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
@@ -1824,16 +1824,16 @@
         "Reverse Holofoil": {
           "low": 0.05,
           "mid": 0.25,
-          "high": 5.8,
-          "market": 0.24,
+          "high": 100.24,
+          "market": 0.23,
           "directLow": 0.24
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.06,
-          "directLow": 0.01
+          "market": 0.08,
+          "directLow": 0.02
         }
       }
     },
@@ -1847,13 +1847,13 @@
           "mid": 0.2,
           "high": 19.88,
           "market": 0.19,
-          "directLow": 0.08
+          "directLow": 0.09
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.24,
-          "high": 20.0,
-          "market": 0.2,
+          "high": 100.21,
+          "market": 0.21,
           "directLow": 0.14
         }
       }
@@ -1866,7 +1866,7 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
+          "high": 100.05,
           "market": 0.05,
           "directLow": 0.05
         },
@@ -1874,7 +1874,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 2.99,
-          "market": 0.04,
+          "market": 0.03,
           "directLow": 0.01
         }
       }
@@ -1915,8 +1915,8 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 5.0,
-          "market": 0.18,
+          "high": 100.17,
+          "market": 0.17,
           "directLow": 0.1
         }
       }
@@ -1936,7 +1936,7 @@
         "Reverse Holofoil": {
           "low": 0.04,
           "mid": 0.27,
-          "high": 19.88,
+          "high": 100.26,
           "market": 0.26,
           "directLow": 0.25
         }
@@ -1957,7 +1957,7 @@
         "Reverse Holofoil": {
           "low": 0.03,
           "mid": 0.2,
-          "high": 40.0,
+          "high": 100.19,
           "market": 0.19,
           "directLow": 0.12
         }
@@ -1970,17 +1970,17 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.1,
-          "mid": 0.33,
+          "mid": 0.32,
           "high": 19.88,
-          "market": 0.31,
-          "directLow": 0.31
+          "market": 0.29,
+          "directLow": null
         },
         "Normal": {
           "low": 0.01,
-          "mid": 0.23,
-          "high": 19.88,
+          "mid": 0.22,
+          "high": 100.2,
           "market": 0.2,
-          "directLow": 0.08
+          "directLow": 0.12
         }
       }
     },
@@ -1992,7 +1992,7 @@
         "Reverse Holofoil": {
           "low": 0.09,
           "mid": 0.27,
-          "high": 4.8,
+          "high": 100.27,
           "market": 0.27,
           "directLow": 0.25
         },
@@ -2013,7 +2013,7 @@
         "Reverse Holofoil": {
           "low": 0.03,
           "mid": 0.2,
-          "high": 40.0,
+          "high": 100.2,
           "market": 0.2,
           "directLow": 0.13
         },
@@ -2035,14 +2035,14 @@
           "low": 0.01,
           "mid": 0.18,
           "high": 19.88,
-          "market": 0.16,
+          "market": 0.17,
           "directLow": 0.05
         },
         "Reverse Holofoil": {
           "low": 0.07,
           "mid": 0.3,
           "high": 25.0,
-          "market": 0.29,
+          "market": 0.3,
           "directLow": 0.18
         }
       }
@@ -2053,11 +2053,11 @@
       "numeroNormalizado": "119",
       "variantes": {
         "Holofoil": {
-          "low": 0.49,
-          "mid": 0.95,
+          "low": 0.47,
+          "mid": 0.96,
           "high": 51.0,
-          "market": 0.85,
-          "directLow": 1.0
+          "market": 0.79,
+          "directLow": 1.2
         }
       }
     },
@@ -2068,10 +2068,10 @@
       "variantes": {
         "Holofoil": {
           "low": 3.0,
-          "mid": 5.45,
+          "mid": 5.48,
           "high": 999.0,
-          "market": 5.04,
-          "directLow": 5.98
+          "market": 5.14,
+          "directLow": 4.46
         }
       }
     },
@@ -2082,10 +2082,10 @@
       "variantes": {
         "Holofoil": {
           "low": 34.0,
-          "mid": 40.46,
+          "mid": 40.26,
           "high": 393.9,
-          "market": 36.6,
-          "directLow": 39.18
+          "market": 36.57,
+          "directLow": 40.26
         }
       }
     },
@@ -2098,7 +2098,7 @@
           "low": 0.02,
           "mid": 0.27,
           "high": 5.6,
-          "market": 0.28,
+          "market": 0.26,
           "directLow": 0.2
         },
         "Normal": {
@@ -2125,8 +2125,8 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.28,
-          "high": 6.2,
-          "market": 0.27,
+          "high": 100.27,
+          "market": 0.28,
           "directLow": 0.14
         }
       }
@@ -2141,12 +2141,12 @@
           "mid": 0.3,
           "high": 6.0,
           "market": 0.29,
-          "directLow": 0.21
+          "directLow": 0.27
         },
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 40.0,
+          "high": 100.18,
           "market": 0.18,
           "directLow": 0.03
         }
@@ -2161,7 +2161,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.07,
+          "market": 0.06,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
@@ -2169,7 +2169,7 @@
           "mid": 0.26,
           "high": 19.88,
           "market": 0.26,
-          "directLow": 0.24
+          "directLow": 0.25
         }
       }
     },
@@ -2180,10 +2180,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.6,
-          "mid": 1.94,
+          "mid": 1.93,
           "high": 34.6,
-          "market": 1.59,
-          "directLow": 2.54
+          "market": 1.6,
+          "directLow": null
         }
       }
     },
@@ -2194,9 +2194,9 @@
       "variantes": {
         "Holofoil": {
           "low": 18.72,
-          "mid": 22.74,
+          "mid": 22.56,
           "high": 200.8,
-          "market": 20.98,
+          "market": 20.66,
           "directLow": 25.97
         }
       }
@@ -2210,14 +2210,14 @@
           "low": 0.05,
           "mid": 0.25,
           "high": 20.0,
-          "market": 0.25,
+          "market": 0.26,
           "directLow": 0.17
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.2,
           "high": 35.0,
-          "market": 0.16,
+          "market": 0.14,
           "directLow": 0.01
         }
       }
@@ -2229,10 +2229,10 @@
       "variantes": {
         "Holofoil": {
           "low": 4.94,
-          "mid": 9.46,
+          "mid": 9.65,
           "high": 177.4,
-          "market": 9.65,
-          "directLow": 8.99
+          "market": 9.69,
+          "directLow": 12.47
         }
       }
     },
@@ -2245,14 +2245,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.03,
+          "market": 0.05,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.03,
           "mid": 0.27,
           "high": 19.88,
-          "market": 0.28,
+          "market": 0.27,
           "directLow": 0.24
         }
       }
@@ -2264,10 +2264,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.25,
-          "mid": 0.78,
+          "mid": 0.79,
           "high": 40.0,
-          "market": 0.5,
-          "directLow": 0.71
+          "market": 0.51,
+          "directLow": 0.98
         }
       }
     },
@@ -2279,7 +2279,7 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 3.8,
+          "high": 100.19,
           "market": 0.19,
           "directLow": 0.1
         },
@@ -2300,7 +2300,7 @@
         "Reverse Holofoil": {
           "low": 0.1,
           "mid": 0.3,
-          "high": 40.0,
+          "high": 100.28,
           "market": 0.28,
           "directLow": 0.25
         },
@@ -2308,7 +2308,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 2.99,
-          "market": 0.12,
+          "market": 0.11,
           "directLow": 0.01
         }
       }
@@ -2321,15 +2321,15 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.18,
-          "high": 15.1,
-          "market": 0.1,
+          "high": 222.0,
+          "market": 0.09,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.05,
-          "mid": 0.25,
+          "mid": 0.26,
           "high": 6.0,
-          "market": 0.25,
+          "market": 0.26,
           "directLow": 0.2
         }
       }
@@ -2364,8 +2364,8 @@
           "low": 1.99,
           "mid": 3.0,
           "high": 27.24,
-          "market": 2.83,
-          "directLow": 3.75
+          "market": 2.8,
+          "directLow": 3.4
         }
       }
     },
@@ -2375,11 +2375,11 @@
       "numeroNormalizado": "76",
       "variantes": {
         "Holofoil": {
-          "low": 3.98,
-          "mid": 6.23,
+          "low": 3.38,
+          "mid": 6.07,
           "high": 124.8,
-          "market": 5.36,
-          "directLow": 7.07
+          "market": 5.88,
+          "directLow": 13.64
         }
       }
     },
@@ -2389,11 +2389,11 @@
       "numeroNormalizado": "220",
       "variantes": {
         "Holofoil": {
-          "low": 5.89,
-          "mid": 8.08,
+          "low": 5.75,
+          "mid": 8.06,
           "high": 157.2,
-          "market": 7.19,
-          "directLow": 11.39
+          "market": 7.11,
+          "directLow": 10.71
         }
       }
     },
@@ -2406,7 +2406,7 @@
           "low": 170.0,
           "mid": 200.12,
           "high": 1753.34,
-          "market": 188.12,
+          "market": 187.89,
           "directLow": 197.66
         }
       }
@@ -2417,11 +2417,11 @@
       "numeroNormalizado": "77",
       "variantes": {
         "Reverse Holofoil": {
-          "low": 0.1,
-          "mid": 0.31,
+          "low": 0.08,
+          "mid": 0.3,
           "high": 5.0,
-          "market": 0.32,
-          "directLow": 0.1
+          "market": 0.3,
+          "directLow": 0.23
         },
         "Normal": {
           "low": 0.01,
@@ -2439,10 +2439,10 @@
       "variantes": {
         "Holofoil": {
           "low": 29.32,
-          "mid": 37.08,
+          "mid": 36.6,
           "high": 260.9,
-          "market": 34.96,
-          "directLow": 40.4
+          "market": 34.76,
+          "directLow": 44.34
         }
       }
     },
@@ -2453,17 +2453,17 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.3,
+          "mid": 0.31,
           "high": 19.88,
-          "market": 0.31,
+          "market": 0.29,
           "directLow": 0.29
         },
         "Normal": {
           "low": 0.01,
-          "mid": 0.2,
-          "high": 19.88,
-          "market": 0.2,
-          "directLow": 0.08
+          "mid": 0.21,
+          "high": 100.2,
+          "market": 0.22,
+          "directLow": 0.15
         }
       }
     },
@@ -2474,10 +2474,10 @@
       "variantes": {
         "Holofoil": {
           "low": 2.4,
-          "mid": 4.1,
+          "mid": 4.23,
           "high": 78.2,
-          "market": 3.54,
-          "directLow": 4.99
+          "market": 3.87,
+          "directLow": 4.06
         }
       }
     },
@@ -2488,9 +2488,9 @@
       "variantes": {
         "Holofoil": {
           "low": 22.01,
-          "mid": 30.0,
+          "mid": 29.97,
           "high": 269.8,
-          "market": 28.76,
+          "market": 28.71,
           "directLow": 33.96
         }
       }
@@ -2502,10 +2502,10 @@
       "variantes": {
         "Normal": {
           "low": 0.01,
-          "mid": 0.2,
-          "high": 19.88,
-          "market": 0.21,
-          "directLow": 0.08
+          "mid": 0.21,
+          "high": 100.21,
+          "market": 0.23,
+          "directLow": 0.1
         },
         "Reverse Holofoil": {
           "low": 0.05,
@@ -2524,8 +2524,8 @@
         "Reverse Holofoil": {
           "low": 0.02,
           "mid": 0.23,
-          "high": 19.88,
-          "market": 0.23,
+          "high": 100.23,
+          "market": 0.21,
           "directLow": 0.11
         },
         "Normal": {
@@ -2546,14 +2546,14 @@
           "low": 0.01,
           "mid": 0.18,
           "high": 5.25,
-          "market": 0.15,
+          "market": 0.13,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.04,
           "mid": 0.28,
           "high": 20.0,
-          "market": 0.26,
+          "market": 0.27,
           "directLow": 0.26
         }
       }
@@ -2567,14 +2567,14 @@
           "low": 0.01,
           "mid": 0.25,
           "high": 5.8,
-          "market": 0.22,
+          "market": 0.24,
           "directLow": 0.21
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
-          "high": 19.88,
-          "market": 0.11,
+          "high": 100.11,
+          "market": 0.1,
           "directLow": 0.01
         }
       }
@@ -2586,16 +2586,16 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.03,
-          "mid": 0.21,
-          "high": 40.0,
-          "market": 0.22,
+          "mid": 0.22,
+          "high": 100.22,
+          "market": 0.21,
           "directLow": 0.1
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 20.0,
-          "market": 0.05,
+          "market": 0.04,
           "directLow": 0.01
         }
       }
@@ -2616,7 +2616,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.03,
+          "market": 0.05,
           "directLow": 0.01
         }
       }
@@ -2630,14 +2630,14 @@
           "low": 0.02,
           "mid": 0.23,
           "high": 4.6,
-          "market": 0.17,
+          "market": 0.18,
           "directLow": 0.1
         },
         "Normal": {
           "low": 0.01,
-          "mid": 0.17,
+          "mid": 0.16,
           "high": 20.0,
-          "market": 0.16,
+          "market": 0.14,
           "directLow": 0.01
         }
       }
@@ -2649,10 +2649,10 @@
       "variantes": {
         "Normal": {
           "low": 0.01,
-          "mid": 0.23,
+          "mid": 0.24,
           "high": 18.38,
-          "market": 0.23,
-          "directLow": 0.08
+          "market": 0.26,
+          "directLow": 0.09
         },
         "Reverse Holofoil": {
           "low": 0.05,
@@ -2676,10 +2676,10 @@
           "directLow": 0.01
         },
         "Reverse Holofoil": {
-          "low": 0.05,
+          "low": 0.01,
           "mid": 0.25,
           "high": 5.8,
-          "market": 0.24,
+          "market": 0.22,
           "directLow": 0.1
         }
       }
@@ -2691,9 +2691,9 @@
       "variantes": {
         "Holofoil": {
           "low": 0.09,
-          "mid": 0.47,
+          "mid": 0.49,
           "high": 19.88,
-          "market": 0.42,
+          "market": 0.49,
           "directLow": 0.39
         }
       }
@@ -2714,7 +2714,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.05,
+          "market": 0.06,
           "directLow": 0.01
         }
       }
@@ -2728,15 +2728,15 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 19.88,
-          "market": 0.16,
-          "directLow": 0.08
+          "market": 0.14,
+          "directLow": 0.1
         },
         "Reverse Holofoil": {
           "low": 0.05,
-          "mid": 0.31,
+          "mid": 0.3,
           "high": 19.88,
-          "market": 0.31,
-          "directLow": 0.3
+          "market": 0.29,
+          "directLow": 0.29
         }
       }
     },
@@ -2746,11 +2746,11 @@
       "numeroNormalizado": "204",
       "variantes": {
         "Holofoil": {
-          "low": 11.01,
-          "mid": 14.39,
+          "low": 11.99,
+          "mid": 14.29,
           "high": 999.0,
-          "market": 13.18,
-          "directLow": 17.2
+          "market": 13.37,
+          "directLow": 14.14
         }
       }
     },
@@ -2761,10 +2761,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.24,
-          "mid": 0.87,
+          "mid": 0.89,
           "high": 14.99,
           "market": 0.84,
-          "directLow": 1.24
+          "directLow": 1.08
         }
       }
     },
@@ -2775,10 +2775,10 @@
       "variantes": {
         "Holofoil": {
           "low": 1.5,
-          "mid": 2.6,
+          "mid": 2.58,
           "high": 59.99,
-          "market": 2.45,
-          "directLow": 2.78
+          "market": 2.41,
+          "directLow": 2.94
         }
       }
     },
@@ -2788,11 +2788,11 @@
       "numeroNormalizado": "237",
       "variantes": {
         "Holofoil": {
-          "low": 106.99,
-          "mid": 130.0,
+          "low": 100.0,
+          "mid": 129.9,
           "high": 969.8,
           "market": 121.33,
-          "directLow": 130.4
+          "directLow": 125.87
         }
       }
     },
@@ -2805,8 +2805,8 @@
           "low": 0.24,
           "mid": 0.82,
           "high": 19.88,
-          "market": 0.68,
-          "directLow": 0.86
+          "market": 0.72,
+          "directLow": 0.87
         }
       }
     },
@@ -2826,7 +2826,7 @@
           "low": 0.01,
           "mid": 0.16,
           "high": 20.0,
-          "market": 0.13,
+          "market": 0.14,
           "directLow": 0.01
         }
       }
@@ -2840,14 +2840,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.05,
+          "market": 0.07,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.24,
-          "high": 40.0,
-          "market": 0.21,
+          "high": 100.21,
+          "market": 0.23,
           "directLow": 0.01
         }
       }
@@ -2859,16 +2859,16 @@
       "variantes": {
         "Normal": {
           "low": 0.01,
-          "mid": 0.2,
+          "mid": 0.21,
           "high": 20.0,
           "market": 0.22,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
-          "low": 0.1,
-          "mid": 0.34,
+          "low": 0.01,
+          "mid": 0.33,
           "high": 19.88,
-          "market": 0.32,
+          "market": 0.31,
           "directLow": 0.32
         }
       }
@@ -2889,7 +2889,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.05,
+          "market": 0.06,
           "directLow": 0.01
         }
       }
@@ -2902,9 +2902,9 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 25.0,
+          "high": 100.17,
           "market": 0.17,
-          "directLow": 0.09
+          "directLow": 0.1
         },
         "Normal": {
           "low": 0.01,
@@ -2923,8 +2923,8 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
-          "market": 0.17,
+          "high": 100.16,
+          "market": 0.15,
           "directLow": 0.1
         },
         "Normal": {
@@ -2971,9 +2971,9 @@
         },
         "Reverse Holofoil": {
           "low": 0.08,
-          "mid": 0.28,
+          "mid": 0.29,
           "high": 6.6,
-          "market": 0.28,
+          "market": 0.29,
           "directLow": 0.23
         }
       }
@@ -2987,14 +2987,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.11,
+          "market": 0.13,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.03,
           "mid": 0.29,
           "high": 40.0,
-          "market": 0.29,
+          "market": 0.27,
           "directLow": 0.22
         }
       }
@@ -3007,7 +3007,7 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 15.1,
+          "high": 100.19,
           "market": 0.19,
           "directLow": 0.01
         },
@@ -3028,9 +3028,9 @@
         "Holofoil": {
           "low": 0.3,
           "mid": 0.85,
-          "high": 18.94,
+          "high": 18.88,
           "market": 0.73,
-          "directLow": 0.62
+          "directLow": 0.73
         }
       }
     },
@@ -3041,10 +3041,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.98,
-          "mid": 1.93,
+          "mid": 1.94,
           "high": 37.0,
-          "market": 1.68,
-          "directLow": 2.56
+          "market": 1.67,
+          "directLow": 1.65
         }
       }
     },
@@ -3064,7 +3064,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.03,
+          "market": 0.04,
           "directLow": 0.01
         }
       }
@@ -3084,8 +3084,8 @@
         "Reverse Holofoil": {
           "low": 0.04,
           "mid": 0.26,
-          "high": 5.6,
-          "market": 0.29,
+          "high": 100.29,
+          "market": 0.26,
           "directLow": 0.1
         }
       }
@@ -3098,13 +3098,13 @@
         "Normal": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 20.0,
+          "high": 100.23,
           "market": 0.23,
-          "directLow": 0.08
+          "directLow": 0.09
         },
         "Reverse Holofoil": {
           "low": 0.1,
-          "mid": 0.29,
+          "mid": 0.28,
           "high": 19.88,
           "market": 0.28,
           "directLow": 0.25
@@ -3117,7 +3117,7 @@
       "numeroNormalizado": "102",
       "variantes": {
         "Reverse Holofoil": {
-          "low": 0.02,
+          "low": 0.01,
           "mid": 0.22,
           "high": 19.88,
           "market": 0.21,
@@ -3125,9 +3125,9 @@
         },
         "Normal": {
           "low": 0.01,
-          "mid": 0.17,
+          "mid": 0.16,
           "high": 19.88,
-          "market": 0.14,
+          "market": 0.13,
           "directLow": 0.01
         }
       }
@@ -3139,9 +3139,9 @@
       "variantes": {
         "Holofoil": {
           "low": 4.0,
-          "mid": 9.97,
+          "mid": 9.92,
           "high": 180.6,
-          "market": 9.08,
+          "market": 9.01,
           "directLow": 10.39
         }
       }
@@ -3155,8 +3155,8 @@
           "low": 2.0,
           "mid": 4.99,
           "high": 96.95,
-          "market": 4.93,
-          "directLow": 3.0
+          "market": 4.82,
+          "directLow": 2.99
         }
       }
     },
@@ -3167,9 +3167,9 @@
       "variantes": {
         "Holofoil": {
           "low": 25.0,
-          "mid": 30.95,
+          "mid": 30.37,
           "high": 202.3,
-          "market": 28.37,
+          "market": 27.6,
           "directLow": 36.76
         }
       }
@@ -3183,7 +3183,7 @@
           "low": 250.0,
           "mid": 315.0,
           "high": 549.95,
-          "market": 286.77,
+          "market": 285.22,
           "directLow": 294.99
         }
       }
@@ -3195,10 +3195,10 @@
       "variantes": {
         "Holofoil": {
           "low": 2.0,
-          "mid": 3.6,
+          "mid": 3.65,
           "high": 64.8,
-          "market": 3.68,
-          "directLow": 5.74
+          "market": 2.9,
+          "directLow": 3.08
         }
       }
     },
@@ -3210,7 +3210,7 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.23,
-          "high": 19.88,
+          "high": 100.23,
           "market": 0.23,
           "directLow": 0.13
         },
@@ -3232,14 +3232,14 @@
           "low": 0.04,
           "mid": 0.26,
           "high": 19.88,
-          "market": 0.26,
+          "market": 0.27,
           "directLow": 0.23
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 20.0,
-          "market": 0.07,
+          "market": 0.08,
           "directLow": 0.01
         }
       }
@@ -3259,7 +3259,7 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.24,
-          "high": 40.0,
+          "high": 100.24,
           "market": 0.24,
           "directLow": 0.14
         }
@@ -3274,14 +3274,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.06,
+          "market": 0.08,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.24,
-          "high": 19.88,
-          "market": 0.22,
+          "high": 100.22,
+          "market": 0.23,
           "directLow": 0.1
         }
       }
@@ -3294,15 +3294,15 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.18,
-          "high": 35.0,
-          "market": 0.09,
+          "high": 100.09,
+          "market": 0.08,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.06,
           "mid": 0.25,
           "high": 19.88,
-          "market": 0.25,
+          "market": 0.24,
           "directLow": 0.2
         }
       }
@@ -3316,14 +3316,14 @@
           "low": 0.01,
           "mid": 0.16,
           "high": 19.88,
-          "market": 0.13,
+          "market": 0.14,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.05,
-          "mid": 0.3,
+          "mid": 0.29,
           "high": 19.88,
-          "market": 0.29,
+          "market": 0.26,
           "directLow": 0.25
         }
       }
@@ -3384,9 +3384,9 @@
         },
         "Reverse Holofoil": {
           "low": 0.02,
-          "mid": 0.23,
+          "mid": 0.22,
           "high": 19.88,
-          "market": 0.24,
+          "market": 0.21,
           "directLow": 0.1
         }
       }
@@ -3419,16 +3419,16 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.23,
-          "high": 40.0,
-          "market": 0.23,
+          "mid": 0.24,
+          "high": 100.23,
+          "market": 0.22,
           "directLow": 0.13
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.13,
+          "market": 0.12,
           "directLow": 0.01
         }
       }
@@ -3441,9 +3441,9 @@
         "Holofoil": {
           "low": 0.25,
           "mid": 0.8,
-          "high": 18.52,
-          "market": 0.59,
-          "directLow": 0.71
+          "high": 18.5,
+          "market": 0.57,
+          "directLow": 1.0
         }
       }
     },
@@ -3453,10 +3453,10 @@
       "numeroNormalizado": "216",
       "variantes": {
         "Holofoil": {
-          "low": 0.44,
-          "mid": 1.08,
+          "low": 0.5,
+          "mid": 1.07,
           "high": 40.0,
-          "market": 0.87,
+          "market": 0.84,
           "directLow": null
         }
       }
@@ -3504,8 +3504,8 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.21,
-          "high": 40.0,
-          "market": 0.21,
+          "high": 100.21,
+          "market": 0.18,
           "directLow": 0.14
         },
         "Normal": {
@@ -3533,7 +3533,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.05,
+          "market": 0.07,
           "directLow": 0.01
         }
       }
@@ -3544,10 +3544,10 @@
       "numeroNormalizado": "194",
       "variantes": {
         "Holofoil": {
-          "low": 2.47,
-          "mid": 4.24,
+          "low": 2.0,
+          "mid": 4.3,
           "high": 89.0,
-          "market": 3.86,
+          "market": 3.89,
           "directLow": 3.74
         }
       }
@@ -3567,8 +3567,8 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 2.25,
-          "market": 0.05,
+          "high": 100.05,
+          "market": 0.06,
           "directLow": 0.05
         }
       }
@@ -3582,14 +3582,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 20.0,
-          "market": 0.06,
+          "market": 0.05,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.25,
           "high": 5.0,
-          "market": 0.25,
+          "market": 0.23,
           "directLow": 0.17
         }
       }
@@ -3609,7 +3609,7 @@
         "Reverse Holofoil": {
           "low": 0.02,
           "mid": 0.22,
-          "high": 19.88,
+          "high": 100.22,
           "market": 0.22,
           "directLow": 0.13
         }
@@ -3624,7 +3624,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.1,
+          "market": 0.09,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
@@ -3632,7 +3632,7 @@
           "mid": 0.2,
           "high": 40.0,
           "market": 0.07,
-          "directLow": 0.09
+          "directLow": 0.08
         }
       }
     },
@@ -3644,8 +3644,8 @@
         "Reverse Holofoil": {
           "low": 0.03,
           "mid": 0.2,
-          "high": 19.88,
-          "market": 0.17,
+          "high": 100.17,
+          "market": 0.18,
           "directLow": 0.1
         },
         "Normal": {
@@ -3663,11 +3663,11 @@
       "numeroNormalizado": "209",
       "variantes": {
         "Holofoil": {
-          "low": 5.71,
-          "mid": 10.0,
+          "low": 7.0,
+          "mid": 9.92,
           "high": 201.4,
-          "market": 8.97,
-          "directLow": 9.18
+          "market": 8.73,
+          "directLow": 11.01
         }
       }
     },
@@ -3679,16 +3679,16 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
+          "high": 100.12,
           "market": 0.12,
           "directLow": 0.08
         },
         "Reverse Holofoil": {
           "low": 0.06,
           "mid": 0.3,
-          "high": 6.0,
-          "market": 0.31,
-          "directLow": 0.25
+          "high": 100.31,
+          "market": 0.28,
+          "directLow": 0.28
         }
       }
     },
@@ -3699,10 +3699,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.25,
-          "mid": 0.81,
+          "mid": 0.8,
           "high": 85.0,
-          "market": 0.55,
-          "directLow": 0.85
+          "market": 0.53,
+          "directLow": 1.0
         }
       }
     },
@@ -3712,11 +3712,11 @@
       "numeroNormalizado": "227",
       "variantes": {
         "Holofoil": {
-          "low": 0.69,
-          "mid": 1.17,
+          "low": 0.7,
+          "mid": 1.15,
           "high": 19.88,
-          "market": 1.06,
-          "directLow": null
+          "market": 0.97,
+          "directLow": 1.49
         }
       }
     },
@@ -3728,7 +3728,7 @@
         "Reverse Holofoil": {
           "low": 0.03,
           "mid": 0.23,
-          "high": 4.4,
+          "high": 100.22,
           "market": 0.22,
           "directLow": 0.14
         },
@@ -3750,8 +3750,8 @@
           "low": 10.5,
           "mid": 13.74,
           "high": 264.4,
-          "market": 12.79,
-          "directLow": 14.15
+          "market": 12.63,
+          "directLow": 12.98
         }
       }
     },
@@ -3762,17 +3762,17 @@
       "variantes": {
         "Normal": {
           "low": 0.01,
-          "mid": 0.25,
+          "mid": 0.26,
           "high": 19.88,
-          "market": 0.24,
-          "directLow": 0.08
+          "market": 0.27,
+          "directLow": 0.24
         },
         "Reverse Holofoil": {
           "low": 0.07,
           "mid": 0.47,
           "high": 19.88,
-          "market": 0.46,
-          "directLow": 0.51
+          "market": 0.44,
+          "directLow": 0.6
         }
       }
     },
@@ -3785,14 +3785,14 @@
           "low": 0.01,
           "mid": 0.3,
           "high": 19.88,
-          "market": 0.35,
+          "market": 0.3,
           "directLow": 0.21
         },
         "Reverse Holofoil": {
           "low": 0.04,
-          "mid": 0.56,
+          "mid": 0.52,
           "high": 30.0,
-          "market": 0.49,
+          "market": 0.44,
           "directLow": 0.99
         }
       }
@@ -3804,9 +3804,9 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.2,
+          "mid": 0.22,
           "high": 19.88,
-          "market": 0.2,
+          "market": 0.22,
           "directLow": 0.1
         },
         "Normal": {
@@ -3846,10 +3846,10 @@
       "variantes": {
         "Holofoil": {
           "low": 7.5,
-          "mid": 10.69,
+          "mid": 10.72,
           "high": 199.8,
-          "market": 10.42,
-          "directLow": 13.69
+          "market": 10.32,
+          "directLow": 13.73
         }
       }
     },
@@ -3862,15 +3862,15 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.02,
+          "market": 0.04,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
+          "high": 100.09,
           "market": 0.09,
-          "directLow": 0.08
+          "directLow": 0.1
         }
       }
     },
@@ -3881,10 +3881,10 @@
       "variantes": {
         "Holofoil": {
           "low": 1.1,
-          "mid": 2.34,
+          "mid": 2.39,
           "high": 26.3,
-          "market": 2.25,
-          "directLow": 3.38
+          "market": 2.41,
+          "directLow": null
         }
       }
     },
@@ -3896,16 +3896,16 @@
         "Normal": {
           "low": 0.01,
           "mid": 0.19,
-          "high": 19.88,
+          "high": 100.1,
           "market": 0.16,
           "directLow": 0.05
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.25,
-          "high": 19.88,
-          "market": 0.21,
-          "directLow": 0.19
+          "high": 100.16,
+          "market": 0.2,
+          "directLow": 0.18
         }
       }
     },
@@ -3918,8 +3918,8 @@
           "low": 0.48,
           "mid": 1.25,
           "high": 95.0,
-          "market": 1.09,
-          "directLow": 1.58
+          "market": 1.05,
+          "directLow": null
         }
       }
     },
@@ -3931,8 +3931,8 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.22,
-          "high": 19.88,
-          "market": 0.22,
+          "high": 100.22,
+          "market": 0.21,
           "directLow": 0.14
         },
         "Normal": {
@@ -3951,10 +3951,10 @@
       "variantes": {
         "Holofoil": {
           "low": 1.5,
-          "mid": 2.75,
+          "mid": 2.74,
           "high": 44.0,
-          "market": 2.57,
-          "directLow": 3.9
+          "market": 2.61,
+          "directLow": 4.11
         }
       }
     },
@@ -3966,16 +3966,16 @@
         "Reverse Holofoil": {
           "low": 0.05,
           "mid": 0.28,
-          "high": 18.4,
+          "high": 18.34,
           "market": 0.27,
           "directLow": 0.25
         },
         "Normal": {
           "low": 0.01,
-          "mid": 0.22,
+          "mid": 0.2,
           "high": 19.88,
           "market": 0.2,
-          "directLow": 0.08
+          "directLow": 0.1
         }
       }
     },
@@ -3987,7 +3987,7 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 18.5,
+          "high": 100.17,
           "market": 0.17,
           "directLow": 0.03
         },
@@ -3995,8 +3995,8 @@
           "low": 0.04,
           "mid": 0.28,
           "high": 6.4,
-          "market": 0.27,
-          "directLow": 0.24
+          "market": 0.28,
+          "directLow": 0.15
         }
       }
     },
@@ -4007,15 +4007,15 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.03,
-          "mid": 0.28,
+          "mid": 0.29,
           "high": 6.6,
-          "market": 0.27,
+          "market": 0.28,
           "directLow": 0.25
         },
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
+          "high": 100.12,
           "market": 0.12,
           "directLow": 0.08
         }
@@ -4042,10 +4042,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.99,
-          "mid": 2.08,
+          "mid": 2.09,
           "high": 40.4,
-          "market": 1.89,
-          "directLow": 2.5
+          "market": 1.91,
+          "directLow": 1.9
         }
       }
     },
@@ -4057,15 +4057,15 @@
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
-          "high": 19.88,
+          "high": 100.06,
           "market": 0.06,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.04,
-          "mid": 0.28,
-          "high": 19.88,
-          "market": 0.31,
+          "mid": 0.27,
+          "high": 100.31,
+          "market": 0.27,
           "directLow": 0.1
         }
       }
@@ -4079,14 +4079,14 @@
           "low": 0.01,
           "mid": 0.26,
           "high": 19.88,
-          "market": 0.24,
+          "market": 0.23,
           "directLow": 0.24
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
-          "market": 0.17,
+          "high": 100.17,
+          "market": 0.16,
           "directLow": 0.01
         }
       }
@@ -4098,17 +4098,17 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.05,
-          "mid": 0.31,
+          "mid": 0.29,
           "high": 6.2,
-          "market": 0.33,
-          "directLow": 0.11
+          "market": 0.25,
+          "directLow": 0.2
         },
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
-          "market": 0.13,
-          "directLow": 0.09
+          "high": 100.13,
+          "market": 0.14,
+          "directLow": 0.1
         }
       }
     },
@@ -4120,15 +4120,15 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 19.88,
-          "market": 0.15,
+          "high": 100.15,
+          "market": 0.14,
           "directLow": 0.1
         },
         "Reverse Holofoil": {
           "low": 0.04,
           "mid": 0.29,
           "high": 10.0,
-          "market": 0.26,
+          "market": 0.27,
           "directLow": 0.23
         }
       }
@@ -4140,9 +4140,9 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.05,
-          "mid": 0.27,
+          "mid": 0.25,
           "high": 40.0,
-          "market": 0.27,
+          "market": 0.25,
           "directLow": 0.2
         },
         "Normal": {
@@ -4162,13 +4162,13 @@
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.25,
-          "high": 40.0,
+          "high": 100.25,
           "market": 0.25,
           "directLow": 0.17
         },
         "Normal": {
           "low": 0.01,
-          "mid": 0.18,
+          "mid": 0.19,
           "high": 20.0,
           "market": 0.18,
           "directLow": 0.01
@@ -4212,7 +4212,7 @@
           "low": 0.04,
           "mid": 0.25,
           "high": 10.0,
-          "market": 0.24,
+          "market": 0.21,
           "directLow": 0.19
         }
       }
@@ -4231,9 +4231,9 @@
         },
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.28,
-          "high": 19.88,
-          "market": 0.28,
+          "mid": 0.27,
+          "high": 100.28,
+          "market": 0.26,
           "directLow": 0.01
         }
       }
@@ -4247,15 +4247,15 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 19.88,
-          "market": 0.18,
+          "market": 0.17,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.1,
-          "mid": 0.34,
+          "mid": 0.33,
           "high": 10.0,
-          "market": 0.34,
-          "directLow": 0.11
+          "market": 0.31,
+          "directLow": 0.31
         }
       }
     },
@@ -4274,7 +4274,7 @@
         "Reverse Holofoil": {
           "low": 0.04,
           "mid": 0.25,
-          "high": 40.0,
+          "high": 100.25,
           "market": 0.25,
           "directLow": 0.16
         }
@@ -4289,8 +4289,8 @@
           "low": 2.0,
           "mid": 3.79,
           "high": 75.4,
-          "market": 3.23,
-          "directLow": 3.0
+          "market": 3.22,
+          "directLow": 3.65
         }
       }
     },
@@ -4304,13 +4304,13 @@
           "mid": 0.2,
           "high": 20.0,
           "market": 0.16,
-          "directLow": 0.08
+          "directLow": 0.1
         },
         "Reverse Holofoil": {
           "low": 0.09,
           "mid": 0.29,
           "high": 19.88,
-          "market": 0.26,
+          "market": 0.25,
           "directLow": 0.24
         }
       }
@@ -4322,15 +4322,15 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.1,
-          "mid": 0.32,
-          "high": 19.88,
-          "market": 0.34,
-          "directLow": 0.25
+          "mid": 0.3,
+          "high": 100.34,
+          "market": 0.3,
+          "directLow": 0.28
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
-          "high": 19.88,
+          "high": 100.06,
           "market": 0.06,
           "directLow": 0.01
         }
@@ -4364,10 +4364,10 @@
       "variantes": {
         "Holofoil": {
           "low": 3.0,
-          "mid": 5.59,
+          "mid": 5.66,
           "high": 126.4,
-          "market": 4.65,
-          "directLow": 5.88
+          "market": 4.77,
+          "directLow": 6.06
         }
       }
     },
@@ -4380,14 +4380,14 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.06,
+          "market": 0.07,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.25,
-          "high": 50.0,
-          "market": 0.25,
+          "mid": 0.24,
+          "high": 100.25,
+          "market": 0.23,
           "directLow": 0.1
         }
       }
@@ -4399,7 +4399,7 @@
       "variantes": {
         "Reverse Holofoil": {
           "low": 0.05,
-          "mid": 0.26,
+          "mid": 0.25,
           "high": 19.88,
           "market": 0.26,
           "directLow": 0.18
@@ -4408,8 +4408,8 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 19.88,
-          "market": 0.17,
-          "directLow": 0.08
+          "market": 0.16,
+          "directLow": 0.09
         }
       }
     },
@@ -4421,16 +4421,16 @@
         "Normal": {
           "low": 0.01,
           "mid": 0.16,
-          "high": 23.0,
-          "market": 0.15,
+          "high": 100.15,
+          "market": 0.14,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.05,
-          "mid": 0.3,
-          "high": 5.8,
-          "market": 0.3,
-          "directLow": 0.25
+          "mid": 0.29,
+          "high": 100.3,
+          "market": 0.27,
+          "directLow": 0.27
         }
       }
     },
@@ -4450,7 +4450,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 20.0,
-          "market": 0.03,
+          "market": 0.05,
           "directLow": 0.01
         }
       }
@@ -4464,14 +4464,14 @@
           "low": 0.07,
           "mid": 0.27,
           "high": 6.0,
-          "market": 0.26,
+          "market": 0.27,
           "directLow": 0.22
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.15,
           "high": 20.0,
-          "market": 0.08,
+          "market": 0.09,
           "directLow": 0.01
         }
       }
@@ -4506,13 +4506,13 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.88,
-          "market": 0.04,
+          "market": 0.03,
           "directLow": 0.01
         },
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.22,
-          "high": 19.88,
+          "mid": 0.21,
+          "high": 100.2,
           "market": 0.2,
           "directLow": 0.1
         }
@@ -4547,7 +4547,7 @@
         "Holofoil": {
           "low": 0.01,
           "mid": 0.2,
-          "high": 20.0,
+          "high": 100.15,
           "market": 0.15,
           "directLow": 0.1
         },
@@ -4574,9 +4574,9 @@
         },
         "Reverse Holofoil": {
           "low": 0.01,
-          "mid": 0.22,
+          "mid": 0.21,
           "high": 19.88,
-          "market": 0.22,
+          "market": 0.21,
           "directLow": 0.11
         }
       }
@@ -4590,14 +4590,14 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 19.88,
-          "market": 0.21,
+          "market": 0.2,
           "directLow": 0.07
         },
         "Reverse Holofoil": {
           "low": 0.02,
-          "mid": 0.22,
+          "mid": 0.23,
           "high": 19.88,
-          "market": 0.21,
+          "market": 0.22,
           "directLow": 0.12
         }
       }
@@ -4608,11 +4608,11 @@
       "numeroNormalizado": "247",
       "variantes": {
         "Holofoil": {
-          "low": 74.99,
-          "mid": 88.97,
+          "low": 70.49,
+          "mid": 88.34,
           "high": 568.6,
-          "market": 80.63,
-          "directLow": 92.96
+          "market": 80.22,
+          "directLow": 92.95
         }
       }
     },
@@ -4623,9 +4623,9 @@
       "variantes": {
         "Holofoil": {
           "low": 8.99,
-          "mid": 11.55,
-          "high": 109.12,
-          "market": 10.18,
+          "mid": 11.64,
+          "high": 109.04,
+          "market": 10.19,
           "directLow": 12.61
         }
       }
@@ -4637,9 +4637,9 @@
       "variantes": {
         "Holofoil": {
           "low": 1.16,
-          "mid": 3.11,
+          "mid": 3.0,
           "high": 57.4,
-          "market": 2.35,
+          "market": 2.26,
           "directLow": null
         }
       }
@@ -4651,9 +4651,9 @@
       "variantes": {
         "Holofoil": {
           "low": 9.8,
-          "mid": 11.37,
+          "mid": 11.49,
           "high": 229.8,
-          "market": 10.63,
+          "market": 10.71,
           "directLow": null
         }
       }
@@ -4667,7 +4667,7 @@
           "low": 7.5,
           "mid": 10.1,
           "high": 9999.0,
-          "market": 9.18,
+          "market": 9.44,
           "directLow": null
         }
       }
@@ -4681,8 +4681,8 @@
           "low": 2.69,
           "mid": 4.87,
           "high": 76.2,
-          "market": 3.71,
-          "directLow": 6.24
+          "market": 3.74,
+          "directLow": 4.6
         }
       }
     }

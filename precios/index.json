@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-09-26T00:03:21Z",
+  "actualizado": "2026-09-26T23:48:09Z",
   "setsCubiertos": 190,
-  "cartasConPrecio": 23487,
+  "cartasConPrecio": 23488,
   "sets": [
     {
       "tcgdexSetId": "2011bw",
@@ -400,7 +400,7 @@
       "tcgdexNombre": "Aquapolis",
       "tcgplayerGroupId": 1397,
       "tcgplayerNombre": "Aquapolis",
-      "cartas": 184,
+      "cartas": 185,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -1380,20 +1380,12 @@
       "puntajeEmparejamiento": 0.862
     },
     {
-      "tcgdexSetId": "tk-xy-latio",
-      "tcgdexNombre": "XY trainer Kit (Latios)",
+      "tcgdexSetId": "tk-xy-latia",
+      "tcgdexNombre": "XY trainer Kit (Latias)",
       "tcgplayerGroupId": 1536,
       "tcgplayerNombre": "XY Trainer Kit: Latias & Latios",
       "cartas": 60,
       "puntajeEmparejamiento": 0.857
-    },
-    {
-      "tcgdexSetId": "tk-xy-n",
-      "tcgdexNombre": "XY trainer Kit (Noivern)",
-      "tcgplayerGroupId": 1532,
-      "tcgplayerNombre": "XY Trainer Kit: Sylveon & Noivern",
-      "cartas": 60,
-      "puntajeEmparejamiento": 0.846
     },
     {
       "tcgdexSetId": "tk-xy-p",
@@ -1402,6 +1394,14 @@
       "tcgplayerNombre": "XY Trainer Kit: Pikachu Libre & Suicune",
       "cartas": 60,
       "puntajeEmparejamiento": 0.875
+    },
+    {
+      "tcgdexSetId": "tk-xy-sy",
+      "tcgdexNombre": "XY trainer Kit (Sylveon)",
+      "tcgplayerGroupId": 1532,
+      "tcgplayerNombre": "XY Trainer Kit: Sylveon & Noivern",
+      "cartas": 60,
+      "puntajeEmparejamiento": 0.846
     },
     {
       "tcgdexSetId": "tk-xy-w",
@@ -1680,16 +1680,16 @@
       "nombre": "XY trainer Kit (Bisharp)"
     },
     {
-      "id": "tk-xy-latia",
-      "nombre": "XY trainer Kit (Latias)"
+      "id": "tk-xy-latio",
+      "nombre": "XY trainer Kit (Latios)"
+    },
+    {
+      "id": "tk-xy-n",
+      "nombre": "XY trainer Kit (Noivern)"
     },
     {
       "id": "tk-xy-su",
       "nombre": "XY trainer Kit (Suicune)"
-    },
-    {
-      "id": "tk-xy-sy",
-      "nombre": "XY trainer Kit (Sylveon)"
     },
     {
       "id": "xya",
