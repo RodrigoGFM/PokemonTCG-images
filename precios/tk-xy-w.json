@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-10-02T01:03:28Z",
+  "actualizado": "2026-10-03T00:39:35Z",
   "cartas": [
     {
       "productId": 98147,
@@ -19,6 +19,21 @@
       "nombreProducto": "Fletchling"
     },
     {
+      "productId": 98148,
+      "numero": "2/30",
+      "numeroNormalizado": "2",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": 1.0,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#2)"
+    },
+    {
       "productId": 98150,
       "numero": "5/30",
       "numeroNormalizado": "5",
@@ -32,6 +47,21 @@
         }
       },
       "nombreProducto": "Metal Energy (#5)"
+    },
+    {
+      "productId": 98151,
+      "numero": "6/30",
+      "numeroNormalizado": "6",
+      "variantes": {
+        "Normal": {
+          "low": 0.19,
+          "mid": 0.19,
+          "high": 0.19,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#6)"
     },
     {
       "productId": 98154,
@@ -54,8 +84,8 @@
       "numeroNormalizado": "4",
       "variantes": {
         "Normal": {
-          "low": 0.41,
-          "mid": 1.43,
+          "low": 0.5,
+          "mid": 1.53,
           "high": 26.54,
           "market": 1.36,
           "directLow": null
@@ -100,7 +130,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 8.52,
+          "mid": 9.99,
           "high": 71.79,
           "market": 5.99,
           "directLow": null
@@ -130,7 +160,7 @@
       "variantes": {
         "Normal": {
           "low": 0.79,
-          "mid": 0.99,
+          "mid": 8.0,
           "high": 19.82,
           "market": 0.86,
           "directLow": null
@@ -144,10 +174,10 @@
       "numeroNormalizado": "17",
       "variantes": {
         "Normal": {
-          "low": 0.21,
-          "mid": 0.8,
+          "low": 0.2,
+          "mid": 0.6,
           "high": 15.0,
-          "market": 0.2,
+          "market": 0.18,
           "directLow": null
         }
       },
@@ -159,8 +189,8 @@
       "numeroNormalizado": "19",
       "variantes": {
         "Normal": {
-          "low": 0.24,
-          "mid": 0.39,
+          "low": 0.25,
+          "mid": 0.41,
           "high": 19.82,
           "market": 0.4,
           "directLow": null
@@ -175,7 +205,7 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 1.74,
+          "mid": 1.52,
           "high": 37.74,
           "market": 1.0,
           "directLow": null
@@ -190,7 +220,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.77,
+          "mid": 3.3,
           "high": 19.82,
           "market": 0.62,
           "directLow": null
@@ -220,7 +250,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 1.99,
+          "mid": 2.01,
           "high": 32.84,
           "market": 1.99,
           "directLow": null
@@ -234,9 +264,9 @@
       "numeroNormalizado": "29",
       "variantes": {
         "Normal": {
-          "low": 0.75,
+          "low": 0.16,
           "mid": 0.8,
-          "high": 4.99,
+          "high": 0.99,
           "market": 0.27,
           "directLow": null
         }
@@ -384,9 +414,9 @@
       "numeroNormalizado": "22",
       "variantes": {
         "Normal": {
-          "low": 1.76,
-          "mid": 1.76,
-          "high": 1.76,
+          "low": 1.73,
+          "mid": 1.73,
+          "high": 1.73,
           "market": 1.35,
           "directLow": null
         }
@@ -400,7 +430,7 @@
       "variantes": {
         "Normal": {
           "low": 0.96,
-          "mid": 1.72,
+          "mid": 1.61,
           "high": 29.34,
           "market": 2.2,
           "directLow": null
@@ -504,8 +534,8 @@
       "numeroNormalizado": "19",
       "variantes": {
         "Normal": {
-          "low": 2.0,
-          "mid": 3.0,
+          "low": 3.0,
+          "mid": 6.5,
           "high": 10.0,
           "market": 9.49,
           "directLow": null
@@ -535,9 +565,9 @@
       "variantes": {
         "Normal": {
           "low": 0.5,
-          "mid": 1.25,
+          "mid": 1.15,
           "high": 43.14,
-          "market": 1.04,
+          "market": 1.06,
           "directLow": null
         }
       },
@@ -565,7 +595,7 @@
       "variantes": {
         "Normal": {
           "low": 0.39,
-          "mid": 16.68,
+          "mid": 16.44,
           "high": 119.66,
           "market": 0.4,
           "directLow": null
@@ -595,7 +625,7 @@
       "variantes": {
         "Normal": {
           "low": 3.8,
-          "mid": 6.5,
+          "mid": 5.15,
           "high": 6.5,
           "market": 6.5,
           "directLow": null
@@ -610,7 +640,7 @@
       "variantes": {
         "Holofoil": {
           "low": 2.99,
-          "mid": 10.0,
+          "mid": 7.5,
           "high": 32.74,
           "market": 2.58,
           "directLow": null
