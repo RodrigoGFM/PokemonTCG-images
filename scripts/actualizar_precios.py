@@ -295,10 +295,11 @@ def cargar_mapeo_existente():
             datos.setdefault("catalogo_tcgcsv", {})
             datos.setdefault("ignorar_tcgdex_ids", [])
             datos.setdefault("gruposAdicionales", {})
+            datos.setdefault("cartas_manual", {})
             return datos
     return {
         "manual": {}, "ignorar_group_ids": [], "automatico": {}, "catalogo_tcgcsv": {},
-        "ignorar_tcgdex_ids": [], "gruposAdicionales": {},
+        "ignorar_tcgdex_ids": [], "gruposAdicionales": {}, "cartas_manual": {},
     }
 
 
@@ -589,6 +590,89 @@ def procesar_set_catalogo_completo(set_id, group_id, nombre_set):
     }
 
 
+def aplicar_cartas_manuales(cartas_manual, hoy):
+    """Precios de cartas sueltas emparejadas a mano con su producto de TCGplayer (mapeo-sets.json
+    -> "cartas_manual": {"<tcgdexCardId>": {"groupId", "productId", "producto"}}). Cubre las cartas
+    que el cruce por set + número no alcanza: Trainer Kits (las dos mitades de un kit comparten
+    grupo Y numeración en TCGplayer), colecciones que TCGplayer numera con el número de la carta
+    original (30th-c, cel25cc), y variantes con sufijo ("55a", "XY150a") que viven en otro grupo.
+
+    Se corre DESPUÉS de procesar_set: para cada carta, borra de precios/<setId>.json cualquier
+    entrada con su mismo numeroNormalizado (puede ser la de la otra mitad del kit) y agrega la del
+    producto indicado, con `numeroNormalizado` sacado del localId de TCGdex -- así la app la cruza
+    igual que al resto, sin ningún cambio de su lado. Si el set no tiene archivo (no está en el
+    mapeo de sets), se crea. Una carta cuyo producto hoy no tiene precio se saltea, pero queda en
+    el mapeo para cuando TCGplayer sí lo tenga. Devuelve la cantidad de cartas escritas."""
+    if not cartas_manual:
+        return 0
+
+    precios_por_grupo = {}
+    for info in cartas_manual.values():
+        gid = info["groupId"]
+        if gid not in precios_por_grupo:
+            precios_por_grupo[gid] = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/prices").get("results", [])
+
+    filas_por_producto = {}
+    for filas in precios_por_grupo.values():
+        for fila in filas:
+            filas_por_producto.setdefault(fila["productId"], []).append(fila)
+
+    # "tk-xy-latio-13" -> set "tk-xy-latio", localId "13" (los IDs de carta de TCGdex son siempre
+    # "<setId>-<localId>", y el localId nunca lleva guion).
+    por_set = {}
+    for card_id, info in cartas_manual.items():
+        set_id, local_id = card_id.rsplit("-", 1)
+        por_set.setdefault(set_id, []).append((local_id, info))
+
+    escritas = 0
+    for set_id, cartas in sorted(por_set.items()):
+        nuevas = []
+        for local_id, info in cartas:
+            variantes = {}
+            for fila in filas_por_producto.get(info["productId"], []):
+                variantes[fila.get("subTypeName") or "Normal"] = {
+                    "low": fila.get("lowPrice"),
+                    "mid": fila.get("midPrice"),
+                    "high": fila.get("highPrice"),
+                    "market": fila.get("marketPrice"),
+                    "directLow": fila.get("directLowPrice"),
+                }
+            if precio_representativo(variantes) is None:
+                continue
+            nuevas.append({
+                "productId": info["productId"],
+                "numero": local_id,
+                "numeroNormalizado": normalizar_numero(local_id),
+                "nombreProducto": info.get("producto"),
+                "manual": True,
+                "variantes": variantes,
+            })
+        if not nuevas:
+            continue
+
+        ruta = os.path.join(DIR_PRECIOS, f"{set_id}.json")
+        salida = None
+        if os.path.exists(ruta):
+            try:
+                with open(ruta, "r", encoding="utf-8") as f:
+                    salida = json.load(f)
+            except Exception:  # noqa: BLE001 - archivo corrupto, se rearma solo con las manuales
+                salida = None
+        if salida is None:
+            salida = {"tcgdexSetId": set_id, "tcgplayerGroupId": cartas[0][1]["groupId"], "cartas": []}
+
+        numeros = {e["numeroNormalizado"] for e in nuevas}
+        salida["cartas"] = [e for e in salida.get("cartas", []) if e.get("numeroNormalizado") not in numeros]
+        salida["cartas"].extend(nuevas)
+        salida["actualizado"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        with open(ruta, "w", encoding="utf-8") as f:
+            json.dump(salida, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        actualizar_historial_de_set(set_id, nuevas, hoy)
+        escritas += len(nuevas)
+    return escritas
+
+
 def main():
     os.makedirs(DIR_PRECIOS, exist_ok=True)
     hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -679,6 +763,18 @@ def main():
             "cartas": len(salida["cartas"]),
         })
 
+    # Cartas sueltas emparejadas a mano (mapeo-sets.json -> "cartas_manual") — ver
+    # aplicar_cartas_manuales. Va al final para pisar lo que procesar_set haya escrito.
+    cartas_manual = cargar_mapeo_existente().get("cartas_manual", {})
+    cartas_manuales_escritas = 0
+    if cartas_manual:
+        print(f"Aplicando {len(cartas_manual)} carta(s) emparejadas a mano...")
+        try:
+            cartas_manuales_escritas = aplicar_cartas_manuales(cartas_manual, hoy)
+        except Exception as e:  # noqa: BLE001
+            print(f"  ERROR aplicando cartas manuales: {e}")
+        print(f"  {cartas_manuales_escritas} con precio hoy.")
+
     indice = {
         "actualizado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "setsCubiertos": len(resumen_sets),
@@ -695,6 +791,7 @@ def main():
         # precios/<id>.json) — la app los tiene que tratar distinto: no hay set de TCGdex al que
         # pegarles precios, HAY que mostrar la carta entera (nombre, imagen, etc.) desde ese JSON.
         "catalogosCompletosTcgcsv": catalogos_completos,
+        "cartasManuales": cartas_manuales_escritas,
     }
     with open(os.path.join(DIR_PRECIOS, "index.json"), "w", encoding="utf-8") as f:
         json.dump(indice, f, ensure_ascii=False, indent=2)

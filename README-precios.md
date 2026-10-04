@@ -59,6 +59,19 @@ Para corregir un emparejamiento a mano (o agregar uno que el algoritmo no encont
   un bundle sellado que apareció como su propio "grupo").
 - `automatico`: lo arma el script solo, no hace falta tocarlo (pero se puede mirar para
   entender qué emparejó y con qué puntaje de confianza).
+- `cartas_manual`: cartas sueltas emparejadas a mano con su producto de TCGplayer, para las que
+  el cruce por set + número no alcanza (Trainer Kits, 30th-c, cel25cc, variantes "55a"):
+
+  ```json
+  "cartas_manual": {
+    "tk-bw-z-17": { "groupId": 1538, "productId": 98715, "producto": "Zoroark (#17 Non-Holo)" }
+  }
+  ```
+
+  La clave es el ID de carta de TCGdex; `productId` es el número del link
+  `tcgplayer.com/product/<productId>` y `groupId` el grupo de tcgcsv donde está. Cada día el
+  script reemplaza en `precios/<setId>.json` la entrada con ese mismo número por la de este
+  producto (marcada `"manual": true`), y crea el archivo si el set no lo tenía.
 
 ## Formato de `precios/<setId>.json`
 
