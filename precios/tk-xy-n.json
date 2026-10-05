@@ -1,906 +1,487 @@
 {
   "tcgdexSetId": "tk-xy-n",
   "tcgplayerGroupId": 1532,
-  "actualizado": "2026-09-26T00:03:07Z",
+  "actualizado": "2026-10-05T00:07:03Z",
   "cartas": [
     {
-      "productId": 97966,
-      "numero": "1/30",
+      "productId": 97996,
+      "numero": "1",
       "numeroNormalizado": "1",
-      "variantes": {
-        "Normal": {
-          "low": 0.3,
-          "mid": 0.59,
-          "high": 19.88,
-          "market": 0.35,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fletchling (#1)"
-    },
-    {
-      "productId": 97967,
-      "numero": "2/30",
-      "numeroNormalizado": "2",
-      "variantes": {
-        "Normal": {
-          "low": 1.99,
-          "mid": 10.94,
-          "high": 19.88,
-          "market": 0.25,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#2)"
-    },
-    {
-      "productId": 97968,
-      "numero": "3/30",
-      "numeroNormalizado": "3",
-      "variantes": {
-        "Normal": {
-          "low": 19.88,
-          "mid": 23.19,
-          "high": 26.5,
-          "market": 1.16,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#3)"
-    },
-    {
-      "productId": 97969,
-      "numero": "4/30",
-      "numeroNormalizado": "4",
-      "variantes": {
-        "Normal": {
-          "low": 0.14,
-          "mid": 0.35,
-          "high": 19.88,
-          "market": 0.46,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Switch (Sylveon)"
-    },
-    {
-      "productId": 97970,
-      "numero": "5/30",
-      "numeroNormalizado": "5",
-      "variantes": {
-        "Normal": {
-          "low": 3.99,
-          "mid": 19.88,
-          "high": 19.88,
-          "market": 0.41,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#5)"
-    },
-    {
-      "productId": 97971,
-      "numero": "6/30",
-      "numeroNormalizado": "6",
-      "variantes": {
-        "Normal": {
-          "low": 4.38,
-          "mid": 19.88,
-          "high": 41.3,
-          "market": 2.2,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#6)"
-    },
-    {
-      "productId": 97972,
-      "numero": "7/30",
-      "numeroNormalizado": "7",
+      "nombreProducto": "Spoink",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.35,
-          "mid": 49.68,
-          "high": 99.0,
-          "market": 0.35,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#7)"
-    },
-    {
-      "productId": 97973,
-      "numero": "8/30",
-      "numeroNormalizado": "8",
-      "variantes": {
-        "Normal": {
-          "low": 0.23,
-          "mid": 19.88,
-          "high": 22.39,
-          "market": 1.03,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#8)"
-    },
-    {
-      "productId": 97974,
-      "numero": "9/30",
-      "numeroNormalizado": "9",
-      "variantes": {
-        "Normal": {
-          "low": 0.33,
-          "mid": 19.88,
-          "high": 19.88,
-          "market": 0.33,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#9)"
-    },
-    {
-      "productId": 97975,
-      "numero": "10/30",
-      "numeroNormalizado": "10",
-      "variantes": {
-        "Normal": {
-          "low": 0.49,
-          "mid": 11.94,
-          "high": 37.8,
-          "market": 0.49,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#10)"
-    },
-    {
-      "productId": 97976,
-      "numero": "11/30",
-      "numeroNormalizado": "11",
-      "variantes": {
-        "Normal": {
-          "low": 0.33,
-          "mid": 0.65,
-          "high": 19.88,
-          "market": 0.66,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Snubbull (#11)"
-    },
-    {
-      "productId": 97977,
-      "numero": "12/30",
-      "numeroNormalizado": "12",
-      "variantes": {
-        "Normal": {
-          "low": 0.45,
-          "mid": 10.0,
-          "high": 19.88,
-          "market": 0.2,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#12)"
-    },
-    {
-      "productId": 97978,
-      "numero": "13/30",
-      "numeroNormalizado": "13",
-      "variantes": {
-        "Normal": {
-          "low": 6.75,
-          "mid": 9.59,
-          "high": 99.0,
-          "market": 8.17,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Eevee (13)"
-    },
-    {
-      "productId": 97979,
-      "numero": "14/30",
-      "numeroNormalizado": "14",
-      "variantes": {
-        "Normal": {
-          "low": 0.29,
-          "mid": 0.67,
-          "high": 19.88,
-          "market": 0.65,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Granbull (#14)"
-    },
-    {
-      "productId": 97980,
-      "numero": "15/30",
-      "numeroNormalizado": "15",
-      "variantes": {
-        "Normal": {
-          "low": 10.99,
-          "mid": 13.29,
-          "high": 134.9,
-          "market": 16.71,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Sylveon (#15 - Non-Holo)"
-    },
-    {
-      "productId": 97981,
-      "numero": "16/30",
-      "numeroNormalizado": "16",
-      "variantes": {
-        "Normal": {
-          "low": 0.2,
-          "mid": 0.35,
-          "high": 19.88,
-          "market": 0.33,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Furfrou (#16 - Sylveon)"
-    },
-    {
-      "productId": 97982,
-      "numero": "17/30",
-      "numeroNormalizado": "17",
-      "variantes": {
-        "Normal": {
-          "low": 19.88,
-          "mid": 22.39,
-          "high": 24.9,
-          "market": 0.15,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#17)"
-    },
-    {
-      "productId": 97983,
-      "numero": "18/30",
-      "numeroNormalizado": "18",
-      "variantes": {
-        "Normal": {
-          "low": 4.99,
-          "mid": 35.2,
-          "high": 42.8,
-          "market": 2.43,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#18)"
-    },
-    {
-      "productId": 97984,
-      "numero": "19/30",
-      "numeroNormalizado": "19",
-      "variantes": {
-        "Normal": {
-          "low": 0.2,
-          "mid": 0.49,
-          "high": 19.88,
-          "market": 0.7,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fletchling (#19)"
-    },
-    {
-      "productId": 97985,
-      "numero": "20/30",
-      "numeroNormalizado": "20",
-      "variantes": {
-        "Normal": {
-          "low": 0.1,
-          "mid": 0.21,
-          "high": 19.88,
-          "market": 0.12,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Potion (#20 - Sylveon)"
-    },
-    {
-      "productId": 97986,
-      "numero": "21/30",
-      "numeroNormalizado": "21",
-      "variantes": {
-        "Normal": {
-          "low": 4.74,
-          "mid": 11.6,
-          "high": 199.9,
-          "market": 11.6,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Eevee (21)"
-    },
-    {
-      "productId": 97987,
-      "numero": "22/30",
-      "numeroNormalizado": "22",
-      "variantes": {
-        "Normal": {
-          "low": 0.19,
-          "mid": 0.35,
-          "high": 19.88,
-          "market": 0.39,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Furfrou (#22 - Sylveon)"
-    },
-    {
-      "productId": 97988,
-      "numero": "23/30",
-      "numeroNormalizado": "23",
-      "variantes": {
-        "Normal": {
-          "low": 0.09,
-          "mid": 0.28,
-          "high": 19.88,
-          "market": 0.18,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Pokemon Catcher (Sylveon)"
-    },
-    {
-      "productId": 97989,
-      "numero": "24/30",
-      "numeroNormalizado": "24",
-      "variantes": {
-        "Normal": {
-          "low": 0.1,
-          "mid": 0.25,
-          "high": 19.88,
-          "market": 0.25,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Potion (#24 - Sylveon)"
-    },
-    {
-      "productId": 97990,
-      "numero": "25/30",
-      "numeroNormalizado": "25",
-      "variantes": {
-        "Normal": {
-          "low": 19.88,
-          "mid": 26.14,
-          "high": 32.4,
-          "market": 1.24,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#25)"
-    },
-    {
-      "productId": 97991,
-      "numero": "26/30",
-      "numeroNormalizado": "26",
-      "variantes": {
-        "Normal": {
-          "low": 0.22,
-          "mid": 0.33,
-          "high": 19.88,
-          "market": 0.39,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Poke Ball (Sylveon)"
-    },
-    {
-      "productId": 97992,
-      "numero": "27/30",
-      "numeroNormalizado": "27",
-      "variantes": {
-        "Normal": {
-          "low": 0.5,
-          "mid": 1.5,
-          "high": 29.5,
-          "market": 1.78,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Snubbull (#27)"
-    },
-    {
-      "productId": 97993,
-      "numero": "28/30",
-      "numeroNormalizado": "28",
-      "variantes": {
-        "Normal": {
-          "low": 0.25,
-          "mid": 1.0,
-          "high": 19.88,
-          "market": 1.03,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Professor's Letter (Sylveon)"
-    },
-    {
-      "productId": 97994,
-      "numero": "29/30",
-      "numeroNormalizado": "29",
-      "variantes": {
-        "Normal": {
-          "low": 0.65,
-          "mid": 1.23,
-          "high": 25.5,
-          "market": 1.24,
+          "mid": 0.77,
+          "high": 19.82,
+          "market": 0.78,
           "directLow": null
         }
       }
     },
     {
-      "productId": 97995,
-      "numero": "30/30",
-      "numeroNormalizado": "30",
-      "variantes": {
-        "Holofoil": {
-          "low": 15.31,
-          "mid": 17.31,
-          "high": 134.4,
-          "market": 26.52,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Sylveon (#30 - Holo)"
-    },
-    {
-      "productId": 97996,
-      "numero": "1/30",
-      "numeroNormalizado": "1",
-      "variantes": {
-        "Normal": {
-          "low": 0.35,
-          "mid": 0.77,
-          "high": 22.97,
-          "market": 0.78,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Spoink"
-    },
-    {
-      "productId": 97997,
-      "numero": "2/30",
-      "numeroNormalizado": "2",
-      "variantes": {
-        "Normal": {
-          "low": 0.83,
-          "mid": 1.36,
-          "high": 25.9,
-          "market": 1.36,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Gourgeist"
-    },
-    {
-      "productId": 97998,
-      "numero": "3/30",
-      "numeroNormalizado": "3",
-      "variantes": {
-        "Normal": {
-          "low": 0.58,
-          "mid": 1.13,
-          "high": 19.88,
-          "market": 1.14,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Arbok"
-    },
-    {
-      "productId": 97999,
-      "numero": "4/30",
-      "numeroNormalizado": "4",
-      "variantes": {
-        "Normal": {
-          "low": 0.3,
-          "mid": 0.56,
-          "high": 19.88,
-          "market": 0.38,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Bunnelby"
-    },
-    {
-      "productId": 98000,
-      "numero": "5/30",
-      "numeroNormalizado": "5",
-      "variantes": {
-        "Normal": {
-          "low": 0.25,
-          "mid": 0.33,
-          "high": 19.88,
-          "market": 0.3,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Psychic Energy (#5)"
-    },
-    {
-      "productId": 98001,
-      "numero": "6/30",
-      "numeroNormalizado": "6",
-      "variantes": {
-        "Normal": {
-          "low": 0.25,
-          "mid": 0.49,
-          "high": 19.88,
-          "market": 0.45,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Psychic Energy (#6)"
-    },
-    {
-      "productId": 98002,
-      "numero": "7/30",
-      "numeroNormalizado": "7",
-      "variantes": {
-        "Normal": {
-          "low": 0.15,
-          "mid": 0.4,
-          "high": 19.88,
-          "market": 0.16,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Psychic Energy (#7)"
-    },
-    {
-      "productId": 98003,
-      "numero": "8/30",
-      "numeroNormalizado": "8",
-      "variantes": {
-        "Normal": {
-          "low": 0.15,
-          "mid": 0.25,
-          "high": 19.88,
-          "market": 0.25,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Psychic Energy (#8)"
-    },
-    {
-      "productId": 98004,
-      "numero": "9/30",
-      "numeroNormalizado": "9",
-      "variantes": {
-        "Normal": {
-          "low": 0.2,
-          "mid": 0.36,
-          "high": 19.88,
-          "market": 0.28,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Psychic Energy (#9)"
-    },
-    {
       "productId": 98005,
-      "numero": "10/30",
+      "numero": "10",
       "numeroNormalizado": "10",
+      "nombreProducto": "Psychic Energy (#10)",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.2,
           "mid": 0.38,
-          "high": 19.88,
+          "high": 19.82,
           "market": 0.28,
           "directLow": null
         }
-      },
-      "nombreProducto": "Psychic Energy (#10)"
+      }
     },
     {
       "productId": 98006,
-      "numero": "11/30",
+      "numero": "11",
       "numeroNormalizado": "11",
+      "nombreProducto": "Pumpkaboo (#11)",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.25,
-          "mid": 0.39,
-          "high": 19.88,
-          "market": 0.44,
+          "mid": 0.4,
+          "high": 19.82,
+          "market": 0.42,
           "directLow": null
         }
-      },
-      "nombreProducto": "Pumpkaboo (#11)"
+      }
     },
     {
       "productId": 98007,
-      "numero": "12/30",
+      "numero": "12",
       "numeroNormalizado": "12",
+      "nombreProducto": "Noibat (#12)",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.8,
-          "mid": 1.19,
-          "high": 26.5,
+          "mid": 1.27,
+          "high": 26.44,
           "market": 1.34,
           "directLow": null
         }
-      },
-      "nombreProducto": "Noibat (#12)"
+      }
     },
     {
       "productId": 98008,
-      "numero": "13/30",
+      "numero": "13",
       "numeroNormalizado": "13",
+      "nombreProducto": "Noivern (#13 - Non-Holo)",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.73,
-          "mid": 1.14,
-          "high": 57.0,
+          "mid": 1.67,
+          "high": 56.94,
           "market": 1.76,
           "directLow": null
         }
-      },
-      "nombreProducto": "Noivern (#13 - Non-Holo)"
+      }
     },
     {
       "productId": 98009,
-      "numero": "14/30",
+      "numero": "14",
       "numeroNormalizado": "14",
+      "nombreProducto": "Pokemon Catcher (Noivern)",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.11,
-          "mid": 0.3,
-          "high": 19.88,
-          "market": 0.45,
+          "mid": 0.28,
+          "high": 19.82,
+          "market": 0.43,
           "directLow": null
         }
-      },
-      "nombreProducto": "Pokemon Catcher (Noivern)"
+      }
     },
     {
       "productId": 98010,
-      "numero": "15/30",
+      "numero": "15",
       "numeroNormalizado": "15",
+      "nombreProducto": "Potion (#15 - Noivern)",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.1,
           "mid": 0.21,
-          "high": 19.88,
+          "high": 19.82,
           "market": 0.17,
           "directLow": null
         }
-      },
-      "nombreProducto": "Potion (#15 - Noivern)"
+      }
     },
     {
       "productId": 98011,
-      "numero": "16/30",
+      "numero": "16",
       "numeroNormalizado": "16",
+      "nombreProducto": "Ekans",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.34,
-          "mid": 0.4,
-          "high": 19.88,
+          "mid": 0.42,
+          "high": 19.82,
           "market": 0.41,
           "directLow": null
         }
-      },
-      "nombreProducto": "Ekans"
+      }
     },
     {
       "productId": 98012,
-      "numero": "17/30",
+      "numero": "17",
       "numeroNormalizado": "17",
+      "nombreProducto": "Psychic Energy (#17)",
+      "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.19,
+          "low": 0.18,
           "mid": 0.86,
-          "high": 19.88,
+          "high": 19.82,
           "market": 0.25,
           "directLow": null
         }
-      },
-      "nombreProducto": "Psychic Energy (#17)"
+      }
     },
     {
       "productId": 98013,
-      "numero": "18/30",
+      "numero": "18",
       "numeroNormalizado": "18",
+      "nombreProducto": "Pumpkaboo (#18)",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.25,
-          "mid": 0.34,
-          "high": 19.88,
+          "mid": 0.33,
+          "high": 19.82,
           "market": 0.31,
           "directLow": null
         }
-      },
-      "nombreProducto": "Pumpkaboo (#18)"
+      }
     },
     {
       "productId": 98014,
-      "numero": "19/30",
+      "numero": "19",
       "numeroNormalizado": "19",
+      "nombreProducto": "Darkness Energy (#19)",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.21,
           "mid": 0.3,
-          "high": 19.88,
+          "high": 19.82,
           "market": 0.3,
           "directLow": null
         }
-      },
-      "nombreProducto": "Darkness Energy (#19)"
+      }
     },
     {
-      "productId": 98015,
-      "numero": "22/30",
-      "numeroNormalizado": "22",
+      "productId": 97997,
+      "numero": "2",
+      "numeroNormalizado": "2",
+      "nombreProducto": "Gourgeist",
+      "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.15,
-          "mid": 0.38,
-          "high": 19.88,
-          "market": 0.31,
+          "low": 0.8,
+          "mid": 1.36,
+          "high": 25.84,
+          "market": 1.36,
           "directLow": null
         }
-      },
-      "nombreProducto": "Darkness Energy (#22)"
-    },
-    {
-      "productId": 98016,
-      "numero": "26/30",
-      "numeroNormalizado": "26",
-      "variantes": {
-        "Normal": {
-          "low": 0.15,
-          "mid": 0.75,
-          "high": 19.88,
-          "market": 1.0,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Darkness Energy (#26)"
-    },
-    {
-      "productId": 98017,
-      "numero": "28/30",
-      "numeroNormalizado": "28",
-      "variantes": {
-        "Normal": {
-          "low": 0.15,
-          "mid": 0.36,
-          "high": 19.88,
-          "market": 0.41,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Darkness Energy (#28)"
+      }
     },
     {
       "productId": 98018,
-      "numero": "20/30",
+      "numero": "20",
       "numeroNormalizado": "20",
+      "nombreProducto": "Furfrou (#20 - Noivern)",
+      "manual": true,
       "variantes": {
         "Normal": {
-          "low": 1.5,
-          "mid": 2.04,
-          "high": 31.7,
-          "market": 2.27,
+          "low": 1.09,
+          "mid": 1.99,
+          "high": 31.64,
+          "market": 2.28,
           "directLow": null
         }
-      },
-      "nombreProducto": "Furfrou (#20 - Noivern)"
+      }
     },
     {
       "productId": 98019,
-      "numero": "21/30",
+      "numero": "21",
       "numeroNormalizado": "21",
-      "variantes": {
-        "Normal": {
-          "low": 0.18,
-          "mid": 0.29,
-          "high": 19.88,
-          "market": 0.24,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Poke Ball (Noivern)"
-    },
-    {
-      "productId": 98020,
-      "numero": "23/30",
-      "numeroNormalizado": "23",
-      "variantes": {
-        "Normal": {
-          "low": 1.0,
-          "mid": 5.13,
-          "high": 61.8,
-          "market": 5.25,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Noibat (#23)"
-    },
-    {
-      "productId": 98021,
-      "numero": "24/30",
-      "numeroNormalizado": "24",
-      "variantes": {
-        "Normal": {
-          "low": 0.25,
-          "mid": 0.71,
-          "high": 19.88,
-          "market": 0.79,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Professor's Letter (Noivern)"
-    },
-    {
-      "productId": 98022,
-      "numero": "25/30",
-      "numeroNormalizado": "25",
-      "variantes": {
-        "Normal": {
-          "low": 0.4,
-          "mid": 0.47,
-          "high": 19.88,
-          "market": 0.47,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Psychic Energy (#25)"
-    },
-    {
-      "productId": 98023,
-      "numero": "27/30",
-      "numeroNormalizado": "27",
-      "variantes": {
-        "Normal": {
-          "low": 0.05,
-          "mid": 0.28,
-          "high": 19.88,
-          "market": 0.16,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Potion (#27 - Noivern)"
-    },
-    {
-      "productId": 98024,
-      "numero": "4/30",
-      "numeroNormalizado": "4",
+      "nombreProducto": "Poke Ball (Noivern)",
+      "manual": true,
       "variantes": {
         "Normal": {
           "low": 0.18,
           "mid": 0.3,
-          "high": 19.88,
+          "high": 19.82,
+          "market": 0.24,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98015,
+      "numero": "22",
+      "numeroNormalizado": "22",
+      "nombreProducto": "Darkness Energy (#22)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.15,
+          "mid": 0.38,
+          "high": 19.82,
+          "market": 0.31,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98020,
+      "numero": "23",
+      "numeroNormalizado": "23",
+      "nombreProducto": "Noibat (#23)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 1.2,
+          "mid": 5.27,
+          "high": 61.74,
+          "market": 5.31,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98021,
+      "numero": "24",
+      "numeroNormalizado": "24",
+      "nombreProducto": "Professor's Letter (Noivern)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.25,
+          "mid": 0.75,
+          "high": 19.82,
+          "market": 0.79,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98022,
+      "numero": "25",
+      "numeroNormalizado": "25",
+      "nombreProducto": "Psychic Energy (#25)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.4,
+          "mid": 0.47,
+          "high": 19.82,
+          "market": 0.47,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98016,
+      "numero": "26",
+      "numeroNormalizado": "26",
+      "nombreProducto": "Darkness Energy (#26)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.15,
+          "mid": 0.5,
+          "high": 19.82,
+          "market": 1.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98023,
+      "numero": "27",
+      "numeroNormalizado": "27",
+      "nombreProducto": "Potion (#27 - Noivern)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.05,
+          "mid": 0.28,
+          "high": 19.82,
+          "market": 0.16,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98017,
+      "numero": "28",
+      "numeroNormalizado": "28",
+      "nombreProducto": "Darkness Energy (#28)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.12,
+          "mid": 0.36,
+          "high": 19.82,
+          "market": 0.41,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98024,
+      "numero": "29",
+      "numeroNormalizado": "29",
+      "nombreProducto": "Switch (Noivern)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.18,
+          "mid": 0.3,
+          "high": 19.82,
           "market": 0.3,
           "directLow": null
         }
-      },
-      "nombreProducto": "Switch (Noivern)"
+      }
+    },
+    {
+      "productId": 97998,
+      "numero": "3",
+      "numeroNormalizado": "3",
+      "nombreProducto": "Arbok",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.57,
+          "mid": 1.14,
+          "high": 19.82,
+          "market": 1.14,
+          "directLow": null
+        }
+      }
     },
     {
       "productId": 98025,
-      "numero": "30/30",
+      "numero": "30",
       "numeroNormalizado": "30",
+      "nombreProducto": "Noivern (#30 - Holo)",
+      "manual": true,
       "variantes": {
         "Holofoil": {
-          "low": 0.55,
-          "mid": 1.0,
-          "high": 19.88,
-          "market": 1.63,
+          "low": 0.54,
+          "mid": 1.46,
+          "high": 19.82,
+          "market": 1.7,
           "directLow": null
         }
-      },
-      "nombreProducto": "Noivern (#30 - Holo)"
+      }
+    },
+    {
+      "productId": 97999,
+      "numero": "4",
+      "numeroNormalizado": "4",
+      "nombreProducto": "Bunnelby",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.34,
+          "mid": 0.5,
+          "high": 19.82,
+          "market": 0.38,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98000,
+      "numero": "5",
+      "numeroNormalizado": "5",
+      "nombreProducto": "Psychic Energy (#5)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.25,
+          "mid": 0.33,
+          "high": 19.82,
+          "market": 0.3,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98001,
+      "numero": "6",
+      "numeroNormalizado": "6",
+      "nombreProducto": "Psychic Energy (#6)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.25,
+          "mid": 0.49,
+          "high": 19.82,
+          "market": 0.45,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98002,
+      "numero": "7",
+      "numeroNormalizado": "7",
+      "nombreProducto": "Psychic Energy (#7)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.15,
+          "mid": 0.4,
+          "high": 19.82,
+          "market": 0.16,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98003,
+      "numero": "8",
+      "numeroNormalizado": "8",
+      "nombreProducto": "Psychic Energy (#8)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.15,
+          "mid": 0.35,
+          "high": 19.82,
+          "market": 0.25,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98004,
+      "numero": "9",
+      "numeroNormalizado": "9",
+      "nombreProducto": "Psychic Energy (#9)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.2,
+          "mid": 0.36,
+          "high": 19.82,
+          "market": 0.28,
+          "directLow": null
+        }
+      }
     }
   ]
 }
