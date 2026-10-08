@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-10-07T00:57:13Z",
+  "actualizado": "2026-10-08T01:13:30Z",
   "cartas": [
     {
       "productId": 98147,
@@ -24,9 +24,9 @@
       "numeroNormalizado": "2",
       "variantes": {
         "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
-          "high": 1.0,
+          "low": 1.1,
+          "mid": 1.1,
+          "high": 1.1,
           "market": 1.0,
           "directLow": null
         }
@@ -39,8 +39,8 @@
       "numeroNormalizado": "5",
       "variantes": {
         "Normal": {
-          "low": 0.75,
-          "mid": 0.75,
+          "low": 0.7,
+          "mid": 0.73,
           "high": 0.75,
           "market": 1.0,
           "directLow": null
@@ -54,14 +54,29 @@
       "numeroNormalizado": "6",
       "variantes": {
         "Normal": {
-          "low": 0.19,
-          "mid": 0.19,
-          "high": 0.19,
+          "low": 0.21,
+          "mid": 0.21,
+          "high": 0.21,
           "market": 0.19,
           "directLow": null
         }
       },
       "nombreProducto": "Metal Energy (#6)"
+    },
+    {
+      "productId": 98152,
+      "numero": "7/30",
+      "numeroNormalizado": "7",
+      "variantes": {
+        "Normal": {
+          "low": 0.14,
+          "mid": 0.14,
+          "high": 0.14,
+          "market": 1.0,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#7)"
     },
     {
       "productId": 98154,
@@ -77,6 +92,51 @@
         }
       },
       "nombreProducto": "Metal Energy (#9)"
+    },
+    {
+      "productId": 98155,
+      "numero": "10/30",
+      "numeroNormalizado": "10",
+      "variantes": {
+        "Normal": {
+          "low": 0.7,
+          "mid": 0.7,
+          "high": 0.7,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#10)"
+    },
+    {
+      "productId": 98157,
+      "numero": "22/30",
+      "numeroNormalizado": "22",
+      "variantes": {
+        "Normal": {
+          "low": 0.07,
+          "mid": 0.07,
+          "high": 0.07,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#22)"
+    },
+    {
+      "productId": 98158,
+      "numero": "24/30",
+      "numeroNormalizado": "24",
+      "variantes": {
+        "Normal": {
+          "low": 0.05,
+          "mid": 0.06,
+          "high": 0.07,
+          "market": 1.0,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#24)"
     },
     {
       "productId": 98159,
@@ -160,7 +220,7 @@
       "variantes": {
         "Normal": {
           "low": 0.79,
-          "mid": 8.0,
+          "mid": 8.64,
           "high": 19.8,
           "market": 0.86,
           "directLow": null
@@ -220,7 +280,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 3.3,
+          "mid": 2.77,
           "high": 19.8,
           "market": 0.62,
           "directLow": null
@@ -339,8 +399,8 @@
       "numeroNormalizado": "1",
       "variantes": {
         "Normal": {
-          "low": 4.95,
-          "mid": 15.0,
+          "low": 15.0,
+          "mid": 35.16,
           "high": 55.32,
           "market": 5.0,
           "directLow": null
@@ -415,7 +475,7 @@
       "variantes": {
         "Normal": {
           "low": 0.96,
-          "mid": 1.72,
+          "mid": 1.85,
           "high": 29.32,
           "market": 2.2,
           "directLow": null
@@ -459,8 +519,8 @@
       "numeroNormalizado": "16",
       "variantes": {
         "Normal": {
-          "low": 2.0,
-          "mid": 2.85,
+          "low": 1.97,
+          "mid": 2.44,
           "high": 3.29,
           "market": 5.16,
           "directLow": null
@@ -505,7 +565,7 @@
       "variantes": {
         "Normal": {
           "low": 4.25,
-          "mid": 15.75,
+          "mid": 11.83,
           "high": 49.82,
           "market": 5.85,
           "directLow": null
@@ -550,7 +610,7 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 1.25,
+          "mid": 1.16,
           "high": 43.12,
           "market": 1.06,
           "directLow": null
@@ -595,7 +655,7 @@
       "variantes": {
         "Normal": {
           "low": 4.52,
-          "mid": 19.0,
+          "mid": 19.4,
           "high": 19.8,
           "market": 4.53,
           "directLow": null
