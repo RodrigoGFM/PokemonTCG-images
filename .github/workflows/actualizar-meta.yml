@@ -1,0 +1,46 @@
+name: Actualizar meta de Limitless
+
+on:
+  schedule:
+    # 09:00 UTC: lejos de la corrida de precios (21:30 UTC) para que no suban al mismo tiempo, y
+    # después de los torneos online de la noche de América.
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Calcular el meta
+        # Opcional: si el secret no existe, el script usa la API sin clave.
+        env:
+          LIMITLESS_KEY: ${{ secrets.LIMITLESS_KEY }}
+        run: python scripts/actualizar_meta.py
+
+      - name: Commitear cambios (si hay)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add meta/
+          if git diff --cached --quiet; then
+            echo "Sin cambios, no se commitea nada."
+          else
+            git commit -m "Actualizar meta de Limitless $(date -u +%Y-%m-%d)"
+            # Por si la corrida de precios subió algo mientras tanto.
+            git pull --rebase
+            git push
+          fi
