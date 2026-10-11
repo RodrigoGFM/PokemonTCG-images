@@ -35,6 +35,11 @@ ARQUETIPOS_META = 8
 REPRESENTACION_MINIMA = 0.01
 ID_OTROS = "other"
 CORTES_TOP = [1, 2, 4, 8, 16, 32, 64]
+# Cartas más usadas: solo las que aparecen en al menos esta fracción de las listas del arquetipo.
+INCLUSION_MINIMA = 0.10
+# Listas completas por arquetipo (las mejor ubicadas), para importarlas desde la app.
+LISTAS_POR_ARQUETIPO = 5
+SECCIONES = ["pokemon", "trainer", "energy"]
 
 sesion = requests.Session()
 sesion.headers["Accept"] = "application/json"
@@ -78,6 +83,50 @@ def torneos_recientes():
     return sorted(torneos, key=lambda t: -t["players"])[:TORNEOS_A_ANALIZAR]
 
 
+def cartas_mas_usadas(listas):
+    """
+    Qué cartas juega el arquetipo: en qué fracción de las listas aparece cada una y cuántas copias
+    se suelen poner. Los Pokémon se distinguen por impresión (dos "Dunsparce" distintos son cartas
+    distintas); Entrenadores y Energías por nombre (una reimpresión de Ultra Ball es la misma carta),
+    mostrando la impresión más usada.
+    """
+    if not listas:
+        return []
+    grupos = {}
+    for lista in listas:
+        por_clave = defaultdict(int)
+        impresion = {}
+        for c in lista["cartas"]:
+            clave = (c["seccion"], c["nombre"], c["set"], c["numero"]) if c["seccion"] == "pokemon" else (c["seccion"], c["nombre"])
+            por_clave[clave] += c["cantidad"]
+            impresion[clave] = (c["set"], c["numero"])
+        for clave, cantidad in por_clave.items():
+            g = grupos.setdefault(clave, {"cantidades": [], "impresiones": defaultdict(int)})
+            g["cantidades"].append(cantidad)
+            g["impresiones"][impresion[clave]] += 1
+    cartas = []
+    for clave, g in grupos.items():
+        inclusion = len(g["cantidades"]) / len(listas)
+        if inclusion < INCLUSION_MINIMA:
+            continue
+        set_, numero = max(g["impresiones"].items(), key=lambda kv: kv[1])[0]
+        cantidades = g["cantidades"]
+        cartas.append({
+            "nombre": clave[1], "set": set_, "numero": numero, "seccion": clave[0],
+            "inclusion": inclusion,
+            "copias": max(set(cantidades), key=lambda n: (cantidades.count(n), n)),
+            "promedio": sum(cantidades) / len(cantidades),
+        })
+    cartas.sort(key=lambda c: (SECCIONES.index(c["seccion"]), -c["inclusion"], -c["copias"], c["nombre"]))
+    return cartas
+
+
+def mejores_listas(listas):
+    """Las mejor ubicadas: primero las que llegaron al top cut, después por puesto y tamaño del torneo."""
+    ordenadas = sorted(listas, key=lambda l: (not l["enTopCut"], l["puesto"] or 9999, -l["jugadoresTorneo"]))
+    return ordenadas[:LISTAS_POR_ARQUETIPO]
+
+
 def calcular():
     torneos = torneos_recientes()
     if not torneos:
@@ -92,6 +141,7 @@ def calcular():
                 "jugadoresConCut": 0, "distribucion": defaultdict(int),
                 # Rival -> [victorias, derrotas, empates]
                 "matchups": defaultdict(lambda: [0, 0, 0]),
+                "listas": [],
             }
         return acumulados[deck_id]
 
@@ -102,6 +152,9 @@ def calcular():
         standings = pedir(f"/tournaments/{t['id']}/standings")
         pairings = pedir(f"/tournaments/{t['id']}/pairings")
         print(f"  {t['players']:5} jugadores · {t['name']}", flush=True)
+
+        # El top cut son las fases después del suizo (phase > 1).
+        en_cut = {p for x in pairings if (x.get("phase") or 1) > 1 for p in (x.get("player1"), x.get("player2")) if p}
 
         deck_de = {}
         for s in standings:
@@ -119,10 +172,25 @@ def calcular():
                 corte = next((c for c in CORTES_TOP if lugar <= c), None)
                 if corte:
                     acc["distribucion"][corte] += 1
+            if s.get("decklist"):
+                record = s.get("record") or {}
+                acc["listas"].append({
+                    "jugador": s.get("name") or s["player"],
+                    "torneo": t["name"],
+                    "fecha": t["date"][:10],
+                    "puesto": lugar,
+                    "jugadoresTorneo": t["players"],
+                    "victorias": record.get("wins", 0),
+                    "derrotas": record.get("losses", 0),
+                    "empates": record.get("ties", 0),
+                    "enTopCut": s["player"] in en_cut,
+                    "cartas": [
+                        {"cantidad": c["count"], "nombre": c["name"], "set": c.get("set", ""), "numero": str(c.get("number", "")), "seccion": seccion}
+                        for seccion in SECCIONES for c in s["decklist"].get(seccion, [])
+                    ],
+                })
         jugadores_totales += len(deck_de)
 
-        # El top cut son las fases después del suizo (phase > 1).
-        en_cut = {p for x in pairings if (x.get("phase") or 1) > 1 for p in (x.get("player1"), x.get("player2")) if p}
         if en_cut:
             jugadores_con_cut += len(deck_de)
             en_top_cut_total += sum(1 for p in en_cut if p in deck_de)
@@ -186,6 +254,8 @@ def calcular():
             "winRateOtros": wr_de(lambda m: m["rivalId"] not in meta),
             "distribucionTop": {str(k): v for k, v in sorted(acc["distribucion"].items())},
             "matchups": matchups,
+            "cartas": cartas_mas_usadas(acc["listas"]),
+            "listas": mejores_listas(acc["listas"]),
         })
 
     fechas = sorted(t["date"][:10] for t in torneos)
