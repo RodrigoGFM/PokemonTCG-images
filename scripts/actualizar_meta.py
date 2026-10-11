@@ -122,8 +122,11 @@ def cartas_mas_usadas(listas):
 
 
 def mejores_listas(listas):
-    """Las mejor ubicadas: primero las que llegaron al top cut, después por puesto y tamaño del torneo."""
-    ordenadas = sorted(listas, key=lambda l: (not l["enTopCut"], l["puesto"] or 9999, -l["jugadoresTorneo"]))
+    """
+    Las mejor ubicadas: por puesto y, entre puestos iguales, del torneo más grande. No se prioriza
+    "llegó al top cut": hay torneos sin top cut, y un #3 de 190 jugadores no es peor que un #16.
+    """
+    ordenadas = sorted(listas, key=lambda l: (l["puesto"] or 9999, -l["jugadoresTorneo"], not l["enTopCut"]))
     return ordenadas[:LISTAS_POR_ARQUETIPO]
 
 
@@ -138,6 +141,8 @@ def calcular():
         if deck_id not in acumulados:
             acumulados[deck_id] = {
                 "nombre": deck_id, "iconos": [], "jugadores": 0, "enTopCut": 0,
+                # Jugadores en la última semana y en la anterior, para la tendencia.
+                "recientes": 0, "previos": 0,
                 "jugadoresConCut": 0, "distribucion": defaultdict(int),
                 # Rival -> [victorias, derrotas, empates]
                 "matchups": defaultdict(lambda: [0, 0, 0]),
@@ -147,6 +152,9 @@ def calcular():
 
     nombres = {ID_OTROS: "Other"}
     jugadores_totales = jugadores_con_cut = en_top_cut_total = 0
+    # Tendencia sin pedidos extra: los torneos de la ventana se parten en "última semana" y "semana anterior".
+    corte_tendencia = datetime.now(timezone.utc) - timedelta(days=DIAS / 2)
+    jugadores_recientes = jugadores_previos = 0
 
     for t in torneos:
         standings = pedir(f"/tournaments/{t['id']}/standings")
@@ -155,6 +163,12 @@ def calcular():
 
         # El top cut son las fases después del suizo (phase > 1).
         en_cut = {p for x in pairings if (x.get("phase") or 1) > 1 for p in (x.get("player1"), x.get("player2")) if p}
+
+        es_reciente = datetime.fromisoformat(t["date"].replace("Z", "+00:00")) >= corte_tendencia
+        if es_reciente:
+            jugadores_recientes += len(standings)
+        else:
+            jugadores_previos += len(standings)
 
         deck_de = {}
         for s in standings:
@@ -167,6 +181,10 @@ def calcular():
             if deck.get("icons"):
                 acc["iconos"] = deck["icons"]
             acc["jugadores"] += 1
+            if es_reciente:
+                acc["recientes"] += 1
+            else:
+                acc["previos"] += 1
             lugar = s.get("placing")
             if lugar:
                 corte = next((c for c in CORTES_TOP if lugar <= c), None)
@@ -244,6 +262,8 @@ def calcular():
             "jugadores": acc["jugadores"],
             "representacion": acc["jugadores"] / jugadores_totales,
             "representacionTopCut": acc["enTopCut"] / en_top_cut_total if en_top_cut_total else 0.0,
+            "representacionReciente": acc["recientes"] / jugadores_recientes if jugadores_recientes else None,
+            "representacionPrevia": acc["previos"] / jugadores_previos if jugadores_previos else None,
             "victorias": sum(m["victorias"] for m in matchups),
             "derrotas": sum(m["derrotas"] for m in matchups),
             "empates": sum(m["empates"] for m in matchups),
