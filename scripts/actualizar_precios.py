@@ -713,6 +713,55 @@ def procesar_prize_pack(sets_tcgdex):
     }
 
 
+# --- Otras versiones de cada carta (sellos, Cosmos, Jumbo, WC Deck, Battle Academy...) ---
+
+# Versiones de cada carta de TCGdex que TCGdex no modela, relevadas en TCG Collector (con su
+# permiso) junto con el producto de TCGplayer de cada una: "<cardId>": [{"nombre": "Holo (Cosmos)",
+# "productId", "groupId", "impresion": "Holofoil"}]. Se arma a mano (no cambia todos los días).
+ARCHIVO_VARIANTES_EXTRA = os.path.join(RAIZ, "variantes-extra.json")
+
+
+def procesar_variantes_extra():
+    """Arma precios/variantes_extra.json: cada versión de variantes-extra.json con su precio de hoy
+    (los precios de tcgcsv vienen por grupo, así que se pide cada grupo una sola vez). Las versiones
+    sin producto de TCGplayer van igual, sin precio: la versión existe aunque no se venda ahí."""
+    with open(ARCHIVO_VARIANTES_EXTRA, "r", encoding="utf-8") as f:
+        por_carta = json.load(f)
+
+    grupos = {v["groupId"] for versiones in por_carta.values() for v in versiones if v.get("groupId")}
+    filas_por_producto = {}
+    for gid in sorted(grupos):
+        for fila in pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/prices").get("results", []):
+            filas_por_producto.setdefault(fila["productId"], []).append(fila)
+
+    entradas = []
+    for card_id, versiones in sorted(por_carta.items()):
+        for v in versiones:
+            variantes = {}
+            for fila in filas_por_producto.get(v.get("productId"), []):
+                variantes[fila.get("subTypeName") or "Normal"] = {
+                    "low": fila.get("lowPrice"),
+                    "mid": fila.get("midPrice"),
+                    "high": fila.get("highPrice"),
+                    "market": fila.get("marketPrice"),
+                    "directLow": fila.get("directLowPrice"),
+                }
+            entradas.append({
+                "productId": v.get("productId") or 0,
+                "cardId": card_id,
+                "numero": "",
+                "numeroNormalizado": "",
+                "nombreVariante": v["nombre"],
+                "impresion": v.get("impresion"),
+                "variantes": variantes,
+            })
+    return {
+        "tcgdexSetId": "variantes_extra",
+        "actualizado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "cartas": entradas,
+    }
+
+
 def aplicar_cartas_manuales(cartas_manual, hoy):
     """Precios de cartas sueltas emparejadas a mano con su producto de TCGplayer (mapeo-sets.json
     -> "cartas_manual": {"<tcgdexCardId>": {"groupId", "productId", "producto"}}). Cubre las cartas
@@ -909,6 +958,16 @@ def main():
         print(f"  {cartas_prize_pack} cartas emparejadas.")
     except Exception as e:  # noqa: BLE001
         print(f"  ERROR armando Prize Pack: {e}")
+
+    print("Armando las otras versiones de cada carta...")
+    try:
+        salida = procesar_variantes_extra()
+        with open(os.path.join(DIR_PRECIOS, "variantes_extra.json"), "w", encoding="utf-8") as f:
+            json.dump(salida, f, ensure_ascii=False, separators=(",", ":"))
+            f.write("\n")
+        print(f"  {len(salida['cartas'])} versiones.")
+    except Exception as e:  # noqa: BLE001
+        print(f"  ERROR armando las otras versiones: {e}")
 
     indice = {
         "actualizado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
