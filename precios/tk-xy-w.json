@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-10-12T00:43:24Z",
+  "actualizado": "2026-10-13T02:42:48Z",
   "cartas": [
     {
       "productId": 98147,
@@ -62,6 +62,36 @@
         }
       },
       "nombreProducto": "Metal Energy (#6)"
+    },
+    {
+      "productId": 98152,
+      "numero": "7/30",
+      "numeroNormalizado": "7",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": 1.0,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#7)"
+    },
+    {
+      "productId": 98153,
+      "numero": "8/30",
+      "numeroNormalizado": "8",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#8)"
     },
     {
       "productId": 98154,
@@ -177,7 +207,7 @@
           "low": 0.2,
           "mid": 0.6,
           "high": 15.0,
-          "market": 0.18,
+          "market": 0.6,
           "directLow": null
         }
       },
@@ -220,7 +250,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.95,
+          "mid": 2.68,
           "high": 19.8,
           "market": 0.62,
           "directLow": null
@@ -234,8 +264,8 @@
       "numeroNormalizado": "23",
       "variantes": {
         "Normal": {
-          "low": 0.2,
-          "mid": 3.99,
+          "low": 2.17,
+          "mid": 9.5,
           "high": 79.62,
           "market": 0.2,
           "directLow": null
@@ -264,8 +294,8 @@
       "numeroNormalizado": "29",
       "variantes": {
         "Normal": {
-          "low": 0.16,
-          "mid": 0.79,
+          "low": 0.23,
+          "mid": 0.8,
           "high": 0.99,
           "market": 0.22,
           "directLow": null
@@ -400,7 +430,7 @@
       "variantes": {
         "Normal": {
           "low": 1.5,
-          "mid": 1.98,
+          "mid": 1.85,
           "high": 29.32,
           "market": 2.2,
           "directLow": null
@@ -444,9 +474,9 @@
       "numeroNormalizado": "16",
       "variantes": {
         "Normal": {
-          "low": 1.89,
-          "mid": 2.44,
-          "high": 3.29,
+          "low": 1.86,
+          "mid": 2.22,
+          "high": 3.26,
           "market": 5.16,
           "directLow": null
         }
@@ -490,7 +520,7 @@
       "variantes": {
         "Normal": {
           "low": 4.25,
-          "mid": 11.83,
+          "mid": 15.75,
           "high": 49.82,
           "market": 5.85,
           "directLow": null
@@ -505,8 +535,8 @@
       "variantes": {
         "Normal": {
           "low": 3.0,
-          "mid": 3.15,
-          "high": 3.29,
+          "mid": 4.37,
+          "high": 5.74,
           "market": 9.49,
           "directLow": null
         }
@@ -579,7 +609,7 @@
       "numeroNormalizado": "28",
       "variantes": {
         "Normal": {
-          "low": 5.28,
+          "low": 5.79,
           "mid": 19.0,
           "high": 19.8,
           "market": 4.53,
