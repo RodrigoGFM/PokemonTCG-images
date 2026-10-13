@@ -590,6 +590,118 @@ def procesar_set_catalogo_completo(set_id, group_id, nombre_set):
     }
 
 
+# --- Prize Pack: versiones con sello Play! Pokémon de cartas de otros sets ---
+
+# Grupo "Prize Pack Series Cards" de TCGplayer: todas las cartas de los Prize Pack (Series 1 en
+# adelante), cada una con el número de la carta ORIGINAL ("128/163") -- no es un set propio, son
+# reimpresiones con sello de cartas de muchos sets. Está en "ignorar_group_ids" de mapeo-sets.json
+# para que el emparejamiento de sets no lo tome por un set.
+GRUPO_PRIZE_PACK = 22880
+
+
+def nombre_base_prize_pack(nombre):
+    """'Professor's Research [Professor Rowan] - 147/172' -> "Professor's Research";
+    'Basic Grass Energy - MEE 001 (Cosmos Holo)' -> 'Grass Energy'; 'Morpeko - 072-167' ->
+    'Morpeko'."""
+    base = re.sub(r"\s*\([^)]*\)|\s*\[[^\]]*\]", "", nombre or "")
+    base = re.sub(r"\s+-\s+[A-Za-z]*\s?\d+([/-]\d+)?\s*$", "", base).strip()
+    return re.sub(r"^Basic\s+", "", base)
+
+
+def procesar_prize_pack(sets_tcgdex):
+    """Arma precios/prize_pack.json: cada producto del grupo Prize Pack emparejado con su carta de
+    TCGdex ("cardId"), para que la app la muestre como una versión más de esa carta. La carta se
+    busca por número dentro de los sets cuyo total oficial coincide con el del número ("/163"), y
+    se confirma por nombre; los números sin total son de promos (SWSH*, SVP, MEP) o de las
+    energías básicas (sve, mee). Si el número no coincide (TCGdex numera distinto algunas cartas,
+    ej. Shining Fates), se acepta la única carta del set con ese nombre. Lo que no se empareja con
+    una sola carta se descarta (cartas sin número como las energías de las Series 1-3, sobres,
+    code cards)."""
+    productos = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{GRUPO_PRIZE_PACK}/products").get("results", [])
+    precios = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{GRUPO_PRIZE_PACK}/prices").get("results", [])
+    filas_por_producto = {}
+    for fila in precios:
+        filas_por_producto.setdefault(fila["productId"], []).append(fila)
+
+    sets_por_oficial = {}
+    for s in sets_tcgdex:
+        oficial = (s.get("cardCount") or {}).get("official")
+        if oficial:
+            sets_por_oficial.setdefault(int(oficial), []).append(s["id"])
+
+    cartas_por_set = {}
+
+    def cartas_de(set_id):
+        if set_id not in cartas_por_set:
+            cartas_por_set[set_id] = obtener_cartas_tcgdex_de_set(set_id)
+        return cartas_por_set[set_id]
+
+    entradas = []
+    sin_match = []
+    for prod in productos:
+        numero = next((c.get("value") for c in prod.get("extendedData", []) or [] if c.get("name") == "Number"), None)
+        if not numero:
+            continue  # sobres, code cards y las energías sin número de las Series 1-3
+        nombre = nombre_base_prize_pack(prod.get("name"))
+        if "/" in numero:
+            total = numero.split("/")[1].strip()
+            sets_candidatos = sets_por_oficial.get(int(total), []) if total.isdigit() else []
+        elif re.match(r"^[A-Za-z]", numero):
+            sets_candidatos = ["swshp"]
+        elif "MEE" in (prod.get("name") or ""):
+            sets_candidatos = ["mee"]
+        elif nombre.endswith(" Energy"):
+            sets_candidatos = ["sve"]
+        else:
+            sets_candidatos = ["svp", "mep"]
+
+        # Primero por número + nombre en todos los sets candidatos; solo si ninguno coincide, por
+        # nombre solo (ej. dos sets con 198 cartas oficiales y el mismo Pokémon en los dos).
+        clave_nombre = normalizar_nombre_producto(nombre)
+        encontradas = []
+        solo_por_nombre = []
+        for set_id in sets_candidatos:
+            cartas = cartas_de(set_id)
+            mismo_nombre = [c for c in cartas if normalizar_nombre_producto(c.get("name")) == clave_nombre]
+            encontradas.extend(c for c in mismo_nombre if normalizar_numero(c.get("localId")) == normalizar_numero(numero))
+            if len(mismo_nombre) == 1 and "/" in numero:
+                solo_por_nombre.extend(mismo_nombre)
+        if not encontradas:
+            encontradas = solo_por_nombre
+        if len(encontradas) != 1:
+            sin_match.append(prod.get("name"))
+            continue
+
+        variantes = {}
+        for fila in filas_por_producto.get(prod["productId"], []):
+            variantes[fila.get("subTypeName") or "Normal"] = {
+                "low": fila.get("lowPrice"),
+                "mid": fila.get("midPrice"),
+                "high": fila.get("highPrice"),
+                "market": fila.get("marketPrice"),
+                "directLow": fila.get("directLowPrice"),
+            }
+        entradas.append({
+            "productId": prod["productId"],
+            "cardId": encontradas[0]["id"],
+            "numero": numero,
+            "numeroNormalizado": normalizar_numero(numero),
+            "nombreProducto": prod.get("name"),
+            "variantes": variantes,
+        })
+
+    if sin_match:
+        print(f"  Prize Pack: {len(sin_match)} producto(s) sin carta de TCGdex: "
+              f"{', '.join(str(n) for n in sin_match[:10])}{' ...' if len(sin_match) > 10 else ''}")
+    entradas.sort(key=lambda e: e["cardId"])
+    return {
+        "tcgdexSetId": "prize_pack",
+        "tcgplayerGroupId": GRUPO_PRIZE_PACK,
+        "actualizado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "cartas": entradas,
+    }
+
+
 def aplicar_cartas_manuales(cartas_manual, hoy):
     """Precios de cartas sueltas emparejadas a mano con su producto de TCGplayer (mapeo-sets.json
     -> "cartas_manual": {"<tcgdexCardId>": {"groupId", "productId", "producto"}}). Cubre las cartas
@@ -775,6 +887,18 @@ def main():
             print(f"  ERROR aplicando cartas manuales: {e}")
         print(f"  {cartas_manuales_escritas} con precio hoy.")
 
+    print("Armando las versiones Prize Pack...")
+    cartas_prize_pack = 0
+    try:
+        salida = procesar_prize_pack(sets_tcgdex)
+        with open(os.path.join(DIR_PRECIOS, "prize_pack.json"), "w", encoding="utf-8") as f:
+            json.dump(salida, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        cartas_prize_pack = len(salida["cartas"])
+        print(f"  {cartas_prize_pack} cartas emparejadas.")
+    except Exception as e:  # noqa: BLE001
+        print(f"  ERROR armando Prize Pack: {e}")
+
     indice = {
         "actualizado": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "setsCubiertos": len(resumen_sets),
@@ -792,6 +916,8 @@ def main():
         # pegarles precios, HAY que mostrar la carta entera (nombre, imagen, etc.) desde ese JSON.
         "catalogosCompletosTcgcsv": catalogos_completos,
         "cartasManuales": cartas_manuales_escritas,
+        # Versiones Prize Pack emparejadas con su carta de TCGdex (precios/prize_pack.json).
+        "cartasPrizePack": cartas_prize_pack,
     }
     with open(os.path.join(DIR_PRECIOS, "index.json"), "w", encoding="utf-8") as f:
         json.dump(indice, f, ensure_ascii=False, indent=2)
