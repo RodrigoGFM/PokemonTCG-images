@@ -437,6 +437,12 @@ def actualizar_historial_de_set(set_id, entradas, hoy):
         f.write("\n")
 
 
+# Grupos adicionales cuyos productos se llaman igual que los del grupo principal (ej. "Base Set
+# (Shadowless)": "Charizard", igual que en "Base Set"): se les agrega este sufijo al nombre para que
+# la app sepa cuál es cuál (TcgManager.elegirCandidatoAmbiguo busca "shadowless" en el nombre).
+SUFIJO_NOMBRE_POR_GRUPO = {1663: "Shadowless"}
+
+
 def procesar_set(tcgdex_id, group_id, grupos_adicionales=None):
     """`grupos_adicionales`: IDs de grupo de tcgcsv EXTRA para fusionar en el mismo archivo de
     salida, ademas de `group_id` -- caso real: TCGplayer separa "Generations" (g1, groupId 1728)
@@ -447,7 +453,12 @@ def procesar_set(tcgdex_id, group_id, grupos_adicionales=None):
     productos = []
     precios = []
     for gid in grupos:
-        productos.extend(pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/products").get("results", []))
+        productos_grupo = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/products").get("results", [])
+        sufijo = SUFIJO_NOMBRE_POR_GRUPO.get(gid)
+        if sufijo:
+            for prod in productos_grupo:
+                prod["name"] = f"{prod.get('name')} ({sufijo})"
+        productos.extend(productos_grupo)
         precios.extend(pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/prices").get("results", []))
 
     precios_por_producto = {}
