@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "bwp",
   "tcgplayerGroupId": 1407,
-  "actualizado": "2026-10-14T00:29:44Z",
+  "actualizado": "2026-10-14T01:50:59Z",
   "cartas": [
     {
       "productId": 83520,
@@ -1723,6 +1723,38 @@
         }
       },
       "nombreProducto": "Druddigon (Team Plasma) - BW80 (Cosmos Holo)"
+    },
+    {
+      "productId": 88705,
+      "numero": "BW04",
+      "numeroNormalizado": "bw04",
+      "nombreProducto": "Reshiram - BW004",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 3.0,
+          "mid": 5.54,
+          "high": 189.23,
+          "market": 5.54,
+          "directLow": 189.23
+        }
+      }
+    },
+    {
+      "productId": 90733,
+      "numero": "BW05",
+      "numeroNormalizado": "bw05",
+      "nombreProducto": "Zekrom - BW005",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 2.74,
+          "mid": 4.74,
+          "high": 12.74,
+          "market": 8.35,
+          "directLow": null
+        }
+      }
     }
   ]
 }
