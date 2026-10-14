@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-10-13T02:43:08Z",
+  "actualizado": "2026-10-14T00:32:38Z",
   "setsCubiertos": 190,
-  "cartasConPrecio": 23508,
+  "cartasConPrecio": 23581,
   "sets": [
     {
       "tcgdexSetId": "2011bw",
@@ -116,19 +116,11 @@
       "puntajeEmparejamiento": 0.793
     },
     {
-      "tcgdexSetId": "P-A",
-      "tcgdexNombre": "Promos-A",
-      "tcgplayerGroupId": 1861,
-      "tcgplayerNombre": "SM Promos",
-      "cartas": 308,
-      "puntajeEmparejamiento": 0.706
-    },
-    {
       "tcgdexSetId": "base1",
       "tcgdexNombre": "Base Set",
       "tcgplayerGroupId": 604,
       "tcgplayerNombre": "Base Set",
-      "cartas": 102,
+      "cartas": 204,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -168,7 +160,7 @@
       "tcgdexNombre": "Wizards Black Star Promos",
       "tcgplayerGroupId": 1418,
       "tcgplayerNombre": "WoTC Promo",
-      "cartas": 66,
+      "cartas": 67,
       "puntajeEmparejamiento": null
     },
     {
@@ -272,7 +264,7 @@
       "tcgdexNombre": "BW Black Star Promos",
       "tcgplayerGroupId": 1407,
       "tcgplayerNombre": "Black and White Promos",
-      "cartas": 125,
+      "cartas": 120,
       "puntajeEmparejamiento": null
     },
     {
@@ -408,7 +400,7 @@
       "tcgdexNombre": "Skyridge",
       "tcgplayerGroupId": 1372,
       "tcgplayerNombre": "Skyridge",
-      "cartas": 172,
+      "cartas": 174,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -608,7 +600,7 @@
       "tcgdexNombre": "HGSS Black Star Promos",
       "tcgplayerGroupId": 1453,
       "tcgplayerNombre": "HGSS Promos",
-      "cartas": 32,
+      "cartas": 31,
       "puntajeEmparejamiento": 0.667
     },
     {
@@ -616,7 +608,7 @@
       "tcgdexNombre": "Jumbo cards",
       "tcgplayerGroupId": 1528,
       "tcgplayerNombre": "Jumbo Cards",
-      "cartas": 296,
+      "cartas": 283,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -704,7 +696,7 @@
       "tcgdexNombre": "Miscellaneous Promos",
       "tcgplayerGroupId": 2374,
       "tcgplayerNombre": "Miscellaneous Cards & Products",
-      "cartas": 597,
+      "cartas": 593,
       "puntajeEmparejamiento": 0.75
     },
     {
@@ -744,7 +736,7 @@
       "tcgdexNombre": "Nintendo Black Star Promos",
       "tcgplayerGroupId": 1423,
       "tcgplayerNombre": "Nintendo Promos",
-      "cartas": 72,
+      "cartas": 67,
       "puntajeEmparejamiento": 0.732
     },
     {
@@ -768,7 +760,7 @@
       "tcgdexNombre": "Supreme Victors",
       "tcgplayerGroupId": 1384,
       "tcgplayerNombre": "Supreme Victors",
-      "cartas": 153,
+      "cartas": 152,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -864,7 +856,7 @@
       "tcgdexNombre": "Pokémon Rumble",
       "tcgplayerGroupId": 1433,
       "tcgplayerNombre": "Rumble",
-      "cartas": 15,
+      "cartas": 14,
       "puntajeEmparejamiento": 0.6
     },
     {
@@ -1002,6 +994,14 @@
       "tcgplayerNombre": "Hidden Fates: Shiny Vault",
       "cartas": 94,
       "puntajeEmparejamiento": 1.0
+    },
+    {
+      "tcgdexSetId": "smp",
+      "tcgdexNombre": "SM Black Star Promos",
+      "tcgplayerGroupId": 1861,
+      "tcgplayerNombre": "SM Promos",
+      "cartas": 307,
+      "puntajeEmparejamiento": null
     },
     {
       "tcgdexSetId": "sv01",
@@ -1408,7 +1408,7 @@
       "tcgdexNombre": "XY trainer Kit (Wigglytuff)",
       "tcgplayerGroupId": 1533,
       "tcgplayerNombre": "XY Trainer Kit: Bisharp & Wigglytuff",
-      "cartas": 43,
+      "cartas": 44,
       "puntajeEmparejamiento": 0.862
     },
     {
@@ -1520,19 +1520,11 @@
       "tcgdexNombre": "XY Black Star Promos",
       "tcgplayerGroupId": 1451,
       "tcgplayerNombre": "XY Promos",
-      "cartas": 237,
+      "cartas": 235,
       "puntajeEmparejamiento": 0.621
     }
   ],
   "bajaConfianza": [
-    {
-      "tcgdexSetId": "P-A",
-      "tcgdexNombre": "Promos-A",
-      "tcgplayerGroupId": 1861,
-      "tcgplayerNombre": "SM Promos",
-      "cartas": 308,
-      "puntajeEmparejamiento": 0.706
-    },
     {
       "tcgdexSetId": "bog",
       "tcgdexNombre": "Best of game",
@@ -1554,7 +1546,7 @@
       "tcgdexNombre": "HGSS Black Star Promos",
       "tcgplayerGroupId": 1453,
       "tcgplayerNombre": "HGSS Promos",
-      "cartas": 32,
+      "cartas": 31,
       "puntajeEmparejamiento": 0.667
     },
     {
@@ -1562,7 +1554,7 @@
       "tcgdexNombre": "Nintendo Black Star Promos",
       "tcgplayerGroupId": 1423,
       "tcgplayerNombre": "Nintendo Promos",
-      "cartas": 72,
+      "cartas": 67,
       "puntajeEmparejamiento": 0.732
     },
     {
@@ -1570,7 +1562,7 @@
       "tcgdexNombre": "Pokémon Rumble",
       "tcgplayerGroupId": 1433,
       "tcgplayerNombre": "Rumble",
-      "cartas": 15,
+      "cartas": 14,
       "puntajeEmparejamiento": 0.6
     },
     {
@@ -1578,67 +1570,11 @@
       "tcgdexNombre": "XY Black Star Promos",
       "tcgplayerGroupId": 1451,
       "tcgplayerNombre": "XY Promos",
-      "cartas": 237,
+      "cartas": 235,
       "puntajeEmparejamiento": 0.621
     }
   ],
   "tcgdexSinEmparejar": [
-    {
-      "id": "A1",
-      "nombre": "Genetic Apex"
-    },
-    {
-      "id": "A1a",
-      "nombre": "Mythical Island"
-    },
-    {
-      "id": "A2",
-      "nombre": "Space-Time Smackdown"
-    },
-    {
-      "id": "A2a",
-      "nombre": "Triumphant Light"
-    },
-    {
-      "id": "A2b",
-      "nombre": "Shining Revelry"
-    },
-    {
-      "id": "A3",
-      "nombre": "Celestial Guardians"
-    },
-    {
-      "id": "A3a",
-      "nombre": "Extradimensional Crisis"
-    },
-    {
-      "id": "A3b",
-      "nombre": "Eevee Grove"
-    },
-    {
-      "id": "A4",
-      "nombre": "Wisdom of Sea and Sky"
-    },
-    {
-      "id": "A4a",
-      "nombre": "Secluded Springs"
-    },
-    {
-      "id": "B1",
-      "nombre": "Mega Rising"
-    },
-    {
-      "id": "B1a",
-      "nombre": "Crimson Blaze"
-    },
-    {
-      "id": "B2",
-      "nombre": "Fantastical Parade"
-    },
-    {
-      "id": "B2a",
-      "nombre": "Paldean Wonders"
-    },
     {
       "id": "ex5.5",
       "nombre": "Poké Card Creator Pack"
@@ -1646,10 +1582,6 @@
     {
       "id": "fut2020",
       "nombre": "Pokémon Futsal 2020"
-    },
-    {
-      "id": "smp",
-      "nombre": "SM Black Star Promos"
     },
     {
       "id": "tk-bw-z",
@@ -1710,10 +1642,6 @@
       "nombre": "First Partner Pack"
     },
     {
-      "groupId": 22880,
-      "nombre": "Prize Pack Series Cards"
-    },
-    {
       "groupId": 23095,
       "nombre": "Ash vs Team Rocket Deck Kit (JP Exclusive)"
     },
@@ -1750,5 +1678,6 @@
       "cartas": 102
     }
   ],
-  "cartasManuales": 272
+  "cartasManuales": 314,
+  "cartasPrizePack": 847
 }
