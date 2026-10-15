@@ -1,22 +1,8 @@
 {
   "tcgdexSetId": "30th-c",
   "tcgplayerGroupId": 24837,
-  "actualizado": "2026-10-15T00:04:12Z",
+  "actualizado": "2026-10-15T02:54:23Z",
   "cartas": [
-    {
-      "productId": 714372,
-      "numero": "4/102",
-      "numeroNormalizado": "4",
-      "variantes": {
-        "Holofoil": {
-          "low": 129.0,
-          "mid": 151.09,
-          "high": 749.99,
-          "market": 134.22,
-          "directLow": null
-        }
-      }
-    },
     {
       "productId": 714373,
       "numero": "33/181",
@@ -41,92 +27,6 @@
           "mid": 212.98,
           "high": 2999.99,
           "market": 175.73,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 716156,
-      "numero": "5/109",
-      "numeroNormalizado": "5",
-      "variantes": {
-        "Holofoil": {
-          "low": 3.99,
-          "mid": 6.0,
-          "high": 99.99,
-          "market": 4.96,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 716157,
-      "numero": "11/113",
-      "numeroNormalizado": "11",
-      "variantes": {
-        "Holofoil": {
-          "low": 6.0,
-          "mid": 9.0,
-          "high": 999.99,
-          "market": 7.56,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Metagross (Delta Species)"
-    },
-    {
-      "productId": 716158,
-      "numero": "11/101",
-      "numeroNormalizado": "11",
-      "variantes": {
-        "Holofoil": {
-          "low": 6.0,
-          "mid": 7.62,
-          "high": 192.9,
-          "market": 7.66,
-          "directLow": 9.99
-        }
-      },
-      "nombreProducto": "Genesect EX (Team Plasma)"
-    },
-    {
-      "productId": 716159,
-      "numero": "18/132",
-      "numeroNormalizado": "18",
-      "variantes": {
-        "Holofoil": {
-          "low": 5.5,
-          "mid": 8.72,
-          "high": 99.99,
-          "market": 7.08,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 716160,
-      "numero": "19/109",
-      "numeroNormalizado": "19",
-      "variantes": {
-        "Holofoil": {
-          "low": 10.01,
-          "mid": 15.5,
-          "high": 999.99,
-          "market": 11.76,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 716161,
-      "numero": "25/111",
-      "numeroNormalizado": "25",
-      "variantes": {
-        "Holofoil": {
-          "low": 4.5,
-          "mid": 6.99,
-          "high": 241.9,
-          "market": 5.1,
           "directLow": null
         }
       }
@@ -477,6 +377,38 @@
       }
     },
     {
+      "productId": 716158,
+      "numero": "004",
+      "numeroNormalizado": "4",
+      "nombreProducto": "Genesect EX (Team Plasma)",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 6.0,
+          "mid": 7.62,
+          "high": 192.9,
+          "market": 7.66,
+          "directLow": 9.99
+        }
+      }
+    },
+    {
+      "productId": 716159,
+      "numero": "005",
+      "numeroNormalizado": "5",
+      "nombreProducto": "Misty",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 5.5,
+          "mid": 8.72,
+          "high": 99.99,
+          "market": 7.08,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 716160,
       "numero": "006",
       "numeroNormalizado": "6",
@@ -553,6 +485,22 @@
           "high": 219.99,
           "market": 5.48,
           "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 716191,
+      "numero": "011",
+      "numeroNormalizado": "11",
+      "nombreProducto": "Crobat G",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 2.29,
+          "mid": 6.24,
+          "high": 225.0,
+          "market": 4.91,
+          "directLow": 6.0
         }
       }
     },
@@ -653,9 +601,25 @@
       }
     },
     {
+      "productId": 716198,
+      "numero": "018",
+      "numeroNormalizado": "18",
+      "nombreProducto": "Gengar (Prime)",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 56.86,
+          "mid": 81.03,
+          "high": 1999.99,
+          "market": 57.51,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 716199,
-      "numero": "020",
-      "numeroNormalizado": "20",
+      "numero": "019",
+      "numeroNormalizado": "19",
       "nombreProducto": "Darkrai & Cresselia Legend (Top)",
       "manual": true,
       "variantes": {
@@ -664,6 +628,22 @@
           "mid": 22.98,
           "high": 349.99,
           "market": 19.82,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 716200,
+      "numero": "020",
+      "numeroNormalizado": "20",
+      "nombreProducto": "Darkrai & Cresselia Legend (Bottom)",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 17.0,
+          "mid": 22.9,
+          "high": 199.99,
+          "market": 20.52,
           "directLow": null
         }
       }
@@ -728,6 +708,22 @@
           "mid": 33.95,
           "high": 199.99,
           "market": 24.85,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 716206,
+      "numero": "025",
+      "numeroNormalizado": "25",
+      "nombreProducto": "Scizor ex",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 9.5,
+          "mid": 12.57,
+          "high": 599.99,
+          "market": 10.62,
           "directLow": null
         }
       }
