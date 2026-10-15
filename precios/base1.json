@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "base1",
   "tcgplayerGroupId": 604,
-  "actualizado": "2026-10-14T00:31:48Z",
+  "actualizado": "2026-10-15T00:04:12Z",
   "cartas": [
     {
       "productId": 42346,
@@ -10,10 +10,10 @@
       "variantes": {
         "Holofoil": {
           "low": 43.5,
-          "mid": 55.93,
+          "mid": 60.0,
           "high": 9999.0,
           "market": 70.82,
-          "directLow": 149.99
+          "directLow": 52.9
         }
       },
       "nombreProducto": "Alakazam"
@@ -25,10 +25,10 @@
       "variantes": {
         "Holofoil": {
           "low": 37.12,
-          "mid": 65.0,
+          "mid": 57.5,
           "high": 500.0,
           "market": 86.16,
-          "directLow": 248.98
+          "directLow": 43.03
         }
       },
       "nombreProducto": "Mewtwo"
@@ -43,7 +43,7 @@
           "mid": 0.4,
           "high": 9.99,
           "market": 0.53,
-          "directLow": 0.25
+          "directLow": 0.55
         }
       },
       "nombreProducto": "Lightning Energy"
@@ -57,8 +57,8 @@
           "low": 0.1,
           "mid": 0.4,
           "high": 19.99,
-          "market": 0.7,
-          "directLow": 0.15
+          "market": 0.69,
+          "directLow": 0.67
         }
       },
       "nombreProducto": "Psychic Energy"
@@ -73,7 +73,7 @@
           "mid": 0.39,
           "high": 9.99,
           "market": 0.45,
-          "directLow": 0.5
+          "directLow": 0.27
         }
       },
       "nombreProducto": "Water Energy"
@@ -84,11 +84,11 @@
       "numeroNormalizado": "11",
       "variantes": {
         "Holofoil": {
-          "low": 21.0,
-          "mid": 33.15,
+          "low": 20.0,
+          "mid": 33.25,
           "high": 388.88,
-          "market": 38.08,
-          "directLow": 90.0
+          "market": 40.09,
+          "directLow": 249.99
         }
       },
       "nombreProducto": "Nidoking"
@@ -100,10 +100,10 @@
       "variantes": {
         "Holofoil": {
           "low": 16.0,
-          "mid": 28.45,
-          "high": 97.98,
-          "market": 39.08,
-          "directLow": null
+          "mid": 27.98,
+          "high": 354.92,
+          "market": 38.96,
+          "directLow": 97.98
         }
       },
       "nombreProducto": "Ninetales"
@@ -114,8 +114,8 @@
       "numeroNormalizado": "13",
       "variantes": {
         "Holofoil": {
-          "low": 15.27,
-          "mid": 28.76,
+          "low": 15.26,
+          "mid": 29.0,
           "high": 9999.0,
           "market": 35.14,
           "directLow": 23.75
@@ -130,9 +130,9 @@
       "variantes": {
         "Holofoil": {
           "low": 42.0,
-          "mid": 61.0,
-          "high": 159.99,
-          "market": 64.12,
+          "mid": 57.89,
+          "high": 392.12,
+          "market": 63.54,
           "directLow": 49.39
         }
       },
@@ -160,9 +160,9 @@
       "variantes": {
         "Holofoil": {
           "low": 29.99,
-          "mid": 38.0,
+          "mid": 37.0,
           "high": 9999.0,
-          "market": 47.91,
+          "market": 47.94,
           "directLow": 99.97
         }
       },
@@ -175,9 +175,9 @@
       "variantes": {
         "Normal": {
           "low": 2.0,
-          "mid": 4.1,
+          "mid": 4.05,
           "high": 9999.0,
-          "market": 5.93,
+          "market": 6.06,
           "directLow": null
         }
       },
@@ -190,10 +190,10 @@
       "variantes": {
         "Normal": {
           "low": 7.7,
-          "mid": 12.0,
-          "high": 118.33,
-          "market": 17.93,
-          "directLow": 30.0
+          "mid": 12.07,
+          "high": 143.33,
+          "market": 17.73,
+          "directLow": 9.95
         }
       },
       "nombreProducto": "Dragonair"
@@ -205,7 +205,7 @@
       "variantes": {
         "Normal": {
           "low": 3.55,
-          "mid": 6.45,
+          "mid": 6.49,
           "high": 96.87,
           "market": 11.17,
           "directLow": 14.96
@@ -219,9 +219,9 @@
       "numeroNormalizado": "2",
       "variantes": {
         "Holofoil": {
-          "low": 130.99,
-          "mid": 182.83,
-          "high": 974.99,
+          "low": 120.0,
+          "mid": 179.99,
+          "high": 1580.54,
           "market": 226.58,
           "directLow": 147.77
         }
@@ -235,9 +235,9 @@
       "variantes": {
         "Normal": {
           "low": 4.25,
-          "mid": 7.43,
+          "mid": 7.65,
           "high": 96.95,
-          "market": 9.73,
+          "market": 9.7,
           "directLow": 15.0
         }
       },
@@ -250,10 +250,10 @@
       "variantes": {
         "Normal": {
           "low": 3.0,
-          "mid": 5.62,
+          "mid": 5.72,
           "high": 9999.0,
-          "market": 9.27,
-          "directLow": 18.54
+          "market": 9.61,
+          "directLow": 19.99
         }
       },
       "nombreProducto": "Electrode"
@@ -264,10 +264,10 @@
       "numeroNormalizado": "22",
       "variantes": {
         "Normal": {
-          "low": 6.48,
-          "mid": 8.9,
-          "high": 95.93,
-          "market": 9.28,
+          "low": 5.99,
+          "mid": 8.97,
+          "high": 106.52,
+          "market": 9.2,
           "directLow": 95.91
         }
       },
@@ -280,10 +280,10 @@
       "variantes": {
         "Normal": {
           "low": 0.9,
-          "mid": 2.68,
+          "mid": 2.95,
           "high": 94.96,
-          "market": 4.36,
-          "directLow": 1.81
+          "market": 4.39,
+          "directLow": 1.82
         }
       },
       "nombreProducto": "Arcanine"
@@ -295,9 +295,9 @@
       "variantes": {
         "Normal": {
           "low": 0.33,
-          "mid": 1.44,
+          "mid": 1.5,
           "high": 39.99,
-          "market": 4.96,
+          "market": 4.89,
           "directLow": 1.13
         }
       },
@@ -310,7 +310,7 @@
       "variantes": {
         "Normal": {
           "low": 0.69,
-          "mid": 2.11,
+          "mid": 2.14,
           "high": 96.95,
           "market": 5.12,
           "directLow": null
@@ -325,10 +325,10 @@
       "variantes": {
         "Normal": {
           "low": 0.25,
-          "mid": 1.61,
+          "mid": 1.69,
           "high": 69.97,
-          "market": 3.29,
-          "directLow": 7.01
+          "market": 3.41,
+          "directLow": 1.97
         }
       },
       "nombreProducto": "Dratini"
@@ -340,10 +340,10 @@
       "variantes": {
         "Normal": {
           "low": 0.19,
-          "mid": 0.99,
+          "mid": 1.0,
           "high": 96.51,
-          "market": 1.59,
-          "directLow": 0.85
+          "market": 1.68,
+          "directLow": 0.88
         }
       },
       "nombreProducto": "Farfetch'd"
@@ -355,9 +355,9 @@
       "variantes": {
         "Normal": {
           "low": 0.2,
-          "mid": 0.88,
+          "mid": 0.9,
           "high": 19.99,
-          "market": 1.48,
+          "market": 1.42,
           "directLow": 0.77
         }
       },
@@ -370,9 +370,9 @@
       "variantes": {
         "Normal": {
           "low": 0.49,
-          "mid": 1.36,
+          "mid": 1.44,
           "high": 100.0,
-          "market": 2.19,
+          "market": 2.24,
           "directLow": null
         }
       },
@@ -385,8 +385,8 @@
       "variantes": {
         "Holofoil": {
           "low": 22.94,
-          "mid": 35.99,
-          "high": 308.0,
+          "mid": 35.45,
+          "high": 295.68,
           "market": 56.48,
           "directLow": 73.89
         }
@@ -400,10 +400,10 @@
       "variantes": {
         "Normal": {
           "low": 0.7,
-          "mid": 3.11,
+          "mid": 3.22,
           "high": 250.0,
-          "market": 6.31,
-          "directLow": 19.19
+          "market": 6.45,
+          "directLow": 29.98
         }
       },
       "nombreProducto": "Ivysaur"
@@ -415,9 +415,9 @@
       "variantes": {
         "Normal": {
           "low": 0.2,
-          "mid": 0.85,
+          "mid": 0.89,
           "high": 40.0,
-          "market": 1.2,
+          "market": 1.15,
           "directLow": 0.25
         }
       },
@@ -430,10 +430,10 @@
       "variantes": {
         "Normal": {
           "low": 0.4,
-          "mid": 1.08,
+          "mid": 1.13,
           "high": 9999.0,
-          "market": 2.63,
-          "directLow": 1.26
+          "market": 2.57,
+          "directLow": 1.2
         }
       },
       "nombreProducto": "Kadabra"
@@ -447,7 +447,7 @@
           "low": 0.2,
           "mid": 1.0,
           "high": 15.88,
-          "market": 1.53,
+          "market": 1.5,
           "directLow": 0.73
         }
       },
@@ -462,7 +462,7 @@
           "low": 0.05,
           "mid": 0.79,
           "high": 200.0,
-          "market": 1.16,
+          "market": 1.04,
           "directLow": 14.89
         }
       },
@@ -477,7 +477,7 @@
           "low": 0.25,
           "mid": 1.53,
           "high": 96.95,
-          "market": 2.82,
+          "market": 2.69,
           "directLow": 1.05
         }
       },
@@ -505,9 +505,9 @@
       "variantes": {
         "Normal": {
           "low": 0.5,
-          "mid": 1.94,
+          "mid": 1.97,
           "high": 96.95,
-          "market": 4.2,
+          "market": 4.24,
           "directLow": 24.99
         }
       },
@@ -520,10 +520,10 @@
       "variantes": {
         "Normal": {
           "low": 0.2,
-          "mid": 1.17,
+          "mid": 1.19,
           "high": 9999.0,
           "market": 2.52,
-          "directLow": 0.88
+          "directLow": 0.94
         }
       },
       "nombreProducto": "Poliwhirl"
@@ -534,11 +534,11 @@
       "numeroNormalizado": "39",
       "variantes": {
         "Normal": {
-          "low": 0.74,
-          "mid": 2.28,
+          "low": 0.6,
+          "mid": 2.37,
           "high": 96.95,
-          "market": 4.33,
-          "directLow": 3.28
+          "market": 4.37,
+          "directLow": 3.24
         }
       },
       "nombreProducto": "Porygon"
@@ -552,7 +552,7 @@
           "low": 489.99,
           "mid": 575.95,
           "high": 3499.1,
-          "market": 990.98,
+          "market": 954.65,
           "directLow": null
         }
       },
@@ -565,10 +565,10 @@
       "variantes": {
         "Normal": {
           "low": 0.6,
-          "mid": 1.68,
+          "mid": 1.71,
           "high": 96.95,
-          "market": 2.38,
-          "directLow": 1.78
+          "market": 2.34,
+          "directLow": 1.66
         }
       },
       "nombreProducto": "Raticate"
@@ -597,8 +597,8 @@
           "low": 0.7,
           "mid": 3.0,
           "high": 96.89,
-          "market": 5.71,
-          "directLow": 58.19
+          "market": 5.68,
+          "directLow": 19.99
         }
       },
       "nombreProducto": "Wartortle"
@@ -610,9 +610,9 @@
       "variantes": {
         "Normal": {
           "low": 0.15,
-          "mid": 0.78,
+          "mid": 0.81,
           "high": 100.0,
-          "market": 1.53,
+          "market": 1.44,
           "directLow": 5.99
         }
       },
@@ -625,10 +625,10 @@
       "variantes": {
         "Normal": {
           "low": 0.4,
-          "mid": 2.13,
+          "mid": 2.09,
           "high": 74.99,
-          "market": 3.63,
-          "directLow": 19.99
+          "market": 3.67,
+          "directLow": 18.99
         }
       },
       "nombreProducto": "Bulbasaur"
@@ -642,7 +642,7 @@
           "low": 0.37,
           "mid": 0.85,
           "high": 40.0,
-          "market": 1.18,
+          "market": 1.17,
           "directLow": 1.34
         }
       },
@@ -657,8 +657,8 @@
           "low": 0.25,
           "mid": 1.5,
           "high": 100.0,
-          "market": 3.34,
-          "directLow": 1.2
+          "market": 3.31,
+          "directLow": 1.24
         }
       },
       "nombreProducto": "Charmander"
@@ -669,10 +669,10 @@
       "numeroNormalizado": "47",
       "variantes": {
         "Normal": {
-          "low": 0.19,
-          "mid": 0.63,
-          "high": 15.38,
-          "market": 1.06,
+          "low": 0.2,
+          "mid": 0.65,
+          "high": 18.56,
+          "market": 1.01,
           "directLow": 1.99
         }
       },
@@ -699,10 +699,10 @@
       "numeroNormalizado": "49",
       "variantes": {
         "Normal": {
-          "low": 0.16,
-          "mid": 0.61,
-          "high": 15.52,
-          "market": 0.92,
+          "low": 0.21,
+          "mid": 0.65,
+          "high": 17.02,
+          "market": 0.91,
           "directLow": 0.4
         }
       },
@@ -715,8 +715,8 @@
       "variantes": {
         "Holofoil": {
           "low": 20.0,
-          "mid": 42.68,
-          "high": 119.78,
+          "mid": 41.44,
+          "high": 211.6,
           "market": 48.69,
           "directLow": 114.99
         }
@@ -730,10 +730,10 @@
       "variantes": {
         "Normal": {
           "low": 0.11,
-          "mid": 0.75,
-          "high": 17.56,
-          "market": 1.3,
-          "directLow": 0.58
+          "mid": 0.77,
+          "high": 18.36,
+          "market": 1.27,
+          "directLow": 0.51
         }
       },
       "nombreProducto": "Gastly"
@@ -746,8 +746,8 @@
         "Normal": {
           "low": 0.15,
           "mid": 0.64,
-          "high": 15.47,
-          "market": 0.94,
+          "high": 15.96,
+          "market": 0.93,
           "directLow": 0.47
         }
       },
@@ -759,11 +759,11 @@
       "numeroNormalizado": "52",
       "variantes": {
         "Normal": {
-          "low": 0.05,
+          "low": 0.09,
           "mid": 0.49,
-          "high": 15.36,
-          "market": 0.63,
-          "directLow": 0.35
+          "high": 17.5,
+          "market": 0.64,
+          "directLow": 0.4
         }
       },
       "nombreProducto": "Machop"
@@ -776,8 +776,8 @@
         "Normal": {
           "low": 0.19,
           "mid": 0.6,
-          "high": 14.99,
-          "market": 0.77,
+          "high": 18.6,
+          "market": 0.78,
           "directLow": null
         }
       },
@@ -790,9 +790,9 @@
       "variantes": {
         "Normal": {
           "low": 0.25,
-          "mid": 0.87,
+          "mid": 0.9,
           "high": 1000.0,
-          "market": 1.38,
+          "market": 1.37,
           "directLow": 0.29
         }
       },
@@ -805,10 +805,10 @@
       "variantes": {
         "Normal": {
           "low": 0.2,
-          "mid": 0.56,
+          "mid": 0.57,
           "high": 50.0,
-          "market": 0.56,
-          "directLow": 0.42
+          "market": 0.52,
+          "directLow": 0.45
         }
       },
       "nombreProducto": "Nidoran M"
@@ -822,7 +822,7 @@
           "low": 0.18,
           "mid": 0.7,
           "high": 19.97,
-          "market": 1.21,
+          "market": 1.2,
           "directLow": 4.99
         }
       },
@@ -835,10 +835,10 @@
       "variantes": {
         "Normal": {
           "low": 0.33,
-          "mid": 1.0,
+          "mid": 1.08,
           "high": 59.99,
-          "market": 2.86,
-          "directLow": 0.92
+          "market": 2.84,
+          "directLow": 0.97
         }
       },
       "nombreProducto": "Pidgey"
@@ -849,11 +849,11 @@
       "numeroNormalizado": "58",
       "variantes": {
         "Normal": {
-          "low": 2.27,
-          "mid": 6.28,
+          "low": 2.98,
+          "mid": 6.18,
           "high": 1000.0,
-          "market": 11.73,
-          "directLow": 7.51
+          "market": 11.02,
+          "directLow": 7.5
         }
       },
       "nombreProducto": "Pikachu"
@@ -865,10 +865,10 @@
       "variantes": {
         "Normal": {
           "low": 0.18,
-          "mid": 0.64,
+          "mid": 0.65,
           "high": 1500.0,
-          "market": 1.3,
-          "directLow": 0.39
+          "market": 1.28,
+          "directLow": 0.41
         }
       },
       "nombreProducto": "Poliwag"
@@ -879,11 +879,11 @@
       "numeroNormalizado": "6",
       "variantes": {
         "Holofoil": {
-          "low": 18.12,
-          "mid": 47.98,
+          "low": 21.8,
+          "mid": 48.75,
           "high": 100.0,
-          "market": 49.16,
-          "directLow": 68.82
+          "market": 49.96,
+          "directLow": 98.27
         }
       },
       "nombreProducto": "Gyarados"
@@ -895,10 +895,10 @@
       "variantes": {
         "Normal": {
           "low": 0.22,
-          "mid": 0.74,
-          "high": 15.38,
-          "market": 0.7,
-          "directLow": 0.25
+          "mid": 0.75,
+          "high": 16.48,
+          "market": 0.69,
+          "directLow": 0.4
         }
       },
       "nombreProducto": "Ponyta"
@@ -910,9 +910,9 @@
       "variantes": {
         "Normal": {
           "low": 0.15,
-          "mid": 0.62,
-          "high": 15.4,
-          "market": 0.81,
+          "mid": 0.65,
+          "high": 18.14,
+          "market": 0.73,
           "directLow": 0.29
         }
       },
@@ -925,9 +925,9 @@
       "variantes": {
         "Normal": {
           "low": 0.2,
-          "mid": 0.7,
+          "mid": 0.72,
           "high": 96.95,
-          "market": 0.87,
+          "market": 0.86,
           "directLow": 4.99
         }
       },
@@ -942,8 +942,8 @@
           "low": 0.75,
           "mid": 3.99,
           "high": 100.0,
-          "market": 6.7,
-          "directLow": 2.19
+          "market": 6.8,
+          "directLow": 2.54
         }
       },
       "nombreProducto": "Squirtle"
@@ -955,10 +955,10 @@
       "variantes": {
         "Normal": {
           "low": 0.24,
-          "mid": 0.69,
+          "mid": 0.7,
           "high": 25.0,
-          "market": 0.79,
-          "directLow": 0.39
+          "market": 0.78,
+          "directLow": 0.4
         }
       },
       "nombreProducto": "Starmie"
@@ -972,7 +972,7 @@
           "low": 0.01,
           "mid": 0.55,
           "high": 100.0,
-          "market": 0.77,
+          "market": 0.74,
           "directLow": 0.39
         }
       },
@@ -985,9 +985,9 @@
       "variantes": {
         "Normal": {
           "low": 0.21,
-          "mid": 0.73,
+          "mid": 0.71,
           "high": 15.56,
-          "market": 0.74,
+          "market": 0.71,
           "directLow": 0.5
         }
       },
@@ -1003,7 +1003,7 @@
           "mid": 2.0,
           "high": 24.99,
           "market": 3.62,
-          "directLow": 0.84
+          "directLow": 1.62
         }
       },
       "nombreProducto": "Voltorb"
@@ -1015,9 +1015,9 @@
       "variantes": {
         "Normal": {
           "low": 0.19,
-          "mid": 0.73,
+          "mid": 0.75,
           "high": 49.99,
-          "market": 0.97,
+          "market": 0.93,
           "directLow": 0.46
         }
       },
@@ -1030,9 +1030,9 @@
       "variantes": {
         "Normal": {
           "low": 0.2,
-          "mid": 0.5,
+          "mid": 0.54,
           "high": 80.0,
-          "market": 0.68,
+          "market": 0.67,
           "directLow": 0.39
         }
       },
@@ -1045,10 +1045,10 @@
       "variantes": {
         "Holofoil": {
           "low": 11.2,
-          "mid": 16.55,
+          "mid": 16.98,
           "high": 9999.0,
-          "market": 17.96,
-          "directLow": 14.98
+          "market": 18.45,
+          "directLow": 98.87
         }
       },
       "nombreProducto": "Hitmonchan"
@@ -1060,9 +1060,9 @@
       "variantes": {
         "Normal": {
           "low": 3.75,
-          "mid": 6.96,
+          "mid": 6.98,
           "high": 96.38,
-          "market": 9.31,
+          "market": 9.39,
           "directLow": 48.49
         }
       },
@@ -1074,11 +1074,11 @@
       "numeroNormalizado": "71",
       "variantes": {
         "Normal": {
-          "low": 1.25,
+          "low": 1.0,
           "mid": 3.0,
           "high": 96.95,
           "market": 3.7,
-          "directLow": 2.98
+          "directLow": 3.08
         }
       },
       "nombreProducto": "Computer Search"
@@ -1090,7 +1090,7 @@
       "variantes": {
         "Normal": {
           "low": 1.5,
-          "mid": 4.87,
+          "mid": 5.0,
           "high": 9999.0,
           "market": 6.49,
           "directLow": 2.99
@@ -1105,10 +1105,10 @@
       "variantes": {
         "Normal": {
           "low": 4.22,
-          "mid": 8.79,
+          "mid": 8.76,
           "high": 96.95,
           "market": 9.56,
-          "directLow": 88.99
+          "directLow": 88.98
         }
       },
       "nombreProducto": "Item Finder"
@@ -1120,7 +1120,7 @@
       "variantes": {
         "Normal": {
           "low": 1.13,
-          "mid": 2.9,
+          "mid": 2.82,
           "high": 31.0,
           "market": 4.0,
           "directLow": null
@@ -1135,9 +1135,9 @@
       "variantes": {
         "Normal": {
           "low": 3.14,
-          "mid": 5.25,
+          "mid": 5.42,
           "high": 96.95,
-          "market": 6.98,
+          "market": 6.86,
           "directLow": 5.99
         }
       },
@@ -1149,10 +1149,10 @@
       "numeroNormalizado": "78",
       "variantes": {
         "Normal": {
-          "low": 5.67,
+          "low": 5.25,
           "mid": 8.0,
           "high": 94.22,
-          "market": 8.56,
+          "market": 8.6,
           "directLow": 10.86
         }
       },
@@ -1164,11 +1164,11 @@
       "numeroNormalizado": "79",
       "variantes": {
         "Normal": {
-          "low": 1.09,
-          "mid": 3.04,
+          "low": 1.08,
+          "mid": 3.16,
           "high": 9999.0,
-          "market": 3.36,
-          "directLow": 2.5
+          "market": 3.39,
+          "directLow": 2.49
         }
       },
       "nombreProducto": "Super Energy Removal"
@@ -1181,8 +1181,8 @@
         "Normal": {
           "low": 0.33,
           "mid": 0.99,
-          "high": 15.71,
-          "market": 1.24,
+          "high": 18.64,
+          "market": 1.23,
           "directLow": 0.38
         }
       },
@@ -1196,9 +1196,9 @@
         "Normal": {
           "low": 0.1,
           "mid": 0.5,
-          "high": 15.44,
+          "high": 17.6,
           "market": 0.62,
-          "directLow": 0.39
+          "directLow": 0.36
         }
       },
       "nombreProducto": "Energy Retrieval"
@@ -1210,9 +1210,9 @@
       "variantes": {
         "Normal": {
           "low": 0.15,
-          "mid": 1.02,
+          "mid": 1.04,
           "high": 96.95,
-          "market": 1.69,
+          "market": 1.73,
           "directLow": 0.52
         }
       },
@@ -1242,7 +1242,7 @@
           "low": 0.2,
           "mid": 0.58,
           "high": 9.99,
-          "market": 0.7,
+          "market": 0.67,
           "directLow": 0.38
         }
       },
@@ -1257,7 +1257,7 @@
           "low": 0.18,
           "mid": 1.0,
           "high": 17.99,
-          "market": 2.78,
+          "market": 2.68,
           "directLow": 0.63
         }
       },
@@ -1270,10 +1270,10 @@
       "variantes": {
         "Normal": {
           "low": 0.75,
-          "mid": 1.99,
+          "mid": 1.98,
           "high": 16.44,
           "market": 2.62,
-          "directLow": 2.07
+          "directLow": 2.04
         }
       },
       "nombreProducto": "Revive"
@@ -1284,9 +1284,9 @@
       "numeroNormalizado": "9",
       "variantes": {
         "Holofoil": {
-          "low": 14.12,
+          "low": 14.0,
           "mid": 32.0,
-          "high": 96.84,
+          "high": 139.6,
           "market": 33.66,
           "directLow": 29.99
         }
@@ -1300,9 +1300,9 @@
       "variantes": {
         "Normal": {
           "low": 0.06,
-          "mid": 0.35,
+          "mid": 0.36,
           "high": 40.0,
-          "market": 0.45,
+          "market": 0.44,
           "directLow": 0.23
         }
       },
@@ -1315,9 +1315,9 @@
       "variantes": {
         "Normal": {
           "low": 0.06,
-          "mid": 0.38,
+          "mid": 0.37,
           "high": 40.0,
-          "market": 0.38,
+          "market": 0.36,
           "directLow": 0.25
         }
       },
@@ -1332,7 +1332,7 @@
           "low": 0.1,
           "mid": 0.4,
           "high": 15.34,
-          "market": 0.48,
+          "market": 0.46,
           "directLow": 0.12
         }
       },
@@ -1345,9 +1345,9 @@
       "variantes": {
         "Normal": {
           "low": 0.01,
-          "mid": 0.37,
+          "mid": 0.38,
           "high": 40.0,
-          "market": 0.47,
+          "market": 0.45,
           "directLow": null
         }
       },
@@ -1360,9 +1360,9 @@
       "variantes": {
         "Normal": {
           "low": 0.03,
-          "mid": 0.32,
+          "mid": 0.31,
           "high": 15.26,
-          "market": 0.31,
+          "market": 0.3,
           "directLow": 0.15
         }
       },
@@ -1375,7 +1375,7 @@
       "variantes": {
         "Normal": {
           "low": 0.05,
-          "mid": 0.37,
+          "mid": 0.36,
           "high": 15.27,
           "market": 0.4,
           "directLow": 0.26
@@ -1390,10 +1390,10 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 3.99,
+          "mid": 4.07,
           "high": 96.78,
           "market": 7.24,
-          "directLow": 12.99
+          "directLow": 2.99
         }
       },
       "nombreProducto": "Double Colorless Energy"
@@ -1406,9 +1406,9 @@
         "Normal": {
           "low": 0.05,
           "mid": 0.35,
-          "high": 4.99,
-          "market": 0.47,
-          "directLow": 0.83
+          "high": 16.26,
+          "market": 0.45,
+          "directLow": 0.09
         }
       },
       "nombreProducto": "Fighting Energy"
@@ -1420,9 +1420,9 @@
       "variantes": {
         "Normal": {
           "low": 0.09,
-          "mid": 0.37,
-          "high": 9.99,
-          "market": 0.48,
+          "mid": 0.38,
+          "high": 17.74,
+          "market": 0.47,
           "directLow": null
         }
       },
@@ -1435,10 +1435,10 @@
       "variantes": {
         "Normal": {
           "low": 0.09,
-          "mid": 0.36,
+          "mid": 0.38,
           "high": 8.44,
-          "market": 0.49,
-          "directLow": 0.26
+          "market": 0.48,
+          "directLow": 0.5
         }
       },
       "nombreProducto": "Grass Energy"
@@ -1450,8 +1450,8 @@
       "variantes": {
         "Normal": {
           "low": 3.3,
-          "mid": 4.99,
-          "high": 96.94,
+          "mid": 5.0,
+          "high": 4316.43,
           "market": 6.73,
           "directLow": 6.98
         }
@@ -1464,7 +1464,7 @@
       "numeroNormalizado": "87",
       "variantes": {
         "Normal": {
-          "low": 0.1,
+          "low": 0.13,
           "mid": 0.49,
           "high": 65.0,
           "market": 0.65,
@@ -1480,8 +1480,8 @@
       "variantes": {
         "Normal": {
           "low": 0.28,
-          "mid": 1.2,
-          "high": 6.65,
+          "mid": 1.24,
+          "high": 6.38,
           "market": 2.16,
           "directLow": 0.33
         }
@@ -1495,10 +1495,10 @@
       "variantes": {
         "Normal": {
           "low": 0.65,
-          "mid": 2.0,
+          "mid": 2.01,
           "high": 24.99,
           "market": 2.94,
-          "directLow": 2.15
+          "directLow": 2.11
         }
       },
       "nombreProducto": "Pokemon Flute"
@@ -1510,7 +1510,7 @@
       "variantes": {
         "Normal": {
           "low": 2.3,
-          "mid": 4.33,
+          "mid": 4.25,
           "high": 96.95,
           "market": 4.21,
           "directLow": 4.73
@@ -1539,15 +1539,15 @@
       "numeroNormalizado": "1",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 999.99,
-          "mid": 1199.97,
+          "low": 1399.95,
+          "mid": 1399.95,
           "high": 1399.95,
           "market": 323.42,
           "directLow": null
         },
         "Unlimited Holofoil": {
           "low": 197.0,
-          "mid": 680.0,
+          "mid": 500.0,
           "high": 1999.99,
           "market": 367.32,
           "directLow": null
@@ -1561,8 +1561,8 @@
       "numeroNormalizado": "2",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 1199.99,
-          "mid": 1399.99,
+          "low": 998.95,
+          "mid": 1199.99,
           "high": 1599.99,
           "market": null,
           "directLow": null
@@ -1586,12 +1586,12 @@
           "low": 289.99,
           "mid": 299.99,
           "high": 399.99,
-          "market": 399.76,
+          "market": 349.0,
           "directLow": null
         },
         "Unlimited Holofoil": {
           "low": 95.0,
-          "mid": 100.93,
+          "mid": 101.18,
           "high": 1499.99,
           "market": 100.68,
           "directLow": 101.18
@@ -1634,9 +1634,9 @@
           "directLow": null
         },
         "Unlimited Holofoil": {
-          "low": 69.94,
-          "mid": 91.5,
-          "high": 1185.92,
+          "low": 87.99,
+          "mid": 122.5,
+          "high": 1186.17,
           "market": 123.95,
           "directLow": 1185.92
         }
@@ -1650,14 +1650,14 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 300.0,
-          "mid": 475.0,
-          "high": 999.99,
+          "mid": 313.85,
+          "high": 800.0,
           "market": 335.47,
           "directLow": null
         },
         "Unlimited Holofoil": {
           "low": 98.8,
-          "mid": 180.48,
+          "mid": 223.21,
           "high": 1371.89,
           "market": 169.66,
           "directLow": 265.94
@@ -1672,15 +1672,15 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 256.66,
-          "mid": 600.0,
-          "high": 699.99,
+          "mid": 428.33,
+          "high": 600.0,
           "market": 300.0,
           "directLow": null
         },
         "Unlimited Holofoil": {
           "low": 31.49,
-          "mid": 75.5,
-          "high": 292.5,
+          "mid": 91.29,
+          "high": 919.82,
           "market": 102.82,
           "directLow": null
         }
@@ -1702,7 +1702,7 @@
         "Unlimited Holofoil": {
           "low": 68.75,
           "mid": 100.0,
-          "high": 246.05,
+          "high": 249.99,
           "market": 135.0,
           "directLow": 95.0
         }
@@ -1716,8 +1716,8 @@
       "variantes": {
         "Unlimited Holofoil": {
           "low": 142.5,
-          "mid": 219.99,
-          "high": 499.99,
+          "mid": 220.38,
+          "high": 1109.62,
           "market": 295.08,
           "directLow": null
         }
@@ -1731,14 +1731,14 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 499.97,
-          "mid": 1899.49,
+          "mid": 3299.0,
           "high": 3599.78,
           "market": 349.96,
           "directLow": 3599.78
         },
         "Unlimited Holofoil": {
           "low": 100.0,
-          "mid": 179.99,
+          "mid": 180.0,
           "high": 1504.25,
           "market": 172.19,
           "directLow": 169.26
@@ -1752,15 +1752,15 @@
       "numeroNormalizado": "13",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 509.99,
-          "mid": 1454.65,
-          "high": 2399.31,
+          "low": 2298.82,
+          "mid": 2349.32,
+          "high": 2399.82,
           "market": 249.98,
           "directLow": null
         },
         "Unlimited Holofoil": {
           "low": 109.95,
-          "mid": 156.89,
+          "mid": 158.43,
           "high": 598.82,
           "market": 158.64,
           "directLow": 598.82
@@ -1775,16 +1775,16 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 399.99,
-          "mid": 699.99,
-          "high": 999.99,
+          "mid": 549.99,
+          "high": 699.99,
           "market": 800.0,
           "directLow": null
         },
         "Unlimited Holofoil": {
           "low": 68.69,
-          "mid": 141.04,
-          "high": 1141.84,
-          "market": 141.05,
+          "mid": 156.94,
+          "high": 5708.66,
+          "market": 172.83,
           "directLow": null
         }
       },
@@ -1804,8 +1804,8 @@
         },
         "Unlimited Holofoil": {
           "low": 253.5,
-          "mid": 649.49,
-          "high": 1498.83,
+          "mid": 898.98,
+          "high": 1499.08,
           "market": 253.5,
           "directLow": 898.98
         }
@@ -1821,7 +1821,7 @@
           "low": 899.95,
           "mid": 1099.99,
           "high": 2999.99,
-          "market": 945.83,
+          "market": 981.25,
           "directLow": null
         },
         "Unlimited Holofoil": {
@@ -1849,7 +1849,7 @@
         "Unlimited Holofoil": {
           "low": 298.99,
           "mid": 300.0,
-          "high": 349.99,
+          "high": 1516.72,
           "market": 136.74,
           "directLow": null
         }
@@ -1862,8 +1862,8 @@
       "numeroNormalizado": "17",
       "variantes": {
         "1st Edition": {
-          "low": 1502.21,
-          "mid": 1513.26,
+          "low": 1499.72,
+          "mid": 1512.02,
           "high": 1524.31,
           "market": 162.35,
           "directLow": null
@@ -1871,8 +1871,8 @@
         "Unlimited": {
           "low": 13.99,
           "mid": 23.99,
-          "high": 136.47,
-          "market": 22.77,
+          "high": 136.72,
+          "market": 22.12,
           "directLow": 16.02
         }
       },
@@ -1885,14 +1885,14 @@
       "variantes": {
         "1st Edition": {
           "low": 172.16,
-          "mid": 224.97,
-          "high": 2028.04,
-          "market": 198.0,
+          "mid": 249.95,
+          "high": 1946.92,
+          "market": 168.33,
           "directLow": 249.95
         },
         "Unlimited": {
           "low": 35.0,
-          "mid": 56.59,
+          "mid": 58.17,
           "high": 199.87,
           "market": 57.04,
           "directLow": 199.87
@@ -1910,14 +1910,14 @@
           "mid": 137.24,
           "high": 249.99,
           "market": 128.59,
-          "directLow": 219.75
+          "directLow": 219.74
         },
         "Unlimited": {
           "low": 19.71,
-          "mid": 29.49,
-          "high": 96.79,
+          "mid": 29.99,
+          "high": 131.8,
           "market": 30.69,
-          "directLow": 31.05
+          "directLow": 32.76
         }
       },
       "nombreProducto": "Dugtrio (Shadowless)"
@@ -1929,15 +1929,15 @@
       "variantes": {
         "1st Edition": {
           "low": 129.99,
-          "mid": 142.77,
-          "high": 149.99,
+          "mid": 145.54,
+          "high": 749.82,
           "market": 155.54,
           "directLow": null
         },
         "Unlimited": {
           "low": 21.77,
-          "mid": 37.95,
-          "high": 178.98,
+          "mid": 38.97,
+          "high": 238.85,
           "market": 29.43,
           "directLow": 178.98
         }
@@ -1950,16 +1950,16 @@
       "numeroNormalizado": "21",
       "variantes": {
         "1st Edition": {
-          "low": 74.79,
-          "mid": 100.0,
-          "high": 818.09,
+          "low": 71.99,
+          "mid": 92.5,
+          "high": 849.72,
           "market": 73.29,
           "directLow": null
         },
         "Unlimited": {
           "low": 11.99,
-          "mid": 19.97,
-          "high": 96.84,
+          "mid": 20.0,
+          "high": 137.48,
           "market": 26.1,
           "directLow": 19.97
         }
@@ -1973,15 +1973,15 @@
       "variantes": {
         "1st Edition": {
           "low": 109.99,
-          "mid": 145.0,
-          "high": 699.99,
-          "market": 83.41,
+          "mid": 324.49,
+          "high": 996.04,
+          "market": 80.09,
           "directLow": 498.98
         },
         "Unlimited": {
           "low": 17.26,
-          "mid": 22.36,
-          "high": 119.99,
+          "mid": 26.26,
+          "high": 154.2,
           "market": 28.45,
           "directLow": 74.97
         }
@@ -1994,15 +1994,15 @@
       "numeroNormalizado": "23",
       "variantes": {
         "1st Edition": {
-          "low": 90.31,
-          "mid": 114.13,
-          "high": 595.95,
+          "low": 90.42,
+          "mid": 182.06,
+          "high": 690.51,
           "market": 91.24,
           "directLow": 595.95
         },
         "Unlimited": {
           "low": 10.99,
-          "mid": 39.42,
+          "mid": 40.43,
           "high": 96.15,
           "market": 42.66,
           "directLow": 93.62
@@ -2016,17 +2016,17 @@
       "numeroNormalizado": "24",
       "variantes": {
         "1st Edition": {
-          "low": 88.0,
-          "mid": 132.0,
+          "low": 93.59,
+          "mid": 152.52,
           "high": 1222.72,
           "market": 129.81,
           "directLow": null
         },
         "Unlimited": {
           "low": 3.7,
-          "mid": 19.7,
+          "mid": 19.8,
           "high": 145.49,
-          "market": 22.07,
+          "market": 21.99,
           "directLow": 14.69
         }
       },
@@ -2039,16 +2039,16 @@
       "variantes": {
         "1st Edition": {
           "low": 14.47,
-          "mid": 23.38,
+          "mid": 24.2,
           "high": 499.99,
-          "market": 31.54,
+          "market": 31.59,
           "directLow": 15.46
         },
         "Unlimited": {
           "low": 3.5,
-          "mid": 7.0,
+          "mid": 7.06,
           "high": 96.69,
-          "market": 7.94,
+          "market": 7.97,
           "directLow": 96.69
         }
       },
@@ -2060,15 +2060,15 @@
       "numeroNormalizado": "26",
       "variantes": {
         "1st Edition": {
-          "low": 57.32,
-          "mid": 499.98,
+          "low": 59.99,
+          "mid": 456.15,
           "high": 499.99,
           "market": 89.46,
           "directLow": null
         },
         "Unlimited": {
           "low": 3.99,
-          "mid": 6.0,
+          "mid": 6.08,
           "high": 96.95,
           "market": 14.42,
           "directLow": 5.49
@@ -2083,7 +2083,7 @@
       "variantes": {
         "1st Edition": {
           "low": 27.45,
-          "mid": 80.91,
+          "mid": 162.0,
           "high": 499.99,
           "market": 50.9,
           "directLow": null
@@ -2105,15 +2105,15 @@
       "variantes": {
         "1st Edition": {
           "low": 55.0,
-          "mid": 73.25,
-          "high": 448.98,
+          "mid": 89.45,
+          "high": 697.52,
           "market": 66.71,
           "directLow": 448.98
         },
         "Unlimited": {
           "low": 2.49,
-          "mid": 11.0,
-          "high": 74.52,
+          "mid": 11.1,
+          "high": 95.42,
           "market": 12.35,
           "directLow": 12.57
         }
@@ -2126,16 +2126,16 @@
       "numeroNormalizado": "29",
       "variantes": {
         "1st Edition": {
-          "low": 44.05,
-          "mid": 70.0,
-          "high": 4969.15,
+          "low": 70.0,
+          "mid": 74.74,
+          "high": 698.82,
           "market": 70.1,
           "directLow": null
         },
         "Unlimited": {
-          "low": 6.04,
-          "mid": 15.0,
-          "high": 128.46,
+          "low": 6.89,
+          "mid": 17.95,
+          "high": 128.71,
           "market": 23.2,
           "directLow": 7.35
         }
@@ -2149,16 +2149,16 @@
       "variantes": {
         "1st Edition": {
           "low": 79.99,
-          "mid": 549.99,
+          "mid": 794.38,
           "high": 999.25,
-          "market": 86.52,
+          "market": 86.51,
           "directLow": 199.99
         },
         "Unlimited": {
           "low": 8.49,
-          "mid": 13.2,
-          "high": 207.31,
-          "market": 18.51,
+          "mid": 14.21,
+          "high": 199.02,
+          "market": 18.48,
           "directLow": 23.51
         }
       },
@@ -2171,15 +2171,15 @@
       "variantes": {
         "1st Edition": {
           "low": 27.5,
-          "mid": 32.05,
-          "high": 484.95,
+          "mid": 33.6,
+          "high": 465.55,
           "market": 44.49,
           "directLow": null
         },
         "Unlimited": {
           "low": 2.03,
-          "mid": 6.0,
-          "high": 89.99,
+          "mid": 6.22,
+          "high": 113.18,
           "market": 11.67,
           "directLow": 4.89
         }
@@ -2193,17 +2193,17 @@
       "variantes": {
         "1st Edition": {
           "low": 50.99,
-          "mid": 150.0,
-          "high": 249.99,
+          "mid": 249.99,
+          "high": 693.72,
           "market": 76.4,
           "directLow": null
         },
         "Unlimited": {
           "low": 8.0,
           "mid": 10.84,
-          "high": 117.35,
+          "high": 117.6,
           "market": 13.47,
-          "directLow": 13.2
+          "directLow": 13.4
         }
       },
       "nombreProducto": "Kadabra (Shadowless)"
@@ -2215,14 +2215,14 @@
       "variantes": {
         "1st Edition": {
           "low": 14.94,
-          "mid": 18.46,
+          "mid": 18.0,
           "high": 249.99,
-          "market": 21.69,
+          "market": 21.89,
           "directLow": null
         },
         "Unlimited": {
           "low": 1.37,
-          "mid": 2.77,
+          "mid": 2.86,
           "high": 39.98,
           "market": 2.83,
           "directLow": 4.02
@@ -2236,17 +2236,17 @@
       "numeroNormalizado": "34",
       "variantes": {
         "1st Edition": {
-          "low": 32.99,
-          "mid": 40.38,
-          "high": 1298.59,
-          "market": 52.53,
+          "low": 34.99,
+          "mid": 46.8,
+          "high": 2325.31,
+          "market": 51.78,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.94,
-          "mid": 3.88,
+          "mid": 3.97,
           "high": 96.95,
-          "market": 4.97,
+          "market": 4.93,
           "directLow": 6.2
         }
       },
@@ -2259,14 +2259,14 @@
       "variantes": {
         "1st Edition": {
           "low": 116.99,
-          "mid": 143.27,
-          "high": 469.99,
+          "mid": 148.96,
+          "high": 1979.81,
           "market": 192.34,
           "directLow": null
         },
         "Unlimited": {
-          "low": 9.67,
-          "mid": 16.34,
+          "low": 9.66,
+          "mid": 19.0,
           "high": 96.95,
           "market": 26.77,
           "directLow": 46.58
@@ -2283,13 +2283,13 @@
           "low": 27.88,
           "mid": 29.73,
           "high": 276.79,
-          "market": 36.12,
+          "market": 35.8,
           "directLow": null
         },
         "Unlimited": {
           "low": 2.65,
-          "mid": 6.78,
-          "high": 46.57,
+          "mid": 6.85,
+          "high": 76.9,
           "market": 6.66,
           "directLow": null
         }
@@ -2303,16 +2303,16 @@
       "variantes": {
         "1st Edition": {
           "low": 15.3,
-          "mid": 18.95,
+          "mid": 19.77,
           "high": 499.99,
           "market": 31.49,
-          "directLow": 163.13
+          "directLow": 162.95
         },
         "Unlimited": {
-          "low": 2.7,
-          "mid": 7.15,
-          "high": 95.71,
-          "market": 8.51,
+          "low": 2.65,
+          "mid": 7.55,
+          "high": 95.98,
+          "market": 8.4,
           "directLow": 95.71
         }
       },
@@ -2325,15 +2325,15 @@
       "variantes": {
         "1st Edition": {
           "low": 23.99,
-          "mid": 27.64,
-          "high": 50.0,
+          "mid": 32.4,
+          "high": 195.74,
           "market": 35.58,
           "directLow": null
         },
         "Unlimited": {
           "low": 2.82,
-          "mid": 6.87,
-          "high": 24.75,
+          "mid": 7.0,
+          "high": 102.82,
           "market": 8.7,
           "directLow": null
         }
@@ -2347,17 +2347,17 @@
       "variantes": {
         "1st Edition": {
           "low": 20.6,
-          "mid": 23.99,
+          "mid": 27.16,
           "high": 499.99,
           "market": 34.3,
           "directLow": 282.88
         },
         "Unlimited": {
           "low": 3.99,
-          "mid": 6.87,
+          "mid": 7.21,
           "high": 96.95,
-          "market": 8.19,
-          "directLow": 8.21
+          "market": 8.01,
+          "directLow": 8.05
         }
       },
       "nombreProducto": "Porygon (Shadowless)"
@@ -2369,14 +2369,14 @@
       "variantes": {
         "1st Edition": {
           "low": 12.0,
-          "mid": 17.83,
-          "high": 499.99,
+          "mid": 20.35,
+          "high": 613.01,
           "market": 27.25,
           "directLow": 96.93
         },
         "Unlimited": {
-          "low": 2.2,
-          "mid": 5.59,
+          "low": 2.18,
+          "mid": 6.49,
           "high": 96.95,
           "market": 7.92,
           "directLow": 3.97
@@ -2391,14 +2391,14 @@
       "variantes": {
         "1st Edition": {
           "low": 13.96,
-          "mid": 24.99,
-          "high": 267.81,
+          "mid": 25.55,
+          "high": 257.1,
           "market": 24.52,
           "directLow": 29.24
         },
         "Unlimited": {
           "low": 1.95,
-          "mid": 4.13,
+          "mid": 4.17,
           "high": 96.95,
           "market": 4.31,
           "directLow": 8.08
@@ -2413,17 +2413,17 @@
       "variantes": {
         "1st Edition": {
           "low": 75.0,
-          "mid": 98.0,
-          "high": 143.98,
+          "mid": 99.49,
+          "high": 849.72,
           "market": 119.75,
           "directLow": null
         },
         "Unlimited": {
           "low": 14.99,
-          "mid": 29.99,
+          "mid": 34.25,
           "high": 193.99,
           "market": 38.87,
-          "directLow": 49.99
+          "directLow": 49.98
         }
       },
       "nombreProducto": "Wartortle (Shadowless)"
@@ -2434,15 +2434,15 @@
       "numeroNormalizado": "43",
       "variantes": {
         "1st Edition": {
-          "low": 21.98,
-          "mid": 26.95,
+          "low": 21.89,
+          "mid": 38.61,
           "high": 903.0,
           "market": 44.23,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.9,
-          "mid": 5.43,
+          "mid": 5.95,
           "high": 96.95,
           "market": 12.55,
           "directLow": 5.24
@@ -2464,8 +2464,8 @@
         },
         "Unlimited": {
           "low": 8.5,
-          "mid": 16.49,
-          "high": 96.95,
+          "mid": 17.99,
+          "high": 184.01,
           "market": 23.19,
           "directLow": 74.51
         }
@@ -2479,17 +2479,17 @@
       "variantes": {
         "1st Edition": {
           "low": 32.17,
-          "mid": 49.99,
+          "mid": 52.05,
           "high": 247.99,
           "market": 57.5,
           "directLow": 246.92
         },
         "Unlimited": {
           "low": 1.69,
-          "mid": 4.3,
-          "high": 14.99,
+          "mid": 4.5,
+          "high": 50.62,
           "market": 4.43,
-          "directLow": 2.41
+          "directLow": 4.89
         }
       },
       "nombreProducto": "Caterpie (Shadowless)"
@@ -2501,16 +2501,16 @@
       "variantes": {
         "1st Edition": {
           "low": 123.0,
-          "mid": 228.51,
-          "high": 2898.39,
+          "mid": 229.0,
+          "high": 4413.33,
           "market": 187.06,
           "directLow": 2898.39
         },
         "Unlimited": {
           "low": 1.99,
-          "mid": 7.88,
+          "mid": 7.94,
           "high": 124.98,
-          "market": 13.29,
+          "market": 13.78,
           "directLow": 5.4
         }
       },
@@ -2522,15 +2522,15 @@
       "numeroNormalizado": "47",
       "variantes": {
         "1st Edition": {
-          "low": 14.34,
-          "mid": 25.98,
+          "low": 13.3,
+          "mid": 26.1,
           "high": 399.99,
-          "market": 29.21,
+          "market": 28.7,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.49,
-          "mid": 1.66,
+          "mid": 1.72,
           "high": 95.79,
           "market": 1.72,
           "directLow": 1.59
@@ -2545,17 +2545,17 @@
       "variantes": {
         "1st Edition": {
           "low": 13.44,
-          "mid": 19.01,
+          "mid": 19.21,
           "high": 249.99,
-          "market": 22.04,
+          "market": 21.86,
           "directLow": null
         },
         "Unlimited": {
           "low": 1.0,
-          "mid": 2.0,
-          "high": 4.75,
+          "mid": 1.99,
+          "high": 25.42,
           "market": 2.3,
-          "directLow": 2.32
+          "directLow": 1.35
         }
       },
       "nombreProducto": "Doduo (Shadowless)"
@@ -2567,8 +2567,8 @@
       "variantes": {
         "1st Edition": {
           "low": 13.0,
-          "mid": 23.99,
-          "high": 249.99,
+          "mid": 24.0,
+          "high": 412.82,
           "market": 28.11,
           "directLow": null
         },
@@ -2596,10 +2596,10 @@
         },
         "Unlimited": {
           "low": 1.35,
-          "mid": 5.94,
+          "mid": 6.06,
           "high": 96.95,
           "market": 7.55,
-          "directLow": 7.11
+          "directLow": 7.08
         }
       },
       "nombreProducto": "Gastly (Shadowless)"
@@ -2611,15 +2611,15 @@
       "variantes": {
         "1st Edition": {
           "low": 13.7,
-          "mid": 29.99,
-          "high": 249.99,
+          "mid": 32.04,
+          "high": 509.22,
           "market": 32.31,
           "directLow": null
         },
         "Unlimited": {
-          "low": 2.75,
-          "mid": 6.5,
-          "high": 189.8,
+          "low": 2.68,
+          "mid": 6.51,
+          "high": 313.36,
           "market": 7.75,
           "directLow": 6.31
         }
@@ -2632,9 +2632,9 @@
       "numeroNormalizado": "52",
       "variantes": {
         "1st Edition": {
-          "low": 11.7,
-          "mid": 17.56,
-          "high": 150.0,
+          "low": 11.69,
+          "mid": 18.79,
+          "high": 899.82,
           "market": 22.85,
           "directLow": null
         },
@@ -2642,8 +2642,8 @@
           "low": 0.49,
           "mid": 1.82,
           "high": 96.95,
-          "market": 1.79,
-          "directLow": 1.79
+          "market": 1.82,
+          "directLow": 1.69
         }
       },
       "nombreProducto": "Machop (Shadowless)"
@@ -2655,14 +2655,14 @@
       "variantes": {
         "1st Edition": {
           "low": 10.99,
-          "mid": 14.84,
-          "high": 249.99,
-          "market": 22.12,
+          "mid": 16.0,
+          "high": 272.12,
+          "market": 22.13,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.74,
-          "mid": 2.61,
+          "mid": 2.68,
           "high": 96.95,
           "market": 2.99,
           "directLow": 2.97
@@ -2677,14 +2677,14 @@
       "variantes": {
         "1st Edition": {
           "low": 15.99,
-          "mid": 21.15,
-          "high": 99.99,
+          "mid": 22.79,
+          "high": 999.72,
           "market": 26.6,
           "directLow": null
         },
         "Unlimited": {
           "low": 2.05,
-          "mid": 4.25,
+          "mid": 4.28,
           "high": 96.4,
           "market": 4.66,
           "directLow": 3.58
@@ -2699,17 +2699,17 @@
       "variantes": {
         "1st Edition": {
           "low": 13.8,
-          "mid": 24.76,
+          "mid": 25.99,
           "high": 249.99,
-          "market": 27.66,
-          "directLow": 248.73
+          "market": 27.54,
+          "directLow": 248.71
         },
         "Unlimited": {
           "low": 0.92,
-          "mid": 2.8,
+          "mid": 2.81,
           "high": 96.95,
           "market": 2.98,
-          "directLow": 2.78
+          "directLow": 2.69
         }
       },
       "nombreProducto": "Nidoran M (Shadowless)"
@@ -2722,7 +2722,7 @@
         "1st Edition": {
           "low": 13.43,
           "mid": 19.67,
-          "high": 299.99,
+          "high": 662.48,
           "market": 28.11,
           "directLow": null
         },
@@ -2743,16 +2743,16 @@
       "variantes": {
         "1st Edition": {
           "low": 19.9,
-          "mid": 86.49,
+          "mid": 129.98,
           "high": 197.83,
           "market": 41.04,
           "directLow": null
         },
         "Unlimited": {
           "low": 1.97,
-          "mid": 4.24,
+          "mid": 4.42,
           "high": 96.74,
-          "market": 5.19,
+          "market": 5.12,
           "directLow": 26.98
         }
       },
@@ -2772,9 +2772,9 @@
         },
         "Unlimited": {
           "low": 26.99,
-          "mid": 100.0,
-          "high": 224.4,
-          "market": 46.4,
+          "mid": 104.99,
+          "high": 293.76,
+          "market": 46.5,
           "directLow": 192.98
         }
       },
@@ -2786,18 +2786,18 @@
       "numeroNormalizado": "59",
       "variantes": {
         "1st Edition": {
-          "low": 17.11,
-          "mid": 22.51,
+          "low": 17.0,
+          "mid": 23.99,
           "high": 699.96,
           "market": 30.75,
           "directLow": null
         },
         "Unlimited": {
           "low": 1.22,
-          "mid": 3.5,
+          "mid": 3.58,
           "high": 55.88,
           "market": 5.89,
-          "directLow": 54.85
+          "directLow": 14.96
         }
       },
       "nombreProducto": "Poliwag (Shadowless)"
@@ -2809,17 +2809,17 @@
       "variantes": {
         "1st Edition": {
           "low": 21.0,
-          "mid": 26.99,
+          "mid": 28.5,
           "high": 249.99,
           "market": 32.51,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.4,
-          "mid": 2.2,
+          "mid": 2.34,
           "high": 96.34,
           "market": 5.32,
-          "directLow": 1.33
+          "directLow": 1.35
         }
       },
       "nombreProducto": "Ponyta (Shadowless)"
@@ -2830,18 +2830,18 @@
       "numeroNormalizado": "61",
       "variantes": {
         "1st Edition": {
-          "low": 20.99,
-          "mid": 34.98,
-          "high": 249.99,
-          "market": 30.58,
+          "low": 14.6,
+          "mid": 37.0,
+          "high": 899.82,
+          "market": 30.06,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.57,
-          "mid": 3.1,
+          "mid": 3.27,
           "high": 97.52,
           "market": 3.66,
-          "directLow": 2.99
+          "directLow": 5.97
         }
       },
       "nombreProducto": "Rattata (Shadowless)"
@@ -2853,17 +2853,17 @@
       "variantes": {
         "1st Edition": {
           "low": 14.31,
-          "mid": 34.0,
+          "mid": 35.31,
           "high": 9999.0,
           "market": 35.64,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.5,
-          "mid": 2.96,
+          "mid": 2.97,
           "high": 96.12,
           "market": 3.29,
-          "directLow": 3.44
+          "directLow": 3.29
         }
       },
       "nombreProducto": "Sandshrew (Shadowless)"
@@ -2875,14 +2875,14 @@
       "variantes": {
         "1st Edition": {
           "low": 96.99,
-          "mid": 279.99,
-          "high": 499.77,
+          "mid": 499.77,
+          "high": 844.6,
           "market": 135.29,
           "directLow": 499.77
         },
         "Unlimited": {
-          "low": 12.99,
-          "mid": 19.99,
+          "low": 13.0,
+          "mid": 22.5,
           "high": 145.49,
           "market": 35.14,
           "directLow": 49.98
@@ -2896,7 +2896,7 @@
       "numeroNormalizado": "64",
       "variantes": {
         "1st Edition": {
-          "low": 24.75,
+          "low": 24.25,
           "mid": 44.99,
           "high": 99.66,
           "market": 46.23,
@@ -2904,8 +2904,8 @@
         },
         "Unlimited": {
           "low": 1.48,
-          "mid": 3.38,
-          "high": 55.88,
+          "mid": 3.46,
+          "high": 57.74,
           "market": 4.93,
           "directLow": 3.85
         }
@@ -2920,8 +2920,8 @@
         "1st Edition": {
           "low": 11.0,
           "mid": 19.94,
-          "high": 224.69,
-          "market": 20.69,
+          "high": 215.7,
+          "market": 20.81,
           "directLow": null
         },
         "Unlimited": {
@@ -2929,7 +2929,7 @@
           "mid": 1.61,
           "high": 96.93,
           "market": 1.61,
-          "directLow": 1.49
+          "directLow": 1.24
         }
       },
       "nombreProducto": "Staryu (Shadowless)"
@@ -2941,15 +2941,15 @@
       "variantes": {
         "1st Edition": {
           "low": 18.0,
-          "mid": 29.95,
+          "mid": 29.99,
           "high": 9999.0,
           "market": 28.08,
           "directLow": 29.99
         },
         "Unlimited": {
           "low": 0.95,
-          "mid": 2.98,
-          "high": 27.94,
+          "mid": 2.99,
+          "high": 43.6,
           "market": 4.33,
           "directLow": 3.32
         }
@@ -2964,14 +2964,14 @@
         "1st Edition": {
           "low": 17.83,
           "mid": 27.0,
-          "high": 249.99,
+          "high": 2499.72,
           "market": 29.98,
           "directLow": null
         },
         "Unlimited": {
           "low": 3.29,
-          "mid": 5.94,
-          "high": 258.4,
+          "mid": 5.99,
+          "high": 1186.24,
           "market": 11.78,
           "directLow": 5.59
         }
@@ -2986,16 +2986,16 @@
         "1st Edition": {
           "low": 26.9,
           "mid": 48.34,
-          "high": 200.0,
+          "high": 221.72,
           "market": 43.19,
           "directLow": null
         },
         "Unlimited": {
           "low": 2.74,
-          "mid": 5.54,
-          "high": 55.88,
+          "mid": 5.5,
+          "high": 4317.59,
           "market": 7.67,
-          "directLow": 6.8
+          "directLow": 6.9
         }
       },
       "nombreProducto": "Vulpix (Shadowless)"
@@ -3007,17 +3007,17 @@
       "variantes": {
         "1st Edition": {
           "low": 32.49,
-          "mid": 39.99,
+          "mid": 44.99,
           "high": 699.99,
           "market": 58.65,
           "directLow": 279.54
         },
         "Unlimited": {
           "low": 1.0,
-          "mid": 2.63,
+          "mid": 2.69,
           "high": 96.95,
-          "market": 3.47,
-          "directLow": 1.82
+          "market": 3.41,
+          "directLow": 4.5
         }
       },
       "nombreProducto": "Weedle (Shadowless)"
@@ -3029,15 +3029,15 @@
       "variantes": {
         "1st Edition": {
           "low": 50.0,
-          "mid": 54.99,
-          "high": 87.75,
+          "mid": 58.76,
+          "high": 455.32,
           "market": 83.57,
           "directLow": null
         },
         "Unlimited": {
           "low": 7.26,
-          "mid": 17.0,
-          "high": 108.68,
+          "mid": 21.0,
+          "high": 108.93,
           "market": 12.16,
           "directLow": 58.36
         }
@@ -3050,15 +3050,15 @@
       "numeroNormalizado": "71",
       "variantes": {
         "1st Edition": {
-          "low": 75.0,
-          "mid": 96.0,
-          "high": 117.0,
+          "low": 144.0,
+          "mid": 659.26,
+          "high": 1174.52,
           "market": 145.66,
           "directLow": null
         },
         "Unlimited": {
           "low": 3.0,
-          "mid": 6.05,
+          "mid": 6.0,
           "high": 96.74,
           "market": 9.84,
           "directLow": 12.56
@@ -3073,15 +3073,15 @@
       "variantes": {
         "1st Edition": {
           "low": 43.99,
-          "mid": 62.5,
-          "high": 196.68,
+          "mid": 63.28,
+          "high": 1012.82,
           "market": 67.57,
           "directLow": null
         },
         "Unlimited": {
           "low": 4.0,
-          "mid": 13.6,
-          "high": 62.39,
+          "mid": 14.26,
+          "high": 62.68,
           "market": 15.01,
           "directLow": 46.56
         }
@@ -3094,15 +3094,15 @@
       "numeroNormalizado": "73",
       "variantes": {
         "1st Edition": {
-          "low": 42.42,
+          "low": 65.0,
           "mid": 73.14,
-          "high": 792.1,
+          "high": 760.42,
           "market": 70.82,
           "directLow": null
         },
         "Unlimited": {
           "low": 11.98,
-          "mid": 28.11,
+          "mid": 29.26,
           "high": 129.88,
           "market": 28.28,
           "directLow": null
@@ -3117,14 +3117,14 @@
       "variantes": {
         "1st Edition": {
           "low": 88.0,
-          "mid": 171.09,
-          "high": 899.99,
+          "mid": 250.75,
+          "high": 994.52,
           "market": 100.46,
           "directLow": 899.99
         },
         "Unlimited": {
           "low": 4.0,
-          "mid": 7.34,
+          "mid": 7.35,
           "high": 96.94,
           "market": 8.95,
           "directLow": 9.0
@@ -3139,16 +3139,16 @@
       "variantes": {
         "1st Edition": {
           "low": 66.0,
-          "mid": 96.59,
-          "high": 571.07,
+          "mid": 131.98,
+          "high": 1599.72,
           "market": 77.2,
           "directLow": 499.99
         },
         "Unlimited": {
           "low": 9.0,
-          "mid": 10.22,
+          "mid": 10.17,
           "high": 162.15,
-          "market": 14.62,
+          "market": 14.72,
           "directLow": 9.71
         }
       },
@@ -3161,15 +3161,15 @@
       "variantes": {
         "1st Edition": {
           "low": 48.5,
-          "mid": 103.64,
+          "mid": 158.8,
           "high": 9999.0,
           "market": 53.49,
-          "directLow": 35.1
+          "directLow": 248.98
         },
         "Unlimited": {
           "low": 7.7,
-          "mid": 18.04,
-          "high": 96.34,
+          "mid": 17.96,
+          "high": 96.61,
           "market": 18.11,
           "directLow": 96.34
         }
@@ -3183,16 +3183,16 @@
       "variantes": {
         "1st Edition": {
           "low": 43.0,
-          "mid": 55.04,
+          "mid": 75.0,
           "high": 999.99,
           "market": 76.26,
           "directLow": 139.87
         },
         "Unlimited": {
           "low": 7.99,
-          "mid": 15.8,
-          "high": 118.92,
-          "market": 16.72,
+          "mid": 16.4,
+          "high": 533.01,
+          "market": 16.73,
           "directLow": 94.94
         }
       },
@@ -3205,14 +3205,14 @@
       "variantes": {
         "1st Edition": {
           "low": 45.99,
-          "mid": 55.99,
-          "high": 99.99,
+          "mid": 60.5,
+          "high": 699.62,
           "market": 66.83,
           "directLow": null
         },
         "Unlimited": {
           "low": 8.0,
-          "mid": 15.5,
+          "mid": 16.21,
           "high": 315.29,
           "market": 16.43,
           "directLow": 10.97
@@ -3227,16 +3227,16 @@
       "variantes": {
         "1st Edition": {
           "low": 128.0,
-          "mid": 139.99,
+          "mid": 142.56,
           "high": 216.54,
           "market": 156.8,
           "directLow": null
         },
         "Unlimited": {
           "low": 3.0,
-          "mid": 5.07,
-          "high": 119.05,
-          "market": 9.28,
+          "mid": 5.13,
+          "high": 591.85,
+          "market": 9.27,
           "directLow": 10.36
         }
       },
@@ -3249,15 +3249,15 @@
       "variantes": {
         "1st Edition": {
           "low": 18.9,
-          "mid": 25.0,
-          "high": 119.99,
+          "mid": 28.78,
+          "high": 1489.82,
           "market": 27.53,
           "directLow": null
         },
         "Unlimited": {
           "low": 1.0,
-          "mid": 2.7,
-          "high": 97.57,
+          "mid": 2.99,
+          "high": 97.56,
           "market": 3.0,
           "directLow": 3.49
         }
@@ -3271,15 +3271,15 @@
       "variantes": {
         "1st Edition": {
           "low": 23.1,
-          "mid": 30.0,
-          "high": 50.0,
+          "mid": 34.99,
+          "high": 189.62,
           "market": 38.24,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.35,
           "mid": 0.94,
-          "high": 14.99,
+          "high": 16.52,
           "market": 1.05,
           "directLow": 0.64
         }
@@ -3293,16 +3293,16 @@
       "variantes": {
         "1st Edition": {
           "low": 3.0,
-          "mid": 7.21,
+          "mid": 8.0,
           "high": 158.28,
-          "market": 17.99,
-          "directLow": 68.9
+          "market": 17.54,
+          "directLow": 75.78
         },
         "Unlimited": {
           "low": 0.6,
           "mid": 1.99,
-          "high": 19.99,
-          "market": 2.11,
+          "high": 23.16,
+          "market": 2.12,
           "directLow": 2.23
         }
       },
@@ -3315,14 +3315,14 @@
       "variantes": {
         "1st Edition": {
           "low": 3.0,
-          "mid": 8.77,
+          "mid": 9.0,
           "high": 183.0,
-          "market": 9.59,
+          "market": 9.84,
           "directLow": null
         },
         "Unlimited": {
           "low": 1.0,
-          "mid": 1.99,
+          "mid": 2.0,
           "high": 98.49,
           "market": 2.28,
           "directLow": 2.9
@@ -3337,15 +3337,15 @@
       "variantes": {
         "1st Edition": {
           "low": 10.15,
-          "mid": 14.47,
-          "high": 31.49,
+          "mid": 15.25,
+          "high": 324.62,
           "market": 15.53,
           "directLow": null
         },
         "Unlimited": {
-          "low": 1.09,
-          "mid": 2.23,
-          "high": 14.99,
+          "low": 1.04,
+          "mid": 2.21,
+          "high": 26.36,
           "market": 2.25,
           "directLow": 2.25
         }
@@ -3358,18 +3358,18 @@
       "numeroNormalizado": "85",
       "variantes": {
         "1st Edition": {
-          "low": 6.0,
-          "mid": 10.5,
-          "high": 98.87,
-          "market": 11.02,
+          "low": 6.99,
+          "mid": 11.5,
+          "high": 134.62,
+          "market": 11.23,
           "directLow": null
         },
         "Unlimited": {
           "low": 1.14,
-          "mid": 2.69,
-          "high": 9.99,
-          "market": 3.31,
-          "directLow": 1.58
+          "mid": 2.93,
+          "high": 39.36,
+          "market": 3.27,
+          "directLow": 1.57
         }
       },
       "nombreProducto": "Pokemon Center (Shadowless)"
@@ -3381,16 +3381,16 @@
       "variantes": {
         "1st Edition": {
           "low": 18.0,
-          "mid": 37.4,
+          "mid": 37.9,
           "high": 499.99,
           "market": 37.4,
           "directLow": 45.45
         },
         "Unlimited": {
           "low": 3.0,
-          "mid": 4.46,
+          "mid": 4.87,
           "high": 96.95,
-          "market": 6.36,
+          "market": 6.39,
           "directLow": 8.9
         }
       },
@@ -3403,17 +3403,17 @@
       "variantes": {
         "1st Edition": {
           "low": 12.0,
-          "mid": 16.61,
-          "high": 79.0,
+          "mid": 20.81,
+          "high": 155.22,
           "market": 26.58,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.35,
-          "mid": 1.43,
-          "high": 7.16,
+          "mid": 1.49,
+          "high": 15.94,
           "market": 2.15,
-          "directLow": 1.0
+          "directLow": null
         }
       },
       "nombreProducto": "Pokedex (Shadowless)"
@@ -3425,15 +3425,15 @@
       "variantes": {
         "1st Edition": {
           "low": 32.0,
-          "mid": 41.38,
+          "mid": 62.25,
           "high": 499.98,
           "market": 72.35,
           "directLow": null
         },
         "Unlimited": {
           "low": 1.37,
-          "mid": 3.45,
-          "high": 32.59,
+          "mid": 3.59,
+          "high": 40.4,
           "market": 4.46,
           "directLow": null
         }
@@ -3447,17 +3447,17 @@
       "variantes": {
         "1st Edition": {
           "low": 12.99,
-          "mid": 35.0,
-          "high": 464.17,
+          "mid": 39.2,
+          "high": 445.6,
           "market": 39.2,
           "directLow": 228.83
         },
         "Unlimited": {
           "low": 2.99,
-          "mid": 5.0,
-          "high": 95.39,
+          "mid": 5.2,
+          "high": 95.66,
           "market": 8.45,
-          "directLow": 10.3
+          "directLow": 10.5
         }
       },
       "nombreProducto": "Revive (Shadowless)"
@@ -3469,14 +3469,14 @@
       "variantes": {
         "1st Edition": {
           "low": 13.0,
-          "mid": 35.0,
-          "high": 199.99,
+          "mid": 49.99,
+          "high": 616.94,
           "market": 22.65,
           "directLow": 49.99
         },
         "Unlimited": {
           "low": 0.25,
-          "mid": 1.04,
+          "mid": 1.1,
           "high": 96.95,
           "market": 1.48,
           "directLow": 0.72
@@ -3491,14 +3491,14 @@
       "variantes": {
         "1st Edition": {
           "low": 22.0,
-          "mid": 28.92,
-          "high": 322.82,
+          "mid": 28.96,
+          "high": 309.91,
           "market": 28.92,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.33,
-          "mid": 1.36,
+          "mid": 1.35,
           "high": 79.99,
           "market": 1.34,
           "directLow": 1.44
@@ -3513,16 +3513,16 @@
       "variantes": {
         "1st Edition": {
           "low": 9.0,
-          "mid": 18.58,
-          "high": 99.99,
+          "mid": 19.89,
+          "high": 129.62,
           "market": 20.28,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.18,
-          "mid": 0.75,
+          "mid": 0.76,
           "high": 24.99,
-          "market": 0.87,
+          "market": 0.85,
           "directLow": null
         }
       },
@@ -3535,17 +3535,17 @@
       "variantes": {
         "1st Edition": {
           "low": 8.5,
-          "mid": 25.01,
-          "high": 257.09,
+          "mid": 25.26,
+          "high": 257.34,
           "market": 25.4,
           "directLow": 257.09
         },
         "Unlimited": {
           "low": 0.05,
-          "mid": 0.67,
+          "mid": 0.68,
           "high": 25.01,
           "market": 0.9,
-          "directLow": null
+          "directLow": 0.68
         }
       },
       "nombreProducto": "Gust of Wind (Shadowless)"
@@ -3557,8 +3557,8 @@
       "variantes": {
         "1st Edition": {
           "low": 7.69,
-          "mid": 15.1,
-          "high": 23.06,
+          "mid": 15.67,
+          "high": 187.32,
           "market": 18.45,
           "directLow": null
         },
@@ -3579,7 +3579,7 @@
       "variantes": {
         "1st Edition": {
           "low": 10.0,
-          "mid": 15.49,
+          "mid": 17.45,
           "high": 75.85,
           "market": 24.01,
           "directLow": null
@@ -3587,7 +3587,7 @@
         "Unlimited": {
           "low": 0.2,
           "mid": 0.86,
-          "high": 21.99,
+          "high": 23.17,
           "market": 1.21,
           "directLow": 1.37
         }
@@ -3601,16 +3601,16 @@
       "variantes": {
         "1st Edition": {
           "low": 3.0,
-          "mid": 4.5,
+          "mid": 4.76,
           "high": 193.99,
-          "market": 5.91,
+          "market": 5.95,
           "directLow": 5.99
         },
         "Unlimited": {
           "low": 0.2,
-          "mid": 0.52,
+          "mid": 0.53,
           "high": 19.99,
-          "market": 0.59,
+          "market": 0.62,
           "directLow": 0.24
         }
       },
@@ -3623,17 +3623,17 @@
       "variantes": {
         "1st Edition": {
           "low": 2.99,
-          "mid": 8.07,
+          "mid": 8.98,
           "high": 9999.0,
-          "market": 9.55,
+          "market": 9.43,
           "directLow": 192.98
         },
         "Unlimited": {
           "low": 0.14,
           "mid": 0.5,
-          "high": 5.99,
-          "market": 0.59,
-          "directLow": 1.63
+          "high": 15.68,
+          "market": 0.63,
+          "directLow": 0.44
         }
       },
       "nombreProducto": "Fire Energy (Shadowless)"
@@ -3645,16 +3645,16 @@
       "variantes": {
         "1st Edition": {
           "low": 10.98,
-          "mid": 27.09,
-          "high": 136.45,
+          "mid": 30.22,
+          "high": 136.7,
           "market": 27.47,
           "directLow": 136.45
         },
         "Unlimited": {
           "low": 0.15,
-          "mid": 0.7,
+          "mid": 0.71,
           "high": 96.95,
-          "market": 1.29,
+          "market": 1.43,
           "directLow": 0.7
         }
       },
@@ -3674,7 +3674,7 @@
         },
         "Unlimited": {
           "low": 0.5,
-          "mid": 0.87,
+          "mid": 0.95,
           "high": 24.99,
           "market": 1.4,
           "directLow": null
@@ -3690,15 +3690,15 @@
         "1st Edition": {
           "low": 3.0,
           "mid": 8.06,
-          "high": 12.0,
-          "market": 8.45,
+          "high": 99.52,
+          "market": 8.51,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.24,
           "mid": 0.8,
-          "high": 10.99,
-          "market": 0.97,
+          "high": 12.2,
+          "market": 1.11,
           "directLow": 0.8
         }
       },
@@ -3711,17 +3711,17 @@
       "variantes": {
         "1st Edition": {
           "low": 4.9,
-          "mid": 6.87,
-          "high": 13.71,
+          "mid": 7.72,
+          "high": 196.52,
           "market": 13.55,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.38,
-          "mid": 0.87,
+          "mid": 0.89,
           "high": 24.99,
-          "market": 1.83,
-          "directLow": 9.99
+          "market": 2.2,
+          "directLow": 0.8
         }
       },
       "nombreProducto": "Water Energy (Shadowless)"
@@ -3733,14 +3733,14 @@
       "variantes": {
         "1st Edition": {
           "low": 13.5,
-          "mid": 29.15,
-          "high": 56.08,
+          "mid": 48.23,
+          "high": 489.72,
           "market": 48.28,
           "directLow": 16.68
         },
         "Unlimited": {
-          "low": 4.49,
-          "mid": 7.5,
+          "low": 4.42,
+          "mid": 7.61,
           "high": 198.87,
           "market": 19.47,
           "directLow": 55.88
@@ -3755,14 +3755,14 @@
       "variantes": {
         "1st Edition": {
           "low": 884.0,
-          "mid": 2050.0,
-          "high": 2999.99,
+          "mid": 2299.99,
+          "high": 3592.76,
           "market": 429.98,
           "directLow": 2299.99
         },
         "Unlimited": {
-          "low": 57.08,
-          "mid": 92.87,
+          "low": 55.0,
+          "mid": 91.99,
           "high": 9999.0,
           "market": 110.15,
           "directLow": 795.99
@@ -3780,9 +3780,9 @@
         "1st Edition Holofoil": {
           "low": 12.47,
           "mid": 24.45,
-          "high": 165.76,
+          "high": 160.46,
           "market": 24.45,
-          "directLow": 96.92
+          "directLow": 15.97
         }
       }
     }

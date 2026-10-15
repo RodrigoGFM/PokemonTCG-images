@@ -3,6 +3,22 @@
   "tcgplayerGroupId": 1533,
   "cartas": [
     {
+      "productId": 98147,
+      "numero": "1",
+      "numeroNormalizado": "1",
+      "nombreProducto": "Fletchling",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 3.9,
+          "mid": 4.59,
+          "high": 47.72,
+          "market": 3.39,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 98155,
       "numero": "10",
       "numeroNormalizado": "10",
@@ -19,54 +35,6 @@
       }
     },
     {
-      "productId": 98157,
-      "numero": "22",
-      "numeroNormalizado": "22",
-      "nombreProducto": "Metal Energy (#22)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 0.07,
-          "mid": 0.07,
-          "high": 0.07,
-          "market": null,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98158,
-      "numero": "24",
-      "numeroNormalizado": "24",
-      "nombreProducto": "Metal Energy (#24)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 0.05,
-          "mid": 0.06,
-          "high": 0.07,
-          "market": 1.0,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98147,
-      "numero": "1",
-      "numeroNormalizado": "1",
-      "nombreProducto": "Fletchling",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 3.9,
-          "mid": 4.42,
-          "high": 6.48,
-          "market": 3.39,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 98160,
       "numero": "11",
       "numeroNormalizado": "11",
@@ -75,7 +43,7 @@
       "variantes": {
         "Normal": {
           "low": 0.55,
-          "mid": 14.0,
+          "mid": 16.9,
           "high": 20.97,
           "market": 0.55,
           "directLow": null
@@ -91,8 +59,8 @@
       "variantes": {
         "Normal": {
           "low": 0.45,
-          "mid": 0.5,
-          "high": 15.0,
+          "mid": 0.65,
+          "high": 19.8,
           "market": 0.54,
           "directLow": null
         }
@@ -107,8 +75,8 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 4.04,
-          "high": 15.0,
+          "mid": 4.05,
+          "high": 71.77,
           "market": 2.0,
           "directLow": null
         }
@@ -122,8 +90,8 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 20.97,
-          "mid": 20.97,
+          "low": 19.8,
+          "mid": 20.39,
           "high": 20.97,
           "market": 1.0,
           "directLow": null
@@ -139,8 +107,8 @@
       "variantes": {
         "Normal": {
           "low": 0.79,
-          "mid": 0.99,
-          "high": 15.0,
+          "mid": 14.99,
+          "high": 19.8,
           "market": 0.86,
           "directLow": null
         }
@@ -172,7 +140,7 @@
         "Normal": {
           "low": 0.25,
           "mid": 0.4,
-          "high": 1.49,
+          "high": 19.8,
           "market": 0.4,
           "directLow": null
         }
@@ -187,9 +155,9 @@
       "variantes": {
         "Normal": {
           "low": 0.75,
-          "mid": 0.93,
-          "high": 1.1,
-          "market": 1.0,
+          "mid": 0.75,
+          "high": 0.75,
+          "market": 1.05,
           "directLow": null
         }
       }
@@ -203,8 +171,8 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 1.53,
-          "high": 10.0,
+          "mid": 1.74,
+          "high": 37.72,
           "market": 1.0,
           "directLow": null
         }
@@ -219,9 +187,25 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.59,
-          "high": 15.0,
+          "mid": 2.68,
+          "high": 19.8,
           "market": 0.62,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98157,
+      "numero": "22",
+      "numeroNormalizado": "22",
+      "nombreProducto": "Metal Energy (#22)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.7,
+          "mid": 0.7,
+          "high": 0.7,
+          "market": null,
           "directLow": null
         }
       }
@@ -234,10 +218,26 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 2.17,
-          "mid": 3.25,
-          "high": 15.0,
+          "low": 1.0,
+          "mid": 3.99,
+          "high": 79.62,
           "market": 0.2,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98158,
+      "numero": "24",
+      "numeroNormalizado": "24",
+      "nombreProducto": "Metal Energy (#24)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.05,
+          "mid": 0.06,
+          "high": 0.07,
+          "market": 1.0,
           "directLow": null
         }
       }
@@ -251,8 +251,8 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 1.99,
-          "high": 5.0,
+          "mid": 2.01,
+          "high": 32.82,
           "market": 1.99,
           "directLow": null
         }
@@ -266,9 +266,9 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 2.0,
-          "mid": 5.45,
-          "high": 19.32,
+          "low": 8.58,
+          "mid": 26.32,
+          "high": 60.82,
           "market": 5.56,
           "directLow": null
         }
@@ -283,8 +283,8 @@
       "variantes": {
         "Normal": {
           "low": 1.44,
-          "mid": 2.27,
-          "high": 15.0,
+          "mid": 2.59,
+          "high": 38.82,
           "market": 1.44,
           "directLow": null
         }
@@ -299,8 +299,8 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 1.45,
-          "high": 1.72,
+          "mid": 1.46,
+          "high": 27.92,
           "market": 1.5,
           "directLow": null
         }
@@ -332,7 +332,7 @@
         "Holofoil": {
           "low": 0.4,
           "mid": 0.79,
-          "high": 15.0,
+          "high": 19.8,
           "market": 0.79,
           "directLow": null
         }
@@ -346,9 +346,9 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.4,
-          "mid": 1.31,
-          "high": 14.0,
+          "low": 0.41,
+          "mid": 1.36,
+          "high": 26.52,
           "market": 1.36,
           "directLow": null
         }
@@ -362,8 +362,8 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.75,
-          "mid": 0.75,
+          "low": 0.7,
+          "mid": 0.73,
           "high": 0.75,
           "market": 1.0,
           "directLow": null
@@ -394,8 +394,8 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
+          "low": 0.14,
+          "mid": 0.57,
           "high": 1.0,
           "market": 1.0,
           "directLow": null
@@ -435,5 +435,5 @@
       }
     }
   ],
-  "actualizado": "2026-10-14T00:31:48Z"
+  "actualizado": "2026-10-15T00:04:12Z"
 }
