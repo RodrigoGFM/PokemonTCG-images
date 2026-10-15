@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "mep",
   "tcgplayerGroupId": 24451,
-  "actualizado": "2026-10-15T00:02:28Z",
+  "actualizado": "2026-10-15T02:10:43Z",
   "cartas": [
     {
       "productId": 654594,
@@ -1953,6 +1953,22 @@
         }
       },
       "nombreProducto": "Pikachu - 093 (Winner)"
+    },
+    {
+      "productId": 678659,
+      "numero": "Museum",
+      "numeroNormalizado": "museum",
+      "nombreProducto": "Pikachu at the Museum",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 57.99,
+          "mid": 72.71,
+          "high": 649.82,
+          "market": 60.63,
+          "directLow": null
+        }
+      }
     }
   ]
 }
