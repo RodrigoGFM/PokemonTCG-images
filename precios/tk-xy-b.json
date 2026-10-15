@@ -3,6 +3,38 @@
   "tcgplayerGroupId": 1533,
   "cartas": [
     {
+      "productId": 98148,
+      "numero": "2",
+      "numeroNormalizado": "2",
+      "nombreProducto": "Metal Energy (#2)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.75,
+          "mid": 0.75,
+          "high": 0.75,
+          "market": 1.05,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98157,
+      "numero": "22",
+      "numeroNormalizado": "22",
+      "nombreProducto": "Metal Energy (#22)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.7,
+          "mid": 0.7,
+          "high": 0.7,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 98147,
       "numero": "1",
       "numeroNormalizado": "1",
@@ -75,7 +107,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 4.05,
+          "mid": 3.27,
           "high": 71.77,
           "market": 2.0,
           "directLow": null
@@ -147,22 +179,6 @@
       }
     },
     {
-      "productId": 98148,
-      "numero": "2",
-      "numeroNormalizado": "2",
-      "nombreProducto": "Metal Energy (#2)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 0.75,
-          "mid": 0.75,
-          "high": 0.75,
-          "market": 1.05,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 98168,
       "numero": "20",
       "numeroNormalizado": "20",
@@ -187,25 +203,9 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.68,
+          "mid": 2.95,
           "high": 19.8,
           "market": 0.62,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98157,
-      "numero": "22",
-      "numeroNormalizado": "22",
-      "nombreProducto": "Metal Energy (#22)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 0.7,
-          "mid": 0.7,
-          "high": 0.7,
-          "market": null,
           "directLow": null
         }
       }
@@ -381,7 +381,7 @@
           "low": 0.21,
           "mid": 0.21,
           "high": 0.21,
-          "market": 0.2,
+          "market": 0.21,
           "directLow": null
         }
       }
@@ -435,5 +435,5 @@
       }
     }
   ],
-  "actualizado": "2026-10-15T00:04:12Z"
+  "actualizado": "2026-10-15T23:47:42Z"
 }

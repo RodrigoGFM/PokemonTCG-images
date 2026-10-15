@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-10-15T00:04:12Z",
+  "actualizado": "2026-10-15T23:47:21Z",
   "cartas": [
     {
       "productId": 98147,
@@ -17,21 +17,6 @@
         }
       },
       "nombreProducto": "Fletchling"
-    },
-    {
-      "productId": 98148,
-      "numero": "2/30",
-      "numeroNormalizado": "2",
-      "variantes": {
-        "Normal": {
-          "low": 0.75,
-          "mid": 0.75,
-          "high": 0.75,
-          "market": 1.05,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Metal Energy (#2)"
     },
     {
       "productId": 98150,
@@ -57,7 +42,7 @@
           "low": 0.21,
           "mid": 0.21,
           "high": 0.21,
-          "market": 0.2,
+          "market": 0.21,
           "directLow": null
         }
       },
@@ -122,21 +107,6 @@
         }
       },
       "nombreProducto": "Metal Energy (#10)"
-    },
-    {
-      "productId": 98157,
-      "numero": "22/30",
-      "numeroNormalizado": "22",
-      "variantes": {
-        "Normal": {
-          "low": 0.7,
-          "mid": 0.7,
-          "high": 0.7,
-          "market": null,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Metal Energy (#22)"
     },
     {
       "productId": 98158,
@@ -205,7 +175,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 4.05,
+          "mid": 3.27,
           "high": 71.77,
           "market": 2.0,
           "directLow": null
@@ -295,7 +265,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.68,
+          "mid": 2.95,
           "high": 19.8,
           "market": 0.62,
           "directLow": null
@@ -504,7 +474,7 @@
       "numeroNormalizado": "16",
       "variantes": {
         "Normal": {
-          "low": 1.79,
+          "low": 1.78,
           "mid": 2.44,
           "high": 3.26,
           "market": 5.16,
@@ -612,7 +582,7 @@
           "low": 24.99,
           "mid": 47.04,
           "high": 50.0,
-          "market": 18.5,
+          "market": 30.0,
           "directLow": null
         }
       },
@@ -624,8 +594,8 @@
       "numeroNormalizado": "26",
       "variantes": {
         "Normal": {
-          "low": 10.0,
-          "mid": 16.44,
+          "low": 0.4,
+          "mid": 16.31,
           "high": 119.64,
           "market": 0.4,
           "directLow": null
@@ -677,22 +647,6 @@
         }
       },
       "nombreProducto": "Wigglytuff (#30 Holo)"
-    },
-    {
-      "productId": 98192,
-      "numero": "12",
-      "numeroNormalizado": "12",
-      "nombreProducto": "Jigglypuff (#12)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 2.99,
-          "mid": 2.99,
-          "high": 2.99,
-          "market": 5.32,
-          "directLow": null
-        }
-      }
     }
   ]
 }
