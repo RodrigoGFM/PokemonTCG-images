@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-10-16T23:48:07Z",
+  "actualizado": "2026-10-17T23:21:06Z",
   "cartas": [
     {
       "productId": 98147,
@@ -249,7 +249,7 @@
       "numeroNormalizado": "23",
       "variantes": {
         "Normal": {
-          "low": 1.0,
+          "low": 0.5,
           "mid": 3.99,
           "high": 79.62,
           "market": 0.2,
@@ -400,7 +400,7 @@
       "variantes": {
         "Normal": {
           "low": 1.5,
-          "mid": 1.85,
+          "mid": 1.98,
           "high": 29.32,
           "market": 2.2,
           "directLow": null
@@ -444,7 +444,7 @@
       "numeroNormalizado": "16",
       "variantes": {
         "Normal": {
-          "low": 1.74,
+          "low": 1.73,
           "mid": 2.22,
           "high": 3.26,
           "market": 5.16,
@@ -550,8 +550,8 @@
       "variantes": {
         "Normal": {
           "low": 24.99,
-          "mid": 47.04,
-          "high": 50.0,
+          "mid": 29.49,
+          "high": 34.49,
           "market": 30.0,
           "directLow": null
         }
@@ -594,7 +594,7 @@
       "numeroNormalizado": "29",
       "variantes": {
         "Normal": {
-          "low": 6.1,
+          "low": 3.8,
           "mid": 6.5,
           "high": 6.75,
           "market": 6.25,
@@ -617,6 +617,22 @@
         }
       },
       "nombreProducto": "Wigglytuff (#30 Holo)"
+    },
+    {
+      "productId": 98192,
+      "numero": "12",
+      "numeroNormalizado": "12",
+      "nombreProducto": "Jigglypuff (#12)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 2.99,
+          "mid": 2.99,
+          "high": 2.99,
+          "market": 5.32,
+          "directLow": null
+        }
+      }
     }
   ]
 }
