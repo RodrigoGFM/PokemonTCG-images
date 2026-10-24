@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-10-23T23:57:33Z",
+  "actualizado": "2026-10-24T23:35:35Z",
   "cartas": [
     {
       "productId": 98147,
@@ -9,10 +9,10 @@
       "numeroNormalizado": "1",
       "variantes": {
         "Normal": {
-          "low": 3.9,
-          "mid": 4.59,
+          "low": 4.2,
+          "mid": 4.72,
           "high": 47.64,
-          "market": 3.39,
+          "market": 3.78,
           "directLow": null
         }
       },
@@ -24,8 +24,8 @@
       "numeroNormalizado": "5",
       "variantes": {
         "Normal": {
-          "low": 0.7,
-          "mid": 0.73,
+          "low": 0.75,
+          "mid": 0.75,
           "high": 0.75,
           "market": null,
           "directLow": null
@@ -54,14 +54,29 @@
       "numeroNormalizado": "7",
       "variantes": {
         "Normal": {
-          "low": 0.14,
-          "mid": 0.14,
-          "high": 0.14,
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
           "market": 1.0,
           "directLow": null
         }
       },
       "nombreProducto": "Metal Energy (#7)"
+    },
+    {
+      "productId": 98153,
+      "numero": "8/30",
+      "numeroNormalizado": "8",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#8)"
     },
     {
       "productId": 98154,
@@ -77,36 +92,6 @@
         }
       },
       "nombreProducto": "Metal Energy (#9)"
-    },
-    {
-      "productId": 98155,
-      "numero": "10/30",
-      "numeroNormalizado": "10",
-      "variantes": {
-        "Normal": {
-          "low": 0.7,
-          "mid": 0.7,
-          "high": 0.7,
-          "market": null,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Metal Energy (#10)"
-    },
-    {
-      "productId": 98158,
-      "numero": "24/30",
-      "numeroNormalizado": "24",
-      "variantes": {
-        "Normal": {
-          "low": 0.05,
-          "mid": 0.06,
-          "high": 0.07,
-          "market": 2.5,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Metal Energy (#24)"
     },
     {
       "productId": 98159,
@@ -160,7 +145,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 3.27,
+          "mid": 4.04,
           "high": 71.69,
           "market": 2.0,
           "directLow": null
@@ -175,9 +160,9 @@
       "variantes": {
         "Normal": {
           "low": 19.72,
-          "mid": 20.97,
-          "high": 25.45,
-          "market": 1.0,
+          "mid": 20.35,
+          "high": 20.97,
+          "market": 9.15,
           "directLow": null
         }
       },
@@ -250,7 +235,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.95,
+          "mid": 2.67,
           "high": 19.72,
           "market": 0.62,
           "directLow": null
@@ -294,7 +279,7 @@
       "numeroNormalizado": "29",
       "variantes": {
         "Normal": {
-          "low": 0.22,
+          "low": 0.21,
           "mid": 0.8,
           "high": 0.99,
           "market": 0.22,
@@ -459,8 +444,8 @@
       "numeroNormalizado": "14",
       "variantes": {
         "Normal": {
-          "low": 1.57,
-          "mid": 3.79,
+          "low": 6.0,
+          "mid": 6.0,
           "high": 6.0,
           "market": 6.57,
           "directLow": null
@@ -474,7 +459,7 @@
       "numeroNormalizado": "16",
       "variantes": {
         "Normal": {
-          "low": 1.58,
+          "low": 1.55,
           "mid": 2.44,
           "high": 3.26,
           "market": 5.16,
@@ -550,7 +535,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 4.79,
+          "mid": 5.31,
           "high": 60.84,
           "market": 6.03,
           "directLow": null
@@ -565,7 +550,7 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 1.37,
+          "mid": 1.25,
           "high": 43.04,
           "market": 1.07,
           "directLow": null

@@ -35,17 +35,33 @@
       }
     },
     {
-      "productId": 98153,
-      "numero": "8",
-      "numeroNormalizado": "8",
-      "nombreProducto": "Metal Energy (#8)",
+      "productId": 98155,
+      "numero": "10",
+      "numeroNormalizado": "10",
+      "nombreProducto": "Metal Energy (#10)",
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
-          "high": 1.0,
+          "low": 0.7,
+          "mid": 0.7,
+          "high": 0.7,
           "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98158,
+      "numero": "24",
+      "numeroNormalizado": "24",
+      "nombreProducto": "Metal Energy (#24)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.05,
+          "mid": 0.06,
+          "high": 0.07,
+          "market": 2.5,
           "directLow": null
         }
       }
@@ -58,26 +74,10 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 3.9,
-          "mid": 4.59,
+          "low": 4.2,
+          "mid": 4.72,
           "high": 47.64,
-          "market": 3.39,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98155,
-      "numero": "10",
-      "numeroNormalizado": "10",
-      "nombreProducto": "Metal Energy (#10)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 0.7,
-          "mid": 0.7,
-          "high": 0.7,
-          "market": null,
+          "market": 3.78,
           "directLow": null
         }
       }
@@ -123,7 +123,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 3.27,
+          "mid": 4.04,
           "high": 71.69,
           "market": 2.0,
           "directLow": null
@@ -139,9 +139,9 @@
       "variantes": {
         "Normal": {
           "low": 19.72,
-          "mid": 20.97,
-          "high": 25.45,
-          "market": 1.0,
+          "mid": 20.35,
+          "high": 20.97,
+          "market": 9.15,
           "directLow": null
         }
       }
@@ -219,7 +219,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.95,
+          "mid": 2.67,
           "high": 19.72,
           "market": 0.62,
           "directLow": null
@@ -238,22 +238,6 @@
           "mid": 3.99,
           "high": 79.54,
           "market": 0.2,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98158,
-      "numero": "24",
-      "numeroNormalizado": "24",
-      "nombreProducto": "Metal Energy (#24)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 0.05,
-          "mid": 0.06,
-          "high": 0.07,
-          "market": 2.5,
           "directLow": null
         }
       }
@@ -330,7 +314,7 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.22,
+          "low": 0.21,
           "mid": 0.8,
           "high": 0.99,
           "market": 0.22,
@@ -378,8 +362,8 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.7,
-          "mid": 0.73,
+          "low": 0.75,
+          "mid": 0.75,
           "high": 0.75,
           "market": null,
           "directLow": null
@@ -410,10 +394,26 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.14,
-          "mid": 0.14,
-          "high": 0.14,
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
           "market": 1.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98153,
+      "numero": "8",
+      "numeroNormalizado": "8",
+      "nombreProducto": "Metal Energy (#8)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": null,
           "directLow": null
         }
       }
@@ -435,5 +435,5 @@
       }
     }
   ],
-  "actualizado": "2026-10-23T23:57:33Z"
+  "actualizado": "2026-10-24T23:35:35Z"
 }
