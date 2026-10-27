@@ -205,7 +205,7 @@
           "low": 0.2,
           "mid": 0.6,
           "high": 15.0,
-          "market": 0.6,
+          "market": 0.2,
           "directLow": null
         }
       }
@@ -237,7 +237,7 @@
           "low": 0.94,
           "mid": 1.64,
           "high": 37.64,
-          "market": 1.0,
+          "market": 0.98,
           "directLow": null
         }
       }
@@ -378,8 +378,8 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.41,
-          "mid": 1.36,
+          "low": 0.5,
+          "mid": 1.43,
           "high": 26.44,
           "market": 1.36,
           "directLow": null
@@ -435,5 +435,5 @@
       }
     }
   ],
-  "actualizado": "2026-10-25T23:29:56Z"
+  "actualizado": "2026-10-27T00:43:31Z"
 }

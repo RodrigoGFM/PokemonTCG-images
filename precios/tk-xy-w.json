@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-10-25T23:29:56Z",
+  "actualizado": "2026-10-27T00:43:11Z",
   "cartas": [
     {
       "productId": 98147,
@@ -69,8 +69,8 @@
       "numeroNormalizado": "4",
       "variantes": {
         "Normal": {
-          "low": 0.41,
-          "mid": 1.36,
+          "low": 0.5,
+          "mid": 1.43,
           "high": 26.44,
           "market": 1.36,
           "directLow": null
@@ -162,7 +162,7 @@
           "low": 0.2,
           "mid": 0.6,
           "high": 15.0,
-          "market": 0.6,
+          "market": 0.2,
           "directLow": null
         }
       },
@@ -192,7 +192,7 @@
           "low": 0.94,
           "mid": 1.64,
           "high": 37.64,
-          "market": 1.0,
+          "market": 0.98,
           "directLow": null
         }
       },
@@ -370,7 +370,7 @@
       "variantes": {
         "Normal": {
           "low": 1.5,
-          "mid": 1.98,
+          "mid": 10.86,
           "high": 29.24,
           "market": 2.2,
           "directLow": null
@@ -399,8 +399,8 @@
       "numeroNormalizado": "13",
       "variantes": {
         "Normal": {
-          "low": 8.87,
-          "mid": 10.21,
+          "low": 9.5,
+          "mid": 10.92,
           "high": 68.54,
           "market": 9.75,
           "directLow": null
@@ -447,7 +447,7 @@
           "low": 0.25,
           "mid": 0.35,
           "high": 19.72,
-          "market": 0.79,
+          "market": 0.66,
           "directLow": null
         }
       },
@@ -489,8 +489,8 @@
       "numeroNormalizado": "19",
       "variantes": {
         "Normal": {
-          "low": 3.0,
-          "mid": 4.37,
+          "low": 5.74,
+          "mid": 5.74,
           "high": 5.74,
           "market": 9.49,
           "directLow": null
@@ -505,7 +505,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 5.31,
+          "mid": 5.99,
           "high": 60.84,
           "market": 6.03,
           "directLow": null
@@ -520,7 +520,7 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 1.25,
+          "mid": 1.37,
           "high": 43.04,
           "market": 1.07,
           "directLow": null
@@ -602,22 +602,6 @@
         }
       },
       "nombreProducto": "Wigglytuff (#30 Holo)"
-    },
-    {
-      "productId": 98192,
-      "numero": "12",
-      "numeroNormalizado": "12",
-      "nombreProducto": "Jigglypuff (#12)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 4.0,
-          "mid": 4.0,
-          "high": 4.0,
-          "market": 5.32,
-          "directLow": null
-        }
-      }
     }
   ]
 }
