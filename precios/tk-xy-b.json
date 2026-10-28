@@ -67,38 +67,6 @@
       }
     },
     {
-      "productId": 98152,
-      "numero": "7",
-      "numeroNormalizado": "7",
-      "nombreProducto": "Metal Energy (#7)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
-          "high": 1.0,
-          "market": 1.0,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98153,
-      "numero": "8",
-      "numeroNormalizado": "8",
-      "nombreProducto": "Metal Energy (#8)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
-          "high": 1.0,
-          "market": null,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 98147,
       "numero": "1",
       "numeroNormalizado": "1",
@@ -122,8 +90,8 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.55,
-          "mid": 16.86,
+          "low": 14.0,
+          "mid": 19.72,
           "high": 20.97,
           "market": 0.55,
           "directLow": null
@@ -234,7 +202,7 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.94,
+          "low": 0.99,
           "mid": 1.64,
           "high": 37.64,
           "market": 0.98,
@@ -251,7 +219,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.67,
+          "mid": 2.95,
           "high": 19.72,
           "market": 0.62,
           "directLow": null
@@ -378,10 +346,10 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.5,
+          "low": 0.41,
           "mid": 1.43,
           "high": 26.44,
-          "market": 1.36,
+          "market": 0.4,
           "directLow": null
         }
       }
@@ -419,6 +387,38 @@
       }
     },
     {
+      "productId": 98152,
+      "numero": "7",
+      "numeroNormalizado": "7",
+      "nombreProducto": "Metal Energy (#7)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": 1.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98153,
+      "numero": "8",
+      "numeroNormalizado": "8",
+      "nombreProducto": "Metal Energy (#8)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 98154,
       "numero": "9",
       "numeroNormalizado": "9",
@@ -435,5 +435,5 @@
       }
     }
   ],
-  "actualizado": "2026-10-27T00:43:31Z"
+  "actualizado": "2026-10-28T00:41:59Z"
 }
