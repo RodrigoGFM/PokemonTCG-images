@@ -67,70 +67,6 @@
       }
     },
     {
-      "productId": 98147,
-      "numero": "1",
-      "numeroNormalizado": "1",
-      "nombreProducto": "Fletchling",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 4.2,
-          "mid": 4.72,
-          "high": 47.64,
-          "market": 3.78,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98160,
-      "numero": "11",
-      "numeroNormalizado": "11",
-      "nombreProducto": "Honedge (#11)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 14.0,
-          "mid": 19.72,
-          "high": 20.97,
-          "market": 0.55,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98162,
-      "numero": "13",
-      "numeroNormalizado": "13",
-      "nombreProducto": "Pawniard (#13)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 0.29,
-          "mid": 0.5,
-          "high": 19.72,
-          "market": 0.51,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98163,
-      "numero": "14",
-      "numeroNormalizado": "14",
-      "nombreProducto": "Doublade (#14)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 1.99,
-          "mid": 4.04,
-          "high": 71.69,
-          "market": 2.0,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 98164,
       "numero": "15",
       "numeroNormalizado": "15",
@@ -147,6 +83,86 @@
       }
     },
     {
+      "productId": 98152,
+      "numero": "7",
+      "numeroNormalizado": "7",
+      "nombreProducto": "Metal Energy (#7)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": 1.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98147,
+      "numero": "1",
+      "numeroNormalizado": "1",
+      "nombreProducto": "Fletchling",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 4.2,
+          "mid": 4.59,
+          "high": 47.62,
+          "market": 3.78,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98160,
+      "numero": "11",
+      "numeroNormalizado": "11",
+      "nombreProducto": "Honedge (#11)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 14.0,
+          "mid": 19.7,
+          "high": 20.97,
+          "market": 0.55,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98162,
+      "numero": "13",
+      "numeroNormalizado": "13",
+      "nombreProducto": "Pawniard (#13)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.29,
+          "mid": 0.5,
+          "high": 19.7,
+          "market": 0.51,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98163,
+      "numero": "14",
+      "numeroNormalizado": "14",
+      "nombreProducto": "Doublade (#14)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 1.99,
+          "mid": 4.04,
+          "high": 71.67,
+          "market": 2.0,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 98165,
       "numero": "16",
       "numeroNormalizado": "16",
@@ -156,7 +172,7 @@
         "Normal": {
           "low": 0.79,
           "mid": 8.0,
-          "high": 19.72,
+          "high": 19.7,
           "market": 0.86,
           "directLow": null
         }
@@ -173,7 +189,7 @@
           "low": 0.2,
           "mid": 0.6,
           "high": 15.0,
-          "market": 0.2,
+          "market": 0.6,
           "directLow": null
         }
       }
@@ -188,7 +204,7 @@
         "Normal": {
           "low": 0.25,
           "mid": 0.4,
-          "high": 19.72,
+          "high": 19.7,
           "market": 0.4,
           "directLow": null
         }
@@ -203,8 +219,8 @@
       "variantes": {
         "Normal": {
           "low": 0.99,
-          "mid": 1.64,
-          "high": 37.64,
+          "mid": 1.6,
+          "high": 37.62,
           "market": 0.98,
           "directLow": null
         }
@@ -220,7 +236,7 @@
         "Normal": {
           "low": 2.25,
           "mid": 2.95,
-          "high": 19.72,
+          "high": 19.7,
           "market": 0.62,
           "directLow": null
         }
@@ -235,8 +251,8 @@
       "variantes": {
         "Normal": {
           "low": 0.5,
-          "mid": 3.99,
-          "high": 79.54,
+          "mid": 9.5,
+          "high": 79.52,
           "market": 0.2,
           "directLow": null
         }
@@ -252,7 +268,7 @@
         "Normal": {
           "low": 1.99,
           "mid": 2.01,
-          "high": 32.74,
+          "high": 32.72,
           "market": 1.99,
           "directLow": null
         }
@@ -266,9 +282,9 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 8.58,
-          "mid": 26.28,
-          "high": 60.74,
+          "low": 19.32,
+          "mid": 33.22,
+          "high": 60.72,
           "market": 5.56,
           "directLow": null
         }
@@ -284,7 +300,7 @@
         "Normal": {
           "low": 1.5,
           "mid": 2.59,
-          "high": 38.74,
+          "high": 38.72,
           "market": 1.5,
           "directLow": null
         }
@@ -300,7 +316,7 @@
         "Normal": {
           "low": 0.94,
           "mid": 1.46,
-          "high": 27.84,
+          "high": 27.82,
           "market": 1.5,
           "directLow": null
         }
@@ -332,7 +348,7 @@
         "Holofoil": {
           "low": 0.4,
           "mid": 0.79,
-          "high": 19.72,
+          "high": 19.7,
           "market": 0.79,
           "directLow": null
         }
@@ -348,7 +364,7 @@
         "Normal": {
           "low": 0.41,
           "mid": 1.43,
-          "high": 26.44,
+          "high": 26.42,
           "market": 0.4,
           "directLow": null
         }
@@ -387,22 +403,6 @@
       }
     },
     {
-      "productId": 98152,
-      "numero": "7",
-      "numeroNormalizado": "7",
-      "nombreProducto": "Metal Energy (#7)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
-          "high": 1.0,
-          "market": 1.0,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 98153,
       "numero": "8",
       "numeroNormalizado": "8",
@@ -428,12 +428,12 @@
         "Normal": {
           "low": 1.0,
           "mid": 1.0,
-          "high": 1.16,
-          "market": 1.0,
+          "high": 1.0,
+          "market": 1.08,
           "directLow": null
         }
       }
     }
   ],
-  "actualizado": "2026-10-28T00:41:59Z"
+  "actualizado": "2026-10-29T01:11:30Z"
 }
