@@ -17,7 +17,7 @@ import json
 import os
 import sys
 import time
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -40,6 +40,7 @@ INCLUSION_MINIMA = 0.10
 # Listas completas por arquetipo (las mejor ubicadas), para importarlas desde la app.
 LISTAS_POR_ARQUETIPO = 5
 SECCIONES = ["pokemon", "trainer", "energy"]
+ORDEN_SECCIONES = {s: i for i, s in enumerate(SECCIONES)}
 
 sesion = requests.Session()
 sesion.headers["Accept"] = "application/json"
@@ -64,6 +65,10 @@ def win_rate(victorias, empates, partidas):
     return 0.0 if partidas == 0 else (victorias + empates / 2) / partidas
 
 
+def fecha_iso(texto):
+    return datetime.fromisoformat(texto.replace("Z", "+00:00"))
+
+
 def torneos_recientes():
     limite = datetime.now(timezone.utc) - timedelta(days=DIAS)
     torneos = []
@@ -72,13 +77,13 @@ def torneos_recientes():
         if not lote:
             break
         torneos += lote
-        ultima = datetime.fromisoformat(lote[-1]["date"].replace("Z", "+00:00"))
+        ultima = fecha_iso(lote[-1]["date"])
         if ultima < limite:
             break
     torneos = [
         t for t in torneos
         if t.get("players", 0) >= MIN_JUGADORES
-        and datetime.fromisoformat(t["date"].replace("Z", "+00:00")) >= limite
+        and fecha_iso(t["date"]) >= limite
     ]
     return sorted(torneos, key=lambda t: -t["players"])[:TORNEOS_A_ANALIZAR]
 
@@ -95,15 +100,16 @@ def cartas_mas_usadas(listas):
     grupos = {}
     for lista in listas:
         por_clave = defaultdict(int)
-        impresion = {}
+        impresiones_lista = defaultdict(lambda: defaultdict(int))
         for c in lista["cartas"]:
             clave = (c["seccion"], c["nombre"], c["set"], c["numero"]) if c["seccion"] == "pokemon" else (c["seccion"], c["nombre"])
             por_clave[clave] += c["cantidad"]
-            impresion[clave] = (c["set"], c["numero"])
+            impresiones_lista[clave][(c["set"], c["numero"])] += c["cantidad"]
         for clave, cantidad in por_clave.items():
             g = grupos.setdefault(clave, {"cantidades": [], "impresiones": defaultdict(int)})
             g["cantidades"].append(cantidad)
-            g["impresiones"][impresion[clave]] += 1
+            imp_principal = max(impresiones_lista[clave].items(), key=lambda kv: kv[1])[0]
+            g["impresiones"][imp_principal] += 1
     cartas = []
     for clave, g in grupos.items():
         inclusion = len(g["cantidades"]) / len(listas)
@@ -114,10 +120,10 @@ def cartas_mas_usadas(listas):
         cartas.append({
             "nombre": clave[1], "set": set_, "numero": numero, "seccion": clave[0],
             "inclusion": inclusion,
-            "copias": max(set(cantidades), key=lambda n: (cantidades.count(n), n)),
+            "copias": max(Counter(cantidades).items(), key=lambda kv: (kv[1], kv[0]))[0],
             "promedio": sum(cantidades) / len(cantidades),
         })
-    cartas.sort(key=lambda c: (SECCIONES.index(c["seccion"]), -c["inclusion"], -c["copias"], c["nombre"]))
+    cartas.sort(key=lambda c: (ORDEN_SECCIONES[c["seccion"]], -c["inclusion"], -c["copias"], c["nombre"]))
     return cartas
 
 
@@ -164,7 +170,7 @@ def calcular():
         # El top cut son las fases después del suizo (phase > 1).
         en_cut = {p for x in pairings if (x.get("phase") or 1) > 1 for p in (x.get("player1"), x.get("player2")) if p}
 
-        es_reciente = datetime.fromisoformat(t["date"].replace("Z", "+00:00")) >= corte_tendencia
+        es_reciente = fecha_iso(t["date"]) >= corte_tendencia
         if es_reciente:
             jugadores_recientes += len(standings)
         else:
@@ -211,7 +217,7 @@ def calcular():
 
         if en_cut:
             jugadores_con_cut += len(deck_de)
-            en_top_cut_total += sum(1 for p in en_cut if p in deck_de)
+            en_top_cut_total += len(en_cut & deck_de.keys())
             for jugador, deck_id in deck_de.items():
                 acumulados[deck_id]["jugadoresConCut"] += 1
                 if jugador in en_cut:
@@ -219,9 +225,11 @@ def calcular():
 
         for x in pairings:
             a, b = x.get("player1"), x.get("player2")
-            if not a or not b:
-                continue  # bye
+            if not a or not b or x.get("winner") is None:
+                continue  # bye o partida sin resultado reportado
             ganador = str(x.get("winner"))
+            if ganador not in (a, b, "0", "-1"):
+                continue
             deck_a, deck_b = deck_de.get(a, ID_OTROS), deck_de.get(b, ID_OTROS)
             if deck_a == deck_b:
                 continue  # espejo: no suma al win rate
@@ -250,9 +258,12 @@ def calcular():
         matchups.sort(key=lambda m: -(m["victorias"] + m["derrotas"] + m["empates"]))
 
         def wr_de(filtro):
-            m = [x for x in matchups if filtro(x)]
-            partidas = sum(x["victorias"] + x["derrotas"] + x["empates"] for x in m)
-            return win_rate(sum(x["victorias"] for x in m), sum(x["empates"] for x in m), partidas) if partidas else None
+            victorias = sum(x["victorias"] for x in matchups if filtro(x))
+            empates = sum(x["empates"] for x in matchups if filtro(x))
+            derrotas = sum(x["derrotas"] for x in matchups if filtro(x))
+            partidas = victorias + derrotas + empates
+
+            return win_rate(victorias, empates, partidas) if partidas else None
 
         conversion = acc["enTopCut"] / acc["jugadoresConCut"] if acc["jugadoresConCut"] else None
         arquetipos.append({

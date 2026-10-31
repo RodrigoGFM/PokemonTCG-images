@@ -72,6 +72,20 @@ PAUSA_ENTRE_PEDIDOS = 0.3  # segundos, más conservador que el mínimo sugerido 
 # Cabecera propia: tcgcsv.com bloquea User-Agents genéricos.
 HEADERS = {"User-Agent": "PokedexApp-PriceSync/1.0 (contacto: rgformenti@gmail.com)"}
 
+SESION = requests.Session()
+SESION.headers.update(HEADERS)
+
+_RE_PREFIJO_SET = re.compile(r"^[a-z0-9]{2,6}\d*\s*:\s*")
+_RE_NO_ALFANUM = re.compile(r"[^a-z0-9]+")
+_RE_ESPACIOS = re.compile(r"\s+")
+_RE_PAREN_CORCHETES = re.compile(r"\s*\([^)]*\)|\s*\[[^\]]*\]")
+_RE_SUFIJO_NUMERO = re.compile(r"\s+-\s+[A-Za-z]*\s?\d+([/-]\d+)?\s*$")
+_RE_BASIC = re.compile(r"^Basic\s+")
+_RE_INICIA_LETRA = re.compile(r"^[A-Za-z]")
+
+_cache_productos_grupo = {}
+_cache_precios_grupo = {}
+
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIR_PRECIOS = os.path.join(RAIZ, "precios")
 ARCHIVO_MAPEO = os.path.join(RAIZ, "mapeo-sets.json")
@@ -99,7 +113,7 @@ def pedir_json(url, params=None, headers=None):
     ultimo_error = None
     for intento in range(3):
         try:
-            resp = requests.get(url, params=params, headers=headers or HEADERS, timeout=30)
+            resp = SESION.get(url, params=params, headers=headers, timeout=30)
             resp.raise_for_status()
             time.sleep(PAUSA_ENTRE_PEDIDOS)
             return resp.json()
@@ -129,9 +143,9 @@ def normalizar_nombre(texto):
     if not texto:
         return ""
     sin_acentos = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
-    sin_prefijo = re.sub(r"^[a-z0-9]{2,6}\d*\s*:\s*", "", sin_acentos.lower())
-    solo_alfanumerico = re.sub(r"[^a-z0-9]+", " ", sin_prefijo)
-    return re.sub(r"\s+", " ", solo_alfanumerico).strip()
+    sin_prefijo = _RE_PREFIJO_SET.sub("", sin_acentos.lower())
+    solo_alfanumerico = _RE_NO_ALFANUM.sub(" ", sin_prefijo)
+    return _RE_ESPACIOS.sub(" ", solo_alfanumerico).strip()
 
 
 def normalizar_numero(numero):
@@ -157,8 +171,8 @@ def normalizar_nombre_producto(texto):
     if not texto:
         return ""
     sin_acentos = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
-    solo_alfanumerico = re.sub(r"[^a-z0-9]+", " ", sin_acentos.lower())
-    return re.sub(r"\s+", " ", solo_alfanumerico).strip()
+    solo_alfanumerico = _RE_NO_ALFANUM.sub(" ", sin_acentos.lower())
+    return _RE_ESPACIOS.sub(" ", solo_alfanumerico).strip()
 
 
 def cruzar_por_nombre(productos, tcgdex_id):
@@ -422,6 +436,9 @@ def actualizar_historial_de_set(set_id, entradas, hoy):
     for numero, precio in precio_por_numero.items():
         puntos = historial.setdefault(numero, [])
         if puntos and puntos[-1]["fecha"] == hoy:
+            if puntos[-1].get("precio") != precio:
+                puntos[-1]["precio"] = precio
+                cambio = True
             continue
         puntos.append({"fecha": hoy, "precio": precio})
         if len(puntos) > MAX_PUNTOS_HISTORIAL:
@@ -443,6 +460,18 @@ def actualizar_historial_de_set(set_id, entradas, hoy):
 SUFIJO_NOMBRE_POR_GRUPO = {1663: "Shadowless"}
 
 
+def obtener_precios_grupo(gid):
+    if gid not in _cache_precios_grupo:
+        _cache_precios_grupo[gid] = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/prices").get("results", [])
+    return _cache_precios_grupo[gid]
+
+
+def obtener_productos_grupo(gid):
+    if gid not in _cache_productos_grupo:
+        _cache_productos_grupo[gid] = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/products").get("results", [])
+    return _cache_productos_grupo[gid]
+
+
 def procesar_set(tcgdex_id, group_id, grupos_adicionales=None):
     """`grupos_adicionales`: IDs de grupo de tcgcsv EXTRA para fusionar en el mismo archivo de
     salida, ademas de `group_id` -- caso real: TCGplayer separa "Generations" (g1, groupId 1728)
@@ -453,13 +482,14 @@ def procesar_set(tcgdex_id, group_id, grupos_adicionales=None):
     productos = []
     precios = []
     for gid in grupos:
-        productos_grupo = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/products").get("results", [])
+        productos_grupo = obtener_productos_grupo(gid)
         sufijo = SUFIJO_NOMBRE_POR_GRUPO.get(gid)
         if sufijo:
             for prod in productos_grupo:
-                prod["name"] = f"{prod.get('name')} ({sufijo})"
+                if not str(prod.get("name", "")).endswith(f"({sufijo})"):
+                    prod["name"] = f"{prod.get('name')} ({sufijo})"
         productos.extend(productos_grupo)
-        precios.extend(pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/prices").get("results", []))
+        precios.extend(obtener_precios_grupo(gid))
 
     precios_por_producto = {}
     for p in precios:
@@ -542,8 +572,8 @@ def procesar_set_catalogo_completo(set_id, group_id, nombre_set):
     app necesita tratar estos archivos distinto de los demás (ver "esCatalogoCompleto" en el
     JSON): no hay que cruzarlos con TCGdex, hay que mostrarlos como su propio set independiente.
     """
-    productos = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{group_id}/products").get("results", [])
-    precios = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{group_id}/prices").get("results", [])
+    productos = obtener_productos_grupo(group_id)
+    precios = obtener_precios_grupo(group_id)
 
     precios_por_producto = {}
     for p in precios:
@@ -614,9 +644,9 @@ def nombre_base_prize_pack(nombre):
     """'Professor's Research [Professor Rowan] - 147/172' -> "Professor's Research";
     'Basic Grass Energy - MEE 001 (Cosmos Holo)' -> 'Grass Energy'; 'Morpeko - 072-167' ->
     'Morpeko'."""
-    base = re.sub(r"\s*\([^)]*\)|\s*\[[^\]]*\]", "", nombre or "")
-    base = re.sub(r"\s+-\s+[A-Za-z]*\s?\d+([/-]\d+)?\s*$", "", base).strip()
-    return re.sub(r"^Basic\s+", "", base)
+    base = _RE_PAREN_CORCHETES.sub("", nombre or "")
+    base = _RE_SUFIJO_NUMERO.sub("", base).strip()
+    return _RE_BASIC.sub("", base)
 
 
 def procesar_prize_pack(sets_tcgdex):
@@ -657,7 +687,7 @@ def procesar_prize_pack(sets_tcgdex):
         if "/" in numero:
             total = numero.split("/")[1].strip()
             sets_candidatos = sets_por_oficial.get(int(total), []) if total.isdigit() else []
-        elif re.match(r"^[A-Za-z]", numero):
+        elif _RE_INICIA_LETRA.match(numero):
             sets_candidatos = ["swshp"]
         elif "MEE" in (prod.get("name") or ""):
             sets_candidatos = ["mee"]
@@ -731,7 +761,7 @@ def procesar_variantes_extra():
     grupos = {v["groupId"] for versiones in por_carta.values() for v in versiones if v.get("groupId")}
     filas_por_producto = {}
     for gid in sorted(grupos):
-        for fila in pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/prices").get("results", []):
+        for fila in obtener_precios_grupo(gid):
             filas_por_producto.setdefault(fila["productId"], []).append(fila)
 
     entradas = []
@@ -782,7 +812,7 @@ def aplicar_cartas_manuales(cartas_manual, hoy):
     for info in cartas_manual.values():
         gid = info["groupId"]
         if gid not in precios_por_grupo:
-            precios_por_grupo[gid] = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/prices").get("results", [])
+            precios_por_grupo[gid] = obtener_precios_grupo(gid)
 
     filas_por_producto = {}
     for filas in precios_por_grupo.values():

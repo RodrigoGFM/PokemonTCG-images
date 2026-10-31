@@ -41,5 +41,6 @@ jobs:
             echo "Sin cambios, no se commitea nada."
           else
             git commit -m "Actualizar precios de TCGPlayer $(date -u +%Y-%m-%d)"
+            git pull --rebase
             git push
           fi

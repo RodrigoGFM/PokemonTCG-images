@@ -25,11 +25,14 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests
 
-      - name: Calcular el meta
+      - name: Calcular el meta online
         # Opcional: si el secret no existe, el script usa la API sin clave.
         env:
           LIMITLESS_KEY: ${{ secrets.LIMITLESS_KEY }}
         run: python scripts/actualizar_meta.py
+
+      - name: Calcular el meta de torneos presenciales (Regionales)
+        run: python scripts/actualizar_regionales.py
 
       - name: Commitear cambios (si hay)
         run: |
