@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-10-30T01:18:38Z",
+  "actualizado": "2026-10-31T00:59:49Z",
   "cartas": [
     {
       "productId": 98147,
@@ -115,7 +115,7 @@
       "variantes": {
         "Normal": {
           "low": 1.99,
-          "mid": 4.04,
+          "mid": 4.05,
           "high": 71.65,
           "market": 2.0,
           "directLow": null
@@ -190,7 +190,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.95,
+          "mid": 2.68,
           "high": 19.68,
           "market": 0.62,
           "directLow": null
@@ -439,29 +439,14 @@
       "nombreProducto": "Clefairy (#13)"
     },
     {
-      "productId": 98194,
-      "numero": "14/30",
-      "numeroNormalizado": "14",
-      "variantes": {
-        "Normal": {
-          "low": 6.0,
-          "mid": 6.0,
-          "high": 6.0,
-          "market": 6.57,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Wigglytuff (#14 Non-Holo)"
-    },
-    {
       "productId": 98195,
       "numero": "16/30",
       "numeroNormalizado": "16",
       "variantes": {
         "Normal": {
           "low": 1.52,
-          "mid": 1.9,
-          "high": 3.26,
+          "mid": 2.63,
+          "high": 3.27,
           "market": 5.16,
           "directLow": null
         }
@@ -504,8 +489,8 @@
       "numeroNormalizado": "18",
       "variantes": {
         "Normal": {
-          "low": 4.25,
-          "mid": 31.88,
+          "low": 15.75,
+          "mid": 48.0,
           "high": 49.7,
           "market": 6.36,
           "directLow": null
@@ -550,7 +535,7 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 1.25,
+          "mid": 1.16,
           "high": 43.0,
           "market": 1.07,
           "directLow": null
@@ -610,9 +595,9 @@
       "variantes": {
         "Normal": {
           "low": 3.8,
-          "mid": 6.13,
+          "mid": 6.2,
           "high": 8.12,
-          "market": 6.44,
+          "market": 6.58,
           "directLow": null
         }
       },
@@ -632,6 +617,22 @@
         }
       },
       "nombreProducto": "Wigglytuff (#30 Holo)"
+    },
+    {
+      "productId": 98192,
+      "numero": "12",
+      "numeroNormalizado": "12",
+      "nombreProducto": "Jigglypuff (#12)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 4.5,
+          "mid": 4.5,
+          "high": 4.5,
+          "market": 5.32,
+          "directLow": null
+        }
+      }
     },
     {
       "productId": 98183,
