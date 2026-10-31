@@ -32,6 +32,10 @@ jobs:
         run: python scripts/actualizar_meta.py
 
       - name: Calcular el meta de torneos presenciales (Regionales)
+        # Si Limitless o RK9 fallan, el meta online de ese día se sube igual (y el de Regionales
+        # queda como estaba: el script no escribe nada si no pudo leer las partidas).
+        continue-on-error: true
+        timeout-minutes: 30
         run: python scripts/actualizar_regionales.py
 
       - name: Commitear cambios (si hay)
