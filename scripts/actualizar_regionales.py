@@ -13,6 +13,10 @@ Igual que el meta online (actualizar_meta.py), salvo:
 - El "top cut" es el Day 2: el Top 8 de un Regional deja 8 lugares entre más de 2000 jugadores, y
   la conversión saldría casi toda en -100 %. El Day 2 es el corte que separa a ~1 de cada 6.
 - La tendencia compara la mitad más nueva de los torneos con la más vieja (en vez de semanas).
+
+Además, de cada torneo se guarda meta/torneos/<id>.json con lo mismo que muestra su página de
+Labs: la clasificación completa (puesto, jugador, país, récord, deck, Day 2), los decks del torneo
+con su win rate, y las listas de los mejor ubicados. El índice va en "eventos" de meta_regionales.json.
 """
 
 import json
@@ -33,6 +37,9 @@ VERSION = 1
 LABS = "https://labs.limitlesstcg.com"
 API = "https://mew.limitlesstcg.com/labs/data/tcg"
 SALIDA = os.path.join(os.path.dirname(__file__), "..", "meta", "meta_regionales.json")
+CARPETA_TORNEOS = os.path.join(os.path.dirname(__file__), "..", "meta", "torneos")
+# Listas que se guardan por torneo (las de los mejor ubicados), para verlas en la app.
+LISTAS_POR_TORNEO = 32
 
 MAX_TORNEOS = 8
 DIVISION = "MA"  # Masters
@@ -120,6 +127,10 @@ def torneos_recientes():
         torneos.append({
             "id": tid,
             "nombre": nombre_torneo(t),
+            "tipo": t.get("type") or "",
+            "ciudad": t.get("city") or "",
+            "pais": t.get("country") or "",
+            "fechaTexto": t.get("date") or "",
             "fecha": fecha_iso(t.get("date")),
             "jugadores": t.get("players") or 0,
             "rondas": t.get("round") or 0,
@@ -128,6 +139,86 @@ def torneos_recientes():
         if len(torneos) >= MAX_TORNEOS:
             break
     return torneos
+
+
+_listas = {}
+
+
+def lista_de(torneo_id, jugador_id):
+    """Las cartas de una lista (con caché: el meta y el detalle del torneo piden algunas iguales)."""
+    clave = (torneo_id, jugador_id)
+    if clave not in _listas:
+        lista = api(f"decklist?tournamentId={torneo_id}&playerId={jugador_id}")
+        _listas[clave] = [
+            {"cantidad": k["count"], "nombre": k["name"], "set": k.get("set", ""),
+             "numero": str(k.get("number", "")), "seccion": seccion}
+            for seccion in SECCIONES for k in (lista or {}).get(seccion, [])
+        ]
+    return _listas[clave]
+
+
+def detalle_torneo(t, standings, decks_partidas):
+    """Lo que muestra la página del torneo en Labs: clasificación, decks y las mejores listas."""
+    decks = {}
+    for s in standings:
+        deck_id = s.get("deck_id") or ID_OTROS
+        d = decks.setdefault(deck_id, {
+            "id": deck_id, "nombre": s.get("deck_name") or ("Other" if deck_id == ID_OTROS else deck_id),
+            "iconos": (s.get("icons") or "").split(), "jugadores": 0, "day2": 0, "topCut": 0,
+            "victorias": 0, "derrotas": 0, "empates": 0,
+        })
+        d["jugadores"] += 1
+        d["day2"] += 1 if s.get("day2") else 0
+        d["topCut"] += 1 if s.get("topcut") else 0
+    for deck_id, (w, l, e) in decks_partidas.items():
+        if deck_id in decks:
+            decks[deck_id].update({"victorias": w, "derrotas": l, "empates": e})
+
+    jugadores = []
+    con_lista = 0
+    for s in sorted(standings, key=lambda s: s.get("placement") or 99999):
+        fila = {
+            "puesto": s.get("placement"),
+            "nombre": s.get("name") or "",
+            "pais": s.get("country") or "",
+            "puntos": s.get("points") or 0,
+            "victorias": s.get("wins") or 0,
+            "derrotas": s.get("losses") or 0,
+            "empates": s.get("ties") or 0,
+            "day2": bool(s.get("day2")),
+            "topCut": bool(s.get("topcut")),
+            "abandono": s.get("drop_round"),
+            "deck": s.get("deck_id") or ID_OTROS,
+        }
+        if con_lista < LISTAS_POR_TORNEO and t["listas"] and s.get("decklist") and s.get("tp_id") is not None:
+            cartas = lista_de(t["id"], s["tp_id"])
+            if cartas:
+                fila["lista"] = cartas
+                con_lista += 1
+        jugadores.append(fila)
+
+    return {
+        "version": VERSION,
+        "calculadoEn": int(time.time() * 1000),
+        "id": t["id"],
+        "nombre": t["nombre"],
+        "tipo": t["tipo"],
+        "ciudad": t["ciudad"],
+        "pais": t["pais"],
+        "fecha": t["fecha"],
+        "fechaTexto": t["fechaTexto"],
+        "jugadores": len(standings),
+        "rondas": t["rondas"],
+        "url": f"{LABS}/{t['id']}/standings",
+        "decks": sorted(decks.values(), key=lambda d: -d["jugadores"]),
+        "clasificacion": jugadores,
+    }
+
+
+def guardar_torneo(detalle):
+    os.makedirs(CARPETA_TORNEOS, exist_ok=True)
+    with open(os.path.join(CARPETA_TORNEOS, f"{detalle['id']}.json"), "w", encoding="utf-8") as f:
+        json.dump(redondear(detalle), f, ensure_ascii=False, separators=(",", ":"))
 
 
 def calcular():
@@ -203,6 +294,8 @@ def calcular():
             jugadores_previos += n
 
         partidas_torneo = 0
+        # Deck -> [victorias, derrotas, empates] en este torneo (para el detalle del torneo).
+        decks_partidas = defaultdict(lambda: [0, 0, 0])
         for ronda in range(1, t["rondas"] + 1):
             for x in api(f"pairings?tournamentId={t['id']}&division={DIVISION}&round={ronda}") or []:
                 a, b, ganador = x.get("player1"), x.get("player2"), x.get("winner")
@@ -215,14 +308,16 @@ def calcular():
                     continue  # espejo: no suma al win rate
                 partidas_torneo += 1
                 for yo, mio, rival in ((a, deck_a, deck_b), (b, deck_b, deck_a)):
-                    r = acumulado(mio)["matchups"][rival]
-                    if ganador == yo:
-                        r[0] += 1
-                    elif ganador == 0:
-                        r[2] += 1
-                    else:
-                        r[1] += 1  # ganó el rival, o derrota doble (-1)
+                    # 0: victoria, 2: empate, 1: ganó el rival o derrota doble (-1)
+                    i = 0 if ganador == yo else 2 if ganador == 0 else 1
+                    acumulado(mio)["matchups"][rival][i] += 1
+                    decks_partidas[mio][i] += 1
         partidas_contadas += partidas_torneo
+        try:
+            guardar_torneo(detalle_torneo(t, standings, decks_partidas))
+            t["guardado"] = True
+        except Exception as e:  # el detalle de un torneo no frena el meta
+            print(f"  (no se pudo guardar el detalle) {t['nombre']}: {e}", file=sys.stderr)
         print(f"  {t['fecha']} · {n:5} jugadores · {con_deck} con deck · {partidas_torneo} partidas · {t['nombre']}", flush=True)
 
     if not jugadores_totales:
@@ -244,14 +339,7 @@ def calcular():
         candidatas = sorted(acc["candidatas"], key=lambda l: (l["puesto"] or 9999, -l["jugadoresTorneo"]))
         listas = []
         for c in candidatas[:LISTAS_PARA_CARTAS]:
-            lista = api(f"decklist?tournamentId={c['_torneo']}&playerId={c['_jugador']}")
-            if not lista:
-                continue
-            cartas = [
-                {"cantidad": k["count"], "nombre": k["name"], "set": k.get("set", ""),
-                 "numero": str(k.get("number", "")), "seccion": seccion}
-                for seccion in SECCIONES for k in lista.get(seccion, [])
-            ]
+            cartas = lista_de(c["_torneo"], c["_jugador"])
             if cartas:
                 listas.append({k: v for k, v in c.items() if not k.startswith("_")} | {"cartas": cartas})
 
@@ -302,6 +390,12 @@ def calcular():
         "desde": fechas[0] if fechas else "",
         "hasta": fechas[-1] if fechas else datetime.now().strftime("%Y-%m-%d"),
         "arquetipos": arquetipos,
+        # Índice de los torneos con detalle en meta/torneos/<id>.json, del más nuevo al más viejo.
+        "eventos": [
+            {"id": t["id"], "nombre": t["nombre"], "tipo": t["tipo"], "ciudad": t["ciudad"], "pais": t["pais"],
+             "fecha": t["fecha"], "fechaTexto": t["fechaTexto"], "jugadores": t["jugadores"]}
+            for t in torneos if t.get("guardado")
+        ],
     }
 
 
@@ -311,6 +405,12 @@ def main():
     os.makedirs(os.path.dirname(SALIDA), exist_ok=True)
     with open(SALIDA, "w", encoding="utf-8") as f:
         json.dump(resumen, f, ensure_ascii=False, separators=(",", ":"))
+    # Los detalles de torneos que ya no están en el índice se borran.
+    vigentes = {f"{e['id']}.json" for e in resumen["eventos"]}
+    if os.path.isdir(CARPETA_TORNEOS):
+        for nombre in os.listdir(CARPETA_TORNEOS):
+            if nombre.endswith(".json") and nombre not in vigentes:
+                os.remove(os.path.join(CARPETA_TORNEOS, nombre))
     print(f"{len(resumen['torneos'])} torneos, {resumen['jugadores']} jugadores, "
           f"{len(resumen['arquetipos'])} arquetipos ({resumen['desde']} a {resumen['hasta']})")
 
