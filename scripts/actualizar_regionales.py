@@ -173,6 +173,21 @@ def detalle_torneo(t, standings, decks_partidas):
     for deck_id, (w, l, e) in decks_partidas.items():
         if deck_id in decks:
             decks[deck_id].update({"victorias": w, "derrotas": l, "empates": e})
+    # Los números de la pestaña Decks de Labs, para que se vean iguales: su récord cuenta los
+    # espejos, y sus jugadores no incluyen a los que no tienen deck registrado.
+    jugadores_con_deck = sum(1 for s in standings if s.get("deck_id"))
+    labs = api(f"decks?tournamentId={t['id']}&division={DIVISION}") or []
+    for x in labs:
+        d = decks.get(x.get("identifier"))
+        if d is None:
+            continue
+        d.update({"jugadores": x.get("players") or 0, "day2": x.get("day2s") or 0,
+                  "victorias": x.get("wins") or 0, "derrotas": x.get("losses") or 0, "empates": x.get("ties") or 0})
+    if labs:
+        jugadores_con_deck = sum(x.get("players") or 0 for x in labs)
+        # Los que no tienen deck en Labs no aparecen en su pestaña Decks.
+        if ID_OTROS in decks and not any(x.get("identifier") == ID_OTROS for x in labs):
+            del decks[ID_OTROS]
 
     jugadores = []
     con_lista = 0
@@ -208,6 +223,8 @@ def detalle_torneo(t, standings, decks_partidas):
         "fecha": t["fecha"],
         "fechaTexto": t["fechaTexto"],
         "jugadores": len(standings),
+        # La base del porcentaje de cada deck, como en Labs.
+        "jugadoresConDeck": jugadores_con_deck,
         "rondas": t["rondas"],
         "url": f"{LABS}/{t['id']}/standings",
         "decks": sorted(decks.values(), key=lambda d: -d["jugadores"]),
