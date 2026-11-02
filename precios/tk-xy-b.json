@@ -99,6 +99,22 @@
       }
     },
     {
+      "productId": 98153,
+      "numero": "8",
+      "numeroNormalizado": "8",
+      "nombreProducto": "Metal Energy (#8)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 98147,
       "numero": "1",
       "numeroNormalizado": "1",
@@ -108,7 +124,7 @@
         "Normal": {
           "low": 4.2,
           "mid": 4.59,
-          "high": 47.6,
+          "high": 47.58,
           "market": 3.78,
           "directLow": null
         }
@@ -123,7 +139,7 @@
       "variantes": {
         "Normal": {
           "low": 14.0,
-          "mid": 19.68,
+          "mid": 19.66,
           "high": 20.97,
           "market": 0.55,
           "directLow": null
@@ -140,7 +156,7 @@
         "Normal": {
           "low": 0.29,
           "mid": 0.5,
-          "high": 19.68,
+          "high": 19.66,
           "market": 0.51,
           "directLow": null
         }
@@ -156,7 +172,7 @@
         "Normal": {
           "low": 1.99,
           "mid": 4.05,
-          "high": 71.65,
+          "high": 71.63,
           "market": 2.0,
           "directLow": null
         }
@@ -172,7 +188,7 @@
         "Normal": {
           "low": 0.79,
           "mid": 8.0,
-          "high": 19.68,
+          "high": 19.66,
           "market": 0.86,
           "directLow": null
         }
@@ -204,7 +220,7 @@
         "Normal": {
           "low": 0.25,
           "mid": 0.4,
-          "high": 19.68,
+          "high": 19.66,
           "market": 0.4,
           "directLow": null
         }
@@ -220,7 +236,7 @@
         "Normal": {
           "low": 0.99,
           "mid": 1.6,
-          "high": 37.6,
+          "high": 37.58,
           "market": 0.98,
           "directLow": null
         }
@@ -235,8 +251,8 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.95,
-          "high": 19.68,
+          "mid": 2.67,
+          "high": 19.66,
           "market": 0.62,
           "directLow": null
         }
@@ -252,7 +268,7 @@
         "Normal": {
           "low": 0.5,
           "mid": 9.5,
-          "high": 79.5,
+          "high": 79.48,
           "market": 0.2,
           "directLow": null
         }
@@ -268,7 +284,7 @@
         "Normal": {
           "low": 1.99,
           "mid": 2.01,
-          "high": 32.7,
+          "high": 32.68,
           "market": 1.99,
           "directLow": null
         }
@@ -283,8 +299,8 @@
       "variantes": {
         "Normal": {
           "low": 19.32,
-          "mid": 33.2,
-          "high": 60.7,
+          "mid": 33.18,
+          "high": 60.68,
           "market": 5.56,
           "directLow": null
         }
@@ -300,7 +316,7 @@
         "Normal": {
           "low": 1.5,
           "mid": 2.59,
-          "high": 38.7,
+          "high": 38.68,
           "market": 1.5,
           "directLow": null
         }
@@ -316,7 +332,7 @@
         "Normal": {
           "low": 0.94,
           "mid": 1.46,
-          "high": 27.8,
+          "high": 27.78,
           "market": 1.5,
           "directLow": null
         }
@@ -347,8 +363,8 @@
       "variantes": {
         "Holofoil": {
           "low": 0.4,
-          "mid": 0.79,
-          "high": 19.68,
+          "mid": 0.81,
+          "high": 19.66,
           "market": 0.79,
           "directLow": null
         }
@@ -364,7 +380,7 @@
         "Normal": {
           "low": 0.41,
           "mid": 1.43,
-          "high": 26.4,
+          "high": 26.38,
           "market": 0.4,
           "directLow": null
         }
@@ -403,22 +419,6 @@
       }
     },
     {
-      "productId": 98153,
-      "numero": "8",
-      "numeroNormalizado": "8",
-      "nombreProducto": "Metal Energy (#8)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
-          "high": 1.0,
-          "market": null,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 98154,
       "numero": "9",
       "numeroNormalizado": "9",
@@ -435,5 +435,5 @@
       }
     }
   ],
-  "actualizado": "2026-11-01T00:19:56Z"
+  "actualizado": "2026-11-02T01:00:45Z"
 }
