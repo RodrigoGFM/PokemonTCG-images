@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "pop9",
   "tcgplayerGroupId": 1446,
-  "actualizado": "2026-11-02T00:59:48Z",
+  "actualizado": "2026-11-03T03:01:13Z",
   "cartas": [
     {
       "productId": 84020,
@@ -10,7 +10,7 @@
       "variantes": {
         "Normal": {
           "low": 4.58,
-          "mid": 8.01,
+          "mid": 7.98,
           "high": 70.68,
           "market": 7.82,
           "directLow": null
@@ -38,10 +38,10 @@
       "variantes": {
         "Normal": {
           "low": 0.65,
-          "mid": 1.03,
+          "mid": 1.02,
           "high": 18.48,
-          "market": 1.22,
-          "directLow": 2.23
+          "market": 1.25,
+          "directLow": null
         }
       }
     },
@@ -52,7 +52,7 @@
       "variantes": {
         "Normal": {
           "low": 2.65,
-          "mid": 4.91,
+          "mid": 4.86,
           "high": 45.18,
           "market": 4.96,
           "directLow": null
@@ -68,7 +68,7 @@
           "low": 2.19,
           "mid": 3.49,
           "high": 40.28,
-          "market": 3.7,
+          "market": 3.73,
           "directLow": null
         }
       }
@@ -96,7 +96,7 @@
           "low": 0.3,
           "mid": 0.7,
           "high": 19.66,
-          "market": 0.65,
+          "market": 0.66,
           "directLow": null
         }
       }
@@ -108,7 +108,7 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 2.06,
+          "mid": 1.75,
           "high": 32.78,
           "market": 2.28,
           "directLow": null
@@ -117,7 +117,7 @@
           "low": 1.85,
           "mid": 5.0,
           "high": 99.6,
-          "market": 6.52,
+          "market": 6.96,
           "directLow": null
         }
       }
@@ -129,9 +129,9 @@
       "variantes": {
         "Normal": {
           "low": 3.12,
-          "mid": 5.75,
+          "mid": 6.12,
           "high": 19.66,
-          "market": 4.89,
+          "market": 4.91,
           "directLow": null
         },
         "Holofoil": {
@@ -150,8 +150,8 @@
       "variantes": {
         "Normal": {
           "low": 3.49,
-          "mid": 5.29,
-          "high": 57.08,
+          "mid": 5.89,
+          "high": 57.04,
           "market": 6.93,
           "directLow": 9.74
         }
@@ -164,10 +164,10 @@
       "variantes": {
         "Normal": {
           "low": 16.01,
-          "mid": 23.83,
+          "mid": 23.7,
           "high": 322.86,
-          "market": 21.33,
-          "directLow": 19.99
+          "market": 21.23,
+          "directLow": 23.95
         }
       }
     },
@@ -177,9 +177,9 @@
       "numeroNormalizado": "15",
       "variantes": {
         "Normal": {
-          "low": 13.9,
-          "mid": 22.47,
-          "high": 4315.43,
+          "low": 13.8,
+          "mid": 22.21,
+          "high": 4315.39,
           "market": 22.67,
           "directLow": 49.99
         }
@@ -196,7 +196,7 @@
           "mid": 9.99,
           "high": 96.95,
           "market": 10.03,
-          "directLow": 9.99
+          "directLow": 12.49
         }
       }
     },
@@ -206,7 +206,7 @@
       "numeroNormalizado": "3",
       "variantes": {
         "Normal": {
-          "low": 9.7,
+          "low": 9.98,
           "mid": 21.73,
           "high": 189.68,
           "market": 17.24,
@@ -229,14 +229,14 @@
         "Normal": {
           "low": 1.99,
           "mid": 2.54,
-          "high": 42.78,
-          "market": 4.51,
+          "high": 96.96,
+          "market": 4.85,
           "directLow": null
         },
         "Holofoil": {
-          "low": 3.5,
-          "mid": 6.32,
-          "high": 68.68,
+          "low": 4.04,
+          "mid": 6.7,
+          "high": 71.17,
           "market": 7.82,
           "directLow": null
         }
@@ -251,7 +251,7 @@
           "low": 3.0,
           "mid": 5.38,
           "high": 45.28,
-          "market": 5.11,
+          "market": 5.0,
           "directLow": null
         },
         "Holofoil": {
@@ -270,27 +270,12 @@
       "variantes": {
         "Normal": {
           "low": 0.4,
-          "mid": 2.05,
+          "mid": 2.15,
           "high": 14.99,
           "market": 2.41,
           "directLow": 4.74
         }
       }
-    },
-    {
-      "productId": 701479,
-      "numero": "015/017",
-      "numeroNormalizado": "15",
-      "variantes": {
-        "Normal": {
-          "low": 199.99,
-          "mid": 199.99,
-          "high": 199.99,
-          "market": 199.99,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Pikachu (Pokemon Day 2009)"
     }
   ]
 }
