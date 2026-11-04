@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-11-03T03:02:11Z",
+  "actualizado": "2026-11-04T01:36:25Z",
   "cartas": [
     {
       "productId": 98147,
@@ -49,6 +49,21 @@
       "nombreProducto": "Metal Energy (#6)"
     },
     {
+      "productId": 98154,
+      "numero": "9/30",
+      "numeroNormalizado": "9",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": 1.0,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Metal Energy (#9)"
+    },
+    {
       "productId": 98159,
       "numero": "4/30",
       "numeroNormalizado": "4",
@@ -87,7 +102,7 @@
           "low": 0.29,
           "mid": 0.5,
           "high": 19.66,
-          "market": 0.51,
+          "market": 0.52,
           "directLow": null
         }
       },
@@ -117,7 +132,7 @@
           "low": 0.79,
           "mid": 0.99,
           "high": 19.66,
-          "market": 0.86,
+          "market": 0.85,
           "directLow": null
         }
       },
@@ -160,7 +175,7 @@
       "variantes": {
         "Normal": {
           "low": 0.99,
-          "mid": 1.6,
+          "mid": 1.75,
           "high": 37.58,
           "market": 0.98,
           "directLow": null
@@ -175,9 +190,9 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.68,
+          "mid": 2.67,
           "high": 19.66,
-          "market": 0.62,
+          "market": 0.65,
           "directLow": null
         }
       },
@@ -280,7 +295,7 @@
       "variantes": {
         "Holofoil": {
           "low": 0.4,
-          "mid": 0.81,
+          "mid": 0.84,
           "high": 19.66,
           "market": 0.79,
           "directLow": null
@@ -324,29 +339,14 @@
       "numeroNormalizado": "17",
       "variantes": {
         "Normal": {
-          "low": 0.15,
-          "mid": 0.45,
+          "low": 0.75,
+          "mid": 0.75,
           "high": 0.75,
           "market": null,
           "directLow": null
         }
       },
       "nombreProducto": "Fairy Energy (#17)"
-    },
-    {
-      "productId": 98187,
-      "numero": "21/30",
-      "numeroNormalizado": "21",
-      "variantes": {
-        "Normal": {
-          "low": 0.2,
-          "mid": 0.2,
-          "high": 0.2,
-          "market": 0.5,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#21)"
     },
     {
       "productId": 98188,
@@ -362,21 +362,6 @@
         }
       },
       "nombreProducto": "Fairy Energy (#22)"
-    },
-    {
-      "productId": 98189,
-      "numero": "27/30",
-      "numeroNormalizado": "27",
-      "variantes": {
-        "Normal": {
-          "low": 0.2,
-          "mid": 0.2,
-          "high": 0.2,
-          "market": 1.0,
-          "directLow": null
-        }
-      },
-      "nombreProducto": "Fairy Energy (#27)"
     },
     {
       "productId": 98190,
@@ -445,7 +430,7 @@
       "variantes": {
         "Normal": {
           "low": 1.52,
-          "mid": 2.63,
+          "mid": 2.44,
           "high": 4.66,
           "market": 5.16,
           "directLow": null
@@ -520,9 +505,9 @@
       "variantes": {
         "Normal": {
           "low": 2.99,
-          "mid": 4.5,
+          "mid": 4.84,
           "high": 60.78,
-          "market": 6.03,
+          "market": 5.35,
           "directLow": null
         }
       },
@@ -535,7 +520,7 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 1.16,
+          "mid": 1.25,
           "high": 42.98,
           "market": 1.05,
           "directLow": null
@@ -595,8 +580,8 @@
       "variantes": {
         "Normal": {
           "low": 3.8,
-          "mid": 6.2,
-          "high": 8.12,
+          "mid": 6.4,
+          "high": 9.11,
           "market": 6.58,
           "directLow": null
         }

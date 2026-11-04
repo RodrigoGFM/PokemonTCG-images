@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "mee",
   "tcgplayerGroupId": 24461,
-  "actualizado": "2026-11-03T03:01:00Z",
+  "actualizado": "2026-11-04T01:35:15Z",
   "cartas": [
     {
       "productId": 656263,
@@ -12,14 +12,14 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 19.66,
-          "market": 0.24,
-          "directLow": 0.09
+          "market": 0.23,
+          "directLow": 0.07
         },
         "Reverse Holofoil": {
           "low": 0.05,
           "mid": 0.3,
           "high": 2.49,
-          "market": 0.3,
+          "market": 0.29,
           "directLow": 0.29
         }
       }
@@ -40,7 +40,7 @@
           "low": 0.01,
           "mid": 0.25,
           "high": 19.66,
-          "market": 0.22,
+          "market": 0.21,
           "directLow": 0.2
         }
       },
@@ -55,7 +55,7 @@
           "low": 0.01,
           "mid": 0.19,
           "high": 40.0,
-          "market": 0.21,
+          "market": 0.2,
           "directLow": 0.07
         },
         "Reverse Holofoil": {
@@ -98,14 +98,14 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 19.66,
-          "market": 0.19,
+          "market": 0.2,
           "directLow": 0.07
         },
         "Reverse Holofoil": {
           "low": 0.01,
           "mid": 0.31,
           "high": 2.49,
-          "market": 0.34,
+          "market": 0.36,
           "directLow": 0.24
         }
       },
@@ -121,7 +121,7 @@
           "mid": 0.3,
           "high": 19.66,
           "market": 0.31,
-          "directLow": 0.28
+          "directLow": 0.25
         },
         "Normal": {
           "low": 0.01,
@@ -141,14 +141,14 @@
           "low": 0.03,
           "mid": 0.3,
           "high": 19.66,
-          "market": 0.28,
-          "directLow": 0.29
+          "market": 0.29,
+          "directLow": 0.28
         },
         "Normal": {
           "low": 0.01,
           "mid": 0.22,
           "high": 19.66,
-          "market": 0.28,
+          "market": 0.26,
           "directLow": 0.07
         }
       },
@@ -170,7 +170,7 @@
           "low": 0.01,
           "mid": 0.15,
           "high": 19.66,
-          "market": 0.14,
+          "market": 0.13,
           "directLow": 0.07
         }
       }
@@ -182,10 +182,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.01,
-          "mid": 0.2,
+          "mid": 0.21,
           "high": 15.0,
-          "market": 0.21,
-          "directLow": null
+          "market": 0.16,
+          "directLow": 0.2
         }
       }
     },
@@ -198,8 +198,8 @@
           "low": 0.01,
           "mid": 0.21,
           "high": 4.95,
-          "market": 0.14,
-          "directLow": 0.19
+          "market": 0.22,
+          "directLow": null
         }
       }
     },
@@ -212,8 +212,8 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 10.0,
-          "market": 0.14,
-          "directLow": 0.16
+          "market": 0.18,
+          "directLow": 0.13
         }
       }
     },
@@ -226,8 +226,8 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 2.5,
-          "market": 0.18,
-          "directLow": 0.12
+          "market": 0.17,
+          "directLow": 0.15
         }
       }
     },
@@ -238,10 +238,10 @@
       "variantes": {
         "Holofoil": {
           "low": 0.01,
-          "mid": 0.22,
+          "mid": 0.21,
           "high": 10.0,
-          "market": 0.19,
-          "directLow": null
+          "market": 0.15,
+          "directLow": 0.13
         }
       }
     },
@@ -254,8 +254,8 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 20.0,
-          "market": 0.13,
-          "directLow": null
+          "market": 0.16,
+          "directLow": 0.15
         }
       }
     },
@@ -266,9 +266,9 @@
       "variantes": {
         "Holofoil": {
           "low": 0.01,
-          "mid": 0.22,
+          "mid": 0.21,
           "high": 11.0,
-          "market": 0.16,
+          "market": 0.17,
           "directLow": null
         }
       }
@@ -282,10 +282,70 @@
           "low": 0.01,
           "mid": 0.2,
           "high": 6.0,
-          "market": 0.11,
-          "directLow": 0.14
+          "market": 0.12,
+          "directLow": 0.13
         }
       }
+    },
+    {
+      "productId": 729815,
+      "numero": "007",
+      "numeroNormalizado": "7",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 0.55,
+          "high": 4.0,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Basic Darkness Energy - 007 (30th Celebration)"
+    },
+    {
+      "productId": 729816,
+      "numero": "004",
+      "numeroNormalizado": "4",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 0.55,
+          "high": 5.0,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Basic Lightning Energy - 004 (30th Celebration)"
+    },
+    {
+      "productId": 729817,
+      "numero": "002",
+      "numeroNormalizado": "2",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 1.13,
+          "high": 4.0,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Basic Fire Energy - 002 (30th Celebration)"
+    },
+    {
+      "productId": 729818,
+      "numero": "005",
+      "numeroNormalizado": "5",
+      "variantes": {
+        "Holofoil": {
+          "low": 0.25,
+          "mid": 2.0,
+          "high": 4.0,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Basic Psychic Energy - 005 (30th Celebration)"
     }
   ]
 }
