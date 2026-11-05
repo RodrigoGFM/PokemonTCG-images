@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-11-04T01:36:25Z",
+  "actualizado": "2026-11-05T01:42:57Z",
   "cartas": [
     {
       "productId": 98147,
@@ -70,7 +70,7 @@
       "variantes": {
         "Normal": {
           "low": 0.41,
-          "mid": 1.43,
+          "mid": 1.12,
           "high": 26.38,
           "market": 0.4,
           "directLow": null
@@ -122,6 +122,21 @@
         }
       },
       "nombreProducto": "Doublade (#14)"
+    },
+    {
+      "productId": 98164,
+      "numero": "15/30",
+      "numeroNormalizado": "15",
+      "variantes": {
+        "Normal": {
+          "low": 11.2,
+          "mid": 11.2,
+          "high": 11.2,
+          "market": 9.15,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Slakoth (#15)"
     },
     {
       "productId": 98165,
@@ -190,7 +205,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.67,
+          "mid": 2.95,
           "high": 19.66,
           "market": 0.65,
           "directLow": null
@@ -295,9 +310,9 @@
       "variantes": {
         "Holofoil": {
           "low": 0.4,
-          "mid": 0.84,
+          "mid": 0.9,
           "high": 19.66,
-          "market": 0.79,
+          "market": 1.39,
           "directLow": null
         }
       },
@@ -355,8 +370,8 @@
       "variantes": {
         "Normal": {
           "low": 0.2,
-          "mid": 0.2,
-          "high": 0.2,
+          "mid": 0.65,
+          "high": 1.09,
           "market": 1.0,
           "directLow": null
         }
@@ -399,8 +414,8 @@
       "numeroNormalizado": "13",
       "variantes": {
         "Normal": {
-          "low": 10.92,
-          "mid": 39.7,
+          "low": 6.0,
+          "mid": 10.92,
           "high": 68.48,
           "market": 9.75,
           "directLow": null
@@ -414,8 +429,8 @@
       "numeroNormalizado": "14",
       "variantes": {
         "Normal": {
-          "low": 6.55,
-          "mid": 6.55,
+          "low": 3.0,
+          "mid": 4.78,
           "high": 6.55,
           "market": 6.57,
           "directLow": null
@@ -520,7 +535,7 @@
       "variantes": {
         "Normal": {
           "low": 0.94,
-          "mid": 1.25,
+          "mid": 1.37,
           "high": 42.98,
           "market": 1.05,
           "directLow": null
@@ -535,7 +550,7 @@
       "variantes": {
         "Normal": {
           "low": 24.99,
-          "mid": 30.88,
+          "mid": 31.0,
           "high": 49.11,
           "market": 30.0,
           "directLow": null
@@ -579,8 +594,8 @@
       "numeroNormalizado": "29",
       "variantes": {
         "Normal": {
-          "low": 3.8,
-          "mid": 6.4,
+          "low": 5.0,
+          "mid": 6.2,
           "high": 9.11,
           "market": 6.58,
           "directLow": null
@@ -612,9 +627,9 @@
       "variantes": {
         "Normal": {
           "low": 4.5,
-          "mid": 5.39,
-          "high": 6.28,
-          "market": 5.32,
+          "mid": 4.5,
+          "high": 4.5,
+          "market": 5.0,
           "directLow": null
         }
       }
@@ -628,8 +643,8 @@
       "variantes": {
         "Normal": {
           "low": 2.0,
-          "mid": 2.0,
-          "high": 2.0,
+          "mid": 2.8,
+          "high": 3.59,
           "market": 2.0,
           "directLow": null
         }

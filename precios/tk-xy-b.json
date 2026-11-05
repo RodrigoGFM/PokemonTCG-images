@@ -67,22 +67,6 @@
       }
     },
     {
-      "productId": 98164,
-      "numero": "15",
-      "numeroNormalizado": "15",
-      "nombreProducto": "Slakoth (#15)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 19.72,
-          "mid": 20.35,
-          "high": 20.97,
-          "market": 9.15,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 98152,
       "numero": "7",
       "numeroNormalizado": "7",
@@ -179,6 +163,22 @@
       }
     },
     {
+      "productId": 98164,
+      "numero": "15",
+      "numeroNormalizado": "15",
+      "nombreProducto": "Slakoth (#15)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 11.2,
+          "mid": 11.2,
+          "high": 11.2,
+          "market": 9.15,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 98165,
       "numero": "16",
       "numeroNormalizado": "16",
@@ -251,7 +251,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.67,
+          "mid": 2.95,
           "high": 19.66,
           "market": 0.65,
           "directLow": null
@@ -363,9 +363,9 @@
       "variantes": {
         "Holofoil": {
           "low": 0.4,
-          "mid": 0.84,
+          "mid": 0.9,
           "high": 19.66,
-          "market": 0.79,
+          "market": 1.39,
           "directLow": null
         }
       }
@@ -379,7 +379,7 @@
       "variantes": {
         "Normal": {
           "low": 0.41,
-          "mid": 1.43,
+          "mid": 1.12,
           "high": 26.38,
           "market": 0.4,
           "directLow": null
@@ -435,5 +435,5 @@
       }
     }
   ],
-  "actualizado": "2026-11-04T01:36:25Z"
+  "actualizado": "2026-11-05T01:42:57Z"
 }
