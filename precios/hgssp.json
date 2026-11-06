@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "hgssp",
   "tcgplayerGroupId": 1453,
-  "actualizado": "2026-11-05T01:41:40Z",
+  "actualizado": "2026-11-06T01:44:13Z",
   "cartas": [
     {
       "productId": 84368,
@@ -25,7 +25,7 @@
         "Holofoil": {
           "low": 83.95,
           "mid": 119.99,
-          "high": 994.86,
+          "high": 994.78,
           "market": 87.06,
           "directLow": 107.97
         }
@@ -38,8 +38,8 @@
       "variantes": {
         "Holofoil": {
           "low": 80.0,
-          "mid": 399.99,
-          "high": 512.14,
+          "mid": 347.35,
+          "high": 512.06,
           "market": 82.83,
           "directLow": 199.97
         }
@@ -94,7 +94,7 @@
       "variantes": {
         "Holofoil": {
           "low": 4.29,
-          "mid": 11.8,
+          "mid": 14.99,
           "high": 199.99,
           "market": 17.05,
           "directLow": 196.76
@@ -109,7 +109,7 @@
         "Holofoil": {
           "low": 33.49,
           "mid": 128.94,
-          "high": 992.26,
+          "high": 992.18,
           "market": 32.72,
           "directLow": 640.0
         }
@@ -180,8 +180,8 @@
       "variantes": {
         "Holofoil": {
           "low": 23.0,
-          "mid": 32.51,
-          "high": 740.08,
+          "mid": 32.5,
+          "high": 740.0,
           "market": 103.29,
           "directLow": 149.93
         }
@@ -208,10 +208,10 @@
       "variantes": {
         "Holofoil": {
           "low": 21.84,
-          "mid": 72.82,
+          "mid": 66.44,
           "high": 298.4,
-          "market": 57.51,
-          "directLow": 65.91
+          "market": 58.43,
+          "directLow": 65.9
         }
       }
     },
@@ -342,6 +342,21 @@
       }
     },
     {
+      "productId": 97703,
+      "numero": "HGSS18",
+      "numeroNormalizado": "hgss18",
+      "variantes": {
+        "Normal": {
+          "low": 1000.0,
+          "mid": 1187.5,
+          "high": 1375.0,
+          "market": 1400.0,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Tropical Tidal Wave - HGSS18 (Worlds 10) [Staff]"
+    },
+    {
       "productId": 97705,
       "numero": "HGSS10",
       "numeroNormalizado": "hgss10",
@@ -351,7 +366,7 @@
           "mid": 335.21,
           "high": 1995.87,
           "market": 299.33,
-          "directLow": 1995.87
+          "directLow": 999.99
         }
       },
       "nombreProducto": "Latias - HGSS10 (Cracked Ice Holo)"
@@ -387,16 +402,31 @@
       "nombreProducto": "Blastoise - 13/95 (Prerelease)"
     },
     {
+      "productId": 211518,
+      "numero": "13/95",
+      "numeroNormalizado": "13",
+      "variantes": {
+        "Holofoil": {
+          "low": 950.0,
+          "mid": 950.0,
+          "high": 950.0,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Blastoise - 13/95 (Prerelease) [Staff]"
+    },
+    {
       "productId": 221177,
       "numero": "17/90",
       "numeroNormalizado": "17",
       "variantes": {
         "Holofoil": {
-          "low": 149.94,
-          "mid": 199.0,
-          "high": 1999.27,
+          "low": 149.88,
+          "mid": 190.5,
+          "high": 1999.22,
           "market": 149.99,
-          "directLow": 180.99
+          "directLow": 180.98
         }
       }
     },
@@ -410,7 +440,7 @@
           "mid": 75.07,
           "high": 449.94,
           "market": 54.2,
-          "directLow": 73.6
+          "directLow": 33.38
         }
       },
       "nombreProducto": "Electivire - 20/102 (Prerelease)"

@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "base5",
   "tcgplayerGroupId": 1373,
-  "actualizado": "2026-11-05T01:41:03Z",
+  "actualizado": "2026-11-06T01:43:36Z",
   "cartas": [
     {
       "productId": 83445,
@@ -9,17 +9,17 @@
       "numeroNormalizado": "49",
       "variantes": {
         "1st Edition": {
-          "low": 1.34,
-          "mid": 2.97,
-          "high": 19.99,
-          "market": 2.92,
+          "low": 1.05,
+          "mid": 2.99,
+          "high": 99.0,
+          "market": 3.01,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.24,
           "mid": 0.7,
           "high": 45.0,
-          "market": 0.86,
+          "market": 0.87,
           "directLow": null
         }
       }
@@ -31,14 +31,14 @@
       "variantes": {
         "1st Edition": {
           "low": 2.0,
-          "mid": 4.94,
+          "mid": 5.14,
           "high": 95.71,
-          "market": 6.3,
+          "market": 6.35,
           "directLow": 14.99
         },
         "Unlimited": {
           "low": 0.8,
-          "mid": 1.5,
+          "mid": 1.49,
           "high": 96.95,
           "market": 2.26,
           "directLow": 28.95
@@ -51,18 +51,18 @@
       "numeroNormalizado": "50",
       "variantes": {
         "1st Edition": {
-          "low": 5.86,
-          "mid": 11.67,
-          "high": 79.99,
-          "market": 12.41,
+          "low": 5.0,
+          "mid": 11.0,
+          "high": 89.22,
+          "market": 12.49,
           "directLow": 14.93
         },
         "Unlimited": {
           "low": 1.32,
           "mid": 3.5,
-          "high": 94.66,
-          "market": 4.96,
-          "directLow": 94.65
+          "high": 113.58,
+          "market": 5.02,
+          "directLow": 1.51
         }
       }
     },
@@ -80,9 +80,9 @@
         },
         "Unlimited Holofoil": {
           "low": 44.91,
-          "mid": 68.15,
+          "mid": 68.59,
           "high": 9999.0,
-          "market": 81.27,
+          "market": 81.73,
           "directLow": 99.99
         }
       }
@@ -95,13 +95,13 @@
         "1st Edition": {
           "low": 14.7,
           "mid": 30.0,
-          "high": 297.73,
+          "high": 297.64,
           "market": 32.41,
           "directLow": 20.0
         },
         "Unlimited": {
           "low": 9.99,
-          "mid": 18.9,
+          "mid": 18.8,
           "high": 110.89,
           "market": 22.11,
           "directLow": 12.4
@@ -115,16 +115,16 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 39.5,
-          "mid": 69.77,
+          "mid": 67.46,
           "high": 799.48,
           "market": 67.74,
           "directLow": null
         },
         "Unlimited Holofoil": {
-          "low": 9.0,
-          "mid": 16.15,
+          "low": 8.01,
+          "mid": 16.23,
           "high": 200.0,
-          "market": 17.28,
+          "market": 17.39,
           "directLow": 12.75
         }
       }
@@ -136,9 +136,9 @@
       "variantes": {
         "1st Edition": {
           "low": 6.8,
-          "mid": 9.81,
+          "mid": 11.51,
           "high": 115.98,
-          "market": 13.18,
+          "market": 12.94,
           "directLow": 9.81
         },
         "Unlimited": {
@@ -146,7 +146,7 @@
           "mid": 6.7,
           "high": 89.38,
           "market": 9.0,
-          "directLow": 5.38
+          "directLow": 4.59
         }
       }
     },
@@ -178,17 +178,17 @@
       "variantes": {
         "1st Edition": {
           "low": 47.97,
-          "mid": 70.5,
+          "mid": 71.0,
           "high": 417.86,
           "market": 67.15,
           "directLow": 74.95
         },
         "Unlimited": {
           "low": 31.49,
-          "mid": 55.0,
+          "mid": 55.42,
           "high": 96.46,
           "market": 54.2,
-          "directLow": 76.2
+          "directLow": 76.73
         }
       }
     },
@@ -199,16 +199,16 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 899.99,
-          "mid": 995.0,
+          "mid": 949.5,
           "high": 4999.99,
           "market": 89.17,
           "directLow": null
         },
         "Unlimited Holofoil": {
           "low": 264.98,
-          "mid": 341.18,
+          "mid": 343.09,
           "high": 999.99,
-          "market": 373.18,
+          "market": 377.95,
           "directLow": null
         }
       }
@@ -219,8 +219,8 @@
       "numeroNormalizado": "21",
       "variantes": {
         "1st Edition": {
-          "low": 178.93,
-          "mid": 259.99,
+          "low": 133.58,
+          "mid": 237.5,
           "high": 1652.85,
           "market": 174.18,
           "directLow": null
@@ -240,15 +240,15 @@
       "numeroNormalizado": "32",
       "variantes": {
         "1st Edition": {
-          "low": 12.99,
-          "mid": 20.96,
-          "high": 216.64,
+          "low": 10.82,
+          "mid": 19.98,
+          "high": 216.56,
           "market": 25.81,
           "directLow": 19.97
         },
         "Unlimited": {
-          "low": 4.0,
-          "mid": 8.28,
+          "low": 3.98,
+          "mid": 8.0,
           "high": 9999.0,
           "market": 9.34,
           "directLow": 8.97
@@ -262,17 +262,17 @@
       "variantes": {
         "1st Edition": {
           "low": 8.53,
-          "mid": 13.87,
+          "mid": 14.07,
           "high": 134.28,
           "market": 13.97,
           "directLow": null
         },
         "Unlimited": {
-          "low": 3.39,
-          "mid": 6.78,
+          "low": 3.38,
+          "mid": 6.5,
           "high": 89.53,
-          "market": 7.61,
-          "directLow": 7.61
+          "market": 7.65,
+          "directLow": 8.37
         }
       }
     },
@@ -290,7 +290,7 @@
         },
         "Unlimited Holofoil": {
           "low": 160.0,
-          "mid": 201.25,
+          "mid": 206.25,
           "high": 9999.0,
           "market": 227.5,
           "directLow": null
@@ -304,17 +304,17 @@
       "variantes": {
         "1st Edition": {
           "low": 52.0,
-          "mid": 73.94,
+          "mid": 72.92,
           "high": 938.78,
           "market": 72.92,
           "directLow": null
         },
         "Unlimited": {
           "low": 22.99,
-          "mid": 34.8,
+          "mid": 36.4,
           "high": 9999.0,
           "market": 37.53,
-          "directLow": null
+          "directLow": 26.39
         }
       }
     },
@@ -325,7 +325,7 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 64.99,
-          "mid": 91.5,
+          "mid": 91.0,
           "high": 749.68,
           "market": 94.48,
           "directLow": null
@@ -333,9 +333,9 @@
         "Unlimited Holofoil": {
           "low": 24.23,
           "mid": 40.0,
-          "high": 542.55,
-          "market": 47.44,
-          "directLow": 39.99
+          "high": 542.54,
+          "market": 46.72,
+          "directLow": 40.0
         }
       }
     },
@@ -346,10 +346,10 @@
       "variantes": {
         "1st Edition": {
           "low": 6.99,
-          "mid": 13.99,
+          "mid": 13.5,
           "high": 9999.0,
-          "market": 13.37,
-          "directLow": 12.97
+          "market": 13.48,
+          "directLow": 7.98
         },
         "Unlimited": {
           "low": 5.0,
@@ -374,7 +374,7 @@
         },
         "Unlimited": {
           "low": 0.5,
-          "mid": 1.18,
+          "mid": 1.17,
           "high": 114.8,
           "market": 1.65,
           "directLow": 95.67
@@ -390,15 +390,15 @@
           "low": 11.54,
           "mid": 17.46,
           "high": 117.34,
-          "market": 21.75,
+          "market": 21.48,
           "directLow": 27.97
         },
         "Unlimited": {
           "low": 4.62,
-          "mid": 7.5,
+          "mid": 7.24,
           "high": 96.94,
-          "market": 11.41,
-          "directLow": 6.11
+          "market": 11.42,
+          "directLow": 29.42
         }
       }
     },
@@ -409,17 +409,17 @@
       "variantes": {
         "1st Edition": {
           "low": 2.32,
-          "mid": 5.35,
+          "mid": 5.3,
           "high": 96.95,
           "market": 5.34,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.5,
-          "mid": 1.83,
+          "mid": 1.77,
           "high": 96.95,
           "market": 2.06,
-          "directLow": 1.95
+          "directLow": 2.0
         }
       }
     },
@@ -438,8 +438,8 @@
         "Unlimited Holofoil": {
           "low": 21.99,
           "mid": 29.26,
-          "high": 111.43,
-          "market": 30.75,
+          "high": 111.35,
+          "market": 30.92,
           "directLow": 27.97
         }
       }
@@ -450,15 +450,15 @@
       "numeroNormalizado": "24",
       "variantes": {
         "1st Edition": {
-          "low": 5.86,
-          "mid": 10.19,
-          "high": 99.97,
-          "market": 15.14,
+          "low": 5.85,
+          "mid": 12.27,
+          "high": 99.96,
+          "market": 15.0,
           "directLow": 14.97
         },
         "Unlimited": {
           "low": 4.0,
-          "mid": 6.4,
+          "mid": 6.35,
           "high": 47.16,
           "market": 6.59,
           "directLow": null
@@ -471,15 +471,15 @@
       "numeroNormalizado": "37",
       "variantes": {
         "1st Edition": {
-          "low": 3.0,
+          "low": 2.99,
           "mid": 8.97,
-          "high": 106.87,
+          "high": 98.54,
           "market": 11.8,
           "directLow": null
         },
         "Unlimited": {
           "low": 1.24,
-          "mid": 3.77,
+          "mid": 3.84,
           "high": 96.95,
           "market": 4.87,
           "directLow": 28.34
@@ -493,17 +493,17 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 133.99,
-          "mid": 216.5,
-          "high": 3301.41,
+          "mid": 217.99,
+          "high": 3301.33,
           "market": 198.22,
           "directLow": 277.72
         },
         "Unlimited Holofoil": {
-          "low": 53.09,
-          "mid": 67.84,
+          "low": 53.0,
+          "mid": 65.5,
           "high": 142.79,
-          "market": 75.25,
-          "directLow": 53.19
+          "market": 75.51,
+          "directLow": 61.98
         }
       }
     },
@@ -521,7 +521,7 @@
         },
         "Unlimited": {
           "low": 11.0,
-          "mid": 16.99,
+          "mid": 17.37,
           "high": 96.95,
           "market": 19.12,
           "directLow": 16.99
@@ -542,7 +542,7 @@
         },
         "Unlimited Holofoil": {
           "low": 32.45,
-          "mid": 38.02,
+          "mid": 37.25,
           "high": 99.99,
           "market": 46.47,
           "directLow": 96.95
@@ -556,14 +556,14 @@
       "variantes": {
         "1st Edition": {
           "low": 9.59,
-          "mid": 14.54,
+          "mid": 14.97,
           "high": 139.68,
           "market": 14.15,
           "directLow": null
         },
         "Unlimited": {
           "low": 5.38,
-          "mid": 9.52,
+          "mid": 9.53,
           "high": 9999.0,
           "market": 9.53,
           "directLow": 9.53
@@ -577,16 +577,16 @@
       "variantes": {
         "1st Edition": {
           "low": 14.05,
-          "mid": 23.28,
-          "high": 259.53,
+          "mid": 22.62,
+          "high": 259.45,
           "market": 24.03,
-          "directLow": 96.62
+          "directLow": 96.6
         },
         "Unlimited": {
           "low": 4.2,
           "mid": 8.0,
           "high": 95.28,
-          "market": 9.71,
+          "market": 9.72,
           "directLow": 6.96
         }
       }
@@ -598,10 +598,10 @@
       "variantes": {
         "1st Edition": {
           "low": 3.99,
-          "mid": 6.97,
+          "mid": 6.8,
           "high": 76.68,
           "market": 6.56,
-          "directLow": 4.07
+          "directLow": 3.99
         },
         "Unlimited": {
           "low": 0.49,
@@ -618,17 +618,17 @@
       "numeroNormalizado": "10",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 91.66,
-          "mid": 140.0,
+          "low": 90.67,
+          "mid": 138.52,
           "high": 1116.46,
           "market": 146.83,
           "directLow": 1116.46
         },
         "Unlimited Holofoil": {
-          "low": 42.7,
-          "mid": 50.43,
-          "high": 499.08,
-          "market": 65.36,
+          "low": 42.53,
+          "mid": 49.97,
+          "high": 499.0,
+          "market": 64.98,
           "directLow": 299.98
         }
       }
@@ -640,17 +640,17 @@
       "variantes": {
         "1st Edition": {
           "low": 10.01,
-          "mid": 16.13,
+          "mid": 16.25,
           "high": 152.02,
-          "market": 16.42,
+          "market": 16.39,
           "directLow": null
         },
         "Unlimited": {
-          "low": 3.99,
-          "mid": 7.55,
+          "low": 4.0,
+          "mid": 7.5,
           "high": 127.79,
           "market": 10.03,
-          "directLow": 6.78
+          "directLow": 6.74
         }
       }
     },
@@ -661,14 +661,14 @@
       "variantes": {
         "1st Edition": {
           "low": 2.5,
-          "mid": 6.62,
+          "mid": 6.49,
           "high": 96.88,
           "market": 7.24,
           "directLow": 14.99
         },
         "Unlimited": {
           "low": 0.75,
-          "mid": 2.24,
+          "mid": 2.25,
           "high": 96.95,
           "market": 2.96,
           "directLow": 2.24
@@ -689,9 +689,9 @@
         },
         "Unlimited Holofoil": {
           "low": 25.99,
-          "mid": 38.94,
+          "mid": 37.69,
           "high": 150.93,
-          "market": 48.05,
+          "market": 48.21,
           "directLow": 147.97
         }
       }
@@ -703,9 +703,9 @@
       "variantes": {
         "1st Edition": {
           "low": 8.24,
-          "mid": 11.26,
+          "mid": 11.51,
           "high": 154.07,
-          "market": 14.9,
+          "market": 14.8,
           "directLow": null
         },
         "Unlimited": {
@@ -723,15 +723,15 @@
       "numeroNormalizado": "41",
       "variantes": {
         "1st Edition": {
-          "low": 2.5,
+          "low": 1.58,
           "mid": 4.99,
           "high": 93.91,
-          "market": 5.15,
-          "directLow": 3.53
+          "market": 5.19,
+          "directLow": 2.99
         },
         "Unlimited": {
           "low": 0.68,
-          "mid": 1.34,
+          "mid": 1.43,
           "high": 16.07,
           "market": 1.95,
           "directLow": null
@@ -745,16 +745,16 @@
       "variantes": {
         "1st Edition": {
           "low": 2.0,
-          "mid": 4.23,
+          "mid": 4.37,
           "high": 95.91,
           "market": 4.9,
           "directLow": 7.47
         },
         "Unlimited": {
           "low": 0.59,
-          "mid": 1.82,
-          "high": 21.88,
-          "market": 1.96,
+          "mid": 1.8,
+          "high": 21.86,
+          "market": 2.01,
           "directLow": 2.49
         }
       }
@@ -766,17 +766,17 @@
       "variantes": {
         "1st Edition": {
           "low": 1.99,
-          "mid": 5.35,
+          "mid": 5.47,
           "high": 94.38,
           "market": 6.69,
-          "directLow": 4.17
+          "directLow": 3.69
         },
         "Unlimited": {
           "low": 0.9,
-          "mid": 1.99,
+          "mid": 1.93,
           "high": 96.88,
           "market": 1.65,
-          "directLow": 2.47
+          "directLow": 2.46
         }
       }
     },
@@ -808,7 +808,7 @@
       "variantes": {
         "1st Edition": {
           "low": 3.32,
-          "mid": 6.99,
+          "mid": 6.75,
           "high": 96.62,
           "market": 8.22,
           "directLow": null
@@ -829,7 +829,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.74,
-          "mid": 1.9,
+          "mid": 1.93,
           "high": 19.99,
           "market": 1.9,
           "directLow": null
@@ -850,16 +850,16 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 84.66,
-          "mid": 112.98,
+          "mid": 113.48,
           "high": 1279.18,
           "market": 106.42,
           "directLow": 799.56
         },
         "Unlimited Holofoil": {
-          "low": 40.0,
+          "low": 39.99,
           "mid": 59.99,
           "high": 299.99,
-          "market": 52.12,
+          "market": 52.5,
           "directLow": 149.18
         }
       }
@@ -878,10 +878,10 @@
         },
         "Unlimited": {
           "low": 5.99,
-          "mid": 10.15,
-          "high": 100.0,
+          "mid": 10.08,
+          "high": 103.74,
           "market": 13.56,
-          "directLow": 61.82
+          "directLow": 9.99
         }
       }
     },
@@ -902,7 +902,7 @@
           "mid": 6.0,
           "high": 96.88,
           "market": 7.32,
-          "directLow": 4.92
+          "directLow": 4.94
         }
       }
     },
@@ -913,17 +913,17 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 48.95,
-          "mid": 99.25,
-          "high": 753.08,
+          "mid": 98.5,
+          "high": 753.0,
           "market": 71.1,
           "directLow": 73.97
         },
         "Unlimited Holofoil": {
           "low": 29.18,
-          "mid": 40.0,
+          "mid": 39.69,
           "high": 500.0,
-          "market": 40.92,
-          "directLow": 96.8
+          "market": 40.98,
+          "directLow": 39.69
         }
       }
     },
@@ -941,10 +941,10 @@
         },
         "Unlimited": {
           "low": 4.33,
-          "mid": 7.38,
+          "mid": 7.35,
           "high": 96.94,
           "market": 8.19,
-          "directLow": 6.91
+          "directLow": 6.88
         }
       }
     },
@@ -955,8 +955,8 @@
       "variantes": {
         "1st Edition": {
           "low": 7.0,
-          "mid": 13.96,
-          "high": 110.64,
+          "mid": 13.99,
+          "high": 102.03,
           "market": 14.03,
           "directLow": null
         },
@@ -964,7 +964,7 @@
           "low": 1.0,
           "mid": 2.99,
           "high": 150.0,
-          "market": 3.55,
+          "market": 3.56,
           "directLow": null
         }
       }
@@ -976,15 +976,15 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 23.5,
-          "mid": 43.28,
+          "mid": 42.77,
           "high": 433.54,
           "market": 42.45,
-          "directLow": 36.21
+          "directLow": 36.1
         },
         "Unlimited Holofoil": {
           "low": 4.55,
-          "mid": 9.9,
-          "high": 225.39,
+          "mid": 9.75,
+          "high": 225.31,
           "market": 11.77,
           "directLow": 8.13
         }
@@ -997,7 +997,7 @@
       "variantes": {
         "1st Edition": {
           "low": 4.75,
-          "mid": 10.34,
+          "mid": 10.43,
           "high": 249.99,
           "market": 10.4,
           "directLow": null
@@ -1019,16 +1019,16 @@
         "1st Edition": {
           "low": 0.74,
           "mid": 2.0,
-          "high": 19.63,
+          "high": 18.11,
           "market": 2.22,
           "directLow": 4.44
         },
         "Unlimited": {
           "low": 0.35,
-          "mid": 0.99,
-          "high": 2.99,
+          "mid": 0.98,
+          "high": 6.75,
           "market": 1.4,
-          "directLow": 1.4
+          "directLow": 0.65
         }
       }
     },
@@ -1060,17 +1060,17 @@
       "variantes": {
         "1st Edition": {
           "low": 1.25,
-          "mid": 4.11,
+          "mid": 4.15,
           "high": 96.95,
-          "market": 4.46,
+          "market": 4.42,
           "directLow": 5.01
         },
         "Unlimited": {
           "low": 0.32,
-          "mid": 1.1,
+          "mid": 1.08,
           "high": 14.0,
-          "market": 1.7,
-          "directLow": 2.04
+          "market": 1.74,
+          "directLow": 2.06
         }
       }
     },
@@ -1091,7 +1091,7 @@
           "mid": 0.55,
           "high": 15.4,
           "market": 0.71,
-          "directLow": 0.41
+          "directLow": 0.7
         }
       }
     },
@@ -1102,7 +1102,7 @@
       "variantes": {
         "1st Edition": {
           "low": 5.03,
-          "mid": 8.51,
+          "mid": 8.66,
           "high": 174.43,
           "market": 8.99,
           "directLow": 174.43
@@ -1122,10 +1122,10 @@
       "numeroNormalizado": "56",
       "variantes": {
         "1st Edition": {
-          "low": 0.68,
-          "mid": 1.65,
+          "low": 0.66,
+          "mid": 1.69,
           "high": 19.99,
-          "market": 1.8,
+          "market": 1.79,
           "directLow": null
         },
         "Unlimited": {
@@ -1144,14 +1144,14 @@
       "variantes": {
         "1st Edition": {
           "low": 0.49,
-          "mid": 1.25,
+          "mid": 1.42,
           "high": 95.02,
           "market": 1.87,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.15,
-          "mid": 0.6,
+          "mid": 0.58,
           "high": 17.62,
           "market": 1.1,
           "directLow": 1.77
@@ -1165,7 +1165,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.25,
-          "mid": 0.97,
+          "mid": 0.98,
           "high": 20.25,
           "market": 0.94,
           "directLow": null
@@ -1174,7 +1174,7 @@
           "low": 0.18,
           "mid": 0.45,
           "high": 5.99,
-          "market": 0.5,
+          "market": 0.48,
           "directLow": null
         }
       }
@@ -1187,16 +1187,16 @@
         "1st Edition": {
           "low": 0.5,
           "mid": 2.25,
-          "high": 17.84,
+          "high": 16.45,
           "market": 2.38,
           "directLow": 1.74
         },
         "Unlimited": {
           "low": 0.15,
-          "mid": 0.74,
+          "mid": 0.72,
           "high": 15.5,
           "market": 1.13,
-          "directLow": 0.7
+          "directLow": 0.48
         }
       }
     },
@@ -1214,7 +1214,7 @@
         },
         "Unlimited Holofoil": {
           "low": 21.84,
-          "mid": 26.63,
+          "mid": 26.65,
           "high": 9999.0,
           "market": 27.43,
           "directLow": 199.74
@@ -1234,8 +1234,8 @@
           "directLow": null
         },
         "Unlimited": {
-          "low": 4.54,
-          "mid": 9.22,
+          "low": 4.55,
+          "mid": 9.15,
           "high": 99.58,
           "market": 9.15,
           "directLow": null
@@ -1249,16 +1249,16 @@
       "variantes": {
         "1st Edition": {
           "low": 5.99,
-          "mid": 14.5,
+          "mid": 14.99,
           "high": 94.65,
-          "market": 16.39,
+          "market": 16.25,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.75,
-          "mid": 2.47,
+          "mid": 2.36,
           "high": 79.36,
-          "market": 3.13,
+          "market": 3.39,
           "directLow": 9.99
         }
       }
@@ -1300,8 +1300,8 @@
           "low": 0.15,
           "mid": 0.7,
           "high": 5.0,
-          "market": 1.04,
-          "directLow": 0.47
+          "market": 1.05,
+          "directLow": 1.77
         }
       }
     },
@@ -1312,14 +1312,14 @@
       "variantes": {
         "1st Edition": {
           "low": 4.0,
-          "mid": 7.47,
+          "mid": 8.0,
           "high": 9999.0,
           "market": 9.76,
-          "directLow": 88.2
+          "directLow": 19.99
         },
         "Unlimited": {
           "low": 1.0,
-          "mid": 2.65,
+          "mid": 2.7,
           "high": 79.73,
           "market": 3.01,
           "directLow": 79.73
@@ -1356,14 +1356,14 @@
           "low": 0.49,
           "mid": 2.19,
           "high": 19.99,
-          "market": 2.14,
+          "market": 2.18,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.15,
-          "mid": 0.55,
+          "mid": 0.54,
           "high": 15.39,
-          "market": 0.6,
+          "market": 0.61,
           "directLow": null
         }
       }
@@ -1375,14 +1375,14 @@
       "variantes": {
         "1st Edition": {
           "low": 1.96,
-          "mid": 4.0,
+          "mid": 4.05,
           "high": 40.0,
           "market": 3.88,
           "directLow": 4.98
         },
         "Unlimited": {
-          "low": 0.3,
-          "mid": 0.99,
+          "low": 0.25,
+          "mid": 1.0,
           "high": 9999.0,
           "market": 1.51,
           "directLow": 2.25
@@ -1403,7 +1403,7 @@
         },
         "Unlimited": {
           "low": 0.6,
-          "mid": 1.73,
+          "mid": 1.74,
           "high": 96.95,
           "market": 1.83,
           "directLow": 1.71
@@ -1417,16 +1417,16 @@
       "variantes": {
         "1st Edition": {
           "low": 1.25,
-          "mid": 3.0,
+          "mid": 2.99,
           "high": 75.0,
           "market": 2.99,
-          "directLow": 2.67
+          "directLow": null
         },
         "Unlimited": {
           "low": 0.19,
           "mid": 0.6,
           "high": 50.0,
-          "market": 0.72,
+          "market": 0.71,
           "directLow": null
         }
       }
@@ -1438,16 +1438,16 @@
       "variantes": {
         "1st Edition": {
           "low": 0.99,
-          "mid": 2.03,
+          "mid": 2.08,
           "high": 40.0,
           "market": 2.07,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.1,
-          "mid": 0.69,
+          "mid": 0.66,
           "high": 90.0,
-          "market": 0.86,
+          "market": 0.88,
           "directLow": null
         }
       }
@@ -1458,17 +1458,17 @@
       "numeroNormalizado": "48",
       "variantes": {
         "1st Edition": {
-          "low": 1.85,
+          "low": 1.68,
           "mid": 5.05,
           "high": 95.0,
-          "market": 5.12,
+          "market": 5.03,
           "directLow": null
         },
         "Unlimited": {
           "low": 0.7,
-          "mid": 2.02,
+          "mid": 2.04,
           "high": 96.95,
-          "market": 3.03,
+          "market": 3.09,
           "directLow": 2.91
         }
       }
@@ -1480,7 +1480,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.58,
-          "mid": 2.0,
+          "mid": 2.08,
           "high": 94.66,
           "market": 2.84,
           "directLow": 7.99
@@ -1501,14 +1501,14 @@
       "variantes": {
         "1st Edition": {
           "low": 4.21,
-          "mid": 7.97,
+          "mid": 7.57,
           "high": 80.5,
-          "market": 6.81,
-          "directLow": 52.68
+          "market": 7.03,
+          "directLow": 52.65
         },
         "Unlimited": {
           "low": 0.5,
-          "mid": 1.48,
+          "mid": 1.41,
           "high": 17.12,
           "market": 2.11,
           "directLow": null
@@ -1528,9 +1528,9 @@
           "directLow": null
         },
         "Unlimited Holofoil": {
-          "low": 17.03,
-          "mid": 20.95,
-          "high": 244.61,
+          "low": 16.86,
+          "mid": 22.0,
+          "high": 244.53,
           "market": 28.95,
           "directLow": 198.97
         }
@@ -1543,15 +1543,15 @@
       "variantes": {
         "1st Edition": {
           "low": 6.25,
-          "mid": 9.44,
+          "mid": 8.87,
           "high": 9999.0,
-          "market": 11.95,
+          "market": 11.99,
           "directLow": null
         },
         "Unlimited": {
           "low": 4.48,
-          "mid": 7.19,
-          "high": 18.74,
+          "mid": 7.0,
+          "high": 19.0,
           "market": 9.37,
           "directLow": 10.21
         }
@@ -1564,7 +1564,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.5,
-          "mid": 1.83,
+          "mid": 1.94,
           "high": 19.99,
           "market": 1.94,
           "directLow": null
@@ -1585,14 +1585,14 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 28.89,
-          "mid": 42.54,
+          "mid": 43.13,
           "high": 444.48,
           "market": 43.11,
           "directLow": null
         },
         "Unlimited Holofoil": {
           "low": 16.64,
-          "mid": 20.12,
+          "mid": 20.0,
           "high": 219.48,
           "market": 23.18,
           "directLow": null
@@ -1606,14 +1606,14 @@
       "variantes": {
         "1st Edition": {
           "low": 7.19,
-          "mid": 11.0,
+          "mid": 12.17,
           "high": 193.99,
           "market": 12.15,
           "directLow": 9.47
         },
         "Unlimited": {
           "low": 6.0,
-          "mid": 8.27,
+          "mid": 8.29,
           "high": 96.95,
           "market": 9.65,
           "directLow": 7.47
@@ -1627,16 +1627,16 @@
       "variantes": {
         "1st Edition": {
           "low": 0.74,
-          "mid": 7.2,
-          "high": 108.17,
+          "mid": 7.6,
+          "high": 99.75,
           "market": 9.58,
           "directLow": 9.99
         },
         "Unlimited": {
           "low": 0.25,
-          "mid": 0.69,
+          "mid": 0.68,
           "high": 19.66,
-          "market": 0.68,
+          "market": 0.7,
           "directLow": null
         }
       }
@@ -1649,16 +1649,16 @@
         "1st Edition": {
           "low": 1.0,
           "mid": 4.99,
-          "high": 42.05,
+          "high": 38.78,
           "market": 5.22,
-          "directLow": 7.54
+          "directLow": 8.19
         },
         "Unlimited": {
           "low": 0.45,
-          "mid": 1.15,
+          "mid": 1.18,
           "high": 96.94,
-          "market": 2.18,
-          "directLow": 9.99
+          "market": 2.13,
+          "directLow": 2.81
         }
       }
     },
@@ -1669,16 +1669,16 @@
       "variantes": {
         "1st Edition": {
           "low": 5.0,
-          "mid": 11.65,
+          "mid": 11.7,
           "high": 111.99,
-          "market": 11.76,
+          "market": 11.79,
           "directLow": 8.88
         },
         "Unlimited": {
           "low": 0.95,
           "mid": 3.0,
           "high": 150.0,
-          "market": 3.37,
+          "market": 3.41,
           "directLow": null
         }
       }
@@ -1690,7 +1690,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.5,
-          "mid": 1.98,
+          "mid": 2.0,
           "high": 96.95,
           "market": 2.41,
           "directLow": 4.25
@@ -1711,7 +1711,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.39,
-          "mid": 1.73,
+          "mid": 1.74,
           "high": 19.99,
           "market": 1.73,
           "directLow": null
@@ -1732,7 +1732,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.75,
-          "mid": 2.08,
+          "mid": 2.09,
           "high": 19.99,
           "market": 2.31,
           "directLow": 2.22
