@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "tk-xy-w",
   "tcgplayerGroupId": 1533,
-  "actualizado": "2026-11-06T01:45:30Z",
+  "actualizado": "2026-11-07T01:05:35Z",
   "cartas": [
     {
       "productId": 98147,
@@ -72,7 +72,7 @@
           "low": 0.41,
           "mid": 1.12,
           "high": 26.38,
-          "market": 0.4,
+          "market": 0.39,
           "directLow": null
         }
       },
@@ -189,7 +189,7 @@
       "numeroNormalizado": "20",
       "variantes": {
         "Normal": {
-          "low": 0.99,
+          "low": 0.94,
           "mid": 1.75,
           "high": 37.58,
           "market": 0.98,
@@ -205,7 +205,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.68,
+          "mid": 2.95,
           "high": 19.66,
           "market": 0.65,
           "directLow": null
@@ -220,7 +220,7 @@
       "variantes": {
         "Normal": {
           "low": 0.5,
-          "mid": 15.0,
+          "mid": 9.5,
           "high": 79.48,
           "market": 0.2,
           "directLow": null
@@ -310,7 +310,7 @@
       "variantes": {
         "Holofoil": {
           "low": 0.4,
-          "mid": 0.85,
+          "mid": 1.26,
           "high": 19.66,
           "market": 1.39,
           "directLow": null
@@ -347,6 +347,21 @@
         }
       },
       "nombreProducto": "Pidgeotto (#2)"
+    },
+    {
+      "productId": 98179,
+      "numero": "3/30",
+      "numeroNormalizado": "3",
+      "variantes": {
+        "Normal": {
+          "low": 1.4,
+          "mid": 1.4,
+          "high": 1.4,
+          "market": 1.4,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Fairy Energy (#3)"
     },
     {
       "productId": 98186,
@@ -387,7 +402,7 @@
           "low": 1.5,
           "mid": 1.98,
           "high": 29.18,
-          "market": 2.2,
+          "market": 1.82,
           "directLow": null
         }
       },
@@ -474,8 +489,8 @@
       "numeroNormalizado": "20",
       "variantes": {
         "Normal": {
-          "low": 0.56,
-          "mid": 0.8,
+          "low": 0.6,
+          "mid": 0.89,
           "high": 19.66,
           "market": 0.79,
           "directLow": null
@@ -630,6 +645,22 @@
           "mid": 4.5,
           "high": 4.5,
           "market": 5.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98182,
+      "numero": "7",
+      "numeroNormalizado": "7",
+      "nombreProducto": "Fairy Energy (#7)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.25,
+          "mid": 0.25,
+          "high": 0.25,
+          "market": 2.5,
           "directLow": null
         }
       }
