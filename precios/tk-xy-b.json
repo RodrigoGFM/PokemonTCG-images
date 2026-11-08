@@ -83,6 +83,22 @@
       }
     },
     {
+      "productId": 98161,
+      "numero": "12",
+      "numeroNormalizado": "12",
+      "nombreProducto": "Bidoof",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 3.24,
+          "mid": 3.24,
+          "high": 3.24,
+          "market": 7.39,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 98147,
       "numero": "1",
       "numeroNormalizado": "1",
@@ -110,22 +126,6 @@
           "mid": 19.66,
           "high": 20.97,
           "market": 0.55,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 98161,
-      "numero": "12",
-      "numeroNormalizado": "12",
-      "nombreProducto": "Bidoof",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 3.24,
-          "mid": 3.24,
-          "high": 3.24,
-          "market": 7.39,
           "directLow": null
         }
       }
@@ -251,7 +251,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.95,
+          "mid": 2.67,
           "high": 19.66,
           "market": 0.65,
           "directLow": null
@@ -363,7 +363,7 @@
       "variantes": {
         "Holofoil": {
           "low": 0.4,
-          "mid": 1.26,
+          "mid": 1.1,
           "high": 19.66,
           "market": 1.39,
           "directLow": null
@@ -451,5 +451,5 @@
       }
     }
   ],
-  "actualizado": "2026-11-07T01:05:35Z"
+  "actualizado": "2026-11-08T00:53:06Z"
 }

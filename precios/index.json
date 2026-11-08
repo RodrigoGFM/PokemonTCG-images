@@ -1,7 +1,7 @@
 {
-  "actualizado": "2026-11-07T01:06:13Z",
-  "setsCubiertos": 190,
-  "cartasConPrecio": 23610,
+  "actualizado": "2026-11-08T00:53:37Z",
+  "setsCubiertos": 191,
+  "cartasConPrecio": 23750,
   "sets": [
     {
       "tcgdexSetId": "2011bw",
@@ -608,7 +608,7 @@
       "tcgdexNombre": "Jumbo cards",
       "tcgplayerGroupId": 1528,
       "tcgplayerNombre": "Jumbo Cards",
-      "cartas": 279,
+      "cartas": 280,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -665,6 +665,14 @@
       "tcgplayerGroupId": 24688,
       "tcgplayerNombre": "ME05: Pitch Black",
       "cartas": 120,
+      "puntajeEmparejamiento": 1.0
+    },
+    {
+      "tcgdexSetId": "me06",
+      "tcgdexNombre": "Delta Reign",
+      "tcgplayerGroupId": 24831,
+      "tcgplayerNombre": "ME06: Delta Reign",
+      "cartas": 141,
       "puntajeEmparejamiento": 1.0
     },
     {
@@ -1348,8 +1356,8 @@
       "puntajeEmparejamiento": 0.846
     },
     {
-      "tcgdexSetId": "tk-ex-latia",
-      "tcgdexNombre": "EX trainer Kit (Latias)",
+      "tcgdexSetId": "tk-ex-latio",
+      "tcgdexNombre": "EX trainer Kit (Latios)",
       "tcgplayerGroupId": 1543,
       "tcgplayerNombre": "EX Trainer Kit 1: Latias & Latios",
       "cartas": 20,
@@ -1380,8 +1388,8 @@
       "puntajeEmparejamiento": 0.862
     },
     {
-      "tcgdexSetId": "tk-xy-latia",
-      "tcgdexNombre": "XY trainer Kit (Latias)",
+      "tcgdexSetId": "tk-xy-latio",
+      "tcgdexNombre": "XY trainer Kit (Latios)",
       "tcgplayerGroupId": 1536,
       "tcgplayerNombre": "XY Trainer Kit: Latias & Latios",
       "cartas": 60,
@@ -1408,7 +1416,7 @@
       "tcgdexNombre": "XY trainer Kit (Wigglytuff)",
       "tcgplayerGroupId": 1533,
       "tcgplayerNombre": "XY Trainer Kit: Bisharp & Wigglytuff",
-      "cartas": 47,
+      "cartas": 45,
       "puntajeEmparejamiento": 0.862
     },
     {
@@ -1592,8 +1600,8 @@
       "nombre": "DP trainer Kit (Manaphy)"
     },
     {
-      "id": "tk-ex-latio",
-      "nombre": "EX trainer Kit (Latios)"
+      "id": "tk-ex-latia",
+      "nombre": "EX trainer Kit (Latias)"
     },
     {
       "id": "tk-ex-m",
@@ -1612,8 +1620,8 @@
       "nombre": "XY trainer Kit (Bisharp)"
     },
     {
-      "id": "tk-xy-latio",
-      "nombre": "XY trainer Kit (Latios)"
+      "id": "tk-xy-latia",
+      "nombre": "XY trainer Kit (Latias)"
     },
     {
       "id": "tk-xy-n",
@@ -1650,10 +1658,6 @@
       "nombre": "e-Reader Sample Cards"
     },
     {
-      "groupId": 24831,
-      "nombre": "ME06: Delta Reign"
-    },
-    {
       "groupId": 24864,
       "nombre": "Southeast Asia Exclusives"
     },
@@ -1682,6 +1686,6 @@
       "cartas": 102
     }
   ],
-  "cartasManuales": 340,
+  "cartasManuales": 338,
   "cartasPrizePack": 847
 }
