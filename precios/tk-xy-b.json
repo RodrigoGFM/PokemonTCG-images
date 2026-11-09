@@ -83,17 +83,17 @@
       }
     },
     {
-      "productId": 98161,
-      "numero": "12",
-      "numeroNormalizado": "12",
-      "nombreProducto": "Bidoof",
+      "productId": 98153,
+      "numero": "8",
+      "numeroNormalizado": "8",
+      "nombreProducto": "Metal Energy (#8)",
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 3.24,
-          "mid": 3.24,
-          "high": 3.24,
-          "market": 7.39,
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": null,
           "directLow": null
         }
       }
@@ -126,6 +126,22 @@
           "mid": 19.66,
           "high": 20.97,
           "market": 0.55,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 98161,
+      "numero": "12",
+      "numeroNormalizado": "12",
+      "nombreProducto": "Bidoof",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 15.68,
+          "mid": 15.68,
+          "high": 15.68,
+          "market": 7.39,
           "directLow": null
         }
       }
@@ -251,7 +267,7 @@
       "variantes": {
         "Normal": {
           "low": 2.25,
-          "mid": 2.67,
+          "mid": 2.68,
           "high": 19.66,
           "market": 0.65,
           "directLow": null
@@ -363,7 +379,7 @@
       "variantes": {
         "Holofoil": {
           "low": 0.4,
-          "mid": 1.1,
+          "mid": 1.26,
           "high": 19.66,
           "market": 1.39,
           "directLow": null
@@ -419,22 +435,6 @@
       }
     },
     {
-      "productId": 98153,
-      "numero": "8",
-      "numeroNormalizado": "8",
-      "nombreProducto": "Metal Energy (#8)",
-      "manual": true,
-      "variantes": {
-        "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
-          "high": 1.0,
-          "market": null,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 98154,
       "numero": "9",
       "numeroNormalizado": "9",
@@ -451,5 +451,5 @@
       }
     }
   ],
-  "actualizado": "2026-11-08T00:53:06Z"
+  "actualizado": "2026-11-09T01:09:55Z"
 }
