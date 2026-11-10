@@ -1014,7 +1014,9 @@ def main():
     sets_japoneses = []
     if japoneses:
         print(f"Descargando precios de {len(japoneses)} sets japoneses...")
-        sets_japoneses = procesar_sets_japoneses(japoneses, set(mapeo) | set(catalogo_tcgcsv), hoy)
+        # (Las cartas emparejadas a mano también crean archivos en la raíz: "xya" solo existe por ellas.)
+        sets_manuales = {card_id.rsplit("-", 1)[0] for card_id in cargar_mapeo_existente().get("cartas_manual", {})}
+        sets_japoneses = procesar_sets_japoneses(japoneses, set(mapeo) | set(catalogo_tcgcsv) | sets_manuales, hoy)
         total_cartas_con_precio += sum(s["cartas"] for s in sets_japoneses)
         print(f"  {len(sets_japoneses)} sets escritos.")
 
