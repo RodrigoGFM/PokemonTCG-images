@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "xy9",
   "tcgplayerGroupId": 1701,
-  "actualizado": "2026-11-09T01:09:52Z",
+  "actualizado": "2026-11-10T08:05:29Z",
   "cartas": [
     {
       "productId": 111504,
@@ -2401,6 +2401,61 @@
           "high": 299.99,
           "market": 62.43,
           "directLow": 199.76
+        }
+      }
+    },
+    {
+      "productId": 133814,
+      "numero": "107a",
+      "numeroNormalizado": "107a",
+      "nombreProducto": "Professor Sycamore - 107a/122 (Non-Holo)",
+      "manual": true,
+      "variantes": {
+        "Normal": {
+          "low": 0.5,
+          "mid": 0.87,
+          "high": 22.73,
+          "market": 0.75,
+          "directLow": 0.96
+        }
+      }
+    },
+    {
+      "productId": 177167,
+      "numero": "98a",
+      "numeroNormalizado": "98a",
+      "nombreProducto": "Delinquent - 98a/122",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 13.0,
+          "mid": 48.0,
+          "high": 126.54,
+          "market": 1.47,
+          "directLow": 126.54
+        },
+        "Normal": {
+          "low": 13.19,
+          "mid": 17.74,
+          "high": 193.46,
+          "market": 14.72,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 148341,
+      "numero": "98b",
+      "numeroNormalizado": "98b",
+      "nombreProducto": "Delinquent - 98b/122 (Full Art)",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 38.15,
+          "mid": 52.35,
+          "high": 726.71,
+          "market": 54.3,
+          "directLow": 74.99
         }
       }
     }

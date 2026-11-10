@@ -67,6 +67,10 @@ TCGDEX_BASES = [
     "https://api.tcgdex.net/v2/en",
 ]
 CATEGORIA_POKEMON_NOMBRE = "pokemon"  # se busca por nombre, no se asume el ID fijo
+# Categoría "Pokemon Japan" de TCGplayer: las cartas en japonés, con sus propios grupos y productos
+# (ver mapeo-sets.json -> "japoneses" y procesar_sets_japoneses).
+CATEGORIA_POKEMON_JAPON = 85
+DIR_JAPONESES = "ja"
 PAUSA_ENTRE_PEDIDOS = 0.3  # segundos, más conservador que el mínimo sugerido por tcgcsv.com
 
 # Cabecera propia: tcgcsv.com bloquea User-Agents genéricos.
@@ -310,10 +314,11 @@ def cargar_mapeo_existente():
             datos.setdefault("ignorar_tcgdex_ids", [])
             datos.setdefault("gruposAdicionales", {})
             datos.setdefault("cartas_manual", {})
+            datos.setdefault("japoneses", {})
             return datos
     return {
         "manual": {}, "ignorar_group_ids": [], "automatico": {}, "catalogo_tcgcsv": {},
-        "ignorar_tcgdex_ids": [], "gruposAdicionales": {}, "cartas_manual": {},
+        "ignorar_tcgdex_ids": [], "gruposAdicionales": {}, "cartas_manual": {}, "japoneses": {},
     }
 
 
@@ -448,8 +453,9 @@ def actualizar_historial_de_set(set_id, entradas, hoy):
     if not cambio:
         return
 
-    os.makedirs(DIR_PRECIOS_HISTORIAL, exist_ok=True)
-    with open(os.path.join(DIR_PRECIOS_HISTORIAL, f"{set_id}.json"), "w", encoding="utf-8") as f:
+    ruta = os.path.join(DIR_PRECIOS_HISTORIAL, f"{set_id}.json")
+    os.makedirs(os.path.dirname(ruta), exist_ok=True)
+    with open(ruta, "w", encoding="utf-8") as f:
         json.dump(historial, f, ensure_ascii=False, indent=2, sort_keys=True)
         f.write("\n")
 
@@ -460,19 +466,19 @@ def actualizar_historial_de_set(set_id, entradas, hoy):
 SUFIJO_NOMBRE_POR_GRUPO = {1663: "Shadowless"}
 
 
-def obtener_precios_grupo(gid):
+def obtener_precios_grupo(gid, categoria=3):
     if gid not in _cache_precios_grupo:
-        _cache_precios_grupo[gid] = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/prices").get("results", [])
+        _cache_precios_grupo[gid] = pedir_json(f"{TCGCSV_BASE}/tcgplayer/{categoria}/{gid}/prices").get("results", [])
     return _cache_precios_grupo[gid]
 
 
-def obtener_productos_grupo(gid):
+def obtener_productos_grupo(gid, categoria=3):
     if gid not in _cache_productos_grupo:
-        _cache_productos_grupo[gid] = pedir_json(f"{TCGCSV_BASE}/tcgplayer/3/{gid}/products").get("results", [])
+        _cache_productos_grupo[gid] = pedir_json(f"{TCGCSV_BASE}/tcgplayer/{categoria}/{gid}/products").get("results", [])
     return _cache_productos_grupo[gid]
 
 
-def procesar_set(tcgdex_id, group_id, grupos_adicionales=None):
+def procesar_set(tcgdex_id, group_id, grupos_adicionales=None, categoria=3):
     """`grupos_adicionales`: IDs de grupo de tcgcsv EXTRA para fusionar en el mismo archivo de
     salida, ademas de `group_id` -- caso real: TCGplayer separa "Generations" (g1, groupId 1728)
     de su subset "Generations: Radiant Collection" (groupId 1729) en dos grupos DISTINTOS, pero
@@ -482,14 +488,14 @@ def procesar_set(tcgdex_id, group_id, grupos_adicionales=None):
     productos = []
     precios = []
     for gid in grupos:
-        productos_grupo = obtener_productos_grupo(gid)
+        productos_grupo = obtener_productos_grupo(gid, categoria)
         sufijo = SUFIJO_NOMBRE_POR_GRUPO.get(gid)
         if sufijo:
             for prod in productos_grupo:
                 if not str(prod.get("name", "")).endswith(f"({sufijo})"):
                     prod["name"] = f"{prod.get('name')} ({sufijo})"
         productos.extend(productos_grupo)
-        precios.extend(obtener_precios_grupo(gid))
+        precios.extend(obtener_precios_grupo(gid, categoria))
 
     precios_por_producto = {}
     for p in precios:
@@ -512,7 +518,8 @@ def procesar_set(tcgdex_id, group_id, grupos_adicionales=None):
     # encontró NINGÚN número en absoluto — nunca para un set que numera bien pero le falta en 1 o
     # 2 productos sueltos (esos siguen descartándose como "no es una carta individual", como
     # siempre) — para no arriesgar falsos positivos en los ~200 sets que ya funcionan bien.
-    if productos and not numero_por_producto:
+    # (Solo en inglés: cruzar_por_nombre compara contra los nombres en inglés de TCGdex.)
+    if productos and not numero_por_producto and categoria == 3:
         numero_por_producto = cruzar_por_nombre(productos, tcgdex_id)
 
     # Cuántos productos comparten el mismo número normalizado dentro de este set — en sets viejos
@@ -638,6 +645,43 @@ def procesar_set_catalogo_completo(set_id, group_id, nombre_set):
 # reimpresiones con sello de cartas de muchos sets. Está en "ignorar_group_ids" de mapeo-sets.json
 # para que el emparejamiento de sets no lo tome por un set.
 GRUPO_PRIZE_PACK = 22880
+
+
+def ruta_relativa_set_japones(set_id, ids_en_raiz):
+    """Dónde va el archivo de un set japonés dentro de precios/ (y de precios_historial/), sin la
+    extensión. Los ids de TCGdex en japonés van en mayúsculas ("SV2a", "SM10") y la app pide
+    precios/<id>.json tal cual, así que el archivo va en la raíz con ese nombre. Pero ocho de
+    ellos solo se distinguen de un set en inglés por las mayúsculas ("SM10" y "sm10", "SV10" y
+    "sv10"): dos archivos así no pueden convivir en una carpeta de Windows o macOS, así que esos
+    van en precios/ja/, donde la app los busca cuando no encuentra el de la raíz."""
+    if set_id.lower() in ids_en_raiz:
+        return f"{DIR_JAPONESES}/{set_id}"
+    return set_id
+
+
+def procesar_sets_japoneses(japoneses, ids_en_raiz, hoy):
+    """Precios de los sets en japonés (mapeo-sets.json -> "japoneses": {"<tcgdexSetId>": groupId},
+    con el grupo de la categoría "Pokemon Japan" de TCGplayer). TCGplayer los numera igual que
+    TCGdex ("001/165"), así que se arman con el mismo procesar_set que los sets en inglés. Las
+    versiones con patrón de un mismo número (Poke Ball, Master Ball) son productos aparte y
+    quedan con su nombreProducto. Devuelve el resumen de cada set escrito."""
+    resumen = []
+    ids_en_raiz = {i.lower() for i in ids_en_raiz}
+    for set_id, group_id in sorted(japoneses.items()):
+        try:
+            salida = procesar_set(set_id, group_id, categoria=CATEGORIA_POKEMON_JAPON)
+        except Exception as e:  # noqa: BLE001
+            print(f"  ERROR en {set_id} (group {group_id}): {e}")
+            continue
+        relativa = ruta_relativa_set_japones(set_id, ids_en_raiz)
+        ruta = os.path.join(DIR_PRECIOS, f"{relativa}.json")
+        os.makedirs(os.path.dirname(ruta), exist_ok=True)
+        with open(ruta, "w", encoding="utf-8") as f:
+            json.dump(salida, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        actualizar_historial_de_set(relativa, salida["cartas"], hoy)
+        resumen.append({"tcgdexSetId": set_id, "tcgplayerGroupId": group_id, "cartas": len(salida["cartas"])})
+    return resumen
 
 
 def nombre_base_prize_pack(nombre):
@@ -965,6 +1009,15 @@ def main():
             "cartas": len(salida["cartas"]),
         })
 
+    # Sets en japonés (mapeo-sets.json -> "japoneses") — ver procesar_sets_japoneses.
+    japoneses = cargar_mapeo_existente().get("japoneses", {})
+    sets_japoneses = []
+    if japoneses:
+        print(f"Descargando precios de {len(japoneses)} sets japoneses...")
+        sets_japoneses = procesar_sets_japoneses(japoneses, set(mapeo) | set(catalogo_tcgcsv), hoy)
+        total_cartas_con_precio += sum(s["cartas"] for s in sets_japoneses)
+        print(f"  {len(sets_japoneses)} sets escritos.")
+
     # Cartas sueltas emparejadas a mano (mapeo-sets.json -> "cartas_manual") — ver
     # aplicar_cartas_manuales. Va al final para pisar lo que procesar_set haya escrito.
     cartas_manual = cargar_mapeo_existente().get("cartas_manual", {})
@@ -1015,6 +1068,8 @@ def main():
         # precios/<id>.json) — la app los tiene que tratar distinto: no hay set de TCGdex al que
         # pegarles precios, HAY que mostrar la carta entera (nombre, imagen, etc.) desde ese JSON.
         "catalogosCompletosTcgcsv": catalogos_completos,
+        # Sets en japonés, con precios de la categoría "Pokemon Japan" de TCGplayer.
+        "setsJaponeses": sets_japoneses,
         "cartasManuales": cartas_manuales_escritas,
         # Versiones Prize Pack emparejadas con su carta de TCGdex (precios/prize_pack.json).
         "cartasPrizePack": cartas_prize_pack,

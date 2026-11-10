@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "xy4",
   "tcgplayerGroupId": 1494,
-  "actualizado": "2026-11-09T01:09:55Z",
+  "actualizado": "2026-11-10T08:05:29Z",
   "cartas": [
     {
       "productId": 94134,
@@ -2433,11 +2433,27 @@
       "manual": true,
       "variantes": {
         "Holofoil": {
-          "low": 5.0,
-          "mid": 12.76,
-          "high": 195.11,
+          "low": 6.59,
+          "mid": 13.0,
+          "high": 178.06,
           "market": 12.63,
           "directLow": 14.86
+        }
+      }
+    },
+    {
+      "productId": 148340,
+      "numero": "65a",
+      "numeroNormalizado": "65a",
+      "nombreProducto": "Aegislash EX - 65a/119",
+      "manual": true,
+      "variantes": {
+        "Holofoil": {
+          "low": 10.79,
+          "mid": 14.38,
+          "high": 123.48,
+          "market": 13.81,
+          "directLow": null
         }
       }
     }
