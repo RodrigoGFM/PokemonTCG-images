@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "L3",
   "tcgplayerGroupId": 24024,
-  "actualizado": "2026-11-10T03:45:24Z",
+  "actualizado": "2026-11-11T01:25:20Z",
   "cartas": [
     {
       "productId": 608377,
@@ -304,6 +304,21 @@
       "nombreProducto": "Piloswine"
     },
     {
+      "productId": 608397,
+      "numero": "021/080",
+      "numeroNormalizado": "21",
+      "variantes": {
+        "1st Edition Holofoil": {
+          "low": 9.94,
+          "mid": 9.94,
+          "high": 9.94,
+          "market": 12.99,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Mamoswine"
+    },
+    {
       "productId": 608398,
       "numero": "022/080",
       "numeroNormalizado": "22",
@@ -392,8 +407,8 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 35.0,
-          "mid": 55.0,
-          "high": 65.0,
+          "mid": 65.0,
+          "high": 65.99,
           "market": 6.6,
           "directLow": null
         }
@@ -485,6 +500,13 @@
           "mid": 4.0,
           "high": 5.0,
           "market": 3.75,
+          "directLow": null
+        },
+        "Unlimited": {
+          "low": 14.99,
+          "mid": 14.99,
+          "high": 14.99,
+          "market": null,
           "directLow": null
         }
       },
@@ -602,7 +624,7 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 15.99,
-          "mid": 34.78,
+          "mid": 34.77,
           "high": 39.99,
           "market": 15.99,
           "directLow": null
@@ -1282,9 +1304,9 @@
       "numeroNormalizado": "44",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 5.21,
-          "mid": 5.21,
-          "high": 5.21,
+          "low": 5.05,
+          "mid": 5.05,
+          "high": 5.05,
           "market": null,
           "directLow": null
         }

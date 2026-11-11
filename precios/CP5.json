@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "CP5",
   "tcgplayerGroupId": 23981,
-  "actualizado": "2026-11-10T03:45:20Z",
+  "actualizado": "2026-11-11T01:25:16Z",
   "cartas": [
     {
       "productId": 606023,
@@ -13,6 +13,20 @@
           "mid": 65.31,
           "high": 99.99,
           "market": 58.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 606024,
+      "numero": "035/036",
+      "numeroNormalizado": "35",
+      "variantes": {
+        "1st Edition Holofoil": {
+          "low": 15.0,
+          "mid": 15.0,
+          "high": 15.0,
+          "market": 10.85,
           "directLow": null
         }
       }
@@ -123,7 +137,7 @@
         "1st Edition Holofoil": {
           "low": 86.98,
           "mid": 90.0,
-          "high": 117.25,
+          "high": 116.0,
           "market": 127.0,
           "directLow": null
         }
@@ -360,7 +374,7 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 55.0,
-          "mid": 127.5,
+          "mid": 190.0,
           "high": 200.0,
           "market": 100.99,
           "directLow": null
@@ -488,21 +502,7 @@
           "low": 1.0,
           "mid": 1.63,
           "high": 4.89,
-          "market": 1.15,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 606060,
-      "numero": "022/036",
-      "numeroNormalizado": "22",
-      "variantes": {
-        "1st Edition Holofoil": {
-          "low": 7.7,
-          "mid": 7.7,
-          "high": 7.7,
-          "market": 7.99,
+          "market": 1.13,
           "directLow": null
         }
       }
