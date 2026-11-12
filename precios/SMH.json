@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SMH",
   "tcgplayerGroupId": 23888,
-  "actualizado": "2026-11-11T01:26:27Z",
+  "actualizado": "2026-11-12T02:27:11Z",
   "cartas": [
     {
       "productId": 599215,
@@ -438,6 +438,20 @@
       }
     },
     {
+      "productId": 599248,
+      "numero": "033/131",
+      "numeroNormalizado": "33",
+      "variantes": {
+        "Normal": {
+          "low": 2.0,
+          "mid": 2.0,
+          "high": 2.0,
+          "market": 1.0,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 599249,
       "numero": "034/131",
       "numeroNormalizado": "34",
@@ -485,8 +499,8 @@
       "numeroNormalizado": "37",
       "variantes": {
         "Normal": {
-          "low": 2.0,
-          "mid": 2.8,
+          "low": 1.1,
+          "mid": 2.49,
           "high": 3.99,
           "market": 3.1,
           "directLow": null

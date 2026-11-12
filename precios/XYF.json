@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "XYF",
   "tcgplayerGroupId": 23965,
-  "actualizado": "2026-11-11T01:27:15Z",
+  "actualizado": "2026-11-12T02:27:58Z",
   "cartas": [
     {
       "productId": 605360,
@@ -40,6 +40,20 @@
           "low": 1.78,
           "mid": 1.78,
           "high": 1.78,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 605364,
+      "numero": "015/016",
+      "numeroNormalizado": "15",
+      "variantes": {
+        "Normal": {
+          "low": 2.0,
+          "mid": 2.0,
+          "high": 2.0,
           "market": null,
           "directLow": null
         }
@@ -125,6 +139,20 @@
           "mid": 2.0,
           "high": 2.0,
           "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 605374,
+      "numero": "006/016",
+      "numeroNormalizado": "6",
+      "variantes": {
+        "Normal": {
+          "low": 3.0,
+          "mid": 3.0,
+          "high": 3.0,
+          "market": 1.51,
           "directLow": null
         }
       }
