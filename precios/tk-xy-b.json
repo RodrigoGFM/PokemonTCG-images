@@ -83,17 +83,17 @@
       }
     },
     {
-      "productId": 98153,
-      "numero": "8",
-      "numeroNormalizado": "8",
-      "nombreProducto": "Metal Energy (#8)",
+      "productId": 98154,
+      "numero": "9",
+      "numeroNormalizado": "9",
+      "nombreProducto": "Metal Energy (#9)",
       "manual": true,
       "variantes": {
         "Normal": {
           "low": 1.0,
           "mid": 1.0,
           "high": 1.0,
-          "market": null,
+          "market": 1.0,
           "directLow": null
         }
       }
@@ -139,8 +139,8 @@
       "variantes": {
         "Normal": {
           "low": 11.08,
-          "mid": 13.38,
-          "high": 15.68,
+          "mid": 11.08,
+          "high": 11.08,
           "market": 7.39,
           "directLow": null
         }
@@ -186,8 +186,8 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 2.5,
-          "mid": 6.85,
+          "low": 11.2,
+          "mid": 11.2,
           "high": 11.2,
           "market": 9.15,
           "directLow": null
@@ -362,7 +362,7 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.75,
+          "low": 0.44,
           "mid": 0.8,
           "high": 0.99,
           "market": 0.22,
@@ -379,7 +379,7 @@
       "variantes": {
         "Holofoil": {
           "low": 0.4,
-          "mid": 1.1,
+          "mid": 0.85,
           "high": 19.66,
           "market": 1.39,
           "directLow": null
@@ -397,7 +397,7 @@
           "low": 0.41,
           "mid": 1.12,
           "high": 26.38,
-          "market": 0.39,
+          "market": 0.35,
           "directLow": null
         }
       }
@@ -426,7 +426,7 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.2,
+          "low": 0.21,
           "mid": 0.21,
           "high": 0.21,
           "market": 0.21,
@@ -435,21 +435,21 @@
       }
     },
     {
-      "productId": 98154,
-      "numero": "9",
-      "numeroNormalizado": "9",
-      "nombreProducto": "Metal Energy (#9)",
+      "productId": 98153,
+      "numero": "8",
+      "numeroNormalizado": "8",
+      "nombreProducto": "Metal Energy (#8)",
       "manual": true,
       "variantes": {
         "Normal": {
           "low": 1.0,
           "mid": 1.0,
           "high": 1.0,
-          "market": 1.0,
+          "market": null,
           "directLow": null
         }
       }
     }
   ],
-  "actualizado": "2026-11-12T02:28:00Z"
+  "actualizado": "2026-11-13T02:06:21Z"
 }

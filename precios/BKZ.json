@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "BKZ",
   "tcgplayerGroupId": 23936,
-  "actualizado": "2026-11-12T02:25:58Z",
+  "actualizado": "2026-11-13T02:04:08Z",
   "cartas": [
     {
       "productId": 604697,
@@ -10,7 +10,7 @@
       "variantes": {
         "Normal": {
           "low": 2.0,
-          "mid": 2.74,
+          "mid": 2.87,
           "high": 3.0,
           "market": 1.0,
           "directLow": null
@@ -38,23 +38,9 @@
       "variantes": {
         "Normal": {
           "low": 1.5,
-          "mid": 3.0,
+          "mid": 2.25,
           "high": 3.5,
           "market": 1.0,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 604700,
-      "numero": "016/018",
-      "numeroNormalizado": "16",
-      "variantes": {
-        "Normal": {
-          "low": 1.4,
-          "mid": 1.4,
-          "high": 1.4,
-          "market": 10.0,
           "directLow": null
         }
       }
@@ -69,6 +55,20 @@
           "mid": 2.5,
           "high": 2.5,
           "market": 3.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 604702,
+      "numero": "002/018",
+      "numeroNormalizado": "2",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.5,
+          "high": 2.0,
+          "market": 6.4,
           "directLow": null
         }
       }
@@ -94,7 +94,7 @@
       "variantes": {
         "Normal": {
           "low": 3.0,
-          "mid": 3.85,
+          "mid": 4.0,
           "high": 8.0,
           "market": 8.0,
           "directLow": null
@@ -167,6 +167,20 @@
           "mid": 5.25,
           "high": 7.5,
           "market": 8.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 604710,
+      "numero": "010/018",
+      "numeroNormalizado": "10",
+      "variantes": {
+        "Normal": {
+          "low": 10.0,
+          "mid": 10.0,
+          "high": 10.0,
+          "market": 11.04,
           "directLow": null
         }
       }

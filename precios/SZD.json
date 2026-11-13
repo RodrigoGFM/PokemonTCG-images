@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SZD",
   "tcgplayerGroupId": 23943,
-  "actualizado": "2026-11-12T02:27:48Z",
+  "actualizado": "2026-11-13T02:06:08Z",
   "cartas": [
     {
       "productId": 604871,
@@ -24,8 +24,8 @@
       "variantes": {
         "Normal": {
           "low": 0.99,
-          "mid": 0.99,
-          "high": 0.99,
+          "mid": 3.0,
+          "high": 5.0,
           "market": null,
           "directLow": null
         }
@@ -65,8 +65,8 @@
       "numeroNormalizado": "1",
       "variantes": {
         "Normal": {
-          "low": 0.25,
-          "mid": 0.75,
+          "low": 1.0,
+          "mid": 3.0,
           "high": 6.0,
           "market": 0.75,
           "directLow": null
@@ -80,8 +80,8 @@
       "variantes": {
         "Normal": {
           "low": 1.2,
-          "mid": 1.2,
-          "high": 1.2,
+          "mid": 4.1,
+          "high": 7.0,
           "market": 1.0,
           "directLow": null
         }

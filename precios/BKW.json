@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "BKW",
   "tcgplayerGroupId": 23947,
-  "actualizado": "2026-11-12T02:25:57Z",
+  "actualizado": "2026-11-13T02:04:07Z",
   "cartas": [
     {
       "productId": 604960,
@@ -93,8 +93,8 @@
       "numeroNormalizado": "17",
       "variantes": {
         "Normal": {
-          "low": 0.5,
-          "mid": 0.75,
+          "low": 1.0,
+          "mid": 1.0,
           "high": 1.0,
           "market": 0.65,
           "directLow": null
@@ -150,9 +150,9 @@
       "variantes": {
         "Normal": {
           "low": 1.0,
-          "mid": 2.0,
+          "mid": 2.5,
           "high": 4.0,
-          "market": 1.0,
+          "market": 2.0,
           "directLow": null
         }
       }
@@ -233,8 +233,8 @@
       "numeroNormalizado": "9",
       "variantes": {
         "Normal": {
-          "low": 5.0,
-          "mid": 10.0,
+          "low": 10.0,
+          "mid": 12.5,
           "high": 15.0,
           "market": 10.99,
           "directLow": null
