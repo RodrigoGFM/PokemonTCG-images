@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SZD",
   "tcgplayerGroupId": 23943,
-  "actualizado": "2026-11-13T02:06:08Z",
+  "actualizado": "2026-11-14T01:40:27Z",
   "cartas": [
     {
       "productId": 604871,
@@ -149,24 +149,10 @@
       "numeroNormalizado": "5",
       "variantes": {
         "Normal": {
-          "low": 1.5,
-          "mid": 2.7,
+          "low": 2.0,
+          "mid": 3.35,
           "high": 4.5,
-          "market": 2.0,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 604884,
-      "numero": "006/015",
-      "numeroNormalizado": "6",
-      "variantes": {
-        "Holofoil": {
-          "low": 4.99,
-          "mid": 4.99,
-          "high": 4.99,
-          "market": 29.94,
+          "market": 1.75,
           "directLow": null
         }
       }

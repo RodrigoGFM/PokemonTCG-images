@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "XY4",
   "tcgplayerGroupId": 23920,
-  "actualizado": "2026-11-13T02:06:12Z",
+  "actualizado": "2026-11-14T01:40:32Z",
   "cartas": [
     {
       "productId": 603545,
@@ -87,8 +87,8 @@
       "variantes": {
         "1st Edition": {
           "low": 1.0,
-          "mid": 1.85,
-          "high": 2.0,
+          "mid": 1.93,
+          "high": 2.01,
           "market": null,
           "directLow": null
         }
@@ -241,7 +241,7 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 6.5,
-          "mid": 9.64,
+          "mid": 9.78,
           "high": 19.99,
           "market": 9.44,
           "directLow": null
@@ -555,8 +555,8 @@
       "numeroNormalizado": "65",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 3.5,
-          "mid": 4.55,
+          "low": 2.95,
+          "mid": 4.09,
           "high": 5.25,
           "market": 4.39,
           "directLow": null
@@ -788,7 +788,7 @@
         "1st Edition Holofoil": {
           "low": 2.1,
           "mid": 2.13,
-          "high": 2.2,
+          "high": 2.26,
           "market": 2.15,
           "directLow": null
         }
@@ -809,6 +809,20 @@
       }
     },
     {
+      "productId": 603604,
+      "numero": "024/088",
+      "numeroNormalizado": "24",
+      "variantes": {
+        "1st Edition Holofoil": {
+          "low": 18.98,
+          "mid": 18.98,
+          "high": 18.98,
+          "market": 5.49,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 603606,
       "numero": "023/088",
       "numeroNormalizado": "23",
@@ -816,7 +830,7 @@
         "1st Edition Holofoil": {
           "low": 2.44,
           "mid": 3.0,
-          "high": 4.0,
+          "high": 4.2,
           "market": 4.0,
           "directLow": null
         }

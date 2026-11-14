@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "S3",
   "tcgplayerGroupId": 23619,
-  "actualizado": "2026-11-13T02:04:41Z",
+  "actualizado": "2026-11-14T01:39:08Z",
   "cartas": [
     {
       "productId": 568706,
@@ -124,7 +124,7 @@
           "low": 2.0,
           "mid": 3.0,
           "high": 4.99,
-          "market": 2.53,
+          "market": 2.58,
           "directLow": null
         }
       }
@@ -164,7 +164,7 @@
       "variantes": {
         "Holofoil": {
           "low": 2.67,
-          "mid": 3.49,
+          "mid": 3.56,
           "high": 4.37,
           "market": 2.77,
           "directLow": null
@@ -178,8 +178,8 @@
       "variantes": {
         "Normal": {
           "low": 0.39,
-          "mid": 0.65,
-          "high": 5.0,
+          "mid": 0.55,
+          "high": 1.88,
           "market": 0.75,
           "directLow": null
         }
@@ -192,7 +192,7 @@
       "variantes": {
         "Normal": {
           "low": 0.88,
-          "mid": 2.72,
+          "mid": 1.49,
           "high": 15.0,
           "market": 0.88,
           "directLow": null
@@ -289,10 +289,10 @@
       "numeroNormalizado": "21",
       "variantes": {
         "Normal": {
-          "low": 0.58,
+          "low": 0.6,
           "mid": 0.71,
           "high": 10.0,
-          "market": 0.59,
+          "market": 0.67,
           "directLow": null
         }
       }
@@ -374,9 +374,9 @@
       "variantes": {
         "Holofoil": {
           "low": 1.5,
-          "mid": 1.77,
+          "mid": 1.75,
           "high": 4.76,
-          "market": 1.78,
+          "market": 1.74,
           "directLow": null
         }
       }
@@ -444,8 +444,8 @@
       "variantes": {
         "Holofoil": {
           "low": 0.5,
-          "mid": 0.63,
-          "high": 1.25,
+          "mid": 0.73,
+          "high": 2.03,
           "market": null,
           "directLow": null
         }
@@ -473,7 +473,7 @@
         "Holofoil": {
           "low": 3.09,
           "mid": 3.99,
-          "high": 4.57,
+          "high": 5.47,
           "market": 2.16,
           "directLow": null
         }
@@ -543,7 +543,7 @@
         "Normal": {
           "low": 0.25,
           "mid": 0.3,
-          "high": 2.0,
+          "high": 8.0,
           "market": null,
           "directLow": null
         }
@@ -598,9 +598,9 @@
       "variantes": {
         "Holofoil": {
           "low": 0.85,
-          "mid": 1.24,
+          "mid": 1.25,
           "high": 3.0,
-          "market": 1.24,
+          "market": 1.16,
           "directLow": null
         }
       }
@@ -625,7 +625,7 @@
       "numeroNormalizado": "45",
       "variantes": {
         "Normal": {
-          "low": 0.41,
+          "low": 0.4,
           "mid": 0.5,
           "high": 1.0,
           "market": 0.4,
@@ -877,7 +877,7 @@
       "numeroNormalizado": "63",
       "variantes": {
         "Normal": {
-          "low": 0.49,
+          "low": 0.53,
           "mid": 1.07,
           "high": 10.0,
           "market": 0.53,
@@ -892,7 +892,7 @@
       "variantes": {
         "Holofoil": {
           "low": 0.94,
-          "mid": 1.04,
+          "mid": 1.06,
           "high": 3.0,
           "market": 1.04,
           "directLow": null
@@ -989,7 +989,7 @@
       "numeroNormalizado": "71",
       "variantes": {
         "Normal": {
-          "low": 0.41,
+          "low": 0.4,
           "mid": 0.49,
           "high": 1.5,
           "market": 0.4,
@@ -1116,7 +1116,7 @@
       "variantes": {
         "Holofoil": {
           "low": 1.49,
-          "mid": 1.98,
+          "mid": 1.99,
           "high": 2.9,
           "market": 1.53,
           "directLow": null
@@ -1130,7 +1130,7 @@
       "variantes": {
         "Holofoil": {
           "low": 3.43,
-          "mid": 3.59,
+          "mid": 3.57,
           "high": 5.67,
           "market": 3.54,
           "directLow": null
@@ -1172,7 +1172,7 @@
       "variantes": {
         "Normal": {
           "low": 1.14,
-          "mid": 1.23,
+          "mid": 1.18,
           "high": 1.56,
           "market": 1.15,
           "directLow": null
@@ -1353,8 +1353,8 @@
       "numeroNormalizado": "97",
       "variantes": {
         "Normal": {
-          "low": 0.38,
-          "mid": 0.4,
+          "low": 0.39,
+          "mid": 0.43,
           "high": 1.0,
           "market": null,
           "directLow": null
@@ -1367,7 +1367,7 @@
       "numeroNormalizado": "98",
       "variantes": {
         "Normal": {
-          "low": 0.15,
+          "low": 0.25,
           "mid": 0.55,
           "high": 1.79,
           "market": null,
@@ -1441,6 +1441,20 @@
           "mid": 10.5,
           "high": 11.0,
           "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 568810,
+      "numero": "104/100",
+      "numeroNormalizado": "104",
+      "variantes": {
+        "Holofoil": {
+          "low": 10.0,
+          "mid": 10.0,
+          "high": 10.0,
+          "market": 2.5,
           "directLow": null
         }
       }
