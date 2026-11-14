@@ -919,6 +919,35 @@ def aplicar_cartas_manuales(cartas_manual, hoy):
     return escritas
 
 
+# Sets de promos que siguen sumando cartas (TcgSetsEnCrecimiento.kt en la app, SETS_EN_CRECIMIENTO):
+# la app agrega las cartas que TCGplayer ya lista y TCGdex todavía no. Se publican los productos
+# de su grupo de TCGplayer tal como los da tcgcsv ({"results": [...]}, solo los campos que usa la
+# app) en precios/productos/<groupId>.json, porque la versión web de la app no puede pedírselos
+# a tcgcsv.com (el navegador lo bloquea: tcgcsv no permite CORS).
+SETS_EN_CRECIMIENTO = ["mep"]
+DIR_PRODUCTOS = os.path.join(DIR_PRECIOS, "productos")
+
+
+def publicar_productos_sets_en_crecimiento(mapeo):
+    os.makedirs(DIR_PRODUCTOS, exist_ok=True)
+    for set_id in SETS_EN_CRECIMIENTO:
+        group_id = (mapeo.get(set_id) or {}).get("groupId")
+        if group_id is None:
+            print(f"  {set_id}: sin grupo de TCGplayer, no se publican productos.")
+            continue
+        try:
+            productos = obtener_productos_grupo(group_id)
+        except Exception as e:  # noqa: BLE001
+            print(f"  ERROR bajando productos de {set_id} (group {group_id}): {e}")
+            continue
+        campos = ("productId", "name", "imageUrl", "extendedData")
+        salida = {"results": [{c: p.get(c) for c in campos if p.get(c) is not None} for p in productos]}
+        with open(os.path.join(DIR_PRODUCTOS, f"{group_id}.json"), "w", encoding="utf-8") as f:
+            json.dump(salida, f, ensure_ascii=False, separators=(",", ":"))
+            f.write("\n")
+        print(f"  {set_id}: {len(productos)} productos (group {group_id}).")
+
+
 def main():
     os.makedirs(DIR_PRECIOS, exist_ok=True)
     hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -1031,6 +1060,9 @@ def main():
         except Exception as e:  # noqa: BLE001
             print(f"  ERROR aplicando cartas manuales: {e}")
         print(f"  {cartas_manuales_escritas} con precio hoy.")
+
+    print("Publicando los productos de los sets en crecimiento...")
+    publicar_productos_sets_en_crecimiento(mapeo)
 
     print("Armando las versiones Prize Pack...")
     cartas_prize_pack = 0
