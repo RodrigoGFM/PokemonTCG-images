@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SMJ",
   "tcgplayerGroupId": 23873,
-  "actualizado": "2026-11-14T01:39:52Z",
+  "actualizado": "2026-11-15T01:15:08Z",
   "cartas": [
     {
       "productId": 596616,
@@ -74,6 +74,20 @@
       }
     },
     {
+      "productId": 596623,
+      "numero": "026/035",
+      "numeroNormalizado": "26",
+      "variantes": {
+        "Normal": {
+          "low": 0.25,
+          "mid": 0.25,
+          "high": 0.25,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 596627,
       "numero": "025/035",
       "numeroNormalizado": "25",
@@ -136,8 +150,8 @@
       "variantes": {
         "Normal": {
           "low": 2.0,
-          "mid": 2.0,
-          "high": 2.0,
+          "mid": 2.5,
+          "high": 2.99,
           "market": 2.99,
           "directLow": null
         }
@@ -293,6 +307,20 @@
           "mid": 12.5,
           "high": 15.0,
           "market": 12.5,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 596647,
+      "numero": "016/035",
+      "numeroNormalizado": "16",
+      "variantes": {
+        "Normal": {
+          "low": 0.1,
+          "mid": 0.1,
+          "high": 0.1,
+          "market": null,
           "directLow": null
         }
       }

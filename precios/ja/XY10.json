@@ -1,8 +1,22 @@
 {
   "tcgdexSetId": "XY10",
   "tcgplayerGroupId": 23913,
-  "actualizado": "2026-11-14T01:40:30Z",
+  "actualizado": "2026-11-15T01:15:46Z",
   "cartas": [
+    {
+      "productId": 602885,
+      "numero": "001/078",
+      "numeroNormalizado": "1",
+      "variantes": {
+        "1st Edition": {
+          "low": 8.0,
+          "mid": 8.0,
+          "high": 8.0,
+          "market": 2.0,
+          "directLow": null
+        }
+      }
+    },
     {
       "productId": 602886,
       "numero": "002/078",
@@ -10,7 +24,7 @@
       "variantes": {
         "1st Edition": {
           "low": 1.53,
-          "mid": 1.99,
+          "mid": 1.85,
           "high": 4.99,
           "market": 1.7,
           "directLow": null
@@ -54,7 +68,7 @@
           "low": 0.99,
           "mid": 1.35,
           "high": 2.5,
-          "market": 1.65,
+          "market": 1.59,
           "directLow": null
         }
       }
@@ -80,7 +94,7 @@
       "variantes": {
         "1st Edition": {
           "low": 1.5,
-          "mid": 3.24,
+          "mid": 3.48,
           "high": 4.0,
           "market": 1.99,
           "directLow": null
@@ -93,9 +107,9 @@
       "numeroNormalizado": "8",
       "variantes": {
         "1st Edition": {
-          "low": 7.0,
-          "mid": 8.99,
-          "high": 9.96,
+          "low": 8.99,
+          "mid": 9.96,
+          "high": 15.0,
           "market": 8.0,
           "directLow": null
         }
@@ -193,7 +207,7 @@
         "1st Edition": {
           "low": 1.25,
           "mid": 1.25,
-          "high": 1.25,
+          "high": 5.0,
           "market": 1.94,
           "directLow": null
         }
@@ -325,7 +339,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.15,
-          "mid": 1.0,
+          "mid": 1.08,
           "high": 2.0,
           "market": 1.7,
           "directLow": null
@@ -374,7 +388,7 @@
       "variantes": {
         "1st Edition": {
           "low": 1.25,
-          "mid": 1.87,
+          "mid": 1.84,
           "high": 2.28,
           "market": 1.84,
           "directLow": null
@@ -401,7 +415,7 @@
       "numeroNormalizado": "30",
       "variantes": {
         "1st Edition": {
-          "low": 1.69,
+          "low": 1.68,
           "mid": 1.69,
           "high": 3.2,
           "market": 1.79,
@@ -430,7 +444,7 @@
       "variantes": {
         "1st Edition": {
           "low": 1.95,
-          "mid": 2.7,
+          "mid": 2.69,
           "high": 2.99,
           "market": 2.69,
           "directLow": null
@@ -457,8 +471,8 @@
       "numeroNormalizado": "34",
       "variantes": {
         "1st Edition": {
-          "low": 4.95,
-          "mid": 5.83,
+          "low": 4.25,
+          "mid": 5.75,
           "high": 15.0,
           "market": 6.97,
           "directLow": null
@@ -507,7 +521,7 @@
       "variantes": {
         "1st Edition": {
           "low": 1.3,
-          "mid": 1.6,
+          "mid": 1.5,
           "high": 3.0,
           "market": 1.7,
           "directLow": null
@@ -521,7 +535,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.99,
-          "mid": 4.11,
+          "mid": 3.73,
           "high": 5.0,
           "market": 4.65,
           "directLow": null
@@ -534,7 +548,7 @@
       "numeroNormalizado": "39",
       "variantes": {
         "1st Edition": {
-          "low": 3.99,
+          "low": 3.97,
           "mid": 4.0,
           "high": 5.47,
           "market": 3.94,
@@ -576,9 +590,9 @@
       "numeroNormalizado": "43",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 6.65,
-          "mid": 6.65,
-          "high": 6.65,
+          "low": 6.3,
+          "mid": 6.3,
+          "high": 6.3,
           "market": 7.0,
           "directLow": null
         },
@@ -632,8 +646,8 @@
       "numeroNormalizado": "46",
       "variantes": {
         "1st Edition": {
-          "low": 1.5,
-          "mid": 1.64,
+          "low": 1.49,
+          "mid": 1.57,
           "high": 2.69,
           "market": 1.49,
           "directLow": null
@@ -646,7 +660,7 @@
       "numeroNormalizado": "47",
       "variantes": {
         "1st Edition": {
-          "low": 0.27,
+          "low": 0.26,
           "mid": 0.4,
           "high": 2.0,
           "market": null,
@@ -703,9 +717,23 @@
       "variantes": {
         "1st Edition": {
           "low": 4.79,
-          "mid": 5.78,
+          "mid": 5.27,
           "high": 6.77,
           "market": 2.67,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 602937,
+      "numero": "053/078",
+      "numeroNormalizado": "53",
+      "variantes": {
+        "1st Edition": {
+          "low": 1.37,
+          "mid": 3.19,
+          "high": 5.0,
+          "market": 1.37,
           "directLow": null
         }
       }
@@ -731,9 +759,23 @@
       "variantes": {
         "1st Edition": {
           "low": 4.9,
-          "mid": 5.73,
+          "mid": 4.97,
           "high": 6.47,
           "market": 4.98,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 602941,
+      "numero": "057/078",
+      "numeroNormalizado": "57",
+      "variantes": {
+        "1st Edition": {
+          "low": 55.0,
+          "mid": 55.0,
+          "high": 55.0,
+          "market": 37.29,
           "directLow": null
         }
       }
@@ -753,27 +795,13 @@
       }
     },
     {
-      "productId": 602943,
-      "numero": "059/078",
-      "numeroNormalizado": "59",
-      "variantes": {
-        "1st Edition Holofoil": {
-          "low": 25.11,
-          "mid": 25.11,
-          "high": 25.11,
-          "market": 24.99,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 602944,
       "numero": "060/078",
       "numeroNormalizado": "60",
       "variantes": {
         "1st Edition": {
           "low": 1.0,
-          "mid": 1.99,
+          "mid": 2.18,
           "high": 2.99,
           "market": null,
           "directLow": null
@@ -829,9 +857,23 @@
       "variantes": {
         "1st Edition": {
           "low": 2.95,
-          "mid": 4.95,
+          "mid": 4.81,
           "high": 4.99,
           "market": 4.67,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 602949,
+      "numero": "065/078",
+      "numeroNormalizado": "65",
+      "variantes": {
+        "1st Edition": {
+          "low": 12.0,
+          "mid": 12.0,
+          "high": 12.0,
+          "market": 3.66,
           "directLow": null
         }
       }
