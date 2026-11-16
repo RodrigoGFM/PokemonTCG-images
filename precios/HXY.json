@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "HXY",
   "tcgplayerGroupId": 23983,
-  "actualizado": "2026-11-15T01:14:00Z",
+  "actualizado": "2026-11-16T01:19:58Z",
   "cartas": [
     {
       "productId": 606182,
@@ -180,7 +180,7 @@
           "low": 3.49,
           "mid": 3.99,
           "high": 5.99,
-          "market": null,
+          "market": 0.75,
           "directLow": null
         }
       }
@@ -209,20 +209,6 @@
           "mid": 0.85,
           "high": 2.99,
           "market": null,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 606197,
-      "numero": "033/039",
-      "numeroNormalizado": "33",
-      "variantes": {
-        "Normal": {
-          "low": 1.25,
-          "mid": 1.25,
-          "high": 1.25,
-          "market": 0.99,
           "directLow": null
         }
       }
@@ -346,7 +332,7 @@
       "variantes": {
         "Normal": {
           "low": 1.15,
-          "mid": 1.33,
+          "mid": 1.25,
           "high": 4.0,
           "market": 1.25,
           "directLow": null
