@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SD",
   "tcgplayerGroupId": 23853,
-  "actualizado": "2026-11-16T01:20:35Z",
+  "actualizado": "2026-11-17T04:08:36Z",
   "cartas": [
     {
       "productId": 594908,
@@ -298,6 +298,20 @@
       }
     },
     {
+      "productId": 594931,
+      "numero": "024/127",
+      "numeroNormalizado": "24",
+      "variantes": {
+        "Normal": {
+          "low": 3.16,
+          "mid": 3.16,
+          "high": 3.16,
+          "market": 3.17,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 594932,
       "numero": "025/127",
       "numeroNormalizado": "25",
@@ -345,8 +359,8 @@
       "numeroNormalizado": "28",
       "variantes": {
         "Normal": {
-          "low": 6.49,
-          "mid": 6.74,
+          "low": 5.2,
+          "mid": 6.66,
           "high": 6.99,
           "market": 5.93,
           "directLow": null

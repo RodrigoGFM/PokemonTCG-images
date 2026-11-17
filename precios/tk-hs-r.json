@@ -26,8 +26,8 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 0.44,
-          "mid": 1.99,
+          "low": 0.43,
+          "mid": 0.99,
           "high": 5.0,
           "market": 0.95,
           "directLow": null
@@ -43,7 +43,7 @@
       "variantes": {
         "Normal": {
           "low": 0.69,
-          "mid": 1.14,
+          "mid": 2.07,
           "high": 19.85,
           "market": 0.69,
           "directLow": null
@@ -58,8 +58,8 @@
       "manual": true,
       "variantes": {
         "Normal": {
-          "low": 1.0,
-          "mid": 2.3,
+          "low": 1.21,
+          "mid": 3.32,
           "high": 49.99,
           "market": 3.19,
           "directLow": null
@@ -155,7 +155,7 @@
       "variantes": {
         "Normal": {
           "low": 0.42,
-          "mid": 1.0,
+          "mid": 1.05,
           "high": 19.98,
           "market": 0.95,
           "directLow": null
@@ -171,7 +171,7 @@
       "variantes": {
         "Normal": {
           "low": 2.93,
-          "mid": 4.62,
+          "mid": 4.98,
           "high": 46.68,
           "market": 6.79,
           "directLow": null
@@ -219,7 +219,7 @@
       "variantes": {
         "Normal": {
           "low": 0.55,
-          "mid": 1.19,
+          "mid": 1.08,
           "high": 19.95,
           "market": 1.54,
           "directLow": null
@@ -235,9 +235,9 @@
       "variantes": {
         "Normal": {
           "low": 4.5,
-          "mid": 6.55,
+          "mid": 6.97,
           "high": 92.58,
-          "market": 5.77,
+          "market": 5.64,
           "directLow": null
         }
       }
@@ -251,7 +251,7 @@
       "variantes": {
         "Normal": {
           "low": 0.8,
-          "mid": 1.0,
+          "mid": 2.0,
           "high": 19.66,
           "market": 0.95,
           "directLow": null
@@ -283,7 +283,7 @@
       "variantes": {
         "Normal": {
           "low": 0.3,
-          "mid": 0.64,
+          "mid": 0.55,
           "high": 26.68,
           "market": 0.71,
           "directLow": null
@@ -299,7 +299,7 @@
       "variantes": {
         "Normal": {
           "low": 0.3,
-          "mid": 0.7,
+          "mid": 0.5,
           "high": 19.66,
           "market": 0.9,
           "directLow": null
@@ -315,7 +315,7 @@
       "variantes": {
         "Normal": {
           "low": 4.81,
-          "mid": 6.11,
+          "mid": 6.17,
           "high": 60.58,
           "market": 5.76,
           "directLow": null
@@ -395,7 +395,7 @@
       "variantes": {
         "Normal": {
           "low": 0.39,
-          "mid": 0.55,
+          "mid": 0.8,
           "high": 19.66,
           "market": 2.04,
           "directLow": null
@@ -443,7 +443,7 @@
       "variantes": {
         "Normal": {
           "low": 0.25,
-          "mid": 0.52,
+          "mid": 0.51,
           "high": 5.0,
           "market": 0.6,
           "directLow": null
@@ -483,5 +483,5 @@
       }
     }
   ],
-  "actualizado": "2026-11-16T01:21:56Z"
+  "actualizado": "2026-11-17T04:09:56Z"
 }

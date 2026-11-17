@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "CP1",
   "tcgplayerGroupId": 23964,
-  "actualizado": "2026-11-16T01:19:53Z",
+  "actualizado": "2026-11-17T04:07:55Z",
   "cartas": [
     {
       "productId": 605292,
@@ -9,8 +9,8 @@
       "numeroNormalizado": "1",
       "variantes": {
         "1st Edition": {
-          "low": 18.0,
-          "mid": 18.0,
+          "low": 10.0,
+          "mid": 14.0,
           "high": 18.0,
           "market": 10.0,
           "directLow": null
@@ -24,7 +24,7 @@
       "variantes": {
         "1st Edition": {
           "low": 4.0,
-          "mid": 9.5,
+          "mid": 5.1,
           "high": 15.0,
           "market": 5.1,
           "directLow": null
@@ -38,7 +38,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.99,
-          "mid": 5.0,
+          "mid": 4.25,
           "high": 6.49,
           "market": 3.49,
           "directLow": null
@@ -60,13 +60,27 @@
       }
     },
     {
+      "productId": 605296,
+      "numero": "003/034",
+      "numeroNormalizado": "3",
+      "variantes": {
+        "1st Edition": {
+          "low": 5.0,
+          "mid": 5.0,
+          "high": 5.0,
+          "market": 5.0,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 605297,
       "numero": "004/034",
       "numeroNormalizado": "4",
       "variantes": {
         "1st Edition": {
           "low": 1.99,
-          "mid": 2.13,
+          "mid": 2.25,
           "high": 6.99,
           "market": 2.25,
           "directLow": null
@@ -80,7 +94,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.25,
-          "mid": 7.0,
+          "mid": 7.99,
           "high": 9.99,
           "market": null,
           "directLow": null
@@ -95,7 +109,7 @@
         "1st Edition": {
           "low": 4.99,
           "mid": 7.0,
-          "high": 7.0,
+          "high": 7.59,
           "market": 7.59,
           "directLow": null
         }
@@ -109,7 +123,7 @@
         "1st Edition": {
           "low": 2.99,
           "mid": 3.5,
-          "high": 3.9,
+          "high": 5.49,
           "market": 5.49,
           "directLow": null
         }
@@ -122,7 +136,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.5,
-          "mid": 3.75,
+          "mid": 3.83,
           "high": 6.99,
           "market": 3.91,
           "directLow": null

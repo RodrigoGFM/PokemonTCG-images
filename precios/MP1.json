@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "MP1",
   "tcgplayerGroupId": 24607,
-  "actualizado": "2026-11-16T01:20:12Z",
+  "actualizado": "2026-11-17T04:08:13Z",
   "cartas": [
     {
       "productId": 677294,
@@ -107,10 +107,10 @@
       "numeroNormalizado": "10",
       "variantes": {
         "Normal": {
-          "low": 0.9,
+          "low": 0.88,
           "mid": 0.9,
           "high": 1.0,
-          "market": null,
+          "market": 0.9,
           "directLow": null
         }
       }
@@ -289,8 +289,8 @@
       "numeroNormalizado": "6",
       "variantes": {
         "Normal": {
-          "low": 5.81,
-          "mid": 7.3,
+          "low": 5.5,
+          "mid": 7.5,
           "high": 10.62,
           "market": 8.96,
           "directLow": null
@@ -318,7 +318,7 @@
       "variantes": {
         "Normal": {
           "low": 19.5,
-          "mid": 23.29,
+          "mid": 22.99,
           "high": 30.45,
           "market": 22.82,
           "directLow": null

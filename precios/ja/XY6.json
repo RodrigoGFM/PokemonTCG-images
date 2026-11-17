@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "XY6",
   "tcgplayerGroupId": 23923,
-  "actualizado": "2026-11-16T01:21:48Z",
+  "actualizado": "2026-11-17T04:09:48Z",
   "cartas": [
     {
       "productId": 603805,
@@ -499,8 +499,8 @@
       "numeroNormalizado": "31",
       "variantes": {
         "Unlimited Holofoil": {
-          "low": 20.0,
-          "mid": 20.0,
+          "low": 18.0,
+          "mid": 19.0,
           "high": 20.0,
           "market": null,
           "directLow": null
@@ -652,6 +652,13 @@
       "numero": "049/078",
       "numeroNormalizado": "49",
       "variantes": {
+        "1st Edition Holofoil": {
+          "low": 15.0,
+          "mid": 15.0,
+          "high": 15.0,
+          "market": 30.5,
+          "directLow": null
+        },
         "Unlimited Holofoil": {
           "low": 30.0,
           "mid": 30.0,
@@ -885,8 +892,8 @@
         },
         "1st Edition Holofoil": {
           "low": 198.78,
-          "mid": 199.39,
-          "high": 200.0,
+          "mid": 198.78,
+          "high": 198.78,
           "market": null,
           "directLow": null
         }
@@ -905,9 +912,9 @@
           "directLow": null
         },
         "Unlimited Holofoil": {
-          "low": 3.05,
-          "mid": 3.05,
-          "high": 3.05,
+          "low": 3.35,
+          "mid": 3.35,
+          "high": 3.35,
           "market": 7.5,
           "directLow": null
         }
@@ -1368,9 +1375,9 @@
         },
         "Unlimited": {
           "low": 1.5,
-          "mid": 2.63,
+          "mid": 3.25,
           "high": 4.99,
-          "market": 1.75,
+          "market": 2.0,
           "directLow": null
         }
       }
