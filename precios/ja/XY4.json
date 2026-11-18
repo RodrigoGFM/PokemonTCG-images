@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "XY4",
   "tcgplayerGroupId": 23920,
-  "actualizado": "2026-11-17T04:09:48Z",
+  "actualizado": "2026-11-18T03:07:34Z",
   "cartas": [
     {
       "productId": 603545,
@@ -451,8 +451,8 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 2.5,
-          "mid": 4.99,
-          "high": 5.0,
+          "mid": 5.0,
+          "high": 5.73,
           "market": 4.37,
           "directLow": null
         }
@@ -485,8 +485,8 @@
           "directLow": null
         },
         "1st Edition Holofoil": {
-          "low": 5.0,
-          "mid": 7.59,
+          "low": 4.9,
+          "mid": 7.09,
           "high": 10.0,
           "market": 3.77,
           "directLow": null
@@ -884,8 +884,8 @@
           "directLow": null
         },
         "1st Edition": {
-          "low": 0.7,
-          "mid": 2.59,
+          "low": 2.5,
+          "mid": 2.68,
           "high": 4.0,
           "market": 2.0,
           "directLow": null
@@ -899,7 +899,7 @@
       "variantes": {
         "1st Edition": {
           "low": 1.45,
-          "mid": 5.0,
+          "mid": 4.39,
           "high": 9.99,
           "market": 1.5,
           "directLow": null
@@ -946,9 +946,16 @@
       "numero": "025/088",
       "numeroNormalizado": "25",
       "variantes": {
+        "Unlimited": {
+          "low": 4.0,
+          "mid": 4.0,
+          "high": 4.0,
+          "market": null,
+          "directLow": null
+        },
         "1st Edition": {
-          "low": 4.68,
-          "mid": 4.84,
+          "low": 2.39,
+          "mid": 4.68,
           "high": 4.99,
           "market": 4.0,
           "directLow": null
@@ -1063,6 +1070,20 @@
           "mid": 1.99,
           "high": 5.0,
           "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 603623,
+      "numero": "062/088",
+      "numeroNormalizado": "62",
+      "variantes": {
+        "1st Edition Holofoil": {
+          "low": 4.39,
+          "mid": 4.39,
+          "high": 4.39,
+          "market": 3.98,
           "directLow": null
         }
       }

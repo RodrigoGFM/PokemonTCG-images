@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "LL",
   "tcgplayerGroupId": 24022,
-  "actualizado": "2026-11-17T04:08:02Z",
+  "actualizado": "2026-11-18T03:05:49Z",
   "cartas": [
     {
       "productId": 608620,
@@ -24,7 +24,7 @@
       "variantes": {
         "Holofoil": {
           "low": 9.98,
-          "mid": 10.0,
+          "mid": 9.99,
           "high": 12.0,
           "market": null,
           "directLow": null
@@ -144,29 +144,15 @@
       }
     },
     {
-      "productId": 608630,
-      "numero": "011/040",
-      "numeroNormalizado": "11",
-      "variantes": {
-        "Holofoil": {
-          "low": 31.0,
-          "mid": 31.0,
-          "high": 31.0,
-          "market": 31.0,
-          "directLow": null
-        }
-      }
-    },
-    {
       "productId": 608631,
       "numero": "012/040",
       "numeroNormalizado": "12",
       "variantes": {
         "Holofoil": {
           "low": 9.99,
-          "mid": 17.5,
+          "mid": 25.0,
           "high": 49.0,
-          "market": null,
+          "market": 9.99,
           "directLow": null
         }
       }

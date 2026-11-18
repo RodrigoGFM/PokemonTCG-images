@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "20th",
   "tcgplayerGroupId": 23963,
-  "actualizado": "2026-11-17T04:07:50Z",
+  "actualizado": "2026-11-18T03:05:38Z",
   "cartas": [
     {
       "productId": 605193,
@@ -130,6 +130,34 @@
       }
     },
     {
+      "productId": 605218,
+      "numero": "016/072",
+      "numeroNormalizado": "16",
+      "variantes": {
+        "Normal": {
+          "low": 19.01,
+          "mid": 19.01,
+          "high": 19.01,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 605221,
+      "numero": "036/072",
+      "numeroNormalizado": "36",
+      "variantes": {
+        "Normal": {
+          "low": 3.5,
+          "mid": 3.5,
+          "high": 3.5,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 605227,
       "numero": "032/072",
       "numeroNormalizado": "32",
@@ -139,6 +167,20 @@
           "mid": 5.0,
           "high": 5.0,
           "market": 3.99,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 605228,
+      "numero": "031/072",
+      "numeroNormalizado": "31",
+      "variantes": {
+        "Normal": {
+          "low": 3.5,
+          "mid": 3.5,
+          "high": 3.5,
+          "market": null,
           "directLow": null
         }
       }
@@ -278,6 +320,20 @@
           "low": 1.0,
           "mid": 1.0,
           "high": 4.0,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 605254,
+      "numero": "038/072",
+      "numeroNormalizado": "38",
+      "variantes": {
+        "Normal": {
+          "low": 3.0,
+          "mid": 3.0,
+          "high": 3.0,
           "market": null,
           "directLow": null
         }
