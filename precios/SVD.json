@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SVD",
   "tcgplayerGroupId": 23803,
-  "actualizado": "2026-11-18T03:07:20Z",
+  "actualizado": "2026-11-19T02:47:23Z",
   "cartas": [
     {
       "productId": 588800,
@@ -122,7 +122,7 @@
       "variantes": {
         "Normal": {
           "low": 0.1,
-          "mid": 0.25,
+          "mid": 0.57,
           "high": 5.0,
           "market": 0.1,
           "directLow": null
@@ -304,7 +304,7 @@
       "variantes": {
         "Normal": {
           "low": 0.1,
-          "mid": 0.23,
+          "mid": 0.25,
           "high": 5.0,
           "market": null,
           "directLow": null
@@ -752,9 +752,9 @@
       "variantes": {
         "Normal": {
           "low": 0.15,
-          "mid": 0.27,
+          "mid": 0.69,
           "high": 5.0,
-          "market": null,
+          "market": 0.89,
           "directLow": null
         }
       }
@@ -1270,7 +1270,7 @@
       "variantes": {
         "Normal": {
           "low": 2.29,
-          "mid": 3.25,
+          "mid": 3.5,
           "high": 5.0,
           "market": 2.29,
           "directLow": null
@@ -1452,9 +1452,9 @@
       "variantes": {
         "Normal": {
           "low": 1.0,
-          "mid": 1.19,
+          "mid": 1.11,
           "high": 2.0,
-          "market": 1.52,
+          "market": 1.48,
           "directLow": null
         }
       }
@@ -1466,7 +1466,7 @@
       "variantes": {
         "Normal": {
           "low": 0.97,
-          "mid": 1.11,
+          "mid": 1.21,
           "high": 3.99,
           "market": 0.97,
           "directLow": null
@@ -1495,7 +1495,7 @@
         "Normal": {
           "low": 4.0,
           "mid": 5.0,
-          "high": 7.39,
+          "high": 99.0,
           "market": 4.75,
           "directLow": null
         }

@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "XY10",
   "tcgplayerGroupId": 23913,
-  "actualizado": "2026-11-18T03:07:32Z",
+  "actualizado": "2026-11-19T02:47:35Z",
   "cartas": [
     {
       "productId": 602885,
@@ -194,7 +194,7 @@
           "low": 0.99,
           "mid": 1.35,
           "high": 2.0,
-          "market": 2.0,
+          "market": 1.75,
           "directLow": null
         }
       }
@@ -237,20 +237,6 @@
           "mid": 4.0,
           "high": 6.0,
           "market": 4.0,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 602901,
-      "numero": "017/078",
-      "numeroNormalizado": "17",
-      "variantes": {
-        "1st Edition Holofoil": {
-          "low": 3.99,
-          "mid": 3.99,
-          "high": 3.99,
-          "market": 5.12,
           "directLow": null
         }
       }
@@ -416,9 +402,9 @@
       "variantes": {
         "1st Edition": {
           "low": 1.68,
-          "mid": 1.74,
+          "mid": 1.69,
           "high": 3.2,
-          "market": 1.79,
+          "market": 1.7,
           "directLow": null
         }
       }
@@ -472,8 +458,8 @@
       "variantes": {
         "1st Edition": {
           "low": 4.25,
-          "mid": 5.75,
-          "high": 9.0,
+          "mid": 5.83,
+          "high": 15.0,
           "market": 6.97,
           "directLow": null
         }
@@ -534,7 +520,7 @@
       "numeroNormalizado": "38",
       "variantes": {
         "1st Edition": {
-          "low": 1.84,
+          "low": 2.99,
           "mid": 3.73,
           "high": 5.0,
           "market": 4.55,
@@ -577,7 +563,7 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 2.0,
-          "mid": 2.5,
+          "mid": 2.3,
           "high": 2.53,
           "market": 2.5,
           "directLow": null
@@ -790,6 +776,20 @@
           "mid": 55.0,
           "high": 55.0,
           "market": 37.29,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 602942,
+      "numero": "058/078",
+      "numeroNormalizado": "58",
+      "variantes": {
+        "1st Edition Holofoil": {
+          "low": 35.0,
+          "mid": 35.0,
+          "high": 35.0,
+          "market": 29.68,
           "directLow": null
         }
       }
