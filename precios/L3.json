@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "L3",
   "tcgplayerGroupId": 24024,
-  "actualizado": "2026-11-19T02:45:50Z",
+  "actualizado": "2026-11-20T02:31:54Z",
   "cartas": [
     {
       "productId": 608377,
@@ -124,13 +124,28 @@
       "nombreProducto": "Kricketot"
     },
     {
+      "productId": 608386,
+      "numero": "010/080",
+      "numeroNormalizado": "10",
+      "variantes": {
+        "1st Edition": {
+          "low": 2.0,
+          "mid": 2.0,
+          "high": 2.0,
+          "market": 4.99,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Ponyta"
+    },
+    {
       "productId": 608387,
       "numero": "011/080",
       "numeroNormalizado": "11",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 10.99,
-          "mid": 14.89,
+          "low": 35.0,
+          "mid": 42.5,
           "high": 49.99,
           "market": 29.22,
           "directLow": null
@@ -219,8 +234,8 @@
       "numeroNormalizado": "17",
       "variantes": {
         "1st Edition": {
-          "low": 2.98,
-          "mid": 3.5,
+          "low": 2.0,
+          "mid": 3.0,
           "high": 4.89,
           "market": 5.85,
           "directLow": null
@@ -234,7 +249,7 @@
       "numeroNormalizado": "18",
       "variantes": {
         "1st Edition": {
-          "low": 4.04,
+          "low": 4.0,
           "mid": 7.0,
           "high": 7.5,
           "market": 7.33,
@@ -249,8 +264,8 @@
       "numeroNormalizado": "19",
       "variantes": {
         "1st Edition": {
-          "low": 1.75,
-          "mid": 2.25,
+          "low": 1.5,
+          "mid": 2.0,
           "high": 3.26,
           "market": 1.97,
           "directLow": null
@@ -557,8 +572,8 @@
       "variantes": {
         "1st Edition": {
           "low": 4.0,
-          "mid": 5.0,
-          "high": 8.0,
+          "mid": 5.5,
+          "high": 6.01,
           "market": 7.0,
           "directLow": null
         }
@@ -781,8 +796,8 @@
       "numeroNormalizado": "54",
       "variantes": {
         "1st Edition": {
-          "low": 2.5,
-          "mid": 4.0,
+          "low": 2.0,
+          "mid": 2.5,
           "high": 4.89,
           "market": 0.9,
           "directLow": null
@@ -804,6 +819,21 @@
         }
       },
       "nombreProducto": "Aggron"
+    },
+    {
+      "productId": 608432,
+      "numero": "056/080",
+      "numeroNormalizado": "56",
+      "variantes": {
+        "1st Edition": {
+          "low": 2.0,
+          "mid": 2.0,
+          "high": 2.0,
+          "market": 5.66,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Bronzor"
     },
     {
       "productId": 608434,
@@ -932,7 +962,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.0,
-          "mid": 3.0,
+          "mid": 2.75,
           "high": 3.99,
           "market": 3.0,
           "directLow": null
@@ -1075,7 +1105,7 @@
           "low": 10.0,
           "mid": 11.99,
           "high": 12.0,
-          "market": 11.99,
+          "market": 12.0,
           "directLow": null
         }
       },
@@ -1282,9 +1312,9 @@
       "numeroNormalizado": "44",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 4.9,
-          "mid": 4.9,
-          "high": 4.9,
+          "low": 4.75,
+          "mid": 4.75,
+          "high": 4.75,
           "market": null,
           "directLow": null
         }

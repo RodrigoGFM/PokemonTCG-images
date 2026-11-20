@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SMD",
   "tcgplayerGroupId": 23883,
-  "actualizado": "2026-11-19T02:46:53Z",
+  "actualizado": "2026-11-20T02:32:58Z",
   "cartas": [
     {
       "productId": 598630,
@@ -10,8 +10,8 @@
       "variantes": {
         "Normal": {
           "low": 100.0,
-          "mid": 105.0,
-          "high": 110.0,
+          "mid": 100.0,
+          "high": 100.0,
           "market": 110.0,
           "directLow": null
         }
@@ -24,8 +24,8 @@
       "variantes": {
         "Normal": {
           "low": 39.0,
-          "mid": 43.0,
-          "high": 50.0,
+          "mid": 40.0,
+          "high": 45.99,
           "market": 45.0,
           "directLow": null
         }
@@ -40,7 +40,7 @@
           "low": 8.0,
           "mid": 11.0,
           "high": 12.0,
-          "market": 9.13,
+          "market": 8.73,
           "directLow": null
         }
       }
@@ -54,7 +54,7 @@
           "low": 4.99,
           "mid": 5.48,
           "high": 10.0,
-          "market": 1.99,
+          "market": null,
           "directLow": null
         }
       }
@@ -65,8 +65,8 @@
       "numeroNormalizado": "5",
       "variantes": {
         "Holofoil": {
-          "low": 275.0,
-          "mid": 279.99,
+          "low": 279.99,
+          "mid": 280.49,
           "high": 280.98,
           "market": 350.0,
           "directLow": null
@@ -108,7 +108,7 @@
       "variantes": {
         "Normal": {
           "low": 99.99,
-          "mid": 110.0,
+          "mid": 149.99,
           "high": 199.99,
           "market": 80.0,
           "directLow": null
@@ -122,7 +122,7 @@
       "variantes": {
         "Normal": {
           "low": 18.99,
-          "mid": 20.0,
+          "mid": 22.0,
           "high": 25.0,
           "market": 5.0,
           "directLow": null
@@ -220,23 +220,9 @@
       "variantes": {
         "Normal": {
           "low": 18.99,
-          "mid": 20.74,
+          "mid": 25.37,
           "high": 45.0,
           "market": 35.0,
-          "directLow": null
-        }
-      }
-    },
-    {
-      "productId": 598647,
-      "numero": "018/026",
-      "numeroNormalizado": "18",
-      "variantes": {
-        "Normal": {
-          "low": 159.0,
-          "mid": 159.0,
-          "high": 159.0,
-          "market": 125.0,
           "directLow": null
         }
       }

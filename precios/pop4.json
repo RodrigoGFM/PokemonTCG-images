@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "pop4",
   "tcgplayerGroupId": 1452,
-  "actualizado": "2026-11-19T02:44:39Z",
+  "actualizado": "2026-11-20T02:30:42Z",
   "cartas": [
     {
       "productId": 84298,
@@ -31,7 +31,7 @@
         },
         "Holofoil": {
           "low": 8.24,
-          "mid": 38.45,
+          "mid": 27.34,
           "high": 198.68,
           "market": 30.75,
           "directLow": null
@@ -52,9 +52,23 @@
         },
         "Holofoil": {
           "low": 152.99,
-          "mid": 270.75,
+          "mid": 346.5,
           "high": 699.99,
           "market": 350.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 84774,
+      "numero": "017/017",
+      "numeroNormalizado": "17",
+      "variantes": {
+        "Holofoil": {
+          "low": 4321.0,
+          "mid": 4321.0,
+          "high": 4321.0,
+          "market": null,
           "directLow": null
         }
       }
@@ -121,8 +135,8 @@
           "directLow": null
         },
         "Holofoil": {
-          "low": 80.0,
-          "mid": 751.49,
+          "low": 91.65,
+          "mid": 750.75,
           "high": 2800.0,
           "market": 82.5,
           "directLow": null
@@ -136,14 +150,14 @@
       "variantes": {
         "Normal": {
           "low": 30.4,
-          "mid": 230.82,
+          "mid": 229.58,
           "high": 388.0,
           "market": 40.92,
           "directLow": null
         },
         "Holofoil": {
           "low": 89.98,
-          "mid": 89.99,
+          "mid": 90.0,
           "high": 100.0,
           "market": 102.5,
           "directLow": null
@@ -171,13 +185,13 @@
       "variantes": {
         "Normal": {
           "low": 37.64,
-          "mid": 59.99,
+          "mid": 57.02,
           "high": 279.58,
           "market": 46.31,
           "directLow": null
         },
         "Holofoil": {
-          "low": 214.99,
+          "low": 48.99,
           "mid": 343.56,
           "high": 9999.0,
           "market": 369.63,
@@ -220,10 +234,10 @@
       "variantes": {
         "Normal": {
           "low": 68.0,
-          "mid": 99.99,
+          "mid": 99.98,
           "high": 9999.0,
           "market": 68.39,
-          "directLow": 99.98
+          "directLow": 70.0
         }
       }
     },

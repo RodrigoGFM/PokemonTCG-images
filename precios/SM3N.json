@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SM3N",
   "tcgplayerGroupId": 23680,
-  "actualizado": "2026-11-19T02:46:40Z",
+  "actualizado": "2026-11-20T02:32:45Z",
   "cartas": [
     {
       "productId": 573466,
@@ -67,7 +67,7 @@
         "Normal": {
           "low": 0.21,
           "mid": 1.7,
-          "high": 8.0,
+          "high": 7.5,
           "market": null,
           "directLow": null
         }
@@ -163,7 +163,7 @@
       "numeroNormalizado": "13",
       "variantes": {
         "Normal": {
-          "low": 9.95,
+          "low": 5.0,
           "mid": 14.97,
           "high": 20.0,
           "market": 20.0,
@@ -500,9 +500,23 @@
       "variantes": {
         "Normal": {
           "low": 0.99,
-          "mid": 1.38,
+          "mid": 1.25,
           "high": 18.0,
           "market": 1.0,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 573503,
+      "numero": "038/051",
+      "numeroNormalizado": "38",
+      "variantes": {
+        "Holofoil": {
+          "low": 5.99,
+          "mid": 5.99,
+          "high": 5.99,
+          "market": 5.99,
           "directLow": null
         }
       }
