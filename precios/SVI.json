@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SVI",
   "tcgplayerGroupId": 23822,
-  "actualizado": "2026-11-20T02:33:32Z",
+  "actualizado": "2026-11-21T02:45:25Z",
   "cartas": [
     {
       "productId": 593365,
@@ -129,9 +129,23 @@
         },
         "Normal": {
           "low": 4.0,
-          "mid": 5.0,
-          "high": 7.25,
+          "mid": 6.13,
+          "high": 8.56,
           "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 593374,
+      "numero": "012/066",
+      "numeroNormalizado": "12",
+      "variantes": {
+        "Normal": {
+          "low": 2.0,
+          "mid": 2.0,
+          "high": 2.0,
+          "market": 2.0,
           "directLow": null
         }
       }
@@ -562,8 +576,8 @@
       "numeroNormalizado": "44",
       "variantes": {
         "Normal": {
-          "low": 2.75,
-          "mid": 2.75,
+          "low": 1.5,
+          "mid": 2.13,
           "high": 2.75,
           "market": 2.0,
           "directLow": null

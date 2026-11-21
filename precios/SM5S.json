@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SM5S",
   "tcgplayerGroupId": 23683,
-  "actualizado": "2026-11-20T02:32:48Z",
+  "actualizado": "2026-11-21T02:44:41Z",
   "cartas": [
     {
       "productId": 572060,
@@ -150,8 +150,8 @@
       "variantes": {
         "Normal": {
           "low": 0.3,
-          "mid": 0.34,
-          "high": 1.0,
+          "mid": 0.32,
+          "high": 0.5,
           "market": 0.32,
           "directLow": null
         }
@@ -530,7 +530,7 @@
           "low": 0.67,
           "mid": 1.0,
           "high": 5.0,
-          "market": 0.68,
+          "market": null,
           "directLow": null
         }
       }
