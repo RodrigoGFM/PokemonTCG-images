@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "XY10",
   "tcgplayerGroupId": 23913,
-  "actualizado": "2026-11-21T02:45:33Z",
+  "actualizado": "2026-11-22T01:33:23Z",
   "cartas": [
     {
       "productId": 602885,
@@ -93,7 +93,7 @@
       "numeroNormalizado": "7",
       "variantes": {
         "1st Edition": {
-          "low": 1.5,
+          "low": 2.0,
           "mid": 3.24,
           "high": 4.0,
           "market": 1.99,
@@ -319,6 +319,20 @@
       }
     },
     {
+      "productId": 602909,
+      "numero": "025/078",
+      "numeroNormalizado": "25",
+      "variantes": {
+        "1st Edition": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": 1.31,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 602910,
       "numero": "026/078",
       "numeroNormalizado": "26",
@@ -446,7 +460,7 @@
           "low": 4.25,
           "mid": 5.83,
           "high": 15.0,
-          "market": 6.97,
+          "market": 6.0,
           "directLow": null
         }
       }
@@ -537,7 +551,7 @@
           "low": 1.25,
           "mid": 1.5,
           "high": 1.99,
-          "market": 1.7,
+          "market": 1.66,
           "directLow": null
         }
       }
@@ -549,7 +563,7 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 2.0,
-          "mid": 2.3,
+          "mid": 2.09,
           "high": 2.5,
           "market": 2.5,
           "directLow": null
@@ -566,13 +580,6 @@
           "mid": 5.95,
           "high": 5.95,
           "market": 7.0,
-          "directLow": null
-        },
-        "Unlimited Holofoil": {
-          "low": 9.0,
-          "mid": 9.0,
-          "high": 9.0,
-          "market": 15.0,
           "directLow": null
         }
       }
@@ -1024,8 +1031,8 @@
       "numeroNormalizado": "81",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 399.99,
-          "mid": 499.99,
+          "low": 599.99,
+          "mid": 599.99,
           "high": 599.99,
           "market": null,
           "directLow": null

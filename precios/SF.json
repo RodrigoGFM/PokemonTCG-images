@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SF",
   "tcgplayerGroupId": 23864,
-  "actualizado": "2026-11-21T02:44:24Z",
+  "actualizado": "2026-11-22T01:32:14Z",
   "cartas": [
     {
       "productId": 596131,
@@ -23,8 +23,8 @@
       "numeroNormalizado": "3",
       "variantes": {
         "Normal": {
-          "low": 5.0,
-          "mid": 5.0,
+          "low": 4.0,
+          "mid": 4.5,
           "high": 5.0,
           "market": null,
           "directLow": null
@@ -51,8 +51,8 @@
       "numeroNormalizado": "5",
       "variantes": {
         "Normal": {
-          "low": 7.99,
-          "mid": 7.99,
+          "low": 7.5,
+          "mid": 7.75,
           "high": 7.99,
           "market": 9.66,
           "directLow": null
@@ -110,6 +110,20 @@
           "low": 6.0,
           "mid": 6.0,
           "high": 6.0,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 596152,
+      "numero": "023/033",
+      "numeroNormalizado": "23",
+      "variantes": {
+        "Normal": {
+          "low": 3.33,
+          "mid": 3.33,
+          "high": 3.33,
           "market": null,
           "directLow": null
         }
