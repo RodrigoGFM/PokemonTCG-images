@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SM4A",
   "tcgplayerGroupId": 23682,
-  "actualizado": "2026-11-22T01:32:29Z",
+  "actualizado": "2026-11-23T01:57:33Z",
   "cartas": [
     {
       "productId": 571997,
@@ -80,7 +80,7 @@
       "variantes": {
         "Normal": {
           "low": 0.21,
-          "mid": 0.45,
+          "mid": 0.39,
           "high": 2.0,
           "market": 0.3,
           "directLow": null
@@ -97,6 +97,20 @@
           "mid": 12.85,
           "high": 20.0,
           "market": 14.25,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 572004,
+      "numero": "008/050",
+      "numeroNormalizado": "8",
+      "variantes": {
+        "Holofoil": {
+          "low": 10.0,
+          "mid": 10.0,
+          "high": 10.0,
+          "market": 10.74,
           "directLow": null
         }
       }
@@ -191,7 +205,7 @@
       "numeroNormalizado": "15",
       "variantes": {
         "Normal": {
-          "low": 13.99,
+          "low": 17.99,
           "mid": 19.99,
           "high": 114.99,
           "market": 13.99,
@@ -668,8 +682,8 @@
       "variantes": {
         "Normal": {
           "low": 0.21,
-          "mid": 0.35,
-          "high": 2.0,
+          "mid": 1.16,
+          "high": 999.0,
           "market": 0.21,
           "directLow": null
         }
@@ -727,6 +741,20 @@
           "mid": 45.99,
           "high": 45.99,
           "market": 45.99,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 572055,
+      "numero": "059/050",
+      "numeroNormalizado": "59",
+      "variantes": {
+        "Holofoil": {
+          "low": 20.0,
+          "mid": 20.0,
+          "high": 20.0,
+          "market": null,
           "directLow": null
         }
       }

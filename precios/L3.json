@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "L3",
   "tcgplayerGroupId": 24024,
-  "actualizado": "2026-11-22T01:31:37Z",
+  "actualizado": "2026-11-23T01:56:41Z",
   "cartas": [
     {
       "productId": 608377,
@@ -54,9 +54,9 @@
       "numeroNormalizado": "4",
       "variantes": {
         "1st Edition": {
-          "low": 1.0,
-          "mid": 2.13,
-          "high": 2.79,
+          "low": 2.0,
+          "mid": 2.25,
+          "high": 2.5,
           "market": 2.5,
           "directLow": null
         }
@@ -84,9 +84,9 @@
       "numeroNormalizado": "6",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 20.0,
-          "mid": 39.5,
-          "high": 59.0,
+          "low": 90.0,
+          "mid": 90.0,
+          "high": 90.0,
           "market": 20.0,
           "directLow": null
         }
@@ -145,7 +145,7 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 10.99,
-          "mid": 23.0,
+          "mid": 14.89,
           "high": 35.0,
           "market": 49.99,
           "directLow": null
@@ -175,7 +175,7 @@
       "variantes": {
         "1st Edition": {
           "low": 1.2,
-          "mid": 3.48,
+          "mid": 4.95,
           "high": 5.0,
           "market": 5.0,
           "directLow": null
@@ -310,8 +310,8 @@
       "variantes": {
         "1st Edition": {
           "low": 3.5,
-          "mid": 4.75,
-          "high": 5.99,
+          "mid": 5.5,
+          "high": 6.95,
           "market": 6.95,
           "directLow": null
         }
@@ -391,9 +391,9 @@
       "numeroNormalizado": "27",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 35.0,
+          "low": 65.0,
           "mid": 65.0,
-          "high": 65.99,
+          "high": 65.0,
           "market": 6.6,
           "directLow": null
         }
@@ -602,8 +602,8 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 16.1,
-          "mid": 39.38,
-          "high": 39.99,
+          "mid": 39.37,
+          "high": 999.0,
           "market": 15.99,
           "directLow": null
         }
@@ -647,7 +647,7 @@
       "variantes": {
         "1st Edition": {
           "low": 3.0,
-          "mid": 4.0,
+          "mid": 3.99,
           "high": 4.99,
           "market": 3.98,
           "directLow": null
@@ -662,8 +662,8 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 100.0,
-          "mid": 137.5,
-          "high": 175.0,
+          "mid": 100.0,
+          "high": 100.0,
           "market": 20.5,
           "directLow": null
         }
@@ -781,8 +781,8 @@
       "numeroNormalizado": "53",
       "variantes": {
         "1st Edition": {
-          "low": 1.0,
-          "mid": 2.0,
+          "low": 2.0,
+          "mid": 2.5,
           "high": 6.29,
           "market": 4.25,
           "directLow": null
@@ -827,8 +827,8 @@
       "variantes": {
         "1st Edition": {
           "low": 2.0,
-          "mid": 2.0,
-          "high": 2.0,
+          "mid": 3.83,
+          "high": 5.66,
           "market": 5.66,
           "directLow": null
         }
@@ -934,7 +934,7 @@
           "low": 2.0,
           "mid": 5.0,
           "high": 5.06,
-          "market": 5.11,
+          "market": 5.04,
           "directLow": null
         }
       },
@@ -1103,8 +1103,8 @@
       "variantes": {
         "1st Edition": {
           "low": 10.0,
-          "mid": 11.0,
-          "high": 11.99,
+          "mid": 11.99,
+          "high": 12.0,
           "market": 12.0,
           "directLow": null
         }
@@ -1425,6 +1425,21 @@
         }
       },
       "nombreProducto": "Junk Arm (Mirror Holofoil)"
+    },
+    {
+      "productId": 608535,
+      "numero": "078/080",
+      "numeroNormalizado": "78",
+      "variantes": {
+        "1st Edition Holofoil": {
+          "low": 999.0,
+          "mid": 999.0,
+          "high": 999.0,
+          "market": null,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Twins (Mirror Holofoil)"
     }
   ]
 }

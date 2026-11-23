@@ -1,8 +1,22 @@
 {
   "tcgdexSetId": "SVI",
   "tcgplayerGroupId": 23822,
-  "actualizado": "2026-11-22T01:33:15Z",
+  "actualizado": "2026-11-23T01:58:20Z",
   "cartas": [
+    {
+      "productId": 593363,
+      "numero": "001/066",
+      "numeroNormalizado": "1",
+      "variantes": {
+        "Normal": {
+          "low": 3.0,
+          "mid": 3.0,
+          "high": 3.0,
+          "market": 3.64,
+          "directLow": null
+        }
+      }
+    },
     {
       "productId": 593365,
       "numero": "003/066",
@@ -65,8 +79,8 @@
       "numeroNormalizado": "7",
       "variantes": {
         "Normal": {
-          "low": 1.49,
-          "mid": 1.71,
+          "low": 1.0,
+          "mid": 1.6,
           "high": 1.88,
           "market": 1.71,
           "directLow": null
@@ -79,9 +93,9 @@
       "numeroNormalizado": "8",
       "variantes": {
         "Normal": {
-          "low": 1.89,
-          "mid": 1.98,
-          "high": 4.0,
+          "low": 1.5,
+          "mid": 1.89,
+          "high": 1.98,
           "market": 1.95,
           "directLow": null
         }
@@ -93,9 +107,9 @@
       "numeroNormalizado": "9",
       "variantes": {
         "Normal": {
-          "low": 1.5,
-          "mid": 1.89,
-          "high": 3.39,
+          "low": 1.0,
+          "mid": 1.5,
+          "high": 1.89,
           "market": null,
           "directLow": null
         }
@@ -275,9 +289,9 @@
       "numeroNormalizado": "23",
       "variantes": {
         "Normal": {
-          "low": 1.49,
-          "mid": 1.5,
-          "high": 1.5,
+          "low": 1.4,
+          "mid": 1.45,
+          "high": 1.49,
           "market": 1.49,
           "directLow": null
         }
@@ -317,8 +331,8 @@
       "numeroNormalizado": "27",
       "variantes": {
         "Normal": {
-          "low": 1.62,
-          "mid": 4.81,
+          "low": 1.0,
+          "mid": 1.62,
           "high": 8.0,
           "market": 1.62,
           "directLow": null
@@ -487,6 +501,20 @@
       }
     },
     {
+      "productId": 593402,
+      "numero": "040/066",
+      "numeroNormalizado": "40",
+      "variantes": {
+        "Normal": {
+          "low": 1.75,
+          "mid": 1.75,
+          "high": 1.75,
+          "market": 2.0,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 593403,
       "numero": "041/066",
       "numeroNormalizado": "41",
@@ -562,8 +590,8 @@
       "numeroNormalizado": "47",
       "variantes": {
         "Normal": {
-          "low": 2.0,
-          "mid": 2.0,
+          "low": 1.5,
+          "mid": 1.75,
           "high": 2.0,
           "market": 2.0,
           "directLow": null

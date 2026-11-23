@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SM5M",
   "tcgplayerGroupId": 23684,
-  "actualizado": "2026-11-22T01:32:30Z",
+  "actualizado": "2026-11-23T01:57:35Z",
   "cartas": [
     {
       "productId": 572255,
@@ -12,7 +12,7 @@
           "low": 0.35,
           "mid": 2.96,
           "high": 5.0,
-          "market": 1.0,
+          "market": 2.78,
           "directLow": null
         }
       }
@@ -37,8 +37,8 @@
       "numeroNormalizado": "3",
       "variantes": {
         "Normal": {
-          "low": 6.72,
-          "mid": 8.34,
+          "low": 5.0,
+          "mid": 6.72,
           "high": 9.95,
           "market": 6.44,
           "directLow": null
@@ -51,7 +51,7 @@
       "numeroNormalizado": "4",
       "variantes": {
         "Normal": {
-          "low": 2.5,
+          "low": 3.0,
           "mid": 4.36,
           "high": 4.48,
           "market": 4.37,
@@ -94,9 +94,9 @@
       "variantes": {
         "Normal": {
           "low": 1.1,
-          "mid": 2.79,
+          "mid": 2.88,
           "high": 2.98,
-          "market": 2.98,
+          "market": 2.93,
           "directLow": null
         }
       }
@@ -424,13 +424,27 @@
       }
     },
     {
+      "productId": 572286,
+      "numero": "032/066",
+      "numeroNormalizado": "32",
+      "variantes": {
+        "Holofoil": {
+          "low": 14.99,
+          "mid": 14.99,
+          "high": 14.99,
+          "market": 5.99,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 572287,
       "numero": "033/066",
       "numeroNormalizado": "33",
       "variantes": {
         "Holofoil": {
           "low": 3.31,
-          "mid": 4.23,
+          "mid": 4.04,
           "high": 5.25,
           "market": 3.99,
           "directLow": null
@@ -541,10 +555,10 @@
       "numeroNormalizado": "41",
       "variantes": {
         "Normal": {
-          "low": 1.76,
+          "low": 1.75,
           "mid": 1.88,
           "high": 5.0,
-          "market": 1.78,
+          "market": 1.77,
           "directLow": null
         }
       }
@@ -639,8 +653,8 @@
       "numeroNormalizado": "48",
       "variantes": {
         "Normal": {
-          "low": 2.0,
-          "mid": 2.7,
+          "low": 1.75,
+          "mid": 2.39,
           "high": 4.99,
           "market": 2.3,
           "directLow": null
