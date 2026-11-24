@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "BKB",
   "tcgplayerGroupId": 23946,
-  "actualizado": "2026-11-23T01:56:31Z",
+  "actualizado": "2026-11-24T05:29:06Z",
   "cartas": [
     {
       "productId": 604942,
@@ -52,7 +52,7 @@
       "variantes": {
         "Normal": {
           "low": 0.5,
-          "mid": 1.0,
+          "mid": 0.76,
           "high": 2.5,
           "market": 1.0,
           "directLow": null
@@ -66,8 +66,22 @@
       "variantes": {
         "Normal": {
           "low": 0.99,
-          "mid": 1.25,
+          "mid": 0.99,
           "high": 1.5,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 604949,
+      "numero": "017/018",
+      "numeroNormalizado": "17",
+      "variantes": {
+        "Normal": {
+          "low": 0.3,
+          "mid": 0.3,
+          "high": 0.3,
           "market": null,
           "directLow": null
         }

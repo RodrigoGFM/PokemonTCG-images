@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SVD",
   "tcgplayerGroupId": 23803,
-  "actualizado": "2026-11-23T01:58:15Z",
+  "actualizado": "2026-11-24T05:30:50Z",
   "cartas": [
     {
       "productId": 588800,
@@ -276,8 +276,8 @@
       "variantes": {
         "Normal": {
           "low": 0.5,
-          "mid": 0.75,
-          "high": 1.0,
+          "mid": 1.0,
+          "high": 1.1,
           "market": 1.0,
           "directLow": null
         }
@@ -304,7 +304,7 @@
       "variantes": {
         "Normal": {
           "low": 0.1,
-          "mid": 0.23,
+          "mid": 0.2,
           "high": 5.0,
           "market": null,
           "directLow": null
@@ -556,7 +556,7 @@
       "variantes": {
         "Normal": {
           "low": 1.69,
-          "mid": 2.0,
+          "mid": 2.1,
           "high": 5.0,
           "market": 2.0,
           "directLow": null
@@ -1159,8 +1159,8 @@
         "Normal": {
           "low": 2.75,
           "mid": 3.58,
-          "high": 4.41,
-          "market": 4.41,
+          "high": 4.4,
+          "market": 4.4,
           "directLow": null
         }
       }
@@ -1199,10 +1199,10 @@
       "numeroNormalizado": "84",
       "variantes": {
         "Normal": {
-          "low": 1.94,
-          "mid": 2.35,
+          "low": 1.95,
+          "mid": 2.67,
           "high": 3.5,
-          "market": 2.14,
+          "market": 2.09,
           "directLow": null
         }
       }
@@ -1356,7 +1356,7 @@
           "low": 1.89,
           "mid": 1.94,
           "high": 1.98,
-          "market": 1.98,
+          "market": 1.97,
           "directLow": null
         }
       }
@@ -1395,8 +1395,8 @@
       "numeroNormalizado": "22",
       "variantes": {
         "Normal": {
-          "low": 1.25,
-          "mid": 2.7,
+          "low": 1.99,
+          "mid": 2.75,
           "high": 3.89,
           "market": 1.82,
           "directLow": null
@@ -1424,8 +1424,8 @@
       "variantes": {
         "Holofoil": {
           "low": 3.75,
-          "mid": 4.08,
-          "high": 4.4,
+          "mid": 4.4,
+          "high": 6.95,
           "market": 3.75,
           "directLow": null
         }
@@ -1580,7 +1580,7 @@
           "low": 0.74,
           "mid": 1.25,
           "high": 5.0,
-          "market": 1.14,
+          "market": 1.08,
           "directLow": null
         }
       }

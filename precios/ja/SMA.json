@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SMA",
   "tcgplayerGroupId": 23879,
-  "actualizado": "2026-11-23T01:57:43Z",
+  "actualizado": "2026-11-24T05:30:18Z",
   "cartas": [
     {
       "productId": 597558,
@@ -24,8 +24,8 @@
       "variantes": {
         "Holofoil": {
           "low": 7.66,
-          "mid": 8.08,
-          "high": 8.5,
+          "mid": 8.5,
+          "high": 9.43,
           "market": 7.25,
           "directLow": null
         }
@@ -46,12 +46,26 @@
       }
     },
     {
+      "productId": 597567,
+      "numero": "010/059",
+      "numeroNormalizado": "10",
+      "variantes": {
+        "Normal": {
+          "low": 0.99,
+          "mid": 0.99,
+          "high": 0.99,
+          "market": 1.0,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 597568,
       "numero": "011/059",
       "numeroNormalizado": "11",
       "variantes": {
         "Holofoil": {
-          "low": 2.81,
+          "low": 3.04,
           "mid": 7.0,
           "high": 7.0,
           "market": 5.0,
@@ -66,8 +80,8 @@
       "variantes": {
         "Normal": {
           "low": 1.7,
-          "mid": 1.85,
-          "high": 2.0,
+          "mid": 2.0,
+          "high": 2.95,
           "market": null,
           "directLow": null
         }
@@ -221,7 +235,7 @@
         "Normal": {
           "low": 3.0,
           "mid": 3.0,
-          "high": 3.0,
+          "high": 5.0,
           "market": null,
           "directLow": null
         }
@@ -279,6 +293,20 @@
           "mid": 5.0,
           "high": 5.0,
           "market": 0.35,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 597591,
+      "numero": "034/059",
+      "numeroNormalizado": "34",
+      "variantes": {
+        "Normal": {
+          "low": 4.65,
+          "mid": 4.65,
+          "high": 4.65,
+          "market": 3.0,
           "directLow": null
         }
       }
@@ -373,8 +401,8 @@
       "numeroNormalizado": "43",
       "variantes": {
         "Normal": {
-          "low": 3.0,
-          "mid": 3.0,
+          "low": 0.25,
+          "mid": 1.63,
           "high": 3.0,
           "market": null,
           "directLow": null

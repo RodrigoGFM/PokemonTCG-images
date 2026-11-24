@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SML",
   "tcgplayerGroupId": 23870,
-  "actualizado": "2026-11-23T01:57:50Z",
+  "actualizado": "2026-11-24T05:30:25Z",
   "cartas": [
     {
       "productId": 596466,
@@ -205,8 +205,8 @@
       "numeroNormalizado": "9",
       "variantes": {
         "Holofoil": {
-          "low": 8.0,
-          "mid": 10.0,
+          "low": 12.0,
+          "mid": 12.0,
           "high": 12.0,
           "market": 8.99,
           "directLow": null
@@ -223,6 +223,20 @@
           "mid": 15.75,
           "high": 17.49,
           "market": 12.75,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 596482,
+      "numero": "019/051",
+      "numeroNormalizado": "19",
+      "variantes": {
+        "Holofoil": {
+          "low": 10.0,
+          "mid": 10.0,
+          "high": 10.0,
+          "market": 10.0,
           "directLow": null
         }
       }
@@ -290,7 +304,7 @@
       "variantes": {
         "Normal": {
           "low": 5.0,
-          "mid": 5.85,
+          "mid": 5.3,
           "high": 7.29,
           "market": null,
           "directLow": null
@@ -331,7 +345,7 @@
       "numeroNormalizado": "14",
       "variantes": {
         "Normal": {
-          "low": 22.0,
+          "low": 20.0,
           "mid": 30.0,
           "high": 34.95,
           "market": 15.0,
