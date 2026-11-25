@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SMD",
   "tcgplayerGroupId": 23883,
-  "actualizado": "2026-11-24T05:30:20Z",
+  "actualizado": "2026-11-25T04:31:57Z",
   "cartas": [
     {
       "productId": 598631,
@@ -163,10 +163,24 @@
       "numeroNormalizado": "13",
       "variantes": {
         "Normal": {
-          "low": 60.0,
-          "mid": 60.0,
-          "high": 60.0,
+          "low": 79.99,
+          "mid": 79.99,
+          "high": 79.99,
           "market": 66.67,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 598643,
+      "numero": "014/026",
+      "numeroNormalizado": "14",
+      "variantes": {
+        "Normal": {
+          "low": 82.0,
+          "mid": 82.0,
+          "high": 82.0,
+          "market": 111.5,
           "directLow": null
         }
       }

@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SM7",
   "tcgplayerGroupId": 23686,
-  "actualizado": "2026-11-24T05:30:12Z",
+  "actualizado": "2026-11-25T04:31:49Z",
   "cartas": [
     {
       "productId": 573290,
@@ -52,7 +52,7 @@
       "variantes": {
         "Normal": {
           "low": 1.25,
-          "mid": 1.87,
+          "mid": 2.0,
           "high": 24.0,
           "market": 1.75,
           "directLow": null
@@ -94,7 +94,7 @@
       "variantes": {
         "Holofoil": {
           "low": 1.5,
-          "mid": 2.09,
+          "mid": 2.06,
           "high": 5.0,
           "market": 2.06,
           "directLow": null
@@ -418,7 +418,7 @@
           "low": 3.79,
           "mid": 5.95,
           "high": 9.95,
-          "market": 5.6,
+          "market": 5.7,
           "directLow": null
         }
       }
@@ -460,7 +460,7 @@
           "low": 4.0,
           "mid": 6.0,
           "high": 8.95,
-          "market": 4.2,
+          "market": 4.25,
           "directLow": null
         }
       }
@@ -878,8 +878,8 @@
       "variantes": {
         "Holofoil": {
           "low": 15.0,
-          "mid": 15.0,
-          "high": 15.0,
+          "mid": 18.5,
+          "high": 22.0,
           "market": 9.84,
           "directLow": null
         }
@@ -1017,8 +1017,8 @@
       "numeroNormalizado": "78",
       "variantes": {
         "Normal": {
-          "low": 4.48,
-          "mid": 5.24,
+          "low": 5.99,
+          "mid": 5.99,
           "high": 5.99,
           "market": 4.49,
           "directLow": null
@@ -1357,6 +1357,20 @@
           "mid": 14.98,
           "high": 14.98,
           "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 573396,
+      "numero": "108/096",
+      "numeroNormalizado": "108",
+      "variantes": {
+        "Holofoil": {
+          "low": 49.5,
+          "mid": 49.5,
+          "high": 49.5,
+          "market": 39.77,
           "directLow": null
         }
       }

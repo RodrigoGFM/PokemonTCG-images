@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SM10a",
   "tcgplayerGroupId": 23703,
-  "actualizado": "2026-11-24T05:29:59Z",
+  "actualizado": "2026-11-25T04:31:36Z",
   "cartas": [
     {
       "productId": 574177,
@@ -24,7 +24,7 @@
       "variantes": {
         "Normal": {
           "low": 0.15,
-          "mid": 0.33,
+          "mid": 0.34,
           "high": 1.99,
           "market": 0.36,
           "directLow": null
@@ -96,7 +96,7 @@
           "low": 1.0,
           "mid": 1.9,
           "high": 3.0,
-          "market": 1.92,
+          "market": 2.0,
           "directLow": null
         }
       }
@@ -109,7 +109,7 @@
         "Holofoil": {
           "low": 20.0,
           "mid": 21.0,
-          "high": 41.28,
+          "high": 41.26,
           "market": 20.63,
           "directLow": null
         }
@@ -192,7 +192,7 @@
       "variantes": {
         "Normal": {
           "low": 0.3,
-          "mid": 0.54,
+          "mid": 0.55,
           "high": 1.99,
           "market": 0.58,
           "directLow": null
@@ -220,7 +220,7 @@
       "variantes": {
         "Holofoil": {
           "low": 2.1,
-          "mid": 3.84,
+          "mid": 3.0,
           "high": 11.25,
           "market": 3.9,
           "directLow": null
@@ -304,9 +304,9 @@
       "variantes": {
         "Normal": {
           "low": 2.45,
-          "mid": 4.01,
+          "mid": 4.0,
           "high": 5.17,
-          "market": 4.03,
+          "market": 3.99,
           "directLow": null
         }
       }
@@ -444,7 +444,7 @@
       "variantes": {
         "Holofoil": {
           "low": 10.53,
-          "mid": 15.26,
+          "mid": 15.36,
           "high": 24.99,
           "market": 14.63,
           "directLow": null
@@ -780,8 +780,8 @@
       "variantes": {
         "Holofoil": {
           "low": 41.99,
-          "mid": 43.39,
-          "high": 44.14,
+          "mid": 43.0,
+          "high": 43.75,
           "market": 41.62,
           "directLow": null
         }
@@ -864,9 +864,9 @@
       "variantes": {
         "Holofoil": {
           "low": 11.0,
-          "mid": 12.52,
+          "mid": 13.0,
           "high": 19.99,
-          "market": 10.47,
+          "market": 10.62,
           "directLow": null
         }
       }
@@ -895,6 +895,20 @@
           "mid": 72.05,
           "high": 72.1,
           "market": 65.49,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 574241,
+      "numero": "065/054",
+      "numeroNormalizado": "65",
+      "variantes": {
+        "Holofoil": {
+          "low": 33.0,
+          "mid": 33.0,
+          "high": 33.0,
+          "market": 19.99,
           "directLow": null
         }
       }
