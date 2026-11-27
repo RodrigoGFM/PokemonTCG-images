@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "L3",
   "tcgplayerGroupId": 24024,
-  "actualizado": "2026-11-26T03:44:35Z",
+  "actualizado": "2026-11-27T03:45:46Z",
   "cartas": [
     {
       "productId": 608377,
@@ -70,7 +70,7 @@
       "variantes": {
         "1st Edition": {
           "low": 0.9,
-          "mid": 3.0,
+          "mid": 3.7,
           "high": 5.0,
           "market": 5.25,
           "directLow": null
@@ -159,8 +159,8 @@
       "numeroNormalizado": "13",
       "variantes": {
         "1st Edition": {
-          "low": 1.2,
-          "mid": 4.95,
+          "low": 2.99,
+          "mid": 4.98,
           "high": 5.0,
           "market": 5.0,
           "directLow": null
@@ -279,9 +279,9 @@
       "numeroNormalizado": "21",
       "variantes": {
         "1st Edition Holofoil": {
-          "low": 9.94,
-          "mid": 9.94,
-          "high": 9.94,
+          "low": 8.94,
+          "mid": 8.94,
+          "high": 8.94,
           "market": 12.99,
           "directLow": null
         }
@@ -310,9 +310,9 @@
       "variantes": {
         "1st Edition": {
           "low": 6.5,
-          "mid": 10.75,
-          "high": 14.99,
-          "market": 9.99,
+          "mid": 6.5,
+          "high": 6.5,
+          "market": 12.49,
           "directLow": null
         }
       },
@@ -325,7 +325,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.95,
-          "mid": 3.98,
+          "mid": 4.0,
           "high": 8.0,
           "market": 3.95,
           "directLow": null
@@ -347,7 +347,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.0,
-          "mid": 3.19,
+          "mid": 2.99,
           "high": 3.5,
           "market": 2.25,
           "directLow": null
@@ -422,7 +422,7 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 14.99,
-          "mid": 19.99,
+          "mid": 24.49,
           "high": 38.98,
           "market": 10.08,
           "directLow": null
@@ -437,7 +437,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.5,
-          "mid": 3.0,
+          "mid": 2.99,
           "high": 3.3,
           "market": 3.0,
           "directLow": null
@@ -542,7 +542,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.0,
-          "mid": 3.0,
+          "mid": 3.25,
           "high": 4.95,
           "market": 5.0,
           "directLow": null
@@ -587,7 +587,7 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 16.1,
-          "mid": 39.32,
+          "mid": 39.3,
           "high": 999.0,
           "market": 15.99,
           "directLow": null
@@ -617,7 +617,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.0,
-          "mid": 2.99,
+          "mid": 2.97,
           "high": 3.5,
           "market": 1.35,
           "directLow": null
@@ -722,7 +722,7 @@
       "variantes": {
         "1st Edition": {
           "low": 2.5,
-          "mid": 3.26,
+          "mid": 3.32,
           "high": 3.5,
           "market": 4.25,
           "directLow": null
@@ -797,8 +797,8 @@
       "variantes": {
         "1st Edition Holofoil": {
           "low": 9.99,
-          "mid": 11.99,
-          "high": 13.99,
+          "mid": 13.99,
+          "high": 29.99,
           "market": 14.99,
           "directLow": null
         }
@@ -1043,7 +1043,7 @@
         },
         "Unlimited Holofoil": {
           "low": 99.99,
-          "mid": 300.0,
+          "mid": 375.0,
           "high": 450.0,
           "market": null,
           "directLow": null
@@ -1305,6 +1305,21 @@
         }
       },
       "nombreProducto": "Spoink (Mirror Holofoil)"
+    },
+    {
+      "productId": 608499,
+      "numero": "042/080",
+      "numeroNormalizado": "42",
+      "variantes": {
+        "1st Edition Holofoil": {
+          "low": 15.0,
+          "mid": 15.0,
+          "high": 15.0,
+          "market": 0.35,
+          "directLow": null
+        }
+      },
+      "nombreProducto": "Machop (Mirror Holofoil)"
     },
     {
       "productId": 608506,

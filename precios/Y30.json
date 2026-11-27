@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "Y30",
   "tcgplayerGroupId": 23971,
-  "actualizado": "2026-11-26T03:46:31Z",
+  "actualizado": "2026-11-27T03:47:42Z",
   "cartas": [
     {
       "productId": 605437,
@@ -94,7 +94,7 @@
       "variantes": {
         "Normal": {
           "low": 2.0,
-          "mid": 4.03,
+          "mid": 3.55,
           "high": 4.99,
           "market": null,
           "directLow": null
@@ -139,6 +139,20 @@
           "mid": 1.99,
           "high": 3.0,
           "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 605448,
+      "numero": "002/014",
+      "numeroNormalizado": "2",
+      "variantes": {
+        "Normal": {
+          "low": 2.0,
+          "mid": 3.5,
+          "high": 5.0,
+          "market": 6.0,
           "directLow": null
         }
       }
