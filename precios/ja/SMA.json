@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SMA",
   "tcgplayerGroupId": 23879,
-  "actualizado": "2026-11-27T03:46:48Z",
+  "actualizado": "2026-11-28T03:30:07Z",
   "cartas": [
     {
       "productId": 597558,
@@ -23,8 +23,8 @@
       "numeroNormalizado": "4",
       "variantes": {
         "Holofoil": {
-          "low": 7.66,
-          "mid": 8.5,
+          "low": 5.0,
+          "mid": 8.08,
           "high": 9.43,
           "market": 7.25,
           "directLow": null
@@ -65,7 +65,7 @@
       "numeroNormalizado": "11",
       "variantes": {
         "Holofoil": {
-          "low": 3.7,
+          "low": 4.0,
           "mid": 7.0,
           "high": 7.0,
           "market": 5.0,
@@ -79,8 +79,8 @@
       "numeroNormalizado": "12",
       "variantes": {
         "Normal": {
-          "low": 2.0,
-          "mid": 2.48,
+          "low": 1.7,
+          "mid": 2.0,
           "high": 2.95,
           "market": null,
           "directLow": null
@@ -94,7 +94,7 @@
       "variantes": {
         "Normal": {
           "low": 3.0,
-          "mid": 4.62,
+          "mid": 4.96,
           "high": 4.96,
           "market": 3.4,
           "directLow": null
@@ -191,9 +191,23 @@
       "numeroNormalizado": "23",
       "variantes": {
         "Normal": {
-          "low": 3.49,
+          "low": 3.0,
           "mid": 3.49,
           "high": 3.49,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 597581,
+      "numero": "024/059",
+      "numeroNormalizado": "24",
+      "variantes": {
+        "Normal": {
+          "low": 3.0,
+          "mid": 3.0,
+          "high": 3.0,
           "market": null,
           "directLow": null
         }
@@ -205,8 +219,8 @@
       "numeroNormalizado": "27",
       "variantes": {
         "Normal": {
-          "low": 1.0,
-          "mid": 1.0,
+          "low": 0.05,
+          "mid": 0.53,
           "high": 1.0,
           "market": null,
           "directLow": null
@@ -220,7 +234,7 @@
       "variantes": {
         "Normal": {
           "low": 3.0,
-          "mid": 4.0,
+          "mid": 3.0,
           "high": 5.0,
           "market": null,
           "directLow": null
@@ -265,6 +279,20 @@
           "mid": 1.76,
           "high": 1.76,
           "market": 1.95,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 597590,
+      "numero": "033/059",
+      "numeroNormalizado": "33",
+      "variantes": {
+        "Normal": {
+          "low": 5.0,
+          "mid": 5.0,
+          "high": 5.0,
+          "market": 0.35,
           "directLow": null
         }
       }
@@ -388,7 +416,7 @@
       "variantes": {
         "Normal": {
           "low": 3.0,
-          "mid": 7.5,
+          "mid": 7.95,
           "high": 12.0,
           "market": null,
           "directLow": null
@@ -402,7 +430,7 @@
       "variantes": {
         "Normal": {
           "low": 0.21,
-          "mid": 2.06,
+          "mid": 2.0,
           "high": 23.99,
           "market": null,
           "directLow": null
@@ -416,7 +444,7 @@
       "variantes": {
         "Normal": {
           "low": 3.0,
-          "mid": 5.5,
+          "mid": 3.0,
           "high": 8.0,
           "market": null,
           "directLow": null
@@ -430,7 +458,7 @@
       "variantes": {
         "Normal": {
           "low": 1.59,
-          "mid": 3.0,
+          "mid": 2.99,
           "high": 3.58,
           "market": null,
           "directLow": null
@@ -444,7 +472,7 @@
       "variantes": {
         "Normal": {
           "low": 2.0,
-          "mid": 13.0,
+          "mid": 4.99,
           "high": 23.99,
           "market": null,
           "directLow": null
@@ -486,7 +514,7 @@
       "variantes": {
         "Normal": {
           "low": 1.75,
-          "mid": 1.77,
+          "mid": 1.79,
           "high": 1.79,
           "market": null,
           "directLow": null
@@ -500,7 +528,7 @@
       "variantes": {
         "Normal": {
           "low": 0.2,
-          "mid": 0.39,
+          "mid": 0.43,
           "high": 3.0,
           "market": null,
           "directLow": null
@@ -516,6 +544,20 @@
           "low": 3.0,
           "mid": 3.0,
           "high": 3.0,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 597615,
+      "numero": "058/059",
+      "numeroNormalizado": "58",
+      "variantes": {
+        "Normal": {
+          "low": 2.0,
+          "mid": 2.0,
+          "high": 2.0,
           "market": null,
           "directLow": null
         }

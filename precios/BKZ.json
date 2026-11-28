@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "BKZ",
   "tcgplayerGroupId": 23936,
-  "actualizado": "2026-11-27T03:45:38Z",
+  "actualizado": "2026-11-28T03:28:54Z",
   "cartas": [
     {
       "productId": 604697,
@@ -46,6 +46,20 @@
       }
     },
     {
+      "productId": 604700,
+      "numero": "016/018",
+      "numeroNormalizado": "16",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": 10.0,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 604701,
       "numero": "001/018",
       "numeroNormalizado": "1",
@@ -65,8 +79,8 @@
       "numeroNormalizado": "2",
       "variantes": {
         "Normal": {
-          "low": 2.0,
-          "mid": 9.48,
+          "low": 10.0,
+          "mid": 13.48,
           "high": 16.95,
           "market": 6.4,
           "directLow": null
@@ -80,7 +94,7 @@
       "variantes": {
         "Normal": {
           "low": 0.99,
-          "mid": 2.0,
+          "mid": 1.92,
           "high": 3.48,
           "market": 2.0,
           "directLow": null

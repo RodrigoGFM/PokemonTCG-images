@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SEF",
   "tcgplayerGroupId": 23844,
-  "actualizado": "2026-11-27T03:46:22Z",
+  "actualizado": "2026-11-28T03:29:40Z",
   "cartas": [
     {
       "productId": 594292,
@@ -178,9 +178,23 @@
       "variantes": {
         "Holofoil": {
           "low": 10.88,
-          "mid": 13.0,
+          "mid": 13.05,
           "high": 20.0,
           "market": 10.9,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 594305,
+      "numero": "005/021",
+      "numeroNormalizado": "5",
+      "variantes": {
+        "Normal": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0,
+          "market": null,
           "directLow": null
         }
       }

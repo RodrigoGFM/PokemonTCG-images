@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "XYE",
   "tcgplayerGroupId": 23962,
-  "actualizado": "2026-11-27T03:47:39Z",
+  "actualizado": "2026-11-28T03:31:01Z",
   "cartas": [
     {
       "productId": 605275,
@@ -65,8 +65,8 @@
       "numeroNormalizado": "3",
       "variantes": {
         "Holofoil": {
-          "low": 2.99,
-          "mid": 7.0,
+          "low": 7.0,
+          "mid": 9.99,
           "high": 16.99,
           "market": null,
           "directLow": null
@@ -83,6 +83,20 @@
           "mid": 20.0,
           "high": 20.0,
           "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 605286,
+      "numero": "009/022",
+      "numeroNormalizado": "9",
+      "variantes": {
+        "Normal": {
+          "low": 5.0,
+          "mid": 5.0,
+          "high": 5.0,
+          "market": 4.99,
           "directLow": null
         }
       }

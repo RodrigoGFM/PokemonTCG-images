@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "MDB",
   "tcgplayerGroupId": 23940,
-  "actualizado": "2026-11-27T03:45:55Z",
+  "actualizado": "2026-11-28T03:29:12Z",
   "cartas": [
     {
       "productId": 604785,
@@ -192,7 +192,7 @@
       "variantes": {
         "Normal": {
           "low": 1.0,
-          "mid": 2.35,
+          "mid": 2.69,
           "high": 9.99,
           "market": 1.25,
           "directLow": null
@@ -284,6 +284,20 @@
       }
     },
     {
+      "productId": 604810,
+      "numero": "034/046",
+      "numeroNormalizado": "34",
+      "variantes": {
+        "Normal": {
+          "low": 22.13,
+          "mid": 22.13,
+          "high": 22.13,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
       "productId": 604811,
       "numero": "007/046",
       "numeroNormalizado": "7",
@@ -318,8 +332,8 @@
       "variantes": {
         "Normal": {
           "low": 1.0,
-          "mid": 2.0,
-          "high": 3.0,
+          "mid": 3.0,
+          "high": 3.39,
           "market": 3.39,
           "directLow": null
         }
@@ -332,8 +346,8 @@
       "variantes": {
         "Normal": {
           "low": 2.39,
-          "mid": 2.39,
-          "high": 2.39,
+          "mid": 3.66,
+          "high": 4.92,
           "market": null,
           "directLow": null
         }
@@ -360,8 +374,8 @@
       "variantes": {
         "Normal": {
           "low": 1.5,
-          "mid": 1.5,
-          "high": 1.5,
+          "mid": 1.95,
+          "high": 2.39,
           "market": 2.39,
           "directLow": null
         }

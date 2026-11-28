@@ -1,7 +1,7 @@
 {
   "tcgdexSetId": "SMN",
   "tcgplayerGroupId": 23871,
-  "actualizado": "2026-11-27T03:46:56Z",
+  "actualizado": "2026-11-28T03:30:16Z",
   "cartas": [
     {
       "productId": 596529,
@@ -24,7 +24,7 @@
       "variantes": {
         "Normal": {
           "low": 3.19,
-          "mid": 13.59,
+          "mid": 9.99,
           "high": 23.99,
           "market": null,
           "directLow": null
@@ -37,8 +37,8 @@
       "numeroNormalizado": "11",
       "variantes": {
         "Normal": {
-          "low": 23.99,
-          "mid": 23.99,
+          "low": 19.99,
+          "mid": 21.99,
           "high": 23.99,
           "market": null,
           "directLow": null
@@ -166,6 +166,20 @@
           "low": 4.99,
           "mid": 6.0,
           "high": 6.0,
+          "market": null,
+          "directLow": null
+        }
+      }
+    },
+    {
+      "productId": 596553,
+      "numero": "009/029",
+      "numeroNormalizado": "9",
+      "variantes": {
+        "Normal": {
+          "low": 0.3,
+          "mid": 0.3,
+          "high": 0.3,
           "market": null,
           "directLow": null
         }
